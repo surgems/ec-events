@@ -1,0 +1,68 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: logo
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+      -
+        handle: copyright_info
+        field:
+          input_type: text
+          antlers: false
+          display: 'Copyright Info'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: facebook_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Facebook Link'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: linkedin_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Linkedin Link'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: twitter_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Twitter Link'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: phone_number
+        field:
+          input_type: text
+          antlers: false
+          display: 'Phone Number'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above

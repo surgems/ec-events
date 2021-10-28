@@ -1,0 +1,64 @@
+@mixin flex($align-items: none, $justify-content: none, $flex-wrap: none, $flex-direction: none) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $justify-content;
+    flex-wrap: $flex-wrap;
+    flex-direction: $flex-direction;
+}
+@mixin mont($font-weight: 400, $font-size: 16px, $color: #000) {
+    font : {
+        family: 'Montserrat', sans-serif;
+        weight: $font-weight;
+        size: $font-size;
+    }
+}
+@mixin sans($font-weight: 400, $font-size: 16px, $color: #000) {
+    font : {
+        family: 'Open Sans', sans-serif;
+        weight: $font-weight;
+        size: $font-size;
+    }
+}
+
+$mobNavHeight: 86px;
+$tabletNavHeight: 100px;
+$desktopNavHeight: 100px;
+$mobPaddingX: 36px;
+$red: #F71541;
+$dblue: #202E7A;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body { 
+        padding-top: $mobNavHeight;
+
+        &.no-scroll {
+            overflow-y: hidden;
+        }
+
+        main {
+            min-height: 100vh;
+            z-index: -1;
+        }
+
+        /* ACCORDION */
+
+        .accordion-container {
+            width: 100%;
+
+            .panel, .hide-panel {
+                display: none;
+            }
+        }
+    }
+
+    a, li a {
+        width: fit-content;
+        height: fit-content;
+        text-decoration: none;
+        color: #000;
+    }
+}

@@ -1,0 +1,215 @@
+header {
+    $mobNavPaddingX: 18px;
+    $mobNavPaddingY: 20px;
+
+    #nav {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+
+        .inner-nav {
+            @include flex(center, space-between);
+            position: relative;
+            height: $mobNavHeight;
+            padding: $mobNavPaddingY $mobNavPaddingX;
+            width: 100vw;
+            box-shadow: 0 0px 5px 5px rgba(0, 0, 0, .25);
+            background-color: #fff;
+    
+            .burger {
+                #nav-icon3 {
+                    width: 40px;
+                    height: 50px;
+                    position: relative;
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                    -webkit-transition: .5s ease-in-out;
+                    -moz-transition: .5s ease-in-out;
+                    -o-transition: .5s ease-in-out;
+                    transition: .5s ease-in-out;
+                    cursor: pointer;
+                  }
+                  
+                  #nav-icon3 span {
+                    display: block;
+                    position: absolute;
+                    height: 4px;
+                    width: 100%;
+                    background: $dblue;
+                    border-radius: 9px;
+                    opacity: 1;
+                    left: 0;
+                    -webkit-transform: rotate(0deg);
+                    -moz-transform: rotate(0deg);
+                    -o-transform: rotate(0deg);
+                    transform: rotate(0deg);
+                    -webkit-transition: .25s ease-in-out;
+                    -moz-transition: .25s ease-in-out;
+                    -o-transition: .25s ease-in-out;
+                    transition: .25s ease-in-out;
+                  }
+
+                  #nav-icon3 span:nth-child(1) {
+                    top: 7.5px;
+                  }
+                  
+                  #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+                    top: 22.5px;
+                  }
+                  
+                  #nav-icon3 span:nth-child(4) {
+                    top: 37.5px;
+                  }
+                  
+                  #nav-icon3.open span:nth-child(1) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                  }
+                  
+                  #nav-icon3.open span:nth-child(2) {
+                    -webkit-transform: rotate(45deg);
+                    -moz-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    width: 42.5px;
+                    margin-left: -1.5px;
+                  }
+                  
+                  #nav-icon3.open span:nth-child(3) {
+                    -webkit-transform: rotate(-45deg);
+                    -moz-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    width: 42.5px;
+                    margin-left: -1.5px;
+                  }
+                  
+                  #nav-icon3.open span:nth-child(4) {
+                    top: 18px;
+                    width: 0%;
+                    left: 50%;
+                  }
+            }
+        
+            .mob-nav {
+                @include flex(center, flex-end);
+                width: 70%;
+    
+                svg {
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .phone {
+                    height: 40px;
+                    width: 40px;
+                    margin: 0 15px;
+                }
+            }
+    
+            .desktop-nav {
+                display: none;
+            }
+        }
+
+        #mob-menu {
+            $accordionHeight: 70px;
+            $subAccordionHeight: 50px;
+            position: fixed;
+            z-index: -1;
+            margin-top: -$mobNavHeight;
+            padding: 0 $mobPaddingX;
+            padding-top: 100px;
+            height: 100vh;
+            width: 100%;
+            background-color: $dblue;
+            transform: translateY(-100%);
+            transition-duration: 1s;
+            overflow: scroll;
+            box-shadow: 0 0px 5px 5px rgba(0, 0, 0, .15);
+
+            &.active {
+                transform: translateY(0);
+            }
+    
+            li, .contact {
+                @include flex(center, center, 0, column);
+                @include mont(600);
+                list-style-type: none;
+                color: #fff;
+            }
+    
+            > .accordion-container {
+                border-bottom: 1px solid #fff;
+    
+                > .mob-menu-accordion {
+                    position: relative;
+                    min-height: $accordionHeight;
+                    cursor: pointer;
+
+                    > div {
+                        @include flex();
+                    }
+    
+                    svg {
+                        position: absolute;
+                        right: 0;
+                        top: 27.5px;
+                        transition-duration: .5s;
+                    }
+
+                    ul {
+                        width: 100%;
+                        padding-bottom: $accordionHeight - $subAccordionHeight;
+
+                        .mob-menu-accordion {
+                            height: $subAccordionHeight;
+                            width: 100%;
+                        }
+                    }
+
+                    .menu-parent {
+                        height: $accordionHeight;
+                        align-items: center;
+                    }
+                }
+
+                .panel {
+                    flex-direction: column;
+                }
+            }
+    
+            .contact {
+                height: $accordionHeight;
+                width: 100%;
+            }
+
+            .socials {
+                @include flex(center, center);
+                margin-top: 50px;
+
+                a {
+                    &:nth-child(2) {
+                        margin: 0 10px;
+                    }
+
+                    &:focus {
+                        .bg {
+                            fill: #100C08;
+                        }
+                    }
+                }
+            }
+
+            .copyright {
+                @include mont(300);
+                text-align: center;
+                color: #fff;
+                padding: 25px 0;
+            }
+        }
+    }
+}

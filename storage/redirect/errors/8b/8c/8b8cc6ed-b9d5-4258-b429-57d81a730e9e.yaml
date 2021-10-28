@@ -1,0 +1,133 @@
+id: 8b8cc6ed-b9d5-4258-b429-57d81a730e9e
+url: /our-events
+hits:
+  -
+    timestamp: 1635427841
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635427996
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428015
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428481
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428653
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428843
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428844
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428861
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428898
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635428901
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635428912
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635429047
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/contact'
+  -
+    timestamp: 1635429347
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635432613
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432642
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432644
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432647
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432650
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432652
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432655
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+  -
+    timestamp: 1635432854
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+hitsCount: 21
+latest: 1635432854
+handled: false
+lastSeenAt: 1635432854

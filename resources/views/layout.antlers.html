@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{ if favicon:favicon_image }}<link rel="icon" href="{{ glide:favicon:favicon_image format='webp' quality='100' }}">{{ endif }}
 
         {{ if meta_title }}<title>{{ meta_title }}</title>{{ else }}<title>{{ title }} | {{ site:name }}</title>{{ endif }}
         <meta name="description" content="{{ meta_description }}" />
@@ -19,6 +20,10 @@
         <meta name="twitter:description" content="{{ meta_description }}" />
         {{ if featured_image }}<meta property="twitter:image" content="{{ current_url }}{{ featured_image }}">{{ else }}<meta property="twitter:image" content="{{ current_url }}{{ header:logo }}">{{ endif }}
         {{ if noindex_page }}<meta name="robots" content="noindex, nofollow">{{ /if }}
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -34,12 +39,12 @@
         {{ scripts:header_scripts ?? scripts:header_scripts }}
     </head>
 
-    <body class="{{ slug }}">
+    <body id="{{ slug }}">
         {{ scripts:body_scripts ?? scripts:body_scripts }}
 
         {{ partial:nav }}
 
-        {{ if enable_breadcrumbs }}
+        <!-- {{ if enable_breadcrumbs }}
             <ul class="breadcrumbs">
                 {{ nav:breadcrumbs }}
                 <li{{ if is_current }} class="current"{{ /if }}>
@@ -47,7 +52,7 @@
                 </li>
                 {{ /nav:breadcrumbs }}
             </ul>
-        {{ /if }}
+        {{ /if }} -->
 
         {{ template_content }}
 

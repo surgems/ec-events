@@ -1,0 +1,19 @@
+id: 82dbf90e-4af6-49e2-b01a-8425de9eb094
+url: /whats-on
+hits:
+  -
+    timestamp: 1635431096
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635432886
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/our-events'
+hitsCount: 2
+latest: 1635432886
+handled: false
+lastSeenAt: 1635432886
