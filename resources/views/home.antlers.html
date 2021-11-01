@@ -1,3 +1,181 @@
 <main class="home">
-    <h1>dshbu</h1>
+    <header role="heading">
+        {{ hero }}
+            <div class="red">
+                <h1 class="reveal-left">{{ title }}</h1>
+            </div>
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ video }}?playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        {{ /hero }}
+    </header>
+
+    <section id="who">
+        {{ who }}
+            <div class="top">
+                <h2 class="reveal-left">{{ title }}</h2>
+                {{ content }}
+                <div class="button"> 
+                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
+                </div>
+            </div>
+            
+            <div class="bottom">
+                <picture>
+                    <source srcset="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-left" src="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" alt="{{ landscape_image:alt }}">
+                </picture>
+
+                <picture>
+                    <source srcset="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-bottom" src="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" alt="{{ portrait_image:alt }}">
+                </picture>
+            </div>
+        {{ /who }}
+    </section>
+
+    <section id="what">
+        {{ what }}
+            <h2 class="reveal-left">{{ title }}</h2>
+
+            <div id="services">
+                {{ services }}
+                    <div class="service">
+                        <picture>
+                            <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                        
+                            <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                        </picture>
+
+                        <h3 class="reveal-right">{{ subtitle }}</h3>
+
+                        <hr class="grow">
+
+                        <p>{{ content }}</p>
+                    </div>
+                {{ /services }}
+            </div>
+        {{ /what }}
+    </section>
+
+    <section id="skywheel">
+        {{ the_sky_wheel }}
+            <div class="top">
+                <h2 class="reveal-left">{{ title }}</h2>
+                <h3 class="reveal-right">{{ subtitle }}</h3>
+                {{ content }}
+                <div class="button"> 
+                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
+                </div>
+            </div>
+
+            <div class="bottom">
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-bottom" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            </div>
+        {{ /the_sky_wheel }}
+    </section>
+
+    <section id="rides">
+        {{ rides_and_attractions }}
+            <h2 class="reveal-left">{{ title }}</h2>
+            <div class="carousel-container">
+                <div class="owl-carousel"  data-slides-mobile="1" data-slides-tablet="1" data-slides-laptop="1" data-slides-desktop="1">
+                    {{ rides }}
+                        <a href="{{ ride_link }}">
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+
+                            <h3>{{ title }}</h3>
+                        </a>
+                    {{ /rides }}
+                </div>
+
+                <div class="owl-custom-nav">
+                    <div class="owl-nav-custom prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="100" viewBox="0 0 44 100">
+                            <g id="Group_24" data-name="Group 24" transform="translate(-70 -3216)">
+                            <g id="Rectangle_36" data-name="Rectangle 36" transform="translate(70 3216)" fill="#f1f1f1" stroke="#bebebe" stroke-width="2">
+                                <rect width="44" height="100" stroke="none"/>
+                                <rect x="1" y="1" width="42" height="98" fill="none"/>
+                            </g>
+                            <path id="Path_126" data-name="Path 126" d="M720.632,755.3l8.6,8.667,8.6,8.667h-34.4l8.6-8.667Z" transform="translate(-673.631 3986.632) rotate(-90)" fill="#b3b3b3"/>
+                            </g>
+                        </svg>                                                  
+                    </div>
+            
+                    <div class="owl-nav-custom next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="100" viewBox="0 0 44 100">
+                            <g id="Group_158" data-name="Group 158" transform="translate(114 3316) rotate(180)">
+                            <g id="Rectangle_36" data-name="Rectangle 36" transform="translate(70 3216)" fill="#f1f1f1" stroke="#bebebe" stroke-width="2">
+                                <rect width="44" height="100" stroke="none"/>
+                                <rect x="1" y="1" width="42" height="98" fill="none"/>
+                            </g>
+                            <path id="Path_126" data-name="Path 126" d="M720.632,755.3l8.6,8.667,8.6,8.667h-34.4l8.6-8.667Z" transform="translate(-673.631 3986.632) rotate(-90)" fill="#b3b3b3"/>
+                            </g>
+                        </svg>                                                  
+                    </div>
+                </div>
+            </div>
+        {{ /rides_and_attractions }}
+    </section>
+
+    <section id="map">
+        {{ map }}
+            <div class="top">
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            </div>
+
+            <div class="bottom">
+                <h2 class="reveal-bottom">{{ title }}</h2>
+
+                {{ where }}
+                    <h3>{{ info }}</h3>
+                {{ /where }}
+            </div>
+        {{ /map }}
+    </section>
+
+    <section id="partners">
+        {{ partners }}
+            <div class="title">
+                <h3>{{ title }}</h3>
+                {{ content }}
+            </div>
+
+            <div class="top">
+                <div class="carousel-container">
+                    <div class="owl-carousel dots margin 50" data-slides-mobile="1" data-slides-tablet="1" data-slides-laptop="1" data-slides-desktop="1">
+                        {{ testimonials }}
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="62.3" height="50.644" viewBox="0 0 62.3 50.644">
+                                    <g id="Group_23" data-name="Group 23" transform="translate(-1380.711 -665.049)">
+                                        <path id="Path_127" data-name="Path 127" d="M1384.127,709.262A24.392,24.392,0,0,1,1380.711,696a32.949,32.949,0,0,1,5.124-18.088q5.126-8.035,15.576-12.861l1.808,3.617a27.185,27.185,0,0,0-10.751,8.24q-4.523,5.628-4.522,11.456a13.355,13.355,0,0,0,.6,4.22,11.461,11.461,0,0,1,7.436-2.612,12.811,12.811,0,0,1,9.143,3.516,12.262,12.262,0,0,1,3.719,9.345,12.7,12.7,0,0,1-12.862,12.862A13.1,13.1,0,0,1,1384.127,709.262Zm34.165,0A24.39,24.39,0,0,1,1414.875,696,32.939,32.939,0,0,1,1420,677.91q5.124-8.035,15.574-12.861l1.809,3.617a27.188,27.188,0,0,0-10.753,8.24q-4.521,5.628-4.521,11.456a13.362,13.362,0,0,0,.6,4.22,11.459,11.459,0,0,1,7.437-2.612,12.811,12.811,0,0,1,9.143,3.516,12.267,12.267,0,0,1,3.718,9.345,12.7,12.7,0,0,1-12.861,12.862A13.1,13.1,0,0,1,1418.292,709.262Z" transform="translate(0 0)" fill="#d3d3d3"/>
+                                    </g>
+                                </svg>
+                                
+                                {{ testimonial }}
+                                <p><span>{{ client_name }}</span></p>
+                            </div>
+                        {{ /testimonials }}
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom"></div>
+        {{ /partners }}
+    </section>
 </main>

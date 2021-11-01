@@ -1,15 +1,5 @@
 title: 'Home Page'
 sections:
-  main:
-    display: Main
-    fields:
-      -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
   sidebar:
     display: Sidebar
     fields:
@@ -38,8 +28,603 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          input_type: text
+          antlers: false
+          display: Title
+          icon: text
+          listable: hidden
+          instructions_position: above
+          validate:
+            - required
   seo:
     display: SEO
     fields:
       -
         import: seo
+  hero:
+    display: Hero
+    fields:
+      -
+        handle: hero
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            hero:
+              display: Hero
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: video
+                  field:
+                    display: Video
+                    type: video
+                    icon: video
+                    listable: hidden
+                    instructions_position: above
+          display: Hero
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  who_we_are:
+    display: 'Who we are?'
+    fields:
+      -
+        handle: who
+        field:
+          collapse: false
+          sets:
+            who:
+              display: 'Who we are'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Button Text'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_link
+                  field:
+                    display: 'Button Link'
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: landscape_image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'Landscape Image'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: portrait_image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'Portrait Image'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+          display: 'Who we are'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  what_we_do:
+    display: 'What we do?'
+    fields:
+      -
+        handle: what
+        field:
+          collapse: false
+          sets:
+            what:
+              display: 'What we do'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: services
+                  field:
+                    collapse: false
+                    sets:
+                      services:
+                        display: Services
+                        fields:
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: Image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: subtitle
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Subtitle
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: content
+                            field:
+                              always_show_set_button: false
+                              buttons:
+                                - h2
+                                - h3
+                                - bold
+                                - italic
+                                - unorderedlist
+                                - orderedlist
+                                - removeformat
+                                - quote
+                                - anchor
+                                - image
+                                - table
+                              save_html: false
+                              toolbar_mode: fixed
+                              link_noopener: false
+                              link_noreferrer: false
+                              target_blank: false
+                              reading_time: false
+                              fullscreen: true
+                              allow_source: true
+                              enable_input_rules: true
+                              enable_paste_rules: true
+                              display: Content
+                              type: bard
+                              icon: bard
+                              listable: hidden
+                              instructions_position: above
+                    display: Services
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: 'What we do'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  the_sky_wheel:
+    display: 'The Sky Wheel'
+    fields:
+      -
+        handle: the_sky_wheel
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            the_sky_wheel:
+              display: 'The Sky Wheel'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: subtitle
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Subtitle
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Button Text'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_link
+                  field:
+                    display: 'Button Link'
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: image
+                  field:
+                    mode: list
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    container: assets
+                    max_files: 1
+          display: 'The Sky Wheel'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  rides_and_attractions:
+    display: 'Rides and Attractions'
+    fields:
+      -
+        handle: rides_and_attractions
+        field:
+          collapse: false
+          sets:
+            rides_and_attractions:
+              display: 'Rides and Attractions'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: rides
+                  field:
+                    collapse: false
+                    sets:
+                      ride:
+                        display: Ride
+                        fields:
+                          -
+                            handle: ride_link
+                            field:
+                              display: 'Ride Link'
+                              type: link
+                              icon: link
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: Image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: title
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Title
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                    display: Rides
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: 'Rides and Attractions'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  where_we_have_been:
+    display: 'Where we have been?'
+    fields:
+      -
+        handle: map
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            map:
+              display: 'Where we have been'
+              fields:
+                -
+                  handle: image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: where
+                  field:
+                    collapse: false
+                    sets:
+                      where:
+                        display: Where
+                        fields:
+                          -
+                            handle: info
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Info
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                    display: Where
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: 'Where we have been'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  who_have_we_worked_with:
+    display: 'Who have we worked with?'
+    fields:
+      -
+        handle: partners
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            partners:
+              display: Partners
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: testimonials
+                  field:
+                    collapse: false
+                    sets:
+                      testimonial:
+                        display: Testimonials
+                        fields:
+                          -
+                            handle: testimonial
+                            field:
+                              always_show_set_button: false
+                              buttons:
+                                - h2
+                                - h3
+                                - bold
+                                - italic
+                                - unorderedlist
+                                - orderedlist
+                                - removeformat
+                                - quote
+                                - anchor
+                                - image
+                                - table
+                              save_html: false
+                              toolbar_mode: fixed
+                              link_noopener: false
+                              link_noreferrer: false
+                              target_blank: false
+                              reading_time: false
+                              fullscreen: true
+                              allow_source: true
+                              enable_input_rules: true
+                              enable_paste_rules: true
+                              display: Testimonial
+                              type: bard
+                              icon: bard
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: client_name
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Client Name'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                    display: Testimonials
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: Partners
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above

@@ -1,1 +1,63 @@
 title: Footer
+data:
+  contact:
+    -
+      content: 'Let''s talk and get your project started!'
+      type: contact
+      enabled: true
+      button_link: /contact
+      button_text: 'CONTACT US'
+  mailing_list:
+    -
+      content: 'Join our Mailing List'
+      type: mailing_list
+      enabled: true
+  main:
+    -
+      type: main
+      enabled: true
+      links:
+        -
+          link_text: 'COOKIE POLICY'
+          link: /cookie-policy
+          type: links
+          enabled: true
+        -
+          link_text: 'PRIVACY POLICY'
+          link: /privacy-policy
+          type: links
+          enabled: true
+        -
+          link_text: 'TERMS & CONDITIONS'
+          link: /terms-and-conditions
+          type: links
+          enabled: true
+      popular_rides:
+        -
+          ride: 'THE SKY WHEEL'
+          link: /the-sky-wheel
+          type: popular_rides
+          enabled: true
+        -
+          ride: CAROUSEL
+          link: /carousel
+          type: popular_rides
+          enabled: true
+        -
+          ride: DODGEMS
+          link: /dodgems
+          type: popular_rides
+          enabled: true
+      accreditations:
+        -
+          accreditation: ADIPS.png
+          type: accreditations
+          enabled: true
+        -
+          accreditation: HSE-logo.png
+          type: accreditations
+          enabled: true
+        -
+          accreditation: Showmans-Guild-Colour.png
+          type: accreditations
+          enabled: true

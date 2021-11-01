@@ -1,0 +1,19 @@
+id: ccd81161-689c-44b0-81ef-88c17e5f5f4e
+url: /carousel
+hits:
+  -
+    timestamp: 1635514468
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635518833
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+hitsCount: 2
+latest: 1635518833
+handled: false
+lastSeenAt: 1635518833

@@ -6,6 +6,7 @@ header {
         position: fixed;
         top: 0;
         width: 100vw;
+        z-index: 1000;
 
         .inner-nav {
             @include flex(center, space-between);
@@ -121,7 +122,7 @@ header {
             position: fixed;
             z-index: -1;
             margin-top: -$mobNavHeight;
-            padding: 0 $mobPaddingX;
+            padding: 0 $bigMobPaddingX;
             padding-top: 100px;
             height: 100vh;
             width: 100%;
@@ -188,18 +189,12 @@ header {
             }
 
             .socials {
-                @include flex(center, center);
+                justify-content: center;
                 margin-top: 50px;
-
+    
                 a {
                     &:nth-child(2) {
                         margin: 0 10px;
-                    }
-
-                    &:focus {
-                        .bg {
-                            fill: #100C08;
-                        }
                     }
                 }
             }

@@ -1,0 +1,193 @@
+footer {
+    #mailing-list {
+        @include flex(0, 0, 0, column);
+
+        > div {
+            padding: 40px $smallMobPaddingX;
+        }
+
+        .red {
+            background: $red;
+            min-height: 200px;
+
+            h2 {
+                color: #fff;
+                margin-bottom: 40px;
+            }
+
+            .animated-button.inner-btn {
+                border: 2px solid #fff;
+
+                &:link, :visited {
+                    width: 184px;
+                    color: #fff;
+                }
+            }
+        }
+
+        .grey {
+            background: $grey;
+            min-height: 200px;
+
+            h2 {
+                color: #fff;
+            }
+
+            .flex {
+                align-items: flex-end;
+                margin: 40px 0 30px 0;
+
+                button {
+                    height: 52px;
+                }
+
+                label {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    #footer {
+        min-height: 200px;
+        padding: 20px $bigMobPaddingX;
+
+        .top {
+            .accordion, .connect {
+                border-bottom: 1px solid $dblue;
+                position: relative;
+    
+                p {
+                    @include flex(center);
+                    @include mont(600);
+                    color: $dblue;
+                    height: 50px;
+                }
+    
+                .arrow {
+                    position: absolute;
+                    right: 0;
+                    top: 16.5px;
+                    width: 15px;
+                    height: 15px;
+                    transition-duration: .15s;
+    
+                    path {
+                        fill: $dblue;
+                    }
+                }
+    
+                .panel {
+                    flex-direction: column;
+                    margin-bottom: 15px;
+    
+                    a {
+                        @include sans();
+                        padding: 7.5px 0;
+                        padding-left: 10px;
+                    }
+                }
+            }
+    
+            .connect {
+                border-bottom: 0;
+    
+                .socials {
+                    margin-top: 5px;
+        
+                    a {
+                        &:nth-child(2) {
+                            margin: 0 25px;
+                        }
+                    }
+                }
+            }
+    
+            .flex {
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin: 45px 0;
+            }
+        }
+
+        .bottom {
+            @include flex(center, 0, 0, column);
+
+            .logo {
+                width: 60%;
+                height: auto;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            p {
+                color: $dblue;
+
+                &.copyright {
+                    margin-top: 20px;
+                    margin-bottom: 70px;
+                }
+            }
+
+            .flex {
+                flex-direction: column;
+                align-items: center;
+
+                .surge-logo {
+                    width: 45%;
+                    height: auto;
+                    margin-top: 15px;
+                    margin-bottom: 30px;
+
+                    &:hover {
+                        path {
+                            fill: #a6ce39;
+                        }
+                    }
+
+                    svg {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    path {
+                        transition-duration: .25s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* TABLET */
+
+@media #{$portrait-tablet}, #{$landscape-tablet} {
+    footer {
+        #mailing-list {
+            .red {
+                padding: 60px 15%;
+            }
+
+            .grey {
+                padding: 60px 15%;
+            }
+        }
+
+        #footer {
+            .accordion {
+                width: 47.5%;
+                height: fit-content !important
+            }
+
+            .accordion-wrapper {
+                @include flex(0, space-between);
+            }
+
+            .connect {
+                margin-top: 35px;
+            }
+        }
+    }
+}

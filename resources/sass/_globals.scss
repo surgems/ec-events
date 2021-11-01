@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 @mixin flex($align-items: none, $justify-content: none, $flex-wrap: none, $flex-direction: none) {
     display: flex;
     align-items: $align-items;
@@ -20,12 +22,19 @@
     }
 }
 
+$portrait-tablet: "only screen and (max-width: 768px) and (min-width: 500px) and (max-height: 1024px)";
+$landscape-tablet: "only screen and (max-height: 768px) and (max-width: 1024px) and (min-width: 500px)"; // also landscape mobile
+$laptop: "only screen and (min-width: 1024px) and (max-width: 1600px)";
+$desktop: "only screen and (min-width: 1600px)";
 $mobNavHeight: 86px;
 $tabletNavHeight: 100px;
 $desktopNavHeight: 100px;
-$mobPaddingX: 36px;
+$bigMobPaddingX: 36px;
+$smallMobPaddingX: 18px;
 $red: #F71541;
+$dred: #AE0018;
 $dblue: #202E7A;
+$grey: #D3D3D3;
 
 * {
     margin: 0;
@@ -40,25 +49,161 @@ $dblue: #202E7A;
         }
 
         main {
-            min-height: 100vh;
+            min-height: 75vh;
             z-index: -1;
+        }
+
+        .flex {
+            @include flex(0);
         }
 
         /* ACCORDION */
 
         .accordion-container {
             width: 100%;
+        }
 
-            .panel, .hide-panel {
-                display: none;
+        .panel, .hide-panel {
+            display: none;
+        }
+
+        .arrow {
+            width: 15px;
+            height: 15px;
+            transition-duration: .15s;
+        }
+
+        /* BUTTON */
+
+        .button {
+            width: fit-content !important;
+            height: fit-content !important;
+
+            .animated-button:link:after, .animated-button:visited:after {
+                content: "";
+                position: absolute;
+                height: 0%;
+                left: 50%;
+                top: 50%;
+                width: 150%;
+                z-index: -1;
+                transition: all 0.75s ease 0s;
+            }
+            .animated-button:link:hover:after, .animated-button:visited:hover:after {
+                height: 450%;
+            }
+            .animated-button:link, .animated-button:visited {
+                @include mont(600);
+                position: relative;
+                display: block;
+                padding: math.div(55px - 16px - 6px, 2) 15px; // height - font-size - border-width
+                min-width: 130px;
+                min-height: 55px;
+                color: #000;
+                border-radius: 5px;
+                text-align: center;
+                overflow: hidden;
+                letter-spacing: .08em;
+                text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+                transition: all .75s ease 0s;
+                z-index: 1;
+
+                &:hover {
+                    color: #fff
+                }
+            }
+            .animated-button.inner-btn {
+                border: 2px solid #fff;
+            }
+            .animated-button.inner-btn:after {
+                background: $dred;
+                transform: translateX(-50%) translateY(-50%) rotate(25deg);
+            }
+        }
+
+        button {
+            @include mont(600);
+            padding: math.div(55px - 16px - 6px, 2) 15px; // height - font-size - border-width
+            min-width: 105px;
+            min-height: 50px;
+            border: 2px solid #000;
+            color: #000;
+            border-radius: 5px;
+            background: none;
+        }
+
+        /* FORM */
+
+        form {
+            label {
+                width: 100%;
+
+                input {
+                    @include sans(400, 16px);
+                    min-height: 52px;
+                    width: 100%;
+                    outline: none;
+                    border: 1px solid #B3B3B3;
+                    margin-top: 3.5px;
+                    padding: 0 10px;
+                }
+            }
+
+            .flex {
+                width: 100%;
+            }
+
+            > p, a {
+                font-size: 12px;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        /* SOCIALS */
+
+        .socials {
+            @include flex(center);
+
+            a {
+                &:focus {
+                    .bg {
+                        fill: #100C08;
+                    }
+                }
             }
         }
     }
 
-    a, li a {
+    a {
         width: fit-content;
         height: fit-content;
         text-decoration: none;
         color: #000;
+    }
+
+    h1 {
+        @include mont();
+    }
+
+    h2 {
+        @include mont(900, 29px);
+        color: $dblue;
+    }
+
+    h3 {
+        @include mont(600, 18px);
+        color: $dblue;
+    }
+
+    p {
+        @include sans(400, 14px);
+    }
+
+    picture {
+        font-size: 0;
+        line-height: 0;
     }
 }

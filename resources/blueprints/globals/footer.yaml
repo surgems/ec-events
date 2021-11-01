@@ -1,52 +1,179 @@
 sections:
+  contact:
+    display: Contact
+    fields:
+      -
+        handle: contact
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            contact:
+              display: Contact
+              fields:
+                -
+                  handle: content
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Content
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_link
+                  field:
+                    display: 'Button Link'
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Button Text'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+          display: Contact
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  mailing_list:
+    display: 'Mailing List'
+    fields:
+      -
+        handle: mailing_list
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            mailing_list:
+              display: 'Mailing List'
+              fields:
+                -
+                  handle: content
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Content
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+          display: 'Mailing List'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
   main:
     display: Main
     fields:
       -
-        handle: logo
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: Logo
-          type: assets
-          icon: assets
-          listable: hidden
-      -
-        handle: footer_links
+        handle: main
         field:
           collapse: false
+          max_sets: 1
           sets:
-            footer_links:
-              display: 'Footer Links'
+            main:
+              display: Main
               fields:
                 -
-                  handle: label
+                  handle: links
                   field:
-                    input_type: text
-                    antlers: false
-                    display: Label
-                    type: text
-                    icon: text
+                    collapse: false
+                    sets:
+                      links:
+                        display: Links
+                        fields:
+                          -
+                            handle: link_text
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: 'Link Text'
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: link
+                            field:
+                              display: Link
+                              type: link
+                              icon: link
+                              listable: hidden
+                              instructions_position: above
+                    display: Links
+                    type: replicator
+                    icon: replicator
                     listable: hidden
+                    instructions_position: above
                 -
-                  handle: link
+                  handle: popular_rides
                   field:
-                    display: Link
-                    type: link
-                    icon: link
+                    collapse: false
+                    sets:
+                      popular_rides:
+                        display: 'Popular Rides'
+                        fields:
+                          -
+                            handle: ride
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Ride
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: link
+                            field:
+                              display: Link
+                              type: link
+                              icon: link
+                              listable: hidden
+                              instructions_position: above
+                    display: 'Popular Rides'
+                    type: replicator
+                    icon: replicator
                     listable: hidden
-          display: 'Footer Links'
+                    instructions_position: above
+                -
+                  handle: accreditations
+                  field:
+                    collapse: false
+                    sets:
+                      accreditations:
+                        display: Accreditations
+                        fields:
+                          -
+                            handle: accreditation
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: Accreditation
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                    display: Accreditations
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: Main
           type: replicator
           icon: replicator
           listable: hidden
-      -
-        handle: company_info
-        field:
-          antlers: false
-          display: 'Company Info'
-          type: textarea
-          icon: textarea
-          listable: hidden
+          instructions_position: above

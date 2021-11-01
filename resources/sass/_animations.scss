@@ -1,0 +1,66 @@
+.reveal-left {
+    transform: translateX(-35px);
+    transition: .8s ease-out;
+    opacity: 0;
+}
+
+.reveal-right {
+    transform: translateX(35px);
+    transition: .8s ease-out;
+    opacity: 0;
+}
+
+.reveal-bottom {
+    transform: translateY(35px);
+    transition: .8s ease-out;
+    opacity: 0;
+}
+
+.reveal-top {
+    transform: translateY(-35px);
+    transition: .8s ease-out;
+    opacity: 0;
+}
+
+.fade-in {
+    transition: 2s ease-out;
+    opacity: 0;
+}
+
+.pop {
+    transition-duration: .5s;
+    transform: scale(0);
+}
+
+.shadow {
+    transition-duration: .7s;
+    transition-delay: .2s;
+}
+
+.grow {
+    transition-duration: .7s;
+    width: 0px;
+}
+
+/* REVEALED */
+
+.reveal-left.revealed,
+.reveal-right.revealed,
+.reveal-bottom.revealed,
+.reveal-top.revealed,
+.fade-in.revealed {
+    transform: translate(0) !important;
+    opacity: 1;
+}
+
+.pop.revealed {
+    transform: scale(1);
+}
+
+.shadow.revealed {
+    box-shadow: 10px 10px #000;
+}
+
+.grow.revealed {
+    width: 100%;
+}

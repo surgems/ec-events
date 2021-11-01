@@ -13,7 +13,55 @@ hits:
       userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
       ip: 127.0.0.1
       referer: 'http://ec-events.test/'
-hitsCount: 2
-latest: 1635431450
+  -
+    timestamp: 1635774365
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774484
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774490
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774592
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774654
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774851
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635774856
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635775190
+    data:
+      userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+hitsCount: 10
+latest: 1635775190
 handled: false
-lastSeenAt: 1635431450
+lastSeenAt: 1635775190

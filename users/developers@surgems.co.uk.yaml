@@ -2,3 +2,9 @@ name: 'Surge MS'
 super: true
 id: 169f1327-7085-4e9a-9104-f6e806ab1254
 password_hash: $2y$10$vu26S1lmiWu0N.uHeuIZK.21qgjw3U975tJtk5HlmxVOCm.sas5wm
+preferences:
+  forms:
+    newsletter:
+      columns:
+        - datestamp
+        - email

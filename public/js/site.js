@@ -27,6 +27,139 @@ for (i = 0; i < acc.length; i++) {
 }
 
 ;
+/* ACCORDION */
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.children[2];
+
+    if (panel.style.display === "flex") {
+      panel.style.display = "none";
+      this.children[1].style.transform = 'rotate(0)';
+    } else {
+      panel.style.display = "flex";
+      this.children[1].style.transform = 'rotate(90deg)';
+    }
+  });
+}
+
+;
+
+/***/ }),
+
+/***/ "./resources/js/animations.js":
+/*!************************************!*\
+  !*** ./resources/js/animations.js ***!
+  \************************************/
+/***/ (() => {
+
+var revealLeft = document.querySelectorAll(".reveal-left");
+var revealRight = document.querySelectorAll(".reveal-right");
+var revealBottom = document.querySelectorAll(".reveal-bottom");
+var revealTop = document.querySelectorAll(".reveal-top");
+var fadeIn = document.querySelectorAll(".fade-in");
+var pop = document.querySelectorAll(".pop");
+var shadow = document.querySelectorAll(".shadow");
+var grow = document.querySelectorAll(".grow");
+
+var scrollAnim = function scrollAnim() {
+  var windowHt = window.innerHeight;
+  revealLeft.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  revealRight.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  revealBottom.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  revealTop.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  fadeIn.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  pop.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  shadow.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+  grow.forEach(function (element) {
+    var elPos = element.getBoundingClientRect().top;
+
+    if (element.classList.contains('header-anim') && window.innerWidth > 875) {
+      element.classList.add('revealed');
+    } else {
+      if (elPos < windowHt / 1.2) {
+        element.classList.add('revealed');
+      }
+    }
+  });
+};
+
+document.addEventListener("DOMContentLoaded", scrollAnim);
+window.addEventListener('scroll', scrollAnim);
 
 /***/ }),
 
@@ -58,8 +191,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sliders */ "./resources/js/sliders.js");
 /* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals */ "./resources/js/globals.js");
 /* harmony import */ var _globals__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accordion */ "./resources/js/accordion.js");
-/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_accordion__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _animations__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./animations */ "./resources/js/animations.js");
+/* harmony import */ var _animations__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_animations__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accordion */ "./resources/js/accordion.js");
+/* harmony import */ var _accordion__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_accordion__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -77,28 +213,42 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
 /* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_0__);
 
-$(document).ready(function () {// if ($(".top-area-overlay")[0]) {
-  // 	var carousel = $(".top-area-overlay .owl-carousel");
-  // 	carousel.owlCarousel({
-  // 		autoplay: true,
-  // 		autoplayTimeout: 6000,
-  // 		autoplayHoverPause: true,
-  // 		animateIn: 'fadeIn', // add this
-  // 		animateOut: 'fadeOut', // and this
-  // 		loop: true,
-  // 		dots: false,
-  // 		nav: false,
-  // 		items: 1
-  // 	});
-  // 	$(".jobs-slider .owl-custom-nav>div").on("click", function() {
-  // 		if ($(this).hasClass("prev")) {
-  // 			$(".jobs-slider .owl-carousel button.owl-prev").trigger("click");
-  // 		} else if ($(this).hasClass("next")) {
-  // 			$(".jobs-slider .owl-carousel button.owl-next").trigger("click");
-  // 		}
-  // 	});
-  // }
-});
+
+if ($(".owl-carousel")[0]) {
+  var carousels = $(".owl-carousel"); // INITIALISE ALL CAROUSELS
+
+  $(carousels).each(function () {
+    var carouselClass = $(this).attr('class').split(' ');
+    console.log(parseInt(carouselClass[carouselClass.length - 1]));
+    $(this).owlCarousel({
+      autoplay: false,
+      margin: carouselClass.includes('margin') ? parseInt(carouselClass[carouselClass.length - 1]) : 0,
+      loop: true,
+      dots: $(this).attr('class').split(' ').includes('dots') ? true : false,
+      responsive: {
+        0: {
+          items: $(this).attr('data-slides-mobile')
+        },
+        500: {
+          items: $(this).attr('data-slides-tablet')
+        },
+        1024: {
+          items: $(this).attr('data-slides-laptop')
+        },
+        1600: {
+          items: $(this).attr('data-slides-desktop')
+        }
+      }
+    });
+  });
+  $(".owl-nav-custom").on("click", function () {
+    if ($(this).hasClass("prev")) {
+      $(this).parent().parent().find('.owl-carousel button.owl-prev').trigger("click");
+    } else if ($(this).hasClass("next")) {
+      $(this).parent().parent().find('.owl-carousel button.owl-next').trigger("click");
+    }
+  });
+}
 
 /***/ }),
 

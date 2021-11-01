@@ -1,0 +1,23 @@
+title: Policies
+data:
+  form_privacy_policy:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'Your personal data will be used to process your submission, support your experience throughout this website, and for other purposes described in our '
+        -
+          type: text
+          marks:
+            -
+              type: link
+              attrs:
+                href: /privacy-policy
+                rel: null
+                target: null
+                title: null
+          text: 'privacy policy'
+        -
+          type: text
+          text: .
