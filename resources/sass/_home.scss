@@ -4,6 +4,7 @@ main.home {
     header {
         @include flex(0, 0, 0, column);
         position: relative;
+        overflow-x: hidden;
 
         > div {
             &:nth-child(1) {
@@ -352,7 +353,123 @@ main.home {
 
 /* TABLET */
 
-@media #{$landscape-tablet} {
+@media #{$portrait-tablet} {
+    main.home {
+        /* HEADER */
+    
+        header {
+            > div {
+                &:nth-child(1) {
+                    height: 20vh;
+                }
+
+                h1 {
+                    width: 20%;
+                    padding-left: 5%;
+                }
+            }
+        }
+
+        /* WHO */
+
+        section#who {
+
+            .top {
+                padding: 0 $tabletPaddingX;
+            }
+
+            .bottom {
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 400px;
+            }
+        }
+
+        /* WHAT */
+
+        section#what {
+            padding: 40px $tabletPaddingX;
+
+            #services {
+                @include flex(0, space-between, wrap, row);
+
+                .service {
+                    width: 45%;
+                }
+            }
+        }
+
+        /* SKYWHEEL */
+
+        section#skywheel {
+            .top {
+                padding: 40px $tabletPaddingX;
+            }
+
+            .bottom {
+                padding: 40px $tabletPaddingX;
+            }
+        }
+
+        /* RIDES */
+
+        section#rides {
+            .carousel-container {
+                .owl-custom-nav {
+                    .owl-nav-custom {
+                        margin-top: -40%;
+        
+                        &:nth-child(1) {
+                            left: 5%;
+                        }
+        
+                        &:nth-child(2) {
+                            right: 5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* MAP */
+
+        section#map {
+            padding: 50px $tabletPaddingX;
+
+            h2, h3 {
+                padding: 25px $smallMobPaddingX;
+            }
+        }
+
+        /* PARTNERS */
+
+        section#partners {
+
+            .title {
+                padding: 0 $tabletPaddingX;
+            }
+
+            .top {
+                padding: 50px $tabletPaddingX;
+            }
+
+            .bottom {
+                padding: 40px $tabletPaddingX;
+
+                picture {
+                    width: 20%;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
     main.home {
         /* HEADER */
     
@@ -501,115 +618,32 @@ main.home {
     }
 }
 
-@media #{$portrait-tablet} {
+/* DESKTOP */
+
+@media #{$laptop}, #{$desktop} {
     main.home {
         /* HEADER */
     
         header {
             > div {
-                &:nth-child(1) {
-                    height: 20vh;
-                }
+                &.red {
+                    width: 21.5vw;
+                    height: 85vh !important;
 
-                h1 {
-                    width: 20%;
-                    padding-left: 5%;
-                }
-            }
-        }
-
-        /* WHO */
-
-        section#who {
-
-            .top {
-                padding: 0 $tabletPaddingX;
-            }
-
-            .bottom {
-                margin-left: 50%;
-                transform: translateX(-50%);
-                width: 400px;
-            }
-        }
-
-        /* WHAT */
-
-        section#what {
-            padding: 40px $tabletPaddingX;
-
-            #services {
-                @include flex(0, space-between, wrap, row);
-
-                .service {
-                    width: 45%;
-                }
-            }
-        }
-
-        /* SKYWHEEL */
-
-        section#skywheel {
-            .top {
-                padding: 40px $tabletPaddingX;
-            }
-
-            .bottom {
-                padding: 40px $tabletPaddingX;
-            }
-        }
-
-        /* RIDES */
-
-        section#rides {
-            .carousel-container {
-                .owl-custom-nav {
-                    .owl-nav-custom {
-                        margin-top: -40%;
-        
-                        &:nth-child(1) {
-                            left: 5%;
-                        }
-        
-                        &:nth-child(2) {
-                            right: 5%;
-                        }
+                    h1 {
+                        top: 20vh;
+                        padding-left: $bigDesktopPaddingX;
+                        width: 400px;
+                        font-size: 100px;
                     }
                 }
-            }
-        }
 
-        /* MAP */
+                &.video {
+                    width: 70%;
 
-        section#map {
-            padding: 50px $tabletPaddingX;
-
-            h2, h3 {
-                padding: 25px $smallMobPaddingX;
-            }
-        }
-
-        /* PARTNERS */
-
-        section#partners {
-
-            .title {
-                padding: 0 $tabletPaddingX;
-            }
-
-            .top {
-                padding: 50px $tabletPaddingX;
-            }
-
-            .bottom {
-                padding: 40px $tabletPaddingX;
-
-                picture {
-                    width: 20%;
-                    height: auto;
-                    img {
-                        width: 100%;
-                        margin-bottom: 20px;
+                    iframe {
+                        width: 78vw;
+                        height: 85vh;
                     }
                 }
             }

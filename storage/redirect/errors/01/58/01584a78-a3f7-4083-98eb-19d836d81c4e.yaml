@@ -1,0 +1,25 @@
+id: 01584a78-a3f7-4083-98eb-19d836d81c4e
+url: /rides-and-attractions
+hits:
+  -
+    timestamp: 1635861747
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635862266
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+  -
+    timestamp: 1635862270
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+hitsCount: 3
+latest: 1635862270
+handled: false
+lastSeenAt: 1635862270

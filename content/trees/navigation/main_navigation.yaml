@@ -46,7 +46,6 @@ tree:
   -
     id: e6fc718f-e7b0-42d5-9ff3-e5e29a6d4508
     title: 'RIDES & ATTRACTIONS'
-    url: /rides-and-attractions
     children:
       -
         id: 43153365-5e2c-4ee6-9f48-e0602c14b9be

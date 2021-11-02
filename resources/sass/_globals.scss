@@ -29,7 +29,7 @@ $laptop: "only screen and (min-width: 1024px) and (max-width: 1600px)";
 $desktop: "only screen and (min-width: 1600px)";
 $mobNavHeight: 86px;
 $tabletNavHeight: 100px;
-$desktopNavHeight: 100px;
+$desktopNavHeight: 130px;
 $bigMobPaddingX: 36px;
 $smallMobPaddingX: 18px;
 $tabletPaddingX: 10vw;
@@ -47,8 +47,6 @@ $grey: #D3D3D3;
 
     body { 
         padding-top: $mobNavHeight;
-        max-width: 100vw;
-        min-width: 100vw;
 
         &.no-scroll {
             overflow-y: hidden;
@@ -211,5 +209,15 @@ $grey: #D3D3D3;
     picture {
         font-size: 0;
         line-height: 0;
+    }
+}
+
+/* DESKTOP */
+
+@media #{$laptop}, #{$desktop} {
+    * {
+        body {
+            padding-top: $desktopNavHeight !important;
+        }
     }
 }
