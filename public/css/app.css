@@ -364,6 +364,15 @@
   * body {
     padding-top: 130px !important;
   }
+  * body h2 {
+    font-size: 52px;
+  }
+  * body h3 {
+    font-size: 22px;
+  }
+  * body p {
+    font-size: 16px;
+  }
 }
 .reveal-left {
   transform: translateX(-35px);
@@ -534,8 +543,9 @@ main.home section#what #services .service hr {
   margin: 15px 0;
 }
 main.home section#skywheel .top {
-  padding: 40px 36px;
-  padding-top: 20px;
+  margin: 40px 18px;
+  padding: 0 18px;
+  margin-top: 20px;
 }
 main.home section#skywheel .top h3 {
   color: #F71541;
@@ -922,6 +932,8 @@ main.home section#partners .bottom picture img {
 @media only screen and (min-width: 1024px) and (max-width: 1600px), only screen and (min-width: 1600px) {
   main.home {
     /* HEADER */
+    /* WHAT */
+    /* SKYWHEEL */
   }
   main.home header > div.red {
     width: 21.5vw;
@@ -939,6 +951,26 @@ main.home section#partners .bottom picture img {
   main.home header > div.video iframe {
     width: 78vw;
     height: 85vh;
+  }
+  main.home section#what {
+    padding: 80px 140px;
+  }
+  main.home section#what #services .service {
+    display: flex;
+    align-items: none;
+    justify-content: none;
+    flex-wrap: none;
+    flex-direction: none;
+  }
+  main.home section#what #services .service h3 {
+    padding: 0;
+  }
+  main.home section#what #services .service img {
+    margin-right: 40px;
+  }
+  main.home section#skywheel {
+    padding: 80px 140px;
+    flex-direction: row-reverse;
   }
 }
 header #nav {

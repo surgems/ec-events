@@ -218,6 +218,18 @@ $grey: #D3D3D3;
     * {
         body {
             padding-top: $desktopNavHeight !important;
+
+            h2 {
+                font-size: 52px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
         }
     }
 }

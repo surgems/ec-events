@@ -113,8 +113,9 @@ main.home {
 
     section#skywheel {
         .top {
-            padding: 40px $bigMobPaddingX;
-            padding-top: 20px;
+            margin: 40px $smallMobPaddingX;
+            padding: 0 $bigMobPaddingX - $smallMobPaddingX;
+            margin-top: 20px;
 
             h3 {
                 color: $red;
@@ -647,6 +648,33 @@ main.home {
                     }
                 }
             }
+        }
+
+        /* WHAT */
+
+        section#what {
+            padding: 80px $bigDesktopPaddingX;
+
+            #services {
+                .service {
+                    @include flex();
+
+                    h3 {
+                        padding: 0;
+                    }
+
+                    img {
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+
+        /* SKYWHEEL */
+
+        section#skywheel {
+            padding: 80px $bigDesktopPaddingX;
+            flex-direction: row-reverse;
         }
     }
 }
