@@ -6,10 +6,10 @@ if ($(".owl-carousel")[0]) {
     // INITIALISE ALL CAROUSELS
     $(carousels).each(function() {
         const carouselClass = $(this).attr('class').split(' ');
-        console.log(parseInt(carouselClass[carouselClass.length - 1]))
+        
         $(this).owlCarousel({
             autoplay: false,
-			margin: carouselClass.includes('margin') ? parseInt(carouselClass[carouselClass.length - 1]) : 0,
+			margin: parseInt($(this).attr('data-has-margin')),
 			loop: true,
             dots: $(this).attr('class').split(' ').includes('dots') ? true : false,
             responsive: {

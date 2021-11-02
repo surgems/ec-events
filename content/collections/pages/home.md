@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1635778418
+updated_at: 1635783158
 template: home
 noindex_page: false
 hero:
@@ -174,4 +174,49 @@ partners:
         enabled: true
     type: partners
     enabled: true
+    partner_images:
+      -
+        image: 'Creamfields .png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Durham Council .png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'V festival 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Middlesbrough Council 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Hull Council 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Kisstory 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Global Village Dubai.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Leeds Council 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'EDC Logo 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'EE 2.png'
+        type: partner_images
+        enabled: true
+      -
+        image: 'Newcastle City Council 2.png'
+        type: partner_images
+        enabled: true
 ---

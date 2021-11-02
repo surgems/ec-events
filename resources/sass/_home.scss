@@ -255,10 +255,96 @@ main.home {
         }
 
         .top {
-            padding: 50px $smallMobPaddingX;
-            
+            padding: 50px 10px;
+
+            .owl-item {
+                padding: 0 10px;
+                margin-bottom: 40px;
+
+                > div {
+                    border: 1px solid #EBEBEB;
+                    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+                    padding: 30px 20px 50px 20px;
+                }
+
+                svg {
+                    margin-bottom: 20px;
+                }
+
+                .name {
+                    margin-top: 60px;
+                    font-size: 16px;
+                }
+            }
+
             .owl-dots {
-                display: block !important;
+                @include flex(center, center);
+
+                button {
+                    min-width: 20px;
+                    min-height: 20px;
+                    border-radius: 100%;
+                    background: #D3D3D3;
+                    margin: 0 10px;
+
+                    &.active {
+                        background: $dblue;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            @include flex(0, space-between, wrap);
+            padding: 40px $smallMobPaddingX;
+
+            picture {
+                width: 42.5%;
+                height: auto;
+                img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+/* LANDSCAPE MOBILE */
+
+@media #{$landscape-mobile} {
+    main.home {
+        /* WHO */
+
+        section#who {
+            flex-direction: column !important;
+
+            .bottom {
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 350px !important;
+            }
+        }
+
+        /* RIDES */
+
+        section#rides {
+            padding: 40px 15vw !important;
+
+            .carousel-container {
+                .owl-custom-nav {
+                    .owl-nav-custom {
+                        margin-top: -60% !important;
+        
+                        &:nth-child(1) {
+                            left: -15% !important;
+                        }
+        
+                        &:nth-child(2) {
+                            right: -15% !important;
+                        }
+                    }
+                }
             }
         }
     }
@@ -295,6 +381,123 @@ main.home {
                 }
             }
         }
+
+        /* WHO */
+
+        section#who {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 40px $tabletPaddingX;
+            width: 100%;
+
+            > div {
+                padding: 0 !important;
+            }
+
+            .top {
+                width: 100%;
+                margin-right: 50px;
+            }
+
+            .bottom {
+                width: 375px;
+                min-width: 375px;
+                height: fit-content;
+                margin-top: 20px;
+            }
+        }
+
+        /* WHAT */
+
+        section#what {
+            padding: 40px $tabletPaddingX;
+
+            #services {
+                @include flex(0, space-between, wrap, row);
+
+                .service {
+                    width: 45%;
+                }
+            }
+        }
+
+        /* SKYWHEEL */
+
+        section#skywheel {
+            @include flex(0, space-between);
+            padding: 40px $tabletPaddingX;
+
+            > div {
+                width: 47.5%;
+                padding: 0 !important;
+            }
+        }
+
+        /* RIDES */
+
+        section#rides {
+            padding: 40px $tabletPaddingX;
+
+            .carousel-container {
+
+                .owl-carousel {
+                    .owl-item {
+                        padding: 0 2.5vw;
+                    }
+                }
+
+                .owl-custom-nav {
+                    .owl-nav-custom {
+                        margin-top: -30%;
+                        z-index: 1;
+        
+                        &:nth-child(1) {
+                            left: -7.5%;
+                        }
+        
+                        &:nth-child(2) {
+                            right: -7.5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* MAP */
+
+        section#map {
+            padding: 50px $tabletPaddingX;
+
+            h2, h3 {
+                padding: 25px $smallMobPaddingX;
+            }
+        }
+
+        /* PARTNERS */
+
+        section#partners {
+
+            .title {
+                padding: 0 $tabletPaddingX;
+            }
+
+            .top {
+                padding: 50px $tabletPaddingX;
+            }
+
+            .bottom {
+                padding: 40px $tabletPaddingX;
+
+                picture {
+                    width: 20%;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -311,6 +514,103 @@ main.home {
                 h1 {
                     width: 20%;
                     padding-left: 5%;
+                }
+            }
+        }
+
+        /* WHO */
+
+        section#who {
+
+            .top {
+                padding: 0 $tabletPaddingX;
+            }
+
+            .bottom {
+                margin-left: 50%;
+                transform: translateX(-50%);
+                width: 400px;
+            }
+        }
+
+        /* WHAT */
+
+        section#what {
+            padding: 40px $tabletPaddingX;
+
+            #services {
+                @include flex(0, space-between, wrap, row);
+
+                .service {
+                    width: 45%;
+                }
+            }
+        }
+
+        /* SKYWHEEL */
+
+        section#skywheel {
+            .top {
+                padding: 40px $tabletPaddingX;
+            }
+
+            .bottom {
+                padding: 40px $tabletPaddingX;
+            }
+        }
+
+        /* RIDES */
+
+        section#rides {
+            .carousel-container {
+                .owl-custom-nav {
+                    .owl-nav-custom {
+                        margin-top: -40%;
+        
+                        &:nth-child(1) {
+                            left: 5%;
+                        }
+        
+                        &:nth-child(2) {
+                            right: 5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* MAP */
+
+        section#map {
+            padding: 50px $tabletPaddingX;
+
+            h2, h3 {
+                padding: 25px $smallMobPaddingX;
+            }
+        }
+
+        /* PARTNERS */
+
+        section#partners {
+
+            .title {
+                padding: 0 $tabletPaddingX;
+            }
+
+            .top {
+                padding: 50px $tabletPaddingX;
+            }
+
+            .bottom {
+                padding: 40px $tabletPaddingX;
+
+                picture {
+                    width: 20%;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
                 }
             }
         }
