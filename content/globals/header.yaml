@@ -1,1 +1,9 @@
 title: Header
+data:
+  featured_ride:
+    -
+      image: big-wheel.png
+      button_text: 'THE SKY WHEEL'
+      button_link: /the-sky-wheel
+      type: featured_ride
+      enabled: true
