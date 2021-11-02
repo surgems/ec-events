@@ -35,7 +35,7 @@ $smallMobPaddingX: 18px;
 $tabletPaddingX: 10vw;
 $bigDesktopPaddingX: 140px;
 $red: #F71541;
-$dred: #AE0018;
+$dred: #F71541;
 $dblue: #202E7A;
 $grey: #D3D3D3;
 
@@ -125,16 +125,54 @@ $grey: #D3D3D3;
             }
         }
 
-        button {
+        // button {
+        //     @include mont(600);
+        //     padding: math.div(55px - 16px - 6px, 2) 15px; // height - font-size - border-width
+        //     min-width: 105px;
+        //     min-height: 50px;
+        //     border: 2px solid #000;
+        //     color: #000;
+        //     border-radius: 5px;
+        //     background: none;
+        // }
+
+        .shimmer {
+            @include flex (center, center);
             @include mont(600);
-            padding: math.div(55px - 16px - 6px, 2) 15px; // height - font-size - border-width
-            min-width: 105px;
-            min-height: 50px;
-            border: 2px solid #000;
-            color: #000;
+            margin-left: 20px;
+            background-color: $red;
             border-radius: 5px;
-            background: none;
-        }
+            border: 1px solid $red;
+            color: #fff;
+            height: 55px;
+            width: 130px;
+            background-size: 2rem 2rem;
+            transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+            &:hover, :focus {
+                transform: rotate(-2deg) !important;
+                background-image: linear-gradient(
+                135deg,
+                rgba(0, 0, 0, 0.15) 25%,
+                transparent 25%,
+                transparent 50%,
+                rgba(0, 0, 0, 0.15) 50%,
+                rgba(0, 0, 0, 0.15) 75%,
+                transparent 75%,
+                transparent
+                );
+                animation: shimmer 2.8s linear infinite;
+            }
+
+            @keyframes shimmer {
+                0% {
+                  background-position: 0 0;
+                }
+                100% {
+                  background-position: 2rem 4rem;
+                }
+            }
+          }
 
         /* FORM */
 

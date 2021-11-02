@@ -274,20 +274,49 @@
   border: 2px solid #fff;
 }
 * body .button .animated-button.inner-btn:after {
-  background: #AE0018;
+  background: #F71541;
   transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
-* body button {
+* body .shimmer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+  flex-direction: none;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  padding: 16.5px 15px;
-  min-width: 105px;
-  min-height: 50px;
-  border: 2px solid #000;
-  color: #000;
+  margin-left: 20px;
+  background-color: #F71541;
   border-radius: 5px;
-  background: none;
+  border: 1px solid #F71541;
+  color: #fff;
+  height: 55px;
+  width: 130px;
+  background-size: 2rem 2rem;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+* body .shimmer:hover, * body .shimmer :focus {
+  transform: rotate(-2deg) !important;
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.15) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.15) 75%, transparent 75%, transparent);
+  -webkit-animation: shimmer 2.8s linear infinite;
+          animation: shimmer 2.8s linear infinite;
+}
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2rem 4rem;
+  }
+}
+@keyframes shimmer {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 2rem 4rem;
+  }
 }
 * body form label {
   width: 100%;
@@ -496,7 +525,7 @@ main.home section#who .top .animated-button.inner-btn {
   border: 2px solid #000;
 }
 main.home section#who .top .animated-button.inner-btn:hover {
-  border: 2px solid #AE0018;
+  border: 2px solid #F71541;
 }
 main.home section#who .top .animated-button.inner-btn:hover:link, main.home section#who .top .animated-button.inner-btn:hover :visited {
   color: #fff;
@@ -557,7 +586,7 @@ main.home section#skywheel .top .animated-button.inner-btn {
   border: 2px solid #000;
 }
 main.home section#skywheel .top .animated-button.inner-btn:hover {
-  border: 2px solid #AE0018;
+  border: 2px solid #F71541;
 }
 main.home section#skywheel .top .animated-button.inner-btn:hover:link, main.home section#skywheel .top .animated-button.inner-btn:hover :visited {
   color: #fff;
