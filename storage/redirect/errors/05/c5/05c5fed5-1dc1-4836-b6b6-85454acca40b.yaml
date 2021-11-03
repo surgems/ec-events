@@ -211,7 +211,13 @@ hits:
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
       ip: 127.0.0.1
       referer: 'http://ec-events.test/'
-hitsCount: 35
-latest: 1635872125
+  -
+    timestamp: 1635932040
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/'
+hitsCount: 36
+latest: 1635932040
 handled: false
-lastSeenAt: 1635872125
+lastSeenAt: 1635932040

@@ -17,9 +17,12 @@ if ($(".owl-carousel")[0]) {
                     items: $(this).attr('data-slides-mobile')
                 },
                 500: {
-                    items: $(this).attr('data-slides-tablet')
+                    items: $(this).attr('data-slides-portrait-tablet')
                 },
-                1024: {
+                769: {
+                    items: $(this).attr('data-slides-landscape-tablet')
+                },
+                1025: {
                     items: $(this).attr('data-slides-laptop')
                 },
                 1600: {

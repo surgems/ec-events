@@ -113,9 +113,12 @@ main.home {
 
     section#skywheel {
         .top {
-            margin: 40px $smallMobPaddingX;
-            padding: 0 $bigMobPaddingX - $smallMobPaddingX;
+            margin: 0 $smallMobPaddingX;
+            padding: 40px $bigMobPaddingX - $smallMobPaddingX;
             margin-top: 20px;
+            border-radius: 2px;
+            border: 1px solid #EBEBEB;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
 
             h3 {
                 color: $red;
@@ -123,6 +126,10 @@ main.home {
 
             p {
                 margin: 30px 0;
+            }
+
+            .button {
+                padding-top: 40px;
             }
 
             .animated-button.inner-btn {
@@ -144,7 +151,7 @@ main.home {
         }
 
         .bottom {
-            padding: 20px $smallMobPaddingX;
+            padding: 0 $smallMobPaddingX;
             padding-bottom: 40px;
 
             img {
@@ -180,10 +187,20 @@ main.home {
                         h3 {
                             color: $red;
                         }
+
+                        img {
+                            transform: scale(1.05);
+                        }
                     }
     
-                    img {
+                    .img-container {
+                        overflow: hidden;
+                        height: fit-content;
                         margin-bottom: 15px;
+
+                        img {
+                            transition-duration: .5s;
+                        }
                     }
                 }
             }
@@ -328,6 +345,19 @@ main.home {
             }
         }
 
+        /* SKYWHEEL */
+
+        section#skywheel {
+            @include flex(center, space-between);
+            padding: 40px $smallMobPaddingX !important;
+
+            > div {
+                &.top {
+                    padding: 20px 10px;
+                }
+            }
+        }
+
         /* RIDES */
 
         section#rides {
@@ -404,11 +434,12 @@ main.home {
 
         section#skywheel {
             .top {
-                padding: 40px $tabletPaddingX;
+                padding: 80px $tabletPaddingX;
+                margin: 0 $tabletPaddingX;
             }
 
             .bottom {
-                padding: 40px $tabletPaddingX;
+                padding: 0 $tabletPaddingX;
             }
         }
 
@@ -505,7 +536,8 @@ main.home {
         section#who {
             flex-direction: row;
             justify-content: space-between;
-            padding: 40px $tabletPaddingX;
+            padding: 80px $tabletPaddingX;
+            margin-top: 80px;
             width: 100%;
 
             > div {
@@ -542,12 +574,16 @@ main.home {
         /* SKYWHEEL */
 
         section#skywheel {
-            @include flex(0, space-between);
+            @include flex(center, space-between);
             padding: 40px $tabletPaddingX;
 
             > div {
-                width: 47.5%;
-                padding: 0 !important;
+                margin: 0 !important;
+                width: 50%;
+                
+                &.bottom {
+                    padding: 0;
+                }
             }
         }
 
@@ -555,6 +591,10 @@ main.home {
 
         section#rides {
             padding: 40px $tabletPaddingX;
+
+            h2 {
+                text-align: left;
+            }
 
             .carousel-container {
 
@@ -650,6 +690,46 @@ main.home {
             }
         }
 
+        /* WHO */
+
+        section#who {
+            flex-direction: row-reverse;
+            align-items: center;
+            padding-left: 105px;
+            padding-right: $bigDesktopPaddingX;
+
+            > div {
+                padding: 0 !important;
+            }
+
+            .top {
+                width: 36.5vw;
+                height: fit-content;
+                padding-left: 50px !important;
+
+                .button {
+                    margin-top: 70px;
+                }
+            }
+
+            .bottom {
+                width: 47.5vw;
+                min-width: 375px;
+                height: fit-content;
+                margin-top: 20px;
+
+                picture {
+                    &:nth-child(1) img {
+                        width: 65%;
+                    }
+
+                    &:nth-child(2) img {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
         /* WHAT */
 
         section#what {
@@ -675,6 +755,55 @@ main.home {
         section#skywheel {
             padding: 80px $bigDesktopPaddingX;
             flex-direction: row-reverse;
+
+            > div {
+                &.top {
+                    padding: 100px;
+                    padding-left: 60px;
+                    width: 60%;
+
+                    .button {
+                        margin-top: 170px;
+                    }
+                }
+            }
+        }
+
+        /* RIDES */
+
+        section#rides {
+            padding: 80px $bigDesktopPaddingX;
+
+            h2 {
+                font-size: 42px;
+                margin-bottom: 50px;
+                margin-left: 30px;
+            }
+
+            .carousel-container {
+
+                .owl-carousel {
+                    .owl-item {
+                        padding: 0 10px;
+                    }
+                }
+
+                .owl-custom-nav {
+                    .owl-nav-custom {
+                        margin-top: -16.5%;
+                        z-index: 1;
+                        cursor: pointer;
+        
+                        &:nth-child(1) {
+                            left: -4%;
+                        }
+        
+                        &:nth-child(2) {
+                            right: -4%;
+                        }
+                    }
+                }
+            }
         }
     }
 }
