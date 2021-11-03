@@ -134,6 +134,7 @@ $grey: #D3D3D3;
             color: #000;
             border-radius: 5px;
             background: none;
+            cursor: pointer;
         }
 
         .shimmer {
@@ -172,7 +173,23 @@ $grey: #D3D3D3;
                   background-position: 2rem 4rem;
                 }
             }
-          }
+        }
+
+        /* SOCIALS */
+
+        .socials {
+            a {
+                &:hover {
+                    .bg {
+                        fill: $dblue;
+                    }
+
+                    .inr {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
 
         /* FORM */
 

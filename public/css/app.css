@@ -200,6 +200,7 @@
   padding-top: 86px;
   /* ACCORDION */
   /* BUTTONS */
+  /* SOCIALS */
   /* FORM */
   /* SOCIALS */
   /* OWL CAROUSEL */
@@ -289,6 +290,7 @@
   color: #000;
   border-radius: 5px;
   background: none;
+  cursor: pointer;
 }
 * body .shimmer {
   display: flex;
@@ -330,6 +332,12 @@
   100% {
     background-position: 2rem 4rem;
   }
+}
+* body .socials a:hover .bg {
+  fill: #202E7A;
+}
+* body .socials a:hover .inr {
+  fill: #fff;
 }
 * body form label {
   width: 100%;
@@ -1438,12 +1446,6 @@ header #nav #mob-menu .copyright {
   header #nav .inner-nav .desktop-nav .top {
     padding-top: 2px;
   }
-  header #nav .inner-nav .desktop-nav .top .socials a:hover .bg {
-    fill: #202E7A;
-  }
-  header #nav .inner-nav .desktop-nav .top .socials a:hover .inr {
-    fill: #fff;
-  }
   header #nav .inner-nav .desktop-nav .top .socials a:nth-child(2) {
     margin: 0 10px;
   }
@@ -1605,12 +1607,12 @@ footer #mailing-list .red h2 {
   color: #fff;
   margin-bottom: 40px;
 }
-footer #mailing-list .red .animated-button.inner-btn {
+footer #mailing-list .red .shimmer {
+  margin: 0;
   border: 2px solid #fff;
 }
-footer #mailing-list .red .animated-button.inner-btn:link, footer #mailing-list .red .animated-button.inner-btn :visited {
-  width: 184px;
-  color: #fff;
+footer #mailing-list .red .shimmer:hover {
+  transform: rotate(2deg) !important;
 }
 footer #mailing-list .grey {
   background: #D3D3D3;
@@ -1623,8 +1625,12 @@ footer #mailing-list .grey .flex {
   align-items: flex-end;
   margin: 40px 0 30px 0;
 }
-footer #mailing-list .grey .flex button {
+footer #mailing-list .grey .flex .shimmer {
+  margin: 0;
   height: 52px;
+  background-color: #D3D3D3;
+  color: #000;
+  border: 2px solid #000;
 }
 footer #mailing-list .grey .flex label {
   margin-right: 10px;
@@ -1693,7 +1699,7 @@ footer #footer .bottom {
   flex-direction: column;
 }
 footer #footer .bottom .logo {
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 footer #footer .bottom .logo img {
@@ -1750,5 +1756,102 @@ footer #footer .bottom .flex .surge-logo path {
   }
   footer #footer .connect {
     margin-top: 35px;
+  }
+  footer #footer .flex {
+    width: 40%;
+  }
+}
+/* DESKTOP */
+@media only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
+  footer #mailing-list {
+    flex-direction: row;
+  }
+  footer #mailing-list > div {
+    width: 50%;
+  }
+  footer #mailing-list > div h2 {
+    font-size: 30px;
+    width: 57.5%;
+  }
+  footer #mailing-list > div.red {
+    padding: 60px 140px;
+  }
+  footer #mailing-list > div.grey {
+    padding: 60px 80px;
+  }
+  footer #mailing-list > div.grey form .flex {
+    margin: 15px 0;
+  }
+  footer #footer {
+    padding: 50px 75px;
+  }
+  footer #footer .top {
+    display: flex;
+    align-items: 0;
+    justify-content: none;
+    flex-wrap: none;
+    flex-direction: none;
+  }
+  footer #footer .top .accordion-wrapper {
+    display: flex;
+    align-items: none;
+    justify-content: none;
+    flex-wrap: none;
+    flex-direction: none;
+  }
+  footer #footer .top .accordion-wrapper .accordion {
+    border: none;
+    width: 17.5vw;
+  }
+  footer #footer .top .accordion-wrapper svg {
+    display: none;
+  }
+  footer #footer .top .accordion-wrapper .panel {
+    display: flex !important;
+  }
+  footer #footer .top .accordion-wrapper .panel a {
+    padding-left: 0;
+  }
+  footer #footer .top .connect {
+    width: 17.5vw;
+  }
+  footer #footer .top .connect .socials a svg {
+    width: 30px;
+    height: 30px;
+  }
+  footer #footer .top .connect .socials a:nth-child(2) {
+    margin: 0 10px;
+  }
+  footer #footer .top .flex {
+    width: 35%;
+  }
+  footer #footer .top .flex picture {
+    width: 20%;
+  }
+  footer #footer .top .flex picture img {
+    width: 100%;
+  }
+  footer #footer .bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  footer #footer .bottom .flex:nth-child(1) {
+    align-items: flex-start;
+    width: 175px;
+  }
+  footer #footer .bottom .flex:nth-child(1) .copyright {
+    margin-bottom: 0;
+  }
+  footer #footer .bottom .flex:nth-child(2) {
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+  }
+  footer #footer .bottom .flex:nth-child(2) .surge-logo {
+    margin: 0;
+    margin-left: 20px;
+    width: 120px;
   }
 }

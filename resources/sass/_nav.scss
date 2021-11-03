@@ -256,16 +256,6 @@ header {
 
                         .socials {
                             a {
-                                &:hover {
-                                    .bg {
-                                        fill: $dblue;
-                                    }
-
-                                    .inr {
-                                        fill: #fff;
-                                    }
-                                }
-
                                 &:nth-child(2) {
                                     margin: 0 10px;
                                 }
