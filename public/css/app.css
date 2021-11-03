@@ -339,6 +339,9 @@
 * body .socials a:hover .inr {
   fill: #fff;
 }
+* body .socials a:nth-child(2) {
+  margin: 0 10px;
+}
 * body form label {
   width: 100%;
 }
@@ -1811,6 +1814,9 @@ footer #footer .bottom .flex .surge-logo path {
   }
   footer #footer .top .accordion-wrapper .panel a {
     padding-left: 0;
+  }
+  footer #footer .top .accordion-wrapper .panel a:hover {
+    text-decoration: underline;
   }
   footer #footer .top .connect {
     width: 17.5vw;

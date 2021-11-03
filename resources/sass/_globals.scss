@@ -188,6 +188,10 @@ $grey: #D3D3D3;
                         fill: #fff;
                     }
                 }
+
+                &:nth-child(2) {
+                    margin: 0 10px;
+                }
             }
         }
 

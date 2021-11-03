@@ -254,6 +254,10 @@ footer {
 
                         a {
                             padding-left: 0;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }
