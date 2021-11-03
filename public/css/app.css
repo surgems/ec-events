@@ -202,6 +202,7 @@
   /* BUTTONS */
   /* FORM */
   /* SOCIALS */
+  /* OWL CAROUSEL */
 }
 * body.no-scroll {
   overflow-y: hidden;
@@ -362,6 +363,14 @@
 }
 * body .socials a:focus .bg {
   fill: #100C08;
+}
+* body .owl-stage {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+* body .owl-stage:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 * a {
   width: -webkit-fit-content;
@@ -634,23 +643,55 @@ main.home section#rides .carousel-container .owl-carousel .owl-item {
   padding: 0 17.5vw;
 }
 main.home section#rides .carousel-container .owl-carousel .owl-item h3 {
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
 }
 main.home section#rides .carousel-container .owl-carousel .owl-item:hover h3 {
   color: #F71541;
+}
+main.home section#rides .carousel-container .owl-carousel .owl-item:hover figure::before {
+  -webkit-animation: shine 0.75s;
+  animation: shine 0.75s;
 }
 main.home section#rides .carousel-container .owl-carousel .owl-item:hover img {
   transform: scale(1.05);
 }
 main.home section#rides .carousel-container .owl-carousel .owl-item .img-container {
-  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+main.home section#rides .carousel-container .owl-carousel .owl-item .img-container figure {
+  position: relative;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-bottom: 15px;
+  overflow: hidden;
 }
-main.home section#rides .carousel-container .owl-carousel .owl-item .img-container img {
+main.home section#rides .carousel-container .owl-carousel .owl-item .img-container figure img {
+  width: 100%;
+  height: auto;
   transition-duration: 0.5s;
+}
+main.home section#rides .carousel-container .owl-carousel .owl-item .img-container figure::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  transform: skewX(-25deg);
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
 }
 main.home section#rides .carousel-container .owl-custom-nav .owl-nav-custom {
   width: -webkit-fit-content;
@@ -1013,6 +1054,8 @@ main.home section#partners .bottom picture img {
     /* WHAT */
     /* SKYWHEEL */
     /* RIDES */
+    /* MAP */
+    /* PARTNERS */
   }
   main.home header > div.red {
     width: 21.5vw;
@@ -1113,6 +1156,71 @@ main.home section#partners .bottom picture img {
   }
   main.home section#rides .carousel-container .owl-custom-nav .owl-nav-custom:nth-child(2) {
     right: -4%;
+  }
+  main.home section#map {
+    display: flex;
+    align-items: none;
+    justify-content: none;
+    flex-wrap: none;
+    flex-direction: none;
+    margin: 80px 0;
+    margin-bottom: 160px;
+    padding: 100px;
+  }
+  main.home section#map .top {
+    width: 60%;
+  }
+  main.home section#map .bottom {
+    width: 40%;
+    padding-left: 80px;
+  }
+  main.home section#map img {
+    width: 100%;
+  }
+  main.home section#map h3, main.home section#map h2 {
+    width: 100%;
+    padding-left: 40px;
+    height: 100px;
+    line-height: 50px;
+  }
+  main.home section#partners {
+    display: flex;
+    align-items: 0;
+    justify-content: space-between;
+    flex-wrap: 0;
+    flex-direction: row-reverse;
+    position: relative;
+    margin: 80px 140px;
+    margin-bottom: 160px;
+  }
+  main.home section#partners .title {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+  }
+  main.home section#partners .title h3 {
+    font-size: 30px;
+  }
+  main.home section#partners > div {
+    width: 48.5%;
+    padding: 0 !important;
+  }
+  main.home section#partners > div.top .owl-item > div {
+    padding: 60px;
+    padding-top: 40px;
+  }
+  main.home section#partners > div.top .owl-item > div p {
+    margin-top: 30px;
+  }
+  main.home section#partners > div.bottom {
+    padding-top: 20vh !important;
+    justify-content: flex-start;
+    margin-left: -2%;
+    width: 50.5%;
+  }
+  main.home section#partners > div.bottom picture {
+    width: 25%;
+    padding: 0 4%;
   }
 }
 header #nav {

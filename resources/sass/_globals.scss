@@ -217,6 +217,16 @@ $grey: #D3D3D3;
                 }
             }
         }
+
+        /* OWL CAROUSEL */
+
+        .owl-stage {
+            cursor: grab;
+
+            &:active {
+                cursor: grabbing;
+            }
+        }
     }
 
     a {

@@ -175,12 +175,11 @@ main.home {
             margin-top: 30px;
 
             .owl-carousel {
-                // z-index: 1;
                 .owl-item {
                     padding: 0 17.5vw;
     
                     h3 {
-                        transition-duration: .7s;
+                        transition-duration: .5s;
                     }
     
                     &:hover {
@@ -188,18 +187,51 @@ main.home {
                             color: $red;
                         }
 
+                        figure::before {
+                            -webkit-animation: shine .75s;
+                            animation: shine .75s;
+                        }
+
                         img {
                             transform: scale(1.05);
                         }
                     }
-    
-                    .img-container {
-                        overflow: hidden;
-                        height: fit-content;
-                        margin-bottom: 15px;
 
-                        img {
-                            transition-duration: .5s;
+                    .img-container {
+                        width: 100%;
+                        margin-bottom: 20px;
+
+                        figure {
+                            position: relative;
+                            height: fit-content;
+                            overflow: hidden;
+    
+                            img {
+                                width: 100%;
+                                height: auto;
+                                transition-duration: .5s;
+                            }
+
+                            &::before {
+                                position: absolute;
+                                top: 0;
+                                left: -75%;
+                                z-index: 2;
+                                display: block;
+                                content: '';
+                                width: 50%;
+                                height: 100%;
+                                background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+                                background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+                                -webkit-transform: skewX(-25deg);
+                                transform: skewX(-25deg);
+                            }
+                        }
+                    }
+
+                    @keyframes shine {
+                        100% {
+                            left: 125%;
                         }
                     }
                 }
@@ -801,6 +833,84 @@ main.home {
                         &:nth-child(2) {
                             right: -4%;
                         }
+                    }
+                }
+            }
+        }
+
+         /* MAP */
+
+         section#map {
+             @include flex();
+             margin: 80px 0;
+             margin-bottom: 160px;
+             padding: 100px;
+
+             .top {
+                 width: 60%;
+             }
+
+             .bottom {
+                 width: 40%;
+                 padding-left: 80px;
+             }
+
+             img {
+                 width: 100%;
+             }
+
+             h3, h2 {
+                 width: 100%;
+                 padding-left: 40px;
+                 height: 100px;
+                 line-height: 50px;
+             }
+        }
+
+        /* PARTNERS */
+
+        section#partners {
+            @include flex(0, space-between, 0, row-reverse);
+            position: relative;
+            margin: 80px $bigDesktopPaddingX;
+            margin-bottom: 160px;
+
+            .title {
+                position: absolute;
+                top: 10vh;
+                left: 0;
+
+                h3 {
+                    font-size: 30px;
+                }
+            }
+
+            > div {
+                width: 48.5%;
+                padding: 0 !important;
+
+                &.top {
+                    .owl-item {
+                        > div {
+                            padding: 60px;
+                            padding-top: 40px;
+
+                            p {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+
+                &.bottom {
+                    padding-top: 20vh !important;
+                    justify-content: flex-start;
+                    margin-left: -2%;
+                    width: 50.5%;
+
+                    picture {
+                        width: 25%;
+                        padding: 0 4%;
                     }
                 }
             }
