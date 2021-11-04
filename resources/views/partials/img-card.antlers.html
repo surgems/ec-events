@@ -1,0 +1,26 @@
+<section id="img-card">
+    {{ img_card }}
+        <div class="top">
+            <h2 class="reveal-left">{{ title }}</h2>
+            <h3 class="reveal-right">{{ subtitle }}</h3>
+            
+            <div class="content">
+                {{ content }}
+            </div>
+
+            {{ if button_text }}
+                <div class="button"> 
+                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
+                </div>
+            {{ endif }}
+        </div>
+
+        <div class="bottom">
+            <picture>
+                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+            
+                <img loading="lazy" class="reveal-bottom" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+            </picture>
+        </div>
+    {{ /img_card }}
+</section>

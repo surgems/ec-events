@@ -285,7 +285,7 @@ sections:
     display: 'The Sky Wheel'
     fields:
       -
-        handle: the_sky_wheel
+        handle: img_card
         field:
           collapse: false
           max_sets: 1

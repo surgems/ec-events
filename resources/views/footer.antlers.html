@@ -102,7 +102,7 @@
                         <picture>
                             <source srcset="{{ glide:accreditation width='100px' format='webp' quality='100' }}" type="image/webp">
                         
-                            <img src="{{ glide:accreditation width='100px' format='webp' quality='100' }}" alt="{{ accreditation:alt }}">
+                            <img loading="lazy" src="{{ glide:accreditation width='100px' format='webp' quality='100' }}" alt="{{ accreditation:alt }}">
                         </picture>
                     {{ /accreditations }}
                 </div>
@@ -114,7 +114,7 @@
                         <picture>
                             <source srcset="{{ glide:details:logo width='100px' format='webp' quality='100' }}" type="image/webp">
                         
-                            <img id="footer-logo" src="{{ glide:details:logo width='100px' format='webp' quality='100' }}" alt="{{details:logo:alt}}">
+                            <img loading="lazy" id="footer-logo" src="{{ glide:details:logo width='100px' format='webp' quality='100' }}" alt="{{details:logo:alt}}">
                         </picture>
                     </a>
     

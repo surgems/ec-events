@@ -11,31 +11,7 @@
         {{ /hero }}
     </header>
 
-    <section id="who">
-        {{ who }}
-            <div class="top">
-                <h2 class="reveal-left">{{ title }}</h2>
-                {{ content }}
-                <div class="button"> 
-                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
-                </div>
-            </div>
-            
-            <div class="bottom">
-                <picture>
-                    <source srcset="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                
-                    <img class="reveal-left" src="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" alt="{{ landscape_image:alt }}">
-                </picture>
-
-                <picture>
-                    <source srcset="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                
-                    <img class="reveal-bottom" src="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" alt="{{ portrait_image:alt }}">
-                </picture>
-            </div>
-        {{ /who }}
-    </section>
+    {{ partial:partials/who }}
 
     <section id="what">
         {{ what }}
@@ -47,7 +23,7 @@
                         <picture>
                             <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
                         
-                            <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
                         </picture>
 
                         <div>
@@ -63,26 +39,7 @@
         {{ /what }}
     </section>
 
-    <section id="skywheel">
-        {{ the_sky_wheel }}
-            <div class="top">
-                <h2 class="reveal-left">{{ title }}</h2>
-                <h3 class="reveal-right">{{ subtitle }}</h3>
-                {{ content }}
-                <div class="button"> 
-                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
-                </div>
-            </div>
-
-            <div class="bottom">
-                <picture>
-                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
-                
-                    <img class="reveal-bottom" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
-                </picture>
-            </div>
-        {{ /the_sky_wheel }}
-    </section>
+    {{ partial:partials/img-card }}
 
     <section id="rides">
         {{ rides_and_attractions }}
@@ -97,17 +54,10 @@
                                     <picture>
                                         <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
                                     
-                                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                                        <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
                                     </picture>
                                 </figure>
                             </div>
-                            {{# <div class="img-container">
-                                <picture>
-                                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                
-                                    <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
-                                </picture>
-                            </div> #}}
 
                             <h3>{{ title }}</h3>
                         </a>
@@ -149,7 +99,7 @@
                 <picture>
                     <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
                 
-                    <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                    <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
                 </picture>
             </div>
 
@@ -195,7 +145,7 @@
                     <picture>
                         <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
                     
-                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                        <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
                     </picture>
                 {{ /partner_images }}
             </div>

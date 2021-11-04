@@ -1,0 +1,32 @@
+<section id="who">
+    {{ who }}
+        <div class="top">
+            {{ if url === '/' }}
+                <h2 class="reveal-left">{{ title }}</h2>
+            {{ else }}
+                <h3>{{ title }}</h3>
+            {{ endif }}
+
+            {{ content }}
+            {{ if button_text }}
+                <div class="button"> 
+                    <a href="{{ button_link }}" class="inner-btn animated-button">{{ button_text }}</a> 
+                </div>
+            {{ endif }}
+        </div>
+        
+        <div class="bottom">
+            <picture>
+                <source srcset="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" type="image/webp">
+            
+                <img loading="lazy" class="reveal-left" src="{{ glide:landscape_image width='100px' format='webp' quality='100' }}" alt="{{ landscape_image:alt }}">
+            </picture>
+
+            <picture>
+                <source srcset="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" type="image/webp">
+            
+                <img loading="lazy" class="reveal-bottom" src="{{ glide:portrait_image width='100px' format='webp' quality='100' }}" alt="{{ portrait_image:alt }}">
+            </picture>
+        </div>
+    {{ /who }}
+</section>

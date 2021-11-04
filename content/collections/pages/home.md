@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1635934842
+updated_at: 1636019052
 template: home
 noindex_page: false
 hero:
@@ -25,7 +25,7 @@ who:
     type: who
     enabled: true
     button_text: 'MORE INFO'
-    button_link: /who-we-are
+    button_link: 'entry::d5cf8bc4-8346-4fa5-870d-4605b84b7b12'
     landscape_image: who-we-are-image1.png
     portrait_image: who-we-are-image2.png
 what:
@@ -231,4 +231,20 @@ partners:
         image: 'Newcastle City Council 2.png'
         type: partner_images
         enabled: true
+img_card:
+  -
+    title: 'The Sky Wheel'
+    subtitle: '35 Meters'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar. Duis id ultrices nunc, a cursus sem. Vestibulum eu diam sit amet orci malesuada gravida. Sed pretium, velit a tincidunt imperdiet, tortor tortor tristique tellus, vitae ornare odio est at neque. Nulla quis ligula ac.'
+    button_text: 'MORE INFO'
+    button_link: /the-sky-wheel
+    image: big-wheel.png
+    type: the_sky_wheel
+    enabled: true
 ---

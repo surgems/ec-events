@@ -45,6 +45,10 @@ $grey: #D3D3D3;
     padding: 0;
     box-sizing: border-box;
 
+    ::selection {
+        background-color: $red;
+    }
+
     body { 
         padding-top: $mobNavHeight;
 
@@ -55,10 +59,57 @@ $grey: #D3D3D3;
         main {
             min-height: 75vh;
             z-index: -1;
+
+            /* HEADER */
+
+            &:not(.home) {
+                header {
+                    position: relative;
+                    height: 25vh;
+                    background-size: cover;
+                    background-position: center top;
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100vw;
+                        height: 100%;
+                    }
+
+                    h1 {
+                        @include mont(900, 24px);
+                        color: #fff;
+                        position: absolute;
+                        left: $bigMobPaddingX;
+                        bottom: 3.5vh;
+                    }
+                }
+            }
         }
 
         .flex {
             @include flex(0);
+        }
+
+        .content {
+            a {
+                @include sans(600, 14px);
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            li {
+                list-style-position: inside;
+                margin: 30px 0;
+
+                p {
+                    @include sans(400, 16px);
+                    display: inline;
+                }
+            }
         }
 
         /* ACCORDION */
@@ -271,6 +322,11 @@ $grey: #D3D3D3;
         color: $dblue;
     }
 
+    h4 {
+        @include mont(800, 24px);
+        color: $dblue;
+    }
+
     p {
         @include sans(400, 14px);
     }
@@ -278,6 +334,58 @@ $grey: #D3D3D3;
     picture {
         font-size: 0;
         line-height: 0;
+
+        img {
+            display: block;
+        }
+    }
+}
+
+/* LANDSCAPE MOBILE */
+
+@media #{$landscape-mobile} {
+    * {
+        body {
+            main {
+                &:not(.home) {
+                    /* HEADER */
+
+                    header {
+                        height: 70vh !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* TABLET */
+
+// @media #{$portrait-tablet} {
+//     * {
+//         body {
+//         }
+//     }
+// }
+
+@media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+    * {
+        body {
+            main {
+                &:not(.home) {
+                    /* HEADER */
+
+                    header {
+                        height: 40vh;
+
+                        h1 {
+                            left: $tabletPaddingX;
+                            font-size: 48px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -288,12 +396,44 @@ $grey: #D3D3D3;
         body {
             padding-top: $desktopNavHeight !important;
 
+            main {
+                &:not(.home) {
+                    /* HEADER */
+
+                    header {
+                        height: 45vh;
+
+                        h1 {
+                            left: $bigDesktopPaddingX;
+                        }
+                    }
+                }
+            }
+
+            .content {
+                a {
+                    font-size: 16px;
+                }
+
+                li {
+                    margin: 50px 0;
+
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+
             h2 {
                 font-size: 52px;
             }
 
             h3 {
                 font-size: 22px;
+            }
+
+            h4 {
+                font-size: 52px;
             }
 
             p {

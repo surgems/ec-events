@@ -1,0 +1,387 @@
+title: 'Who we are?'
+sections:
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+  hero:
+    display: Hero
+    fields:
+      -
+        handle: hero
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            hero:
+              display: Hero
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+          display: Hero
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  who:
+    display: 'Who we are'
+    fields:
+      -
+        handle: who
+        field:
+          collapse: false
+          sets:
+            who:
+              display: 'Who we are'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: landscape_image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'Landscape Image'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: portrait_image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: 'Portrait Image'
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+          display: 'Who we are'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          max_sets: 1
+  our_history:
+    display: 'Our History'
+    fields:
+      -
+        handle: our_history
+        field:
+          collapse: false
+          sets:
+            our_history:
+              display: 'Our History'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: subtitle
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Subtitle
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+          display: 'Our History'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          max_sets: 1
+  our_values:
+    display: 'Our Values'
+    fields:
+      -
+        handle: img_card
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            img_card:
+              display: 'Our Values'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: content
+                  field:
+                    always_show_set_button: false
+                    buttons:
+                      - h2
+                      - h3
+                      - bold
+                      - italic
+                      - unorderedlist
+                      - orderedlist
+                      - removeformat
+                      - quote
+                      - anchor
+                      - image
+                      - table
+                    save_html: false
+                    toolbar_mode: fixed
+                    link_noopener: false
+                    link_noreferrer: false
+                    target_blank: false
+                    reading_time: false
+                    fullscreen: true
+                    allow_source: true
+                    enable_input_rules: true
+                    enable_paste_rules: true
+                    display: Content
+                    type: bard
+                    icon: bard
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: image
+                  field:
+                    mode: list
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+          display: 'Our Values'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  the_team:
+    display: 'The Team'
+    fields:
+      -
+        handle: the_team
+        field:
+          collapse: false
+          max_sets: 1
+          sets:
+            the_team:
+              display: 'The Team'
+              fields:
+                -
+                  handle: title
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Title
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: members
+                  field:
+                    collapse: false
+                    sets:
+                      members:
+                        display: Members
+                        fields:
+                          -
+                            handle: image
+                            field:
+                              mode: list
+                              container: assets
+                              restrict: false
+                              allow_uploads: true
+                              show_filename: true
+                              max_files: 1
+                              display: Image
+                              type: assets
+                              icon: assets
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: name
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Name
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                          -
+                            handle: role
+                            field:
+                              input_type: text
+                              antlers: false
+                              display: Role
+                              type: text
+                              icon: text
+                              listable: hidden
+                              instructions_position: above
+                    display: Members
+                    type: replicator
+                    icon: replicator
+                    listable: hidden
+                    instructions_position: above
+          display: 'The Team'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
