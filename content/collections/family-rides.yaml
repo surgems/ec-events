@@ -1,0 +1,13 @@
+title: 'Family Rides'
+template: rides-and-attractions/show
+layout: layout
+mount: 2f4f33ef-9b9e-45a2-a1e9-25f1afd3294d
+taxonomies:
+  - ride_capacity
+  - ride_height
+revisions: false
+route: '/{{slug}}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

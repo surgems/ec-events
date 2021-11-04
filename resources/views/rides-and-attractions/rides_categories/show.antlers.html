@@ -1,0 +1,12 @@
+<main class="ride-category">
+
+    {{ collection:{{slug}} as="rides" paginate="true" limit="9" }}
+
+        {{ rides }}
+            <a href="{{ ride_slug }}">{{title}}</a> <br>
+        {{ /rides }}
+
+        {{ partial:templates/pagination }}
+
+    {{ /collection:{{slug}} }}
+</main>

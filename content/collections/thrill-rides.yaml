@@ -1,0 +1,13 @@
+title: 'Thrill Rides'
+template: rides-and-attractions/show
+layout: layout
+mount: 091c81e4-b90d-4e44-aebb-71793869d197
+taxonomies:
+  - ride_capacity
+  - ride_height
+revisions: false
+route: '/{{slug}}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

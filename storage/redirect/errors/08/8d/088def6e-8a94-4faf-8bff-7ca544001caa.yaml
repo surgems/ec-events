@@ -1,0 +1,13 @@
+id: 088def6e-8a94-4faf-8bff-7ca544001caa
+url: /ride-height/meters
+hits:
+  -
+    timestamp: 1636041949
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/cp/taxonomies/ride_height/terms/meters/default'
+hitsCount: 1
+latest: 1636041949
+handled: false
+lastSeenAt: 1636041949

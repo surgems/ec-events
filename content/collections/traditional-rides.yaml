@@ -1,0 +1,13 @@
+title: 'Traditional Rides'
+template: rides-and-attractions/show
+layout: layout
+mount: 9bf24a75-a363-474b-bfc9-adc6cdad0d90
+taxonomies:
+  - ride_height
+  - ride_capacity
+revisions: false
+route: '/{{slug}}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

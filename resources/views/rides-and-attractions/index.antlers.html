@@ -1,0 +1,16 @@
+<main class="ride-category">
+
+    {{# {{ taxonomy from="ride_height" }}
+        <a href="/family-rides{{ url }}">{{ title }}</a> <br> <br>
+    {{ /taxonomy }} #}}
+
+    {{ collection:{{slug}} as="rides" paginate="true" limit="9" }}
+
+        {{ rides }}
+            <a href="{{ slug }}">{{title}}</a> <br>
+        {{ /rides }}
+
+        {{ partial:templates/pagination }}
+
+    {{ /collection:{{slug}} }}
+</main>

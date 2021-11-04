@@ -1,0 +1,13 @@
+id: c2857714-2422-45ce-a56b-8bd18af3df52
+url: /winter-attractions
+hits:
+  -
+    timestamp: 1636043724
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/giant-attractions'
+hitsCount: 1
+latest: 1636043724
+handled: false
+lastSeenAt: 1636043724

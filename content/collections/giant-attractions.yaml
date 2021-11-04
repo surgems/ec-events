@@ -1,0 +1,13 @@
+title: 'Giant Attractions'
+template: rides-and-attractions/show
+layout: layout
+mount: a68773a1-f6c1-45fe-87a6-149c70625eaf
+taxonomies:
+  - ride_height
+  - ride_capacity
+revisions: false
+route: '/{{slug}}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

@@ -1,11 +1,6 @@
 title: Testimonials
-template: testimonials/show
 layout: layout
-mount: 336b2ef8-989c-41e0-8710-753e84409014
-taxonomies:
-  - testimonial_categories
 revisions: false
-route: '/testimonials/{slug}'
 sort_dir: desc
 date_behavior:
   past: public

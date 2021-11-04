@@ -10,8 +10,13 @@ sections:
           required: true
           validate:
             - required
+          display: Title
+          instructions_position: above
+          listable: hidden
+          input_type: text
+          antlers: false
       -
-        handle: content
+        handle: testimonial
         field:
           always_show_set_button: false
           buttons:
@@ -38,10 +43,21 @@ sections:
           allow_source: true
           enable_input_rules: true
           enable_paste_rules: true
-          display: Content
+          display: Testimonial
           type: bard
           icon: bard
           listable: hidden
+          instructions_position: above
+      -
+        handle: client_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Client Name'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
   sidebar:
     display: Sidebar
     fields:
@@ -53,42 +69,3 @@ sections:
           localizable: true
           validate:
             - required
-      -
-        handle: date
-        field:
-          mode: single
-          time_enabled: false
-          time_required: false
-          earliest_date: '1900-01-01'
-          full_width: false
-          inline: false
-          columns: 1
-          rows: 1
-          display: Date
-          type: date
-          icon: date
-          listable: hidden
-      -
-        handle: author
-        field:
-          input_type: text
-          antlers: false
-          display: Author
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: testimonial_categories
-        field:
-          type: terms
-          taxonomies:
-            - testimonial_categories
-          display: 'Testimonial Categories'
-          mode: select
-          listable: hidden
-          create: true
-  seo:
-    display: SEO
-    fields:
-      -
-        import: seo

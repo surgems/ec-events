@@ -1,0 +1,48 @@
+title: 'Family Rides'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+          display: Slug
+          instructions_position: above
+          listable: hidden
+          generate: true
+      -
+        handle: ride_capacity
+        field:
+          type: terms
+          taxonomies:
+            - ride_capacity
+          display: 'Ride Capacity'
+          mode: select
+      -
+        handle: ride_height
+        field:
+          type: terms
+          taxonomies:
+            - ride_height
+          display: 'Ride height'
+          mode: select

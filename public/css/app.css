@@ -757,6 +757,153 @@ section#img-card .bottom img {
   }
 }
 
+/* PARTNERS */
+section#partners {
+  padding: 40px 0;
+}
+section#partners .title {
+  padding: 0 36px;
+}
+section#partners .title h3 {
+  color: #F71541;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+section#partners .title p {
+  font-size: 16px;
+}
+section#partners .top {
+  padding: 50px 10px;
+}
+section#partners .top .owl-item {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+section#partners .top .owl-item > div {
+  border: 1px solid #EBEBEB;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 30px 20px 50px 20px;
+}
+section#partners .top .owl-item svg {
+  margin-bottom: 20px;
+}
+section#partners .top .owl-item .name {
+  margin-top: 60px;
+  font-size: 16px;
+}
+section#partners .top .owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: none;
+  flex-direction: none;
+}
+section#partners .top .owl-dots button {
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 100%;
+  background: #D3D3D3;
+  margin: 0 10px;
+}
+section#partners .top .owl-dots button.active {
+  background: #202E7A;
+}
+section#partners .bottom {
+  display: flex;
+  align-items: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: none;
+  padding: 40px 18px;
+}
+section#partners .bottom picture {
+  width: 42.5%;
+  height: auto;
+}
+section#partners .bottom picture img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) and (min-width: 500px) and (max-height: 1024px) {
+  section#partners .title {
+    padding: 0 10vw;
+  }
+  section#partners .top {
+    padding: 50px 10vw;
+  }
+  section#partners .bottom {
+    padding: 40px 10vw;
+  }
+  section#partners .bottom picture {
+    width: 20%;
+    height: auto;
+  }
+  section#partners .bottom picture img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-height: 768px) and (max-width: 1024px) and (min-width: 500px), only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
+  section#partners .title {
+    padding: 0 10vw;
+  }
+  section#partners .top {
+    padding: 50px 10vw;
+  }
+  section#partners .bottom {
+    padding: 40px 10vw;
+  }
+  section#partners .bottom picture {
+    width: 20%;
+    height: auto;
+  }
+  section#partners .bottom picture img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
+  section#partners {
+    display: flex;
+    align-items: 0;
+    justify-content: space-between;
+    flex-wrap: 0;
+    flex-direction: row-reverse;
+    position: relative;
+    margin: 80px 140px;
+    margin-bottom: 160px;
+  }
+  section#partners .title {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+  }
+  section#partners .title h3 {
+    font-size: 30px;
+  }
+  section#partners > div {
+    width: 48.5%;
+    padding: 0 !important;
+  }
+  section#partners > div.top .owl-item > div {
+    padding: 60px;
+    padding-top: 40px;
+  }
+  section#partners > div.top .owl-item > div p {
+    margin-top: 30px;
+  }
+  section#partners > div.bottom {
+    padding-top: 20vh !important;
+    justify-content: flex-start;
+    margin-left: -2%;
+    width: 50.5%;
+  }
+  section#partners > div.bottom picture {
+    width: 25%;
+    padding: 0 4%;
+  }
+}
+
 .reveal-left {
   transform: translateX(-35px);
   transition: 0.8s ease-out;
@@ -828,7 +975,6 @@ main.home {
   /* WHAT */
   /* RIDES */
   /* MAP */
-  /* PARTNERS */
 }
 main.home header {
   display: flex;
@@ -994,72 +1140,6 @@ main.home section#map h3:nth-child(8) {
 main.home section#map h3:nth-child(10) {
   background: #121E5C;
 }
-main.home section#partners {
-  padding: 40px 0;
-}
-main.home section#partners .title {
-  padding: 0 36px;
-}
-main.home section#partners .title h3 {
-  color: #F71541;
-  margin-bottom: 20px;
-  font-weight: 900;
-}
-main.home section#partners .title p {
-  font-size: 16px;
-}
-main.home section#partners .top {
-  padding: 50px 10px;
-}
-main.home section#partners .top .owl-item {
-  padding: 0 10px;
-  margin-bottom: 40px;
-}
-main.home section#partners .top .owl-item > div {
-  border: 1px solid #EBEBEB;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-  padding: 30px 20px 50px 20px;
-}
-main.home section#partners .top .owl-item svg {
-  margin-bottom: 20px;
-}
-main.home section#partners .top .owl-item .name {
-  margin-top: 60px;
-  font-size: 16px;
-}
-main.home section#partners .top .owl-dots {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: none;
-  flex-direction: none;
-}
-main.home section#partners .top .owl-dots button {
-  min-width: 20px;
-  min-height: 20px;
-  border-radius: 100%;
-  background: #D3D3D3;
-  margin: 0 10px;
-}
-main.home section#partners .top .owl-dots button.active {
-  background: #202E7A;
-}
-main.home section#partners .bottom {
-  display: flex;
-  align-items: 0;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: none;
-  padding: 40px 18px;
-}
-main.home section#partners .bottom picture {
-  width: 42.5%;
-  height: auto;
-}
-main.home section#partners .bottom picture img {
-  width: 100%;
-  margin-bottom: 20px;
-}
 
 /* LANDSCAPE MOBILE */
 @media only screen and (max-width: 770px) and (min-width: 500px) and (max-height: 400px) {
@@ -1086,7 +1166,6 @@ main.home section#partners .bottom picture img {
     /* WHAT */
     /* RIDES */
     /* MAP */
-    /* PARTNERS */
   }
   main.home header > div:nth-child(1) {
     height: 20vh;
@@ -1123,23 +1202,6 @@ main.home section#partners .bottom picture img {
   main.home section#map h2, main.home section#map h3 {
     padding: 25px 18px;
   }
-  main.home section#partners .title {
-    padding: 0 10vw;
-  }
-  main.home section#partners .top {
-    padding: 50px 10vw;
-  }
-  main.home section#partners .bottom {
-    padding: 40px 10vw;
-  }
-  main.home section#partners .bottom picture {
-    width: 20%;
-    height: auto;
-  }
-  main.home section#partners .bottom picture img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
 }
 @media only screen and (max-height: 768px) and (max-width: 1024px) and (min-width: 500px), only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
   main.home {
@@ -1147,7 +1209,6 @@ main.home section#partners .bottom picture img {
     /* WHAT */
     /* RIDES */
     /* MAP */
-    /* PARTNERS */
   }
   main.home header {
     flex-direction: row;
@@ -1207,23 +1268,6 @@ main.home section#partners .bottom picture img {
   main.home section#map h2, main.home section#map h3 {
     padding: 25px 18px;
   }
-  main.home section#partners .title {
-    padding: 0 10vw;
-  }
-  main.home section#partners .top {
-    padding: 50px 10vw;
-  }
-  main.home section#partners .bottom {
-    padding: 40px 10vw;
-  }
-  main.home section#partners .bottom picture {
-    width: 20%;
-    height: auto;
-  }
-  main.home section#partners .bottom picture img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
 }
 /* DESKTOP */
 @media only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
@@ -1232,7 +1276,6 @@ main.home section#partners .bottom picture img {
     /* WHAT */
     /* RIDES */
     /* MAP */
-    /* PARTNERS */
   }
   main.home header > div.red {
     width: 21.5vw;
@@ -1314,45 +1357,6 @@ main.home section#partners .bottom picture img {
     padding-left: 40px;
     height: 100px;
     line-height: 50px;
-  }
-  main.home section#partners {
-    display: flex;
-    align-items: 0;
-    justify-content: space-between;
-    flex-wrap: 0;
-    flex-direction: row-reverse;
-    position: relative;
-    margin: 80px 140px;
-    margin-bottom: 160px;
-  }
-  main.home section#partners .title {
-    position: absolute;
-    top: 10vh;
-    left: 0;
-  }
-  main.home section#partners .title h3 {
-    font-size: 30px;
-  }
-  main.home section#partners > div {
-    width: 48.5%;
-    padding: 0 !important;
-  }
-  main.home section#partners > div.top .owl-item > div {
-    padding: 60px;
-    padding-top: 40px;
-  }
-  main.home section#partners > div.top .owl-item > div p {
-    margin-top: 30px;
-  }
-  main.home section#partners > div.bottom {
-    padding-top: 20vh !important;
-    justify-content: flex-start;
-    margin-left: -2%;
-    width: 50.5%;
-  }
-  main.home section#partners > div.bottom picture {
-    width: 25%;
-    padding: 0 4%;
   }
 }
 header #nav {

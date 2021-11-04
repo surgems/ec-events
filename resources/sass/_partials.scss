@@ -250,3 +250,170 @@ section#img-card {
         }
     }
 }
+
+/* PARTNERS */
+
+section#partners {
+    padding: 40px 0; 
+
+    .title {
+        padding: 0 $bigMobPaddingX;
+
+        h3 {
+            color: $red;
+            margin-bottom: 20px;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .top {
+        padding: 50px 10px;
+
+        .owl-item {
+            padding: 0 10px;
+            margin-bottom: 40px;
+
+            > div {
+                border: 1px solid #EBEBEB;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+                padding: 30px 20px 50px 20px;
+            }
+
+            svg {
+                margin-bottom: 20px;
+            }
+
+            .name {
+                margin-top: 60px;
+                font-size: 16px;
+            }
+        }
+
+        .owl-dots {
+            @include flex(center, center);
+
+            button {
+                min-width: 20px;
+                min-height: 20px;
+                border-radius: 100%;
+                background: #D3D3D3;
+                margin: 0 10px;
+
+                &.active {
+                    background: $dblue;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        @include flex(0, space-between, wrap);
+        padding: 40px $smallMobPaddingX;
+
+        picture {
+            width: 42.5%;
+            height: auto;
+            img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @media #{$portrait-tablet} {
+        .title {
+            padding: 0 $tabletPaddingX;
+        }
+
+        .top {
+            padding: 50px $tabletPaddingX;
+        }
+
+        .bottom {
+            padding: 40px $tabletPaddingX;
+
+            picture {
+                width: 20%;
+                height: auto;
+                img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    @media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+        .title {
+            padding: 0 $tabletPaddingX;
+        }
+
+        .top {
+            padding: 50px $tabletPaddingX;
+        }
+
+        .bottom {
+            padding: 40px $tabletPaddingX;
+
+            picture {
+                width: 20%;
+                height: auto;
+                img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    @media #{$laptop}, #{$desktop} {
+        @include flex(0, space-between, 0, row-reverse);
+        position: relative;
+        margin: 80px $bigDesktopPaddingX;
+        margin-bottom: 160px;
+
+        .title {
+            position: absolute;
+            top: 10vh;
+            left: 0;
+
+            h3 {
+                font-size: 30px;
+            }
+        }
+
+        > div {
+            width: 48.5%;
+            padding: 0 !important;
+
+            &.top {
+                .owl-item {
+                    > div {
+                        padding: 60px;
+                        padding-top: 40px;
+
+                        p {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+
+            &.bottom {
+                padding-top: 20vh !important;
+                justify-content: flex-start;
+                margin-left: -2%;
+                width: 50.5%;
+
+                picture {
+                    width: 25%;
+                    padding: 0 4%;
+                }
+            }
+        }
+    }
+}
