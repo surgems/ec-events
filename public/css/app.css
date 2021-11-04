@@ -226,6 +226,7 @@
   background-position: center top;
 }
 * body main:not(.home) header .overlay {
+  background: linear-gradient(130deg, rgba(229, 3, 49, 0.2), rgba(64, 69, 95, 0.7));
   position: absolute;
   top: 0;
   left: 0;
@@ -1982,13 +1983,9 @@ footer #footer .bottom .flex .surge-logo path {
   }
 }
 main.who-we-are {
-  /* HEADER */
   /* HISTORY */
   /* OUR VALUES */
   /* THE TEAM */
-}
-main.who-we-are header .overlay {
-  background: linear-gradient(130deg, rgba(229, 3, 49, 0.2), rgba(64, 69, 95, 0.7));
 }
 main.who-we-are section#history {
   padding: 50px 36px;
