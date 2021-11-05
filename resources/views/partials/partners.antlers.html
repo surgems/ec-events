@@ -1,8 +1,10 @@
 <section id="partners">
-    {{ partners }}
+    {{ who_we_have_worked_with:partners }}
         <div class="title">
             <h3 class="reveal-left">{{ title }}</h3>
-            {{ content }}
+            <div class="content">
+                {{ content }}
+            </div>
         </div>
 
         <div class="top">
@@ -18,7 +20,7 @@
                                 </svg>
                                 
                                 {{ testimonial }}
-                                <p class="name"><span>{{ client_name }}</span></p>
+                                <p class="name"><span>{{ title }}</span></p>
                             </div>
                     {{ /collection:testimonials }}
                 </div>
@@ -34,5 +36,5 @@
                 </picture>
             {{ /partner_images }}
         </div>
-    {{ /partners }}
+    {{ /who_we_have_worked_with:partners }}
 </section>

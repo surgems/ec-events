@@ -1,0 +1,59 @@
+title: 'Who we have worked with?'
+data:
+  partners:
+    -
+      title: 'Who have we worked with?'
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'We''ve had the pleasure of working with some fantastic organisation to put on amazing events and shows, check them out.'
+      type: partners
+      enabled: true
+      partner_images:
+        -
+          image: 'Creamfields .png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Durham Council .png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Hull Council 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Kisstory 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'V festival 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Middlesbrough Council 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Global Village Dubai.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Leeds Council 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'EDC Logo 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'EE 2.png'
+          type: partner_images
+          enabled: true
+        -
+          image: 'Newcastle City Council 2.png'
+          type: partner_images
+          enabled: true

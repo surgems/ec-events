@@ -10,7 +10,7 @@ sections:
           required: true
           validate:
             - required
-          display: Title
+          display: 'Client Name'
           instructions_position: above
           listable: hidden
           input_type: text
@@ -46,16 +46,6 @@ sections:
           display: Testimonial
           type: bard
           icon: bard
-          listable: hidden
-          instructions_position: above
-      -
-        handle: client_name
-        field:
-          input_type: text
-          antlers: false
-          display: 'Client Name'
-          type: text
-          icon: text
           listable: hidden
           instructions_position: above
   sidebar:

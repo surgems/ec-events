@@ -1,16 +1,135 @@
-<main class="ride-category">
+{{ collection:{{slug}} as="rides" }}
+    <main class="rides-category">
+        {{ hero }}
+            <header role="heading" style="background-image: url('{{ image }}');">
+                    <div class="overlay"></div>
 
-    {{# {{ taxonomy from="ride_height" }}
-        <a href="/family-rides{{ url }}">{{ title }}</a> <br> <br>
-    {{ /taxonomy }} #}}
+                    <h1 class="reveal-left">{{ title }}</h1>
+            </header>
+        {{ /hero }}
 
-    {{ collection:{{slug}} as="rides" paginate="true" limit="9" }}
+        <div class="content">
+            {{ content }}
+        </div>
 
-        {{ rides }}
-            <a href="{{ slug }}">{{title}}</a> <br>
-        {{ /rides }}
+        <form id="filters">
+            <h3>FILTER RIDES</h3>
 
-        {{ partial:templates/pagination }}
+            <div class="flex">
+                <label>Capacity:
+                    <select class="filter">
+                        <option value="post">Show All</option>
+                        {{ taxonomy from="ride_capacity" }}
+                            <option value="{{ slug }}">{{ title }}</option>
+                        {{ /taxonomy }}
+                    </select>
+                </label>
 
-    {{ /collection:{{slug}} }}
-</main>
+                <label>Height:
+                    <select class="filter">
+                        <option value="post">Show All</option>
+                        {{ taxonomy from="ride_height" }}
+                            <option value="{{ slug }}">{{ title }}</option>
+                        {{ /taxonomy }}
+                    </select>
+                </label>
+            </div>
+
+            <button type="submit" class="shimmer">APPLY</button>
+        </form>
+
+        <div class="posts-wrapper">
+            <div class="posts-container">
+                {{ rides }}
+                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
+                        <a href="{{ slug }}">
+                            <div class="img-container-shimmer">
+                                <figure>
+                                    <picture>
+                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                    </picture>
+                                </figure>
+                            </div>
+            
+                            <h3 class="reveal-left">{{ title }} >></h3>
+                        </a>
+                    </div>
+
+                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
+                        <a href="{{ slug }}">
+                            <div class="img-container-shimmer">
+                                <figure>
+                                    <picture>
+                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                    </picture>
+                                </figure>
+                            </div>
+            
+                            <h3 class="reveal-left">{{ title }} 1 >></h3>
+                        </a>
+                    </div>
+
+                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
+                        <a href="{{ slug }}">
+                            <div class="img-container-shimmer">
+                                <figure>
+                                    <picture>
+                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                    </picture>
+                                </figure>
+                            </div>
+            
+                            <h3 class="reveal-left">{{ title }} 2 >></h3>
+                        </a>
+                    </div>
+
+                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
+                        <a href="{{ slug }}">
+                            <div class="img-container-shimmer">
+                                <figure>
+                                    <picture>
+                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                    </picture>
+                                </figure>
+                            </div>
+            
+                            <h3 class="reveal-left">{{ title }} 3 >></h3>
+                        </a>
+                    </div>
+
+                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
+                        <a href="{{ slug }}">
+                            <div class="img-container-shimmer">
+                                <figure>
+                                    <picture>
+                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                    </picture>
+                                </figure>
+                            </div>
+            
+                            <h3 class="reveal-left">{{ title }} 4 >></h3>
+                        </a>
+                    </div>
+                {{ /rides }}
+            </div>
+        </div>
+
+        <!-- {{ partial:templates/pagination }} -->
+
+        <p>Page <span id="page-num"></span> of <span id="total-pages"></span></p>
+        <button id="prev" class="shimmer">PREV</button> <br><br>
+        <button id="next" class="shimmer">NEXT</button>
+
+        {{ partial:partials/partners }}
+    </main>
+{{ /collection:{{slug}} }}

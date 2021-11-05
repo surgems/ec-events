@@ -187,6 +187,7 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
+          max_sets: 1
   what_we_do:
     display: 'What we do?'
     fields:
@@ -281,6 +282,7 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
+          max_sets: 1
   the_sky_wheel:
     display: 'The Sky Wheel'
     fields:
@@ -452,6 +454,7 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
+          max_sets: 1
   where_we_have_been:
     display: 'Where we have been?'
     fields:
@@ -512,145 +515,6 @@ sections:
                     listable: hidden
                     instructions_position: above
           display: 'Where we have been'
-          type: replicator
-          icon: replicator
-          listable: hidden
-          instructions_position: above
-  who_have_we_worked_with:
-    display: 'Who have we worked with?'
-    fields:
-      -
-        handle: partners
-        field:
-          collapse: false
-          max_sets: 1
-          sets:
-            partners:
-              display: Partners
-              fields:
-                -
-                  handle: title
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Title
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                -
-                  handle: content
-                  field:
-                    always_show_set_button: false
-                    buttons:
-                      - h2
-                      - h3
-                      - bold
-                      - italic
-                      - unorderedlist
-                      - orderedlist
-                      - removeformat
-                      - quote
-                      - anchor
-                      - image
-                      - table
-                    save_html: false
-                    toolbar_mode: fixed
-                    link_noopener: false
-                    link_noreferrer: false
-                    target_blank: false
-                    reading_time: false
-                    fullscreen: true
-                    allow_source: true
-                    enable_input_rules: true
-                    enable_paste_rules: true
-                    display: Content
-                    type: bard
-                    icon: bard
-                    listable: hidden
-                    instructions_position: above
-                -
-                  handle: testimonials
-                  field:
-                    collapse: false
-                    sets:
-                      testimonial:
-                        display: Testimonials
-                        fields:
-                          -
-                            handle: testimonial
-                            field:
-                              always_show_set_button: false
-                              buttons:
-                                - h2
-                                - h3
-                                - bold
-                                - italic
-                                - unorderedlist
-                                - orderedlist
-                                - removeformat
-                                - quote
-                                - anchor
-                                - image
-                                - table
-                              save_html: false
-                              toolbar_mode: fixed
-                              link_noopener: false
-                              link_noreferrer: false
-                              target_blank: false
-                              reading_time: false
-                              fullscreen: true
-                              allow_source: true
-                              enable_input_rules: true
-                              enable_paste_rules: true
-                              display: Testimonial
-                              type: bard
-                              icon: bard
-                              listable: hidden
-                              instructions_position: above
-                          -
-                            handle: client_name
-                            field:
-                              input_type: text
-                              antlers: false
-                              display: 'Client Name'
-                              type: text
-                              icon: text
-                              listable: hidden
-                              instructions_position: above
-                    display: Testimonials
-                    type: replicator
-                    icon: replicator
-                    listable: hidden
-                    instructions_position: above
-                -
-                  handle: partner_images
-                  field:
-                    collapse: false
-                    sets:
-                      partner_images:
-                        display: 'Partner Images'
-                        fields:
-                          -
-                            handle: image
-                            field:
-                              mode: list
-                              container: assets
-                              restrict: false
-                              allow_uploads: true
-                              show_filename: true
-                              max_files: 1
-                              display: Image
-                              type: assets
-                              icon: assets
-                              listable: hidden
-                              instructions_position: above
-                    display: 'Partner Images'
-                    type: replicator
-                    icon: replicator
-                    listable: hidden
-                    instructions_position: above
-          display: Partners
           type: replicator
           icon: replicator
           listable: hidden
