@@ -179,22 +179,7 @@ $(".burger").on("click", function () {
 
 var postContainer = document.getElementsByClassName('posts-container')[0];
 var allEntries = document.getElementsByClassName('post');
-var allEntries2;
 var filteredEntries; // filter functions
-
-var removePosts = function removePosts() {
-  allEntries2 = allEntries;
-
-  for (var i = allEntries2.length - 1; i >= 0; i--) {
-    allEntries[i].classList.add('hidden');
-  }
-};
-
-var addPosts = function addPosts() {
-  for (var i = filteredEntries.length - 1; i >= 0; i--) {
-    filteredEntries[i].classList.remove('hidden');
-  }
-};
 
 function filterSelection(c) {
   var x;
@@ -202,21 +187,14 @@ function filterSelection(c) {
   if (c == "all") c = ""; // Add the "show" class to the filtered elements, and remove the "show" class from the elements that are not selected
 
   for (var i = 0; i < x.length; i++) {
-    RemoveClass(x[i], "current-page show");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "current-page show");
-  } // paginate();
-
-}
-
-function AddClass(element, name) {
-  var classlist = element.className.split(" ");
-  var names = name.split(" ");
-
-  for (var i = 0; i < names.length; i++) {
-    if (classlist.indexOf(names[i]) == -1) {
-      element.className += " " + names[i];
-    }
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
   }
+
+  filteredEntries = document.getElementsByClassName('show');
+  removePosts();
+  addPosts();
+  paginate();
 }
 
 function RemoveClass(element, name) {
@@ -231,14 +209,37 @@ function RemoveClass(element, name) {
   }
 
   element.className = arr1.join(" ");
-} // pagination functions
+}
+
+function AddClass(element, name) {
+  var classlist = element.className.split(" ");
+  var names = name.split(" ");
+
+  for (var i = 0; i < names.length; i++) {
+    if (classlist.indexOf(names[i]) == -1) {
+      element.className += " " + names[i];
+    }
+  }
+}
+
+var removePosts = function removePosts() {
+  for (var i = allEntries.length - 1; i >= 0; i--) {
+    allEntries[i].classList.add('hidden');
+  }
+};
+
+var addPosts = function addPosts() {
+  for (var i = filteredEntries.length - 1; i >= 0; i--) {
+    filteredEntries[i].classList.remove('hidden');
+  }
+}; // pagination functions
 
 
 var posts = postContainer.children;
 var nextPageBtn = document.getElementById('next');
 var prevPageBtn = document.getElementById('prev');
 var numOfPosts = posts.length;
-var limit = 3;
+var limit = 4;
 var numOfPages = Math.ceil(numOfPosts / limit);
 var currentPage = 1;
 var postArr = [];
@@ -255,7 +256,6 @@ function paginate() {
 
 function buildPage(currPage) {
   document.getElementById('page-num').innerHTML = currPage;
-  document.getElementById('total-pages').innerHTML = numOfPages;
   var trimStart = (currPage - 1) * limit;
   var trimEnd = trimStart + limit;
   var postArr2 = [];
@@ -280,16 +280,20 @@ function buildPage(currPage) {
   postArr2.slice(trimStart, trimEnd).forEach(function (el) {
     el.classList.add('current-page');
   });
-  return postArr2.slice(trimStart, trimEnd);
+  numOfPages = Math.ceil(postArr2.length / limit);
+  document.getElementById('total-pages').innerHTML = numOfPages;
 }
 
 ;
 
 function nextPage() {
   if (currentPage < numOfPages) {
+    nextPageBtn.style.display = 'block';
     currentPage++;
     buildPage(currentPage);
   }
+
+  ;
 }
 
 ;
@@ -325,10 +329,6 @@ if (filterForm) {
     }
 
     ;
-    filteredEntries = document.getElementsByClassName('show');
-    removePosts();
-    addPosts();
-    paginate();
   });
 }
 

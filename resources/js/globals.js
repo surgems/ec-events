@@ -6,27 +6,15 @@ $(".burger").on("click", function() {
   $("body").toggleClass("no-scroll");
 });
 
+
+
 /* POST FILTER */
 
 const postContainer = document.getElementsByClassName('posts-container')[0];
 const allEntries = document.getElementsByClassName('post');
-let allEntries2;
 let filteredEntries;
 
 // filter functions
-
-const removePosts = () => {
-  allEntries2 = allEntries;
-  for (let i = allEntries2.length - 1; i >= 0; i--) {
-    allEntries[i].classList.add('hidden');
-  }
-}
-
-const addPosts = () => {
-  for (let i = filteredEntries.length - 1; i >= 0; i--) {
-    filteredEntries[i].classList.remove('hidden');
-  }
-}
 
 function filterSelection(c) {
   var x;
@@ -35,20 +23,14 @@ function filterSelection(c) {
 
   // Add the "show" class to the filtered elements, and remove the "show" class from the elements that are not selected
   for (let i = 0; i < x.length; i++) {
-    RemoveClass(x[i], "current-page show");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "current-page show");
+    RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
   }
-  // paginate();
-}
 
-function AddClass(element, name) {
-  const classlist = element.className.split(" ");
-  const names = name.split(" ");
-  for (let i = 0; i < names.length; i++) {
-  if (classlist.indexOf(names[i]) == -1) {
-      element.className += " " + names[i];
-  }
-  }
+  filteredEntries = document.getElementsByClassName('show');
+  removePosts();
+  addPosts();
+  paginate();
 }
 
 function RemoveClass(element, name) {
@@ -63,6 +45,28 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+function AddClass(element, name) {
+  const classlist = element.className.split(" ");
+  const names = name.split(" ");
+  for (let i = 0; i < names.length; i++) {
+  if (classlist.indexOf(names[i]) == -1) {
+      element.className += " " + names[i];
+  }
+  }
+}
+
+const removePosts = () => {
+  for (let i = allEntries.length - 1; i >= 0; i--) {
+    allEntries[i].classList.add('hidden');
+  }
+}
+
+const addPosts = () => {
+  for (let i = filteredEntries.length - 1; i >= 0; i--) {
+    filteredEntries[i].classList.remove('hidden');
+  }
+}
+
 
 // pagination functions
 
@@ -70,8 +74,8 @@ const posts = postContainer.children;
 const nextPageBtn = document.getElementById('next');
 const prevPageBtn = document.getElementById('prev');
 const numOfPosts = posts.length;
-const limit = 3;
-const numOfPages = Math.ceil(numOfPosts/limit);
+const limit = 4;
+let numOfPages = Math.ceil(numOfPosts/limit);
 let currentPage = 1;
 let postArr = [];
 
@@ -85,7 +89,6 @@ function paginate() {
   
 function buildPage(currPage) {
   document.getElementById('page-num').innerHTML = currPage;
-  document.getElementById('total-pages').innerHTML = numOfPages;
   const trimStart = (currPage-1)*limit;
   const trimEnd = trimStart + limit;
   let postArr2 = [];
@@ -106,14 +109,17 @@ function buildPage(currPage) {
   postArr2.slice(trimStart, trimEnd).forEach(el => {
     el.classList.add('current-page');
   });
-  return postArr2.slice(trimStart, trimEnd);
+
+  numOfPages = Math.ceil(postArr2.length/limit);
+  document.getElementById('total-pages').innerHTML = numOfPages;
 };
 
 function nextPage() {
   if (currentPage < numOfPages) {
-  currentPage++;
-  buildPage(currentPage);
-  }
+    nextPageBtn.style.display = 'block';
+    currentPage++;
+    buildPage(currentPage);
+  };
 };
 
 function prevPage() {
@@ -140,11 +146,6 @@ if (filterForm) {
       for (let i = 0; i < filterForm.length - 1; i++) {
           filterSelection(filters[i].value);
       };
-
-      filteredEntries = document.getElementsByClassName('show');
-      removePosts();
-      addPosts();
-      paginate();
   });
 };
 paginate();
