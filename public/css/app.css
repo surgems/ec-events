@@ -454,7 +454,7 @@
   padding: 0 1.25%;
   margin-bottom: 50px;
 }
-* body .posts-wrapper .posts-container .post.show, * body .posts-wrapper .posts-container .post.current-page {
+* body .posts-wrapper .posts-container .post.current-page {
   display: block;
 }
 * body .posts-wrapper .posts-container .post h3 {

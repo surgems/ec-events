@@ -177,26 +177,36 @@ $(".burger").on("click", function () {
 });
 /* POST FILTER */
 
+var postContainer = document.getElementsByClassName('posts-container')[0];
+var allEntries = document.getElementsByClassName('post');
+var allEntries2;
+var filteredEntries; // filter functions
+
+var removePosts = function removePosts() {
+  allEntries2 = allEntries;
+
+  for (var i = allEntries2.length - 1; i >= 0; i--) {
+    allEntries[i].classList.add('hidden');
+  }
+};
+
+var addPosts = function addPosts() {
+  for (var i = filteredEntries.length - 1; i >= 0; i--) {
+    filteredEntries[i].classList.remove('hidden');
+  }
+};
+
 function filterSelection(c) {
   var x;
   x = document.getElementsByClassName("post");
   if (c == "all") c = ""; // Add the "show" class to the filtered elements, and remove the "show" class from the elements that are not selected
 
   for (var i = 0; i < x.length; i++) {
-    // let classlist = [];
-    // for (j = 0; j < x[i].classList.length; j++) {
-    //   classlist.push(x[i].classList[j]);
-    // }
-    // if (classlist.includes(c) {
-    //   x[i].classList.add('show');
-    // }
-    RemoveClass(x[i], "current-page");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "current-page");
-  }
+    RemoveClass(x[i], "current-page show");
+    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "current-page show");
+  } // paginate();
 
-  paginate();
-} // Show filtered elements
-
+}
 
 function AddClass(element, name) {
   var classlist = element.className.split(" ");
@@ -207,8 +217,7 @@ function AddClass(element, name) {
       element.className += " " + names[i];
     }
   }
-} // Hide elements that are not selected
-
+}
 
 function RemoveClass(element, name) {
   var i, arr1, arr2;
@@ -222,29 +231,12 @@ function RemoveClass(element, name) {
   }
 
   element.className = arr1.join(" ");
-} // Add active class to the current button (highlight it)
+} // pagination functions
 
 
-var filterForm = document.getElementById("filters");
-
-if (filterForm) {
-  filterForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var filters = document.getElementsByClassName('filter');
-
-    for (var i = 0; i < filterForm.length - 1; i++) {
-      filterSelection(filters[i].value);
-    }
-  });
-}
-
-;
-/* POST PAGINATION */
-
-var postContainer = document.getElementsByClassName('posts-container')[0];
+var posts = postContainer.children;
 var nextPageBtn = document.getElementById('next');
 var prevPageBtn = document.getElementById('prev');
-var posts = postContainer.children;
 var numOfPosts = posts.length;
 var limit = 3;
 var numOfPages = Math.ceil(numOfPosts / limit);
@@ -256,32 +248,39 @@ for (var i = 0; i < posts.length; i++) {
 }
 
 function paginate() {
-  for (var _i = 0; _i < posts.length; _i++) {
-    if (_i > limit - 1) {
-      posts[_i].classList.remove('show');
-    }
-
-    ;
-  }
-
-  ;
   buildPage(currentPage);
 }
 
 ;
 
 function buildPage(currPage) {
-  var trimStart = (currPage - 1) * limit;
-  var trimEnd = trimStart + limit;
   document.getElementById('page-num').innerHTML = currPage;
   document.getElementById('total-pages').innerHTML = numOfPages;
+  var trimStart = (currPage - 1) * limit;
+  var trimEnd = trimStart + limit;
+  var postArr2 = [];
+
+  for (var _i = 0; _i < postArr.length; _i++) {
+    var classlist = [];
+
+    for (var j = 0; j < postArr[_i].classList.length; j++) {
+      classlist.push(postArr[_i].classList[j]);
+    }
+
+    ;
+
+    if (!classlist.includes('hidden')) {
+      postArr2.push(postArr[_i]);
+    }
+  }
+
   postArr.forEach(function (el) {
     el.classList.remove('current-page');
   });
-  postArr.slice(trimStart, trimEnd).forEach(function (el) {
+  postArr2.slice(trimStart, trimEnd).forEach(function (el) {
     el.classList.add('current-page');
   });
-  return postArr.slice(trimStart, trimEnd);
+  return postArr2.slice(trimStart, trimEnd);
 }
 
 ;
@@ -303,9 +302,38 @@ function prevPage() {
 }
 
 ;
-nextPageBtn.addEventListener('click', nextPage);
-prevPageBtn.addEventListener('click', prevPage);
-filterSelection("all");
+
+if (nextPageBtn) {
+  nextPageBtn.addEventListener('click', nextPage);
+}
+
+if (prevPageBtn) {
+  prevPageBtn.addEventListener('click', prevPage);
+} // filter on form submit
+
+
+var filterForm = document.getElementById("filters");
+
+if (filterForm) {
+  // filters posts and adds 'show' class
+  filterForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var filters = document.getElementsByClassName('filter');
+
+    for (var _i2 = 0; _i2 < filterForm.length - 1; _i2++) {
+      filterSelection(filters[_i2].value);
+    }
+
+    ;
+    filteredEntries = document.getElementsByClassName('show');
+    removePosts();
+    addPosts();
+    paginate();
+  });
+}
+
+;
+paginate();
 
 /***/ }),
 
