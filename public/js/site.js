@@ -177,163 +177,169 @@ $(".burger").on("click", function () {
 });
 /* POST FILTER */
 
-var postContainer = document.getElementsByClassName('posts-container')[0];
-var allEntries = document.getElementsByClassName('post');
-var filteredEntries; // filter functions
+if (document.getElementById('has-posts')) {
+  // filter functions
+  var filterSelection = function filterSelection(c) {
+    var x;
+    x = document.getElementsByClassName("post");
+    if (c == "all") c = ""; // Add the "show" class to the filtered elements, and remove the "show" class from the elements that are not selected
 
-function filterSelection(c) {
-  var x;
-  x = document.getElementsByClassName("post");
-  if (c == "all") c = ""; // Add the "show" class to the filtered elements, and remove the "show" class from the elements that are not selected
+    for (var i = 0; i < x.length; i++) {
+      RemoveClass(x[i], "show");
 
-  for (var i = 0; i < x.length; i++) {
-    RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
-  }
-
-  filteredEntries = document.getElementsByClassName('show');
-  removePosts();
-  addPosts();
-  paginate();
-}
-
-function RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+      for (var j = 0; j < c.length; j++) {
+        if (x[i].className.indexOf(c[j]) > -1) AddClass(x[i], "show");
+      }
     }
-  }
 
-  element.className = arr1.join(" ");
-}
+    filteredEntries = document.getElementsByClassName('show');
+    removePosts();
+    addPosts();
+    paginate();
+  };
 
-function AddClass(element, name) {
-  var classlist = element.className.split(" ");
-  var names = name.split(" ");
+  var RemoveClass = function RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
 
-  for (var i = 0; i < names.length; i++) {
-    if (classlist.indexOf(names[i]) == -1) {
-      element.className += " " + names[i];
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
     }
-  }
-}
 
-var removePosts = function removePosts() {
-  for (var i = allEntries.length - 1; i >= 0; i--) {
-    allEntries[i].classList.add('hidden');
-  }
-};
+    element.className = arr1.join(" ");
+  };
 
-var addPosts = function addPosts() {
-  for (var i = filteredEntries.length - 1; i >= 0; i--) {
-    filteredEntries[i].classList.remove('hidden');
-  }
-}; // pagination functions
+  var AddClass = function AddClass(element, name) {
+    var classlist = element.className.split(" ");
+    var names = name.split(" ");
 
+    for (var i = 0; i < names.length; i++) {
+      if (classlist.indexOf(names[i]) == -1) {
+        element.className += " " + names[i];
+      }
+    }
+  };
 
-var posts = postContainer.children;
-var nextPageBtn = document.getElementById('next');
-var prevPageBtn = document.getElementById('prev');
-var numOfPosts = posts.length;
-var limit = 4;
-var numOfPages = Math.ceil(numOfPosts / limit);
-var currentPage = 1;
-var postArr = [];
+  var paginate = function paginate() {
+    buildPage(currentPage);
+  };
 
-for (var i = 0; i < posts.length; i++) {
-  postArr.push(posts[i]);
-}
+  var buildPage = function buildPage(currPage) {
+    document.getElementById('page-num').innerHTML = currPage;
+    var trimStart = (currPage - 1) * limit;
+    var trimEnd = trimStart + limit;
+    var postArr2 = [];
 
-function paginate() {
-  buildPage(currentPage);
-}
+    for (var _i = 0; _i < postArr.length; _i++) {
+      var classlist = [];
 
-;
+      for (var j = 0; j < postArr[_i].classList.length; j++) {
+        classlist.push(postArr[_i].classList[j]);
+      }
 
-function buildPage(currPage) {
-  document.getElementById('page-num').innerHTML = currPage;
-  var trimStart = (currPage - 1) * limit;
-  var trimEnd = trimStart + limit;
-  var postArr2 = [];
+      ;
 
-  for (var _i = 0; _i < postArr.length; _i++) {
-    var classlist = [];
+      if (!classlist.includes('hidden')) {
+        postArr2.push(postArr[_i]);
+      }
+    }
 
-    for (var j = 0; j < postArr[_i].classList.length; j++) {
-      classlist.push(postArr[_i].classList[j]);
+    postArr.forEach(function (el) {
+      el.classList.remove('current-page');
+    });
+    postArr2.slice(trimStart, trimEnd).forEach(function (el) {
+      el.classList.add('current-page');
+    });
+    console.log(postArr2.length);
+    numOfPages = Math.ceil(postArr2.length / limit);
+    document.getElementById('total-pages').innerHTML = numOfPages;
+  };
+
+  var nextPage = function nextPage() {
+    if (currentPage < numOfPages) {
+      nextPageBtn.style.display = 'block';
+      currentPage++;
+      buildPage(currentPage);
     }
 
     ;
+  };
 
-    if (!classlist.includes('hidden')) {
-      postArr2.push(postArr[_i]);
+  var prevPage = function prevPage() {
+    if (currentPage > 1) {
+      currentPage--;
+      buildPage(currentPage);
     }
-  }
+  };
 
-  postArr.forEach(function (el) {
-    el.classList.remove('current-page');
-  });
-  postArr2.slice(trimStart, trimEnd).forEach(function (el) {
-    el.classList.add('current-page');
-  });
-  numOfPages = Math.ceil(postArr2.length / limit);
-  document.getElementById('total-pages').innerHTML = numOfPages;
-}
+  var postContainer = document.getElementsByClassName('posts-container')[0];
+  var allEntries = document.getElementsByClassName('post');
+  var filteredEntries;
 
-;
+  var removePosts = function removePosts() {
+    for (var i = allEntries.length - 1; i >= 0; i--) {
+      allEntries[i].classList.add('hidden');
+    }
+  };
 
-function nextPage() {
-  if (currentPage < numOfPages) {
-    nextPageBtn.style.display = 'block';
-    currentPage++;
-    buildPage(currentPage);
+  var addPosts = function addPosts() {
+    for (var i = filteredEntries.length - 1; i >= 0; i--) {
+      filteredEntries[i].classList.remove('hidden');
+    }
+  }; // pagination functions
+
+
+  var posts = postContainer.children;
+  var nextPageBtn = document.getElementById('next');
+  var prevPageBtn = document.getElementById('prev');
+  var numOfPosts = posts.length;
+  var limit = 4;
+  var numOfPages = Math.ceil(numOfPosts / limit);
+  var currentPage = 1;
+  var postArr = [];
+
+  for (var i = 0; i < posts.length; i++) {
+    postArr.push(posts[i]);
   }
 
   ;
-}
+  ;
+  ;
+  ;
 
-;
-
-function prevPage() {
-  if (currentPage > 1) {
-    currentPage--;
-    buildPage(currentPage);
+  if (nextPageBtn) {
+    nextPageBtn.addEventListener('click', nextPage);
   }
+
+  if (prevPageBtn) {
+    prevPageBtn.addEventListener('click', prevPage);
+  } // filter on form submit
+
+
+  var filterForm = document.getElementById("filters");
+
+  if (filterForm) {
+    // filters posts and adds 'show' class
+    filterForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var filters = document.getElementsByClassName('filter');
+      var filterArr = [];
+
+      for (var _i2 = 0; _i2 < filterForm.length - 1; _i2++) {
+        filterArr.push(filters[_i2].value);
+        filterSelection([filters[_i2].value]);
+      }
+
+      ;
+    });
+  }
+
+  ;
+  paginate();
 }
-
-;
-
-if (nextPageBtn) {
-  nextPageBtn.addEventListener('click', nextPage);
-}
-
-if (prevPageBtn) {
-  prevPageBtn.addEventListener('click', prevPage);
-} // filter on form submit
-
-
-var filterForm = document.getElementById("filters");
-
-if (filterForm) {
-  // filters posts and adds 'show' class
-  filterForm.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var filters = document.getElementsByClassName('filter');
-
-    for (var _i2 = 0; _i2 < filterForm.length - 1; _i2++) {
-      filterSelection(filters[_i2].value);
-    }
-
-    ;
-  });
-}
-
-;
-paginate();
 
 /***/ }),
 
