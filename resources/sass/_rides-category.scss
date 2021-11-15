@@ -83,5 +83,34 @@ main.rides-category {
             padding: 40px $bigDesktopPaddingX;
             padding-top: 50px;
         }
+
+        /* FILTERS */
+
+        form#filters {
+            padding: 20px $bigDesktopPaddingX;
+
+            > div {
+                @include flex();
+            }
+
+            .flex {
+                width: fit-content;
+            }
+
+            label {
+                justify-content: flex-start;
+
+                select {
+                    margin-left: 20px;
+                    width: 215px;
+                }
+            }
+
+            button {
+                position: relative;
+                top: 0;
+                float: none;
+            }
+        }
     }
 }
