@@ -1,0 +1,10 @@
+title: 'Enquiry Form'
+data:
+  title: 'Enquire now?'
+  content:
+    -
+      type: paragraph
+      content:
+        -
+          type: text
+          text: 'If you''re interested in hiring out any of our rides or have any events planned, get in touch to see what we could do for you.'

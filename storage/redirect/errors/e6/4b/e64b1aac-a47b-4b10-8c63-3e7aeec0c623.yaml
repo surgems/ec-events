@@ -1,0 +1,13 @@
+id: e64b1aac-a47b-4b10-8c63-3e7aeec0c623
+url: '/[object%20HTMLImageElement]'
+hits:
+  -
+    timestamp: 1636974687
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/carousel'
+hitsCount: 1
+latest: 1636974687
+handled: false
+lastSeenAt: 1636974687

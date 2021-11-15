@@ -417,3 +417,40 @@ section#partners {
         }
     }
 }
+
+/* ENQUIRY FORM */
+
+div.enquiry-form {
+    width: 100%;
+    background: $dblue;
+    padding: 30px $smallMobPaddingX;
+
+    h3, a, p {
+        color: #fff;
+    }
+
+    h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    form {
+        margin-top: 20px;
+
+        input, textarea {
+            border-radius: 7.5px;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 110px;
+        }
+
+        button {
+            float: right;
+            margin-top: 15px;
+        }
+    }
+}

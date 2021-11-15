@@ -228,7 +228,10 @@ if (document.getElementById('has-posts')) {
   };
 
   var buildPage = function buildPage(currPage) {
-    document.getElementById('page-num').innerHTML = currPage;
+    if (document.getElementById('page-num')) {
+      document.getElementById('page-num').innerHTML = currPage;
+    }
+
     var trimStart = (currPage - 1) * limit;
     var trimEnd = trimStart + limit;
     var postArr2 = [];
@@ -255,7 +258,10 @@ if (document.getElementById('has-posts')) {
     });
     console.log(postArr2.length);
     numOfPages = Math.ceil(postArr2.length / limit);
-    document.getElementById('total-pages').innerHTML = numOfPages;
+
+    if (document.getElementById('total-pages')) {
+      document.getElementById('total-pages').innerHTML = numOfPages;
+    }
   };
 
   var nextPage = function nextPage() {
@@ -296,7 +302,7 @@ if (document.getElementById('has-posts')) {
   var nextPageBtn = document.getElementById('next');
   var prevPageBtn = document.getElementById('prev');
   var numOfPosts = posts.length;
-  var limit = 4;
+  var limit = 12;
   var numOfPages = Math.ceil(numOfPosts / limit);
   var currentPage = 1;
   var postArr = [];
@@ -340,6 +346,33 @@ if (document.getElementById('has-posts')) {
   ;
   paginate();
 }
+/* IMAGE GALLERY */
+
+
+var mainGalleryImg = document.getElementById('main-img');
+var subGalleryImgs = document.getElementsByClassName('sub-img');
+
+var initMainImg = function initMainImg(src) {
+  mainGalleryImg.src = src;
+};
+
+if (mainGalleryImg) {
+  initMainImg(subGalleryImgs[0].src);
+
+  var _loop = function _loop(_i3) {
+    subGalleryImgs[_i3].addEventListener('click', function () {
+      initMainImg(subGalleryImgs[_i3].src);
+    });
+  };
+
+  for (var _i3 = 0; _i3 < subGalleryImgs.length; _i3++) {
+    _loop(_i3);
+  }
+
+  ;
+}
+
+;
 
 /***/ }),
 

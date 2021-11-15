@@ -1,0 +1,32 @@
+<div class="enquiry-form reveal-bottom">
+    <h3>{{ enquiry_form:title }}</h3>
+    {{ enquiry_form:content }}
+
+    {{ form:enquiry }}
+        <label>
+            <p>Name*</p>
+            <input type="text" name="name" required>
+        </label>
+
+        <label>
+            <p>Email Address*</p>
+            <input type="email" name="email" required>
+        </label>
+
+        <label>
+            <p>Phone</p>
+            <input type="text" name="phone">
+        </label>
+
+        <label>
+            <p>Message*</p>
+            <textarea name="message" required></textarea>
+        </label>
+
+        <input name="city" type="text" hidden>
+
+        {{ policy:form_privacy_policy }}
+
+        <button class="shimmer" type="submit">SUBMIT</button>
+    {{ /form:enquiry }}
+</div>

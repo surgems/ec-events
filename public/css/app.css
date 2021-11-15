@@ -272,6 +272,30 @@
 * body .accordion-container {
   width: 100%;
 }
+* body .accordion-container .accordion {
+  position: relative;
+  margin-bottom: 15px;
+  background-color: #F2F2F2;
+}
+* body .accordion-container .accordion .title {
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  flex-wrap: none;
+  flex-direction: none;
+  height: 50px;
+  padding-left: 15px;
+}
+* body .accordion-container .accordion svg {
+  position: absolute;
+  height: 50px;
+  right: 25px;
+  top: 0;
+  transition-duration: 0.2s;
+}
+* body .accordion-container .accordion .panel {
+  padding: 15px 20px;
+}
 * body .panel, * body .hide-panel {
   display: none;
 }
@@ -1017,6 +1041,36 @@ section#partners .bottom picture img {
     width: 25%;
     padding: 0 4%;
   }
+}
+
+/* ENQUIRY FORM */
+div.enquiry-form {
+  width: 100%;
+  background: #202E7A;
+  padding: 30px 18px;
+}
+div.enquiry-form h3, div.enquiry-form a, div.enquiry-form p {
+  color: #fff;
+}
+div.enquiry-form h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+div.enquiry-form form {
+  margin-top: 20px;
+}
+div.enquiry-form form input, div.enquiry-form form textarea {
+  border-radius: 7.5px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+div.enquiry-form form textarea {
+  width: 100%;
+  height: 110px;
+}
+div.enquiry-form form button {
+  float: right;
+  margin-top: 15px;
 }
 
 .reveal-left {
@@ -2332,4 +2386,58 @@ main.rides-category form#filters .flex {
     padding: 40px 140px;
     padding-top: 50px;
   }
+}
+main.article-page section#info {
+  display: flex;
+  align-items: 0;
+  justify-content: space-between;
+  flex-wrap: 0;
+  flex-direction: column;
+  padding: 0 18px;
+}
+main.article-page section#info article > div {
+  margin-bottom: 50px;
+}
+main.article-page section#info article h3 {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+main.article-page section#info article #article {
+  padding: 0 18px;
+  padding-top: 50px;
+}
+main.article-page section#info article .gallery h3 {
+  color: #F71541;
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+main.article-page section#info article .gallery .img-wrapper {
+  overflow: hidden;
+  cursor: pointer;
+  width: 20%;
+  height: 7.5vh;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+main.article-page section#info article .gallery .img-wrapper img {
+  width: 100%;
+  min-height: 100%;
+}
+main.article-page section#info article .gallery .main-img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+main.article-page section#info article .gallery .main-img img {
+  width: 100%;
+}
+main.article-page section#info article .gallery .gallery-container {
+  display: flex;
+  align-items: 0;
+  justify-content: 0;
+  flex-wrap: wrap;
+  flex-direction: none;
+}
+main.article-page section#info article .additional {
+  padding: 0 18px;
 }

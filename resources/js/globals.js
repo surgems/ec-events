@@ -7,7 +7,6 @@ $(".burger").on("click", function() {
 });
 
 
-
 /* POST FILTER */
 
 if (document.getElementById('has-posts')) {
@@ -77,7 +76,7 @@ if (document.getElementById('has-posts')) {
   const nextPageBtn = document.getElementById('next');
   const prevPageBtn = document.getElementById('prev');
   const numOfPosts = posts.length;
-  const limit = 4;
+  const limit = 12;
   let numOfPages = Math.ceil(numOfPosts/limit);
   let currentPage = 1;
   let postArr = [];
@@ -91,7 +90,9 @@ if (document.getElementById('has-posts')) {
   };
     
   function buildPage(currPage) {
-    document.getElementById('page-num').innerHTML = currPage;
+    if (document.getElementById('page-num')) {
+      document.getElementById('page-num').innerHTML = currPage;
+    }
     const trimStart = (currPage-1)*limit;
     const trimEnd = trimStart + limit;
     let postArr2 = [];
@@ -116,7 +117,9 @@ if (document.getElementById('has-posts')) {
     console.log(postArr2.length)
 
     numOfPages = Math.ceil(postArr2.length/limit);
-    document.getElementById('total-pages').innerHTML = numOfPages;
+    if (document.getElementById('total-pages')) {
+      document.getElementById('total-pages').innerHTML = numOfPages;
+    }
   };
 
   function nextPage() {
@@ -157,3 +160,23 @@ if (document.getElementById('has-posts')) {
   };
   paginate();
 }
+
+
+/* IMAGE GALLERY */
+
+const mainGalleryImg = document.getElementById('main-img');
+const subGalleryImgs = document.getElementsByClassName('sub-img');
+
+const initMainImg = (src) => {
+  mainGalleryImg.src = src;
+};
+
+if (mainGalleryImg) {
+  initMainImg(subGalleryImgs[0].src);
+
+  for (let i=0; i < subGalleryImgs.length; i++) {
+    subGalleryImgs[i].addEventListener('click', () => {
+      initMainImg(subGalleryImgs[i].src);
+    });
+  };
+};

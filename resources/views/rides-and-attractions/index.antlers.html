@@ -12,19 +12,10 @@
             {{ content }}
         </div>
 
-        <form id="filters">
+        <!-- <form id="filters">
             <h3>FILTER RIDES</h3>
 
             <div class="flex">
-                <label>Capacity:
-                    <select class="filter">
-                        <option value="post">Show All</option>
-                        {{ taxonomy from="ride_capacity" }}
-                            <option value="{{ slug }}">{{ title }}</option>
-                        {{ /taxonomy }}
-                    </select>
-                </label>
-
                 <label>Height:
                     <select class="filter">
                         <option value="post">Show All</option>
@@ -36,7 +27,7 @@
             </div>
 
             <button type="submit" class="shimmer">APPLY</button>
-        </form>
+        </form> -->
 
         <div class="posts-wrapper">
             <div class="posts-container">
@@ -46,9 +37,9 @@
                             <div class="img-container-shimmer">
                                 <figure>
                                     <picture>
-                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                        <source srcset="{{ glide:featured_img width='100px' format='webp' quality='100' }}" type="image/webp">
                                     
-                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
+                                        <img loading="lazy" src="{{ glide:featured_img width='100px' format='webp' quality='100' }}" alt="{{ featured_img:alt }}">
                                     </picture>
                                 </figure>
                             </div>
@@ -56,79 +47,17 @@
                             <h3 class="reveal-left">{{ title }} >></h3>
                         </a>
                     </div>
-
-                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
-                        <a href="{{ slug }}">
-                            <div class="img-container-shimmer">
-                                <figure>
-                                    <picture>
-                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                    
-                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
-                                    </picture>
-                                </figure>
-                            </div>
-            
-                            <h3 class="reveal-left">{{ title }} 1 >></h3>
-                        </a>
-                    </div>
-
-                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
-                        <a href="{{ slug }}">
-                            <div class="img-container-shimmer">
-                                <figure>
-                                    <picture>
-                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                    
-                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
-                                    </picture>
-                                </figure>
-                            </div>
-            
-                            <h3 class="reveal-left">{{ title }} 2 >></h3>
-                        </a>
-                    </div>
-
-                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
-                        <a href="{{ slug }}">
-                            <div class="img-container-shimmer">
-                                <figure>
-                                    <picture>
-                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                    
-                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
-                                    </picture>
-                                </figure>
-                            </div>
-            
-                            <h3 class="reveal-left">{{ title }} 3 >></h3>
-                        </a>
-                    </div>
-
-                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
-                        <a href="{{ slug }}">
-                            <div class="img-container-shimmer">
-                                <figure>
-                                    <picture>
-                                        <source srcset="{{ glide:featured_image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                    
-                                        <img loading="lazy" src="{{ glide:featured_image width='100px' format='webp' quality='100' }}" alt="{{ featured_image:alt }}">
-                                    </picture>
-                                </figure>
-                            </div>
-            
-                            <h3 class="reveal-left">{{ title }} 4 >></h3>
-                        </a>
-                    </div>
                 {{ /rides }}
             </div>
         </div>
 
-        <!-- {{ partial:templates/pagination }} -->
-
-        <p>Page <span id="page-num"></span> of <span id="total-pages"></span></p>
-        <button id="prev" class="shimmer">PREV</button> <br><br>
-        <button id="next" class="shimmer">NEXT</button>
+        <!-- <div class="pagination">
+            <p>Page <span id="page-num"></span> of <span id="total-pages"></span></p>
+            <div class="flex">
+                <button id="prev" class="shimmer">PREV</button> <br><br>
+                <button id="next" class="shimmer">NEXT</button>
+            </div>
+        </div> -->
 
         {{ partial:partials/partners }}
     </main>

@@ -1,0 +1,63 @@
+main.article-page {
+    section#info {
+        @include flex(0, space-between, 0, column);
+        padding: 0 $smallMobPaddingX;
+        $divPaddingtop: 50px;
+
+        article {
+            > div {
+                margin-bottom: $divPaddingtop;
+            }
+
+            h3 {
+                font-weight: 800;
+                margin-bottom: 20px;
+            }
+
+            #article {
+                padding: 0 $smallMobPaddingX;
+                padding-top: $divPaddingtop;
+            }
+
+            .gallery {
+                h3 {
+                    color: $red;
+                    padding-left: $smallMobPaddingX;
+                    margin-bottom: 20px;
+                }
+
+                .img-wrapper {
+                    overflow: hidden;
+                    cursor: pointer;
+                    width: 20%;
+                    height: 7.5vh;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+
+                    img {
+                        width: 100%;
+                        min-height: 100%;
+                    }
+                }
+
+                .main-img {
+                    width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .gallery-container {
+                    @include flex(0, 0, wrap);
+                }
+            }
+
+            .additional {
+                padding: 0 $smallMobPaddingX;
+            }
+        }
+    }
+}
