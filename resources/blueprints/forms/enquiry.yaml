@@ -1,0 +1,63 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: Email
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: phone
+        field:
+          input_type: text
+          antlers: false
+          display: Phone
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: rides
+        field:
+          input_type: text
+          antlers: false
+          display: Rides
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Message
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+      -
+        handle: city
+        field:
+          input_type: text
+          antlers: false
+          display: City
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above

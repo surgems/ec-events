@@ -180,3 +180,22 @@ if (mainGalleryImg) {
     });
   };
 };
+
+
+/* FORM SUBMIT */
+
+const enquiryForm = document.getElementById('enquiry-form');
+const rideSelects = document.getElementsByClassName('ride-select');
+const rideSelect = document.getElementById('main-ride-select');
+
+if (enquiryForm) {
+  enquiryForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let rides = [];
+    for (let i=0; i < rideSelects.length; i++) {
+      rides.push(rideSelects[i].value);
+    }
+    rideSelect.value = rides.toString();
+    enquiryForm.submit();
+  });
+}

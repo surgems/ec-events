@@ -277,7 +277,7 @@ $grey: #D3D3D3;
             label {
                 width: 100%;
 
-                input {
+                input, textarea {
                     @include sans(400, 16px);
                     min-height: 52px;
                     width: 100%;
@@ -285,6 +285,11 @@ $grey: #D3D3D3;
                     border: 1px solid #B3B3B3;
                     margin-top: 3.5px;
                     padding: 0 10px;
+                }
+
+                textarea {
+                    padding: 5px 10px;
+                    resize: none;
                 }
             }
 

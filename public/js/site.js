@@ -373,6 +373,25 @@ if (mainGalleryImg) {
 }
 
 ;
+/* FORM SUBMIT */
+
+var enquiryForm = document.getElementById('enquiry-form');
+var rideSelects = document.getElementsByClassName('ride-select');
+var rideSelect = document.getElementById('main-ride-select');
+
+if (enquiryForm) {
+  enquiryForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var rides = [];
+
+    for (var _i4 = 0; _i4 < rideSelects.length; _i4++) {
+      rides.push(rideSelects[_i4].value);
+    }
+
+    rideSelect.value = rides.toString();
+    enquiryForm.submit();
+  });
+}
 
 /***/ }),
 

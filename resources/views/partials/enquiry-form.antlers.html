@@ -2,7 +2,7 @@
     <h3>{{ enquiry_form:title }}</h3>
     {{ enquiry_form:content }}
 
-    {{ form:enquiry }}
+    {{ form:enquiry id="enquiry-form" redirect="/thank-you" }}
         <label>
             <p>Name*</p>
             <input type="text" name="name" required>
@@ -18,6 +18,18 @@
             <input type="text" name="phone">
         </label>
 
+        <label id="rides-container">
+            <p>Which Rides & Attractions are you interested in?</p>
+            <select name="rides" class="ride-select">
+                {{ taxonomy from="rides" }}
+                    <option value="{{ slug }}">{{ title }}</option>
+                {{ /taxonomy }}
+            </select>
+        </label>
+
+        <input id="main-ride-select" name="rides" type="text" hidden>
+        <p id="add-ride">+ Add another Ride</p>
+
         <label>
             <p>Message*</p>
             <textarea name="message" required></textarea>
@@ -27,6 +39,24 @@
 
         {{ policy:form_privacy_policy }}
 
+        {{ captcha }}
+
         <button class="shimmer" type="submit">SUBMIT</button>
+
+        <script>
+            const addRide = document.getElementById('add-ride');
+        
+            if (addRide) {
+                addRide.addEventListener('click', () => {
+                    $("#rides-container").append(`
+                        <select name="rides" class="ride-select">
+                            {{ taxonomy from="rides" }}
+                                <option value="{{ slug }}">{{ title }}</option>
+                            {{ /taxonomy }}
+                        </select>
+                    `);
+                });
+            };
+        </script>
     {{ /form:enquiry }}
 </div>
