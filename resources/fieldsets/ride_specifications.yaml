@@ -1,0 +1,25 @@
+title: 'Ride Specifications'
+fields:
+  -
+    handle: ride_specifications
+    field:
+      collapse: false
+      sets:
+        ride_specifications:
+          display: 'Ride Specifications'
+          fields:
+            -
+              handle: spec
+              field:
+                input_type: text
+                antlers: false
+                display: Spec
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+      display: 'Ride Specifications'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

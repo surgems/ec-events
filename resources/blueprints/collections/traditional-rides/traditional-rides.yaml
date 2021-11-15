@@ -1,4 +1,4 @@
-title: 'Family Rides'
+title: 'Traditional Rides'
 sections:
   seo:
     display: SEO
@@ -16,18 +16,6 @@ sections:
           localizable: true
           validate:
             - required
-          display: Slug
-          instructions_position: above
-          listable: hidden
-          generate: true
-      -
-        handle: ride_capacity
-        field:
-          type: terms
-          taxonomies:
-            - ride_capacity
-          display: 'Ride Capacity'
-          mode: select
       -
         handle: ride_height
         field:
@@ -35,6 +23,14 @@ sections:
           taxonomies:
             - ride_height
           display: 'Ride height'
+          mode: select
+      -
+        handle: ride_capacity
+        field:
+          type: terms
+          taxonomies:
+            - ride_capacity
+          display: 'Ride Capacity'
           mode: select
   main:
     display: Main

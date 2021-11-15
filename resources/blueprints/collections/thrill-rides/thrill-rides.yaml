@@ -1,4 +1,4 @@
-title: 'Family Rides'
+title: 'Thrill Rides'
 sections:
   seo:
     display: SEO
@@ -16,10 +16,6 @@ sections:
           localizable: true
           validate:
             - required
-          display: Slug
-          instructions_position: above
-          listable: hidden
-          generate: true
       -
         handle: ride_capacity
         field:

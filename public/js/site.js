@@ -437,7 +437,7 @@ if ($(".owl-carousel")[0]) {
     $(this).owlCarousel({
       autoplay: false,
       margin: parseInt($(this).attr('data-has-margin')),
-      loop: true,
+      loop: $(this).attr('class').split(' ').includes('no-loop') ? false : true,
       dots: $(this).attr('class').split(' ').includes('dots') ? true : false,
       responsive: {
         0: {

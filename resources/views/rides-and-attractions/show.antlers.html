@@ -15,6 +15,14 @@
                 {{ /article }}
             </div>
 
+            <div class="specs">
+                <h3>Specifications</h3>
+
+                {{ ride_specifications }}
+                    <p><strong>{{ spec }}</strong></p>
+                {{ /ride_specifications }}
+            </div>
+
             <div class="gallery">
                 <h3>Gallery</h3>
 
@@ -60,12 +68,9 @@
         </article>
 
         <aside>
-            {{ aside }}
-            {{ /aside }}
-
             {{ partial:partials/enquiry-form }}
         </aside>
     </section>
 
-    <section id="upcoming"></section>
+    {{ partial:partials/upcoming-events }}
 </main>

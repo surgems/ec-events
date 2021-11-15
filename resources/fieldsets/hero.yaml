@@ -1,0 +1,40 @@
+title: Hero
+fields:
+  -
+    handle: hero
+    field:
+      collapse: false
+      max_sets: 1
+      sets:
+        hero:
+          display: Hero
+          fields:
+            -
+              handle: image
+              field:
+                mode: list
+                container: assets
+                restrict: false
+                allow_uploads: true
+                show_filename: true
+                max_files: 1
+                display: Image
+                type: assets
+                icon: assets
+                listable: hidden
+                instructions_position: above
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                display: Title
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+      display: Hero
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

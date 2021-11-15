@@ -482,3 +482,71 @@ div.enquiry-form {
         }
     }
 }
+
+/* PAGINATION */
+
+div.pagination {
+    @include flex(center, space-between);
+    padding: 0 $bigDesktopPaddingX;
+}
+
+/* UPCOMING EVENTS */
+
+section#upcoming-events {
+    padding: 0 $bigMobPaddingX;
+    padding-bottom: 80px;
+
+    h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .img-container {
+        border-radius: 5px;
+        overflow: hidden;
+        height: 35vh;
+    }
+
+    h3 {
+        padding: 15px 0;
+        font-weight: 800;
+    }
+
+    p {
+        font-weight: 600;
+    }
+
+    span {
+        color: #949494;
+        margin-right: 30px;
+    }
+
+    .button {
+        margin: 30px 0;
+    }
+
+    .animated-button.inner-btn {
+        border: 2px solid #000;
+
+        &:hover {
+            border: 2px solid $red;
+
+            &:link, :visited {
+                color: #fff;
+            }
+
+        }
+
+        &:link, :visited {
+            color: #000;
+        }
+    }
+
+    .owl-custom-nav {
+        @include flex(center, center);
+
+        div {
+            margin: 0 15px;
+        }
+    }
+}

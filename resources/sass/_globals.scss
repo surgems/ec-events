@@ -584,13 +584,6 @@ $grey: #D3D3D3;
                         width: 25% !important;
                     }
                 }
-
-                /* PAGINATION */
-
-                .pagination {
-                    @include flex(center, space-between);
-                    padding: 0 $bigDesktopPaddingX;
-                }
             }
 
             .content {

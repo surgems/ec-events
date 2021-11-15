@@ -1,0 +1,56 @@
+title: 'Additional Info'
+fields:
+  -
+    handle: additional_info
+    field:
+      collapse: false
+      sets:
+        additional_info:
+          display: 'Additional Info'
+          fields:
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                display: Title
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: content
+              field:
+                always_show_set_button: false
+                buttons:
+                  - h2
+                  - h3
+                  - bold
+                  - italic
+                  - unorderedlist
+                  - orderedlist
+                  - removeformat
+                  - quote
+                  - anchor
+                  - image
+                  - table
+                save_html: false
+                toolbar_mode: fixed
+                link_noopener: false
+                link_noreferrer: false
+                target_blank: false
+                reading_time: false
+                fullscreen: true
+                allow_source: true
+                enable_input_rules: true
+                enable_paste_rules: true
+                display: Content
+                type: bard
+                icon: bard
+                listable: hidden
+                instructions_position: above
+      display: 'Additional Info'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
