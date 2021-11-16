@@ -1,9 +1,9 @@
-title: Posts
-template: posts/show
+title: 'Blog Posts'
+template: blog/show
 layout: layout
 mount: 774d4b62-0fdf-4737-a204-77bcecc32558
 taxonomies:
-  - blog_post_categories
+  - blog_categories
 revisions: false
 route: '/blog/{slug}'
 sort_dir: desc

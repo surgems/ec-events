@@ -1,0 +1,119 @@
+main.blog-category {
+    header {
+        position: relative;
+        height: 95px;
+        background: $dblue;
+
+        h1 {
+            @include mont(900, 24px);
+            color: #fff;
+            position: absolute;
+            left: $bigMobPaddingX;
+            bottom: 3.5vh;
+        }
+    }
+
+    > .content {
+        padding: 0 $bigMobPaddingX;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    #filters {
+        padding: 0 $bigMobPaddingX;
+
+        h3 {
+            color: #000;
+            margin-bottom: 15px;
+        }
+
+        .flex {
+            flex-wrap: wrap;
+
+            button {
+                margin: 0;
+                width: fit-content;
+                height: 47px;
+                font-size: 12px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                border: 2px solid #000;
+                color: #000;
+                background-color: #fff;
+                text-transform: uppercase;
+    
+                &.active {
+                    border: 2px solid $dblue;
+                    color: #fff;
+                    background-color: $dblue;
+                }
+            }
+        }
+    }
+}
+
+/* LANDSCAPE MOBILE */
+
+@media #{$landscape-mobile} {
+    main.blog-category {
+        header {
+            height: 95px !important;
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+/* TABLET */
+
+@media #{$portrait-tablet} {
+    main.blog-category {
+        header {
+            height: 155px;
+
+            h1 {
+                left: $tabletPaddingX;
+                font-size: 28px;
+            }
+        }
+
+        > .content, #filters {
+            padding: 0 $tabletPaddingX;
+        }
+    }
+}
+
+@media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+    main.blog-category {
+        header {
+            height: 155px !important;
+
+            h1 {
+                left: $tabletPaddingX;
+                font-size: 48px;
+            }
+        }
+
+        > .content, #filters {
+            padding: 0 $tabletPaddingX;
+        }
+    }
+}
+
+/* DESKTOP */
+
+@media #{$laptop}, #{$desktop} {
+    main.blog-category {
+        header {
+            h1 {
+                left: $bigDesktopPaddingX;
+            }
+        }
+
+        > .content, #filters {
+            padding: 0 $bigDesktopPaddingX;
+        }
+    }
+}

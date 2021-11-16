@@ -76,7 +76,7 @@ if (document.getElementById('has-posts')) {
   const nextPageBtn = document.getElementById('next');
   const prevPageBtn = document.getElementById('prev');
   const numOfPosts = posts.length;
-  const limit = 4;
+  const limit = parseInt($('.posts-container').attr('data-has-posts'));
   let numOfPages = Math.ceil(numOfPosts/limit);
   let currentPage = 1;
   let postArr = [];
@@ -90,6 +90,20 @@ if (document.getElementById('has-posts')) {
   };
     
   function buildPage(currPage) {
+    if (nextPageBtn) {
+      prevPageBtn.classList.remove('hidden');
+      nextPageBtn.classList.remove('hidden');
+      if (currPage === 1) {
+        prevPageBtn.classList.add('hidden');
+        if (numOfPages === 1) {
+          nextPageBtn.classList.add('hidden');
+        }
+      } else if (currPage === numOfPages) {
+        nextPageBtn.classList.add('hidden');
+      }
+    }
+
+
     if (document.getElementById('page-num')) {
       document.getElementById('page-num').innerHTML = currPage;
     }
@@ -113,8 +127,6 @@ if (document.getElementById('has-posts')) {
     postArr2.slice(trimStart, trimEnd).forEach(el => {
       el.classList.add('current-page');
     });
-
-    console.log(postArr2.length)
 
     numOfPages = Math.ceil(postArr2.length/limit);
     if (document.getElementById('total-pages')) {
@@ -145,7 +157,7 @@ if (document.getElementById('has-posts')) {
   }
 
   // filter on form submit
-  var filterForm = document.getElementById("filters");
+  const filterForm = document.getElementById("filters");
   if (filterForm) {
       // filters posts and adds 'show' class
       filterForm.addEventListener('submit', (e) => {
@@ -157,6 +169,20 @@ if (document.getElementById('has-posts')) {
           filterSelection([filters[i].value]);
         };
     });
+  };
+
+  // filter on button click
+  const filterButtons = document.getElementsByClassName('filter-btn');
+  if (filterButtons) {
+    for (let i=0; i < filterButtons.length; i++) {
+      filterButtons[i].addEventListener('click', () => {
+        for (let i=0; i < filterButtons.length; i++) {
+          filterButtons[i].classList.remove('active');
+        };
+        filterButtons[i].classList.add('active');
+        filterSelection([filterButtons[i].id])
+      })
+    };
   };
   paginate();
 }

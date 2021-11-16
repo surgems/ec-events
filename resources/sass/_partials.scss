@@ -518,8 +518,60 @@ div.enquiry-form {
 /* PAGINATION */
 
 div.pagination {
-    @include flex(center, space-between);
-    padding: 0 $bigDesktopPaddingX;
+    @include flex(center, 0, 0, column);
+    padding: 0 $bigMobPaddingX;
+    margin-bottom: 50px;
+
+    > p {
+        font-size: 16px;
+    }
+
+    .flex {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 40px;
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
+            cursor: pointer;
+
+            &.hidden {
+                visibility: hidden;
+            }
+        }
+    }
+
+    /* TABLET */
+
+    @media #{$portrait-tablet} {
+        padding: 0 $tabletPaddingX;
+    }
+
+    @media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+        flex-direction: row;
+        align-items: center;
+        padding: 0 $tabletPaddingX;
+
+        > p {
+            white-space: nowrap;
+        }
+
+        .flex {
+            justify-content: flex-end;
+            margin: 0;
+
+            #prev {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    /* DESKTOP */
+
+    @media #{$laptop}, #{$desktop} {
+        padding: 0 $bigDesktopPaddingX;
+    }
 }
 
 /* UPCOMING EVENTS */
@@ -527,6 +579,20 @@ div.pagination {
 section#upcoming-events {
     padding: 0 $bigMobPaddingX;
     padding-bottom: 80px;
+
+    .owl-item {
+        > div {
+            img {
+                transition-duration: .5s;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
 
     h2 {
         font-size: 22px;
