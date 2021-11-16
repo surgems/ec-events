@@ -1,0 +1,6 @@
+id: 9ae750c2-cd58-4753-9c0d-ba3393477f4a
+enabled: true
+source: /christmas-market
+destination: /christmas-markets
+type: '301'
+match_type: exact

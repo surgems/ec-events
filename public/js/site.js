@@ -302,7 +302,7 @@ if (document.getElementById('has-posts')) {
   var nextPageBtn = document.getElementById('next');
   var prevPageBtn = document.getElementById('prev');
   var numOfPosts = posts.length;
-  var limit = 12;
+  var limit = 4;
   var numOfPages = Math.ceil(numOfPosts / limit);
   var currentPage = 1;
   var postArr = [];

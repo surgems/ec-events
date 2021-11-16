@@ -1,0 +1,25 @@
+id: e981247c-4669-41e7-96f5-d5a49eb9d5bc
+url: /test-blog-1
+hits:
+  -
+    timestamp: 1637063843
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/blog'
+  -
+    timestamp: 1637065704
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/blog'
+  -
+    timestamp: 1637074800
+    data:
+      userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/blog'
+hitsCount: 3
+latest: 1637074800
+handled: false
+lastSeenAt: 1637074800

@@ -1,0 +1,25 @@
+title: 'Event Services'
+fields:
+  -
+    handle: event_services
+    field:
+      collapse: false
+      sets:
+        event_services:
+          display: 'Event Services'
+          fields:
+            -
+              handle: service
+              field:
+                input_type: text
+                antlers: false
+                display: Service
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+      display: 'Event Services'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

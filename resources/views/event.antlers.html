@@ -1,0 +1,88 @@
+<main class="article-page">
+    {{ hero }}
+        <header role="heading" style="background-image: url('{{ image }}');">
+                <div class="overlay"></div>
+
+                <h1 class="reveal-left">{{ title }}</h1>
+        </header>
+    {{ /hero }}
+
+    <section id="info" class="wide">
+        <article>
+            <div id="article">
+                {{ article }}
+                    {{ content }}
+                {{ /article }}
+            </div>
+
+            <div class="specs mob-specs">
+                <h3>We can provide:</h3>
+
+                <ul>
+                    {{ event_services }}
+                        <li>{{ service }}</li>
+                    {{ /event_services }}
+                </ul>
+            </div>
+
+            <div class="gallery">
+                <h3 class="reveal-left">Gallery</h3>
+
+                <div class="img-wrapper main-img">
+                    <picture>
+                        <img id="main-img" loading="lazy" src="" alt="">
+                    </picture>
+                </div>
+
+                <div class="gallery-container">
+                    {{ gallery }}
+                        <div class="img-wrapper">
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img class="sub-img" loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+                        </div>
+                    {{ /gallery }}
+                </div>
+            </div>
+
+            <div class="additional">
+                <h3 class="reveal-left">Additional Information</h3>
+                
+                <div class="accordion-container">
+                    {{ additional_info }}
+                        <div class="accordion">
+                            <p class="title">{{ title }}</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14.83" height="24" viewBox="0 0 14.83 24">
+                                <g id="ic_keyboard_arrow_right_48px" transform="translate(31.165 -12.585) rotate(90)">
+                                  <path id="Path_159" data-name="Path 159" d="M17.17,32.92l9.17-9.17-9.17-9.17L20,11.75l12,12-12,12Z" transform="translate(0.835 48.335) rotate(-90)" fill="#111"/>
+                                </g>
+                            </svg>                     
+            
+                            <div class="panel">
+                                {{ content }}
+                            </div>
+                        </div>
+                    {{ /additional_info }}
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            <div class="specs desktop-specs reveal-bottom">
+                <h3>We can provide:</h3>
+
+                <ul>
+                    {{ event_services }}
+                        <li>{{ service }}</li>
+                    {{ /event_services }}
+                </ul>
+            </div>
+
+            {{ partial:partials/enquiry-form }}
+        </aside>
+    </section>
+
+    {{ partial:partials/upcoming-events }}
+</main>

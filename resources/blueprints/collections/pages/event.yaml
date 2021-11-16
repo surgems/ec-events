@@ -1,0 +1,71 @@
+title: Event
+sections:
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+  hero:
+    display: Hero
+    fields:
+      -
+        import: hero
+  article:
+    display: Article
+    fields:
+      -
+        import: article
+  event_services:
+    display: 'Event Services'
+    fields:
+      -
+        import: event_services
+  gallery:
+    display: Gallery
+    fields:
+      -
+        import: gallery
+  additional_info:
+    display: 'Additional Info'
+    fields:
+      -
+        import: additional_info

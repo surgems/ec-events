@@ -76,7 +76,7 @@ if (document.getElementById('has-posts')) {
   const nextPageBtn = document.getElementById('next');
   const prevPageBtn = document.getElementById('prev');
   const numOfPosts = posts.length;
-  const limit = 12;
+  const limit = 4;
   let numOfPages = Math.ceil(numOfPosts/limit);
   let currentPage = 1;
   let postArr = [];

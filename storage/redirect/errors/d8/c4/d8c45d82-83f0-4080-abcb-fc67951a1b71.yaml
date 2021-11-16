@@ -1,0 +1,13 @@
+id: d8c45d82-83f0-4080-abcb-fc67951a1b71
+url: /festivals
+hits:
+  -
+    timestamp: 1637062124
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/city-beaches'
+hitsCount: 1
+latest: 1637062124
+handled: false
+lastSeenAt: 1637062124
