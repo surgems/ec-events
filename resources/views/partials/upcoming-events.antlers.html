@@ -1,11 +1,11 @@
 <section id="upcoming-events">
-    <h2>Upcoming Events</h2>
+    <h2 class="reveal-left">Upcoming Events</h2>
 
     <div class="carousel-container">
-        <div class="owl-carousel" data-has-margin="50" data-slides-mobile="1" data-slides-portrait-tablet="1" 
-                                    data-slides-landscape-tablet="2" data-slides-laptop="2" data-slides-desktop="1">
+        <div class="owl-carousel" data-has-margin="50" data-slides-mobile="1" data-slides-portrait-tablet="2" 
+                                    data-slides-landscape-tablet="3" data-slides-laptop="3" data-slides-desktop="3">
             {{ collection:events limit="3" }}
-                <div onclick="window.location.href = '{{ slug }}'">
+                <div class="reveal-bottom" onclick="window.location.href = '{{ slug }}'">
                     <div class="img-container">
                         <picture>
                             <source srcset="{{ glide:featured_img width='100px' format='webp' quality='100' }}" type="image/webp">

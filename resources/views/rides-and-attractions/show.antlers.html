@@ -15,7 +15,7 @@
                 {{ /article }}
             </div>
 
-            <div class="specs">
+            <div class="specs mob-specs">
                 <h3>Specifications</h3>
 
                 {{ ride_specifications }}
@@ -24,7 +24,7 @@
             </div>
 
             <div class="gallery">
-                <h3>Gallery</h3>
+                <h3 class="reveal-left">Gallery</h3>
 
                 <div class="img-wrapper main-img">
                     <picture>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="additional">
-                <h3>Additional Information</h3>
+                <h3 class="reveal-left">Additional Information</h3>
                 
                 <div class="accordion-container">
                     {{ additional_info }}
@@ -68,6 +68,14 @@
         </article>
 
         <aside>
+            <div class="specs desktop-specs reveal-bottom">
+                <h3>Specifications</h3>
+
+                {{ ride_specifications }}
+                    <p><strong>{{ spec }}</strong></p>
+                {{ /ride_specifications }}
+            </div>
+
             {{ partial:partials/enquiry-form }}
         </aside>
     </section>

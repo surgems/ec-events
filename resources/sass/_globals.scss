@@ -122,6 +122,7 @@ $grey: #D3D3D3;
                 position: relative;
                 margin-bottom: 15px;
                 background-color: #F2F2F2;
+                cursor: pointer;
 
                 .title {
                     @include flex(center);
@@ -547,6 +548,32 @@ $grey: #D3D3D3;
         
                         h3 {
                             font-size: 18px !important;
+                        }
+                    }
+                }
+
+                /* ACCORDION */
+
+                .accordion-container {
+                    .accordion {
+                        margin-bottom: 15px;
+
+                        .title {
+                            @include flex(center);
+                            height: 60px;
+                            padding-left: 25px;
+                        }
+
+                        svg {
+                            position: absolute;
+                            height: 60px;
+                            right: 35px;
+                            top: 0;
+                            transition-duration: .2s;
+                        }
+
+                        .panel {
+                            padding: 15px 35px;
                         }
                     }
                 }
