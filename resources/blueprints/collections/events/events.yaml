@@ -17,7 +17,7 @@ sections:
           validate:
             - required
       -
-        handle: date
+        handle: post_date
         field:
           mode: single
           time_enabled: false
@@ -41,6 +41,14 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
+      -
+        handle: event_categories
+        field:
+          type: terms
+          taxonomies:
+            - event_categories
+          display: 'Event Categories'
+          mode: select
   main:
     display: Main
     fields:
@@ -65,3 +73,54 @@ sections:
           icon: assets
           listable: hidden
           instructions_position: above
+  article:
+    display: Article
+    fields:
+      -
+        import: article
+      -
+        handle: cta
+        field:
+          collapse: false
+          sets:
+            cta:
+              display: CTA
+              fields:
+                -
+                  handle: text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Text
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_text
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Button Text'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: button_link
+                  field:
+                    display: 'Button Link'
+                    type: link
+                    icon: link
+                    listable: hidden
+                    instructions_position: above
+          display: CTA
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+  our_events:
+    display: 'Our Events'
+    fields:
+      -
+        import: our_events

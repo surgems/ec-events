@@ -3221,6 +3221,58 @@ main.blog-post aside .sticky .articles .more-article .flex p {
     height: 100px;
   }
 }
+main.event-category header {
+  background: linear-gradient(130deg, #F71541, #202E7A);
+}
+main.event-category .details p {
+  font-weight: 600;
+}
+main.event-category .details span {
+  color: #949494;
+  margin-right: 30px;
+}
+
+main.event-post article h1 {
+  margin-bottom: 10px !important;
+}
+main.event-post article .details {
+  margin-top: 10px;
+}
+main.event-post article .details p {
+  font-weight: 600;
+}
+main.event-post article .details span {
+  color: #949494;
+  margin-right: 30px;
+}
+main.event-post article .cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: none;
+  flex-direction: none;
+  background: #202E7A;
+  border-radius: 7px;
+  padding: 0 20px;
+  height: 100px;
+  margin-top: 60px;
+}
+main.event-post article .cta h1 {
+  color: #fff;
+}
+main.event-post article .cta .animated-button.inner-btn {
+  color: #fff !important;
+}
+main.event-post article .cta .animated-button.inner-btn:hover {
+  border: 2px solid #F71541;
+}
+main.event-post article .cta .animated-button.inner-btn:hover:link, main.event-post article .cta .animated-button.inner-btn:hover :visited {
+  color: #fff;
+}
+main.event-post article .cta .animated-button.inner-btn:link, main.event-post article .cta .animated-button.inner-btn :visited {
+  color: #000;
+}
+
 main.generic article .flex {
   margin: 20px 0;
 }

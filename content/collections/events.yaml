@@ -1,5 +1,12 @@
-title: Events
+title: 'Whats On?'
+template: whats-on/show
+layout: layout
+mount: 5bc6cd59-758b-40db-becf-f6a1a58fe27a
+taxonomies:
+  - event_categories
 revisions: false
+route: '/whats-on/{slug}'
+sort_dir: desc
 date_behavior:
   past: public
   future: private

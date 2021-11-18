@@ -19,7 +19,13 @@ hits:
       userAgent: 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Mobile Safari/537.36'
       ip: 127.0.0.1
       referer: 'http://ec-events.test/faqs'
-hitsCount: 3
-latest: 1635430003
+  -
+    timestamp: 1637251806
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/blog'
+hitsCount: 4
+latest: 1637251806
 handled: false
-lastSeenAt: 1635430003
+lastSeenAt: 1637251806

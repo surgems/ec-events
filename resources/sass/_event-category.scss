@@ -1,0 +1,16 @@
+main.event-category {
+    header {
+        background: linear-gradient(130deg, $red, $dblue);
+    }
+
+    .details {
+        p {
+            font-weight: 600;
+        }
+    
+        span {
+            color: #949494;
+            margin-right: 30px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+id: a63a4e2a-b903-411a-b72b-ba485797ab8b
+url: /blog/event-title
+hits:
+  -
+    timestamp: 1637253075
+    data:
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      ip: 127.0.0.1
+      referer: 'http://ec-events.test/whats-on'
+hitsCount: 1
+latest: 1637253075
+handled: false
+lastSeenAt: 1637253075

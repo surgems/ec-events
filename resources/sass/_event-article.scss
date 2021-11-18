@@ -1,0 +1,49 @@
+main.event-post {
+    article {
+        h1 {
+            margin-bottom: 10px !important;
+        }
+
+        .details {
+            margin-top: 10px;
+            p {
+                font-weight: 600;
+            }
+        
+            span {
+                color: #949494;
+                margin-right: 30px;
+            }
+        }
+
+        .cta {
+            @include flex(center, space-between);
+            background: $dblue;
+            border-radius: 7px;
+            padding: 0 20px;
+            height: 100px;
+            margin-top: 60px;
+
+            h1 {
+                color: #fff;
+            }
+
+            .animated-button.inner-btn {
+                color: #fff !important;
+        
+                &:hover {
+                    border: 2px solid $red;
+        
+                    &:link, :visited {
+                        color: #fff;
+                    }
+        
+                }
+        
+                &:link, :visited {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
