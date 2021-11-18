@@ -36,6 +36,16 @@ sections:
                     listable: hidden
                     instructions_position: above
                 -
+                  handle: subtitle
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Subtitle
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
                   handle: button_link
                   field:
                     display: 'Button Link'

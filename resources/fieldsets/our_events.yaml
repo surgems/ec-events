@@ -1,0 +1,53 @@
+title: 'Our Events'
+fields:
+  -
+    handle: our_events
+    field:
+      collapse: false
+      sets:
+        our_events:
+          display: 'Our Events'
+          fields:
+            -
+              handle: title
+              field:
+                input_type: text
+                antlers: false
+                display: Title
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: info
+              field:
+                input_type: text
+                antlers: false
+                display: Info
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: button_text
+              field:
+                input_type: text
+                antlers: false
+                display: 'Button Text'
+                type: text
+                icon: text
+                listable: hidden
+                instructions_position: above
+            -
+              handle: button_link
+              field:
+                display: 'Button Link'
+                type: link
+                icon: link
+                listable: hidden
+                instructions_position: above
+      display: 'Our Events'
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above

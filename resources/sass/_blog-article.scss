@@ -1,0 +1,266 @@
+main.blog-post {
+    h1 {
+        @include mont(900, 20px);
+        color: $dblue;
+    }
+
+    article {
+        .title {
+            h1 {
+                margin-top: 60px;
+                margin-bottom: 20px;
+            }
+    
+            .category {
+                text-transform: capitalize;
+            }
+    
+            .date {
+                margin-bottom: 40px;
+            }
+        }
+
+        img {
+            margin: 30px 0;
+            width: 100%;
+            height: auto;
+        }
+
+        .author, .share p {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .share {
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+            max-width: 300px;
+
+            svg {
+                width: 39px;
+                height: 39px;
+
+                &:hover {
+                    .bg {
+                        fill: $dblue;
+                    }
+
+                    .inr {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        h3 {
+            color: $red;
+        }
+
+        .favourite {
+            margin: 40px 0 ;
+            > h3 {
+                font-weight: 900;
+                padding-left: $smallMobPaddingX;
+                margin-bottom: 20px;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            > div:not(.img-container) {
+                padding: 30px 20px;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+
+                h1 {
+                    font-size: 30px;
+                }
+
+                .subtitle {
+                    font-weight: 800;
+                }
+
+                .animated-button.inner-btn {
+                    border: 2px solid #000;
+                    margin-top: 30px;
+        
+                    &:hover {
+                        border: 2px solid $dred;
+        
+                        &:link, :visited {
+                            color: #fff;
+                        }
+        
+                    }
+        
+                    &:link, :visited {
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        .sticky {
+            h3, p {
+                color: #fff;
+            }
+
+            h3 {
+                font-size: 22px;
+                font-weight: 900;
+                margin: 0;
+            }
+
+            > div {
+                margin-bottom: 40px;
+                padding: 40px  $smallMobPaddingX;
+            }
+
+            .event {
+                background-color: $red;
+                background-image: url("data:image/svg+xml,%3Csvg id='Group_29' data-name='Group 29' xmlns='http://www.w3.org/2000/svg' width='254.659' height='294.858' viewBox='0 0 254.659 294.858'%3E%3Cellipse id='Ellipse_15' data-name='Ellipse 15' cx='20.371' cy='20.996' rx='20.371' ry='20.996' transform='translate(106.965 111.543)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_16' data-name='Ellipse 16' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(114.961)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_17' data-name='Ellipse 17' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(168.81 14.112)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_18' data-name='Ellipse 18' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(210.333 52.022)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_19' data-name='Ellipse 19' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(230.027 105.35)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_20' data-name='Ellipse 20' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(223.405 162.087)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_21' data-name='Ellipse 21' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(191.936 209.144)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_22' data-name='Ellipse 22' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(142.897 235.764)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_23' data-name='Ellipse 23' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(87.447 235.84)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_24' data-name='Ellipse 24' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(38.318 209.34)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_25' data-name='Ellipse 25' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(6.74 162.375)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_26' data-name='Ellipse 26' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(0 105.559)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_27' data-name='Ellipse 27' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(19.657 52.022)' fill='%23b10024'/%3E%3Cellipse id='Ellipse_28' data-name='Ellipse 28' cx='12.316' cy='12.694' rx='12.316' ry='12.694' transform='translate(61.144 14.112)' fill='%23b10024'/%3E%3Crect id='Rectangle_38' data-name='Rectangle 38' width='3.103' height='119.845' transform='translate(125.755 12.694)' fill='%23b10024'/%3E%3Cpath id='Path_161' data-name='Path 161' d='M.015.722,118.635-.739,118.6,2.384-.024,3.845Z' transform='matrix(0.464, -0.886, 0.886, 0.464, 125.316, 131.475)' fill='%23b10024'/%3E%3Cpath id='Path_162' data-name='Path 162' d='M.016.826,116.985-.835l-.045,3.168L-.028,3.994Z' transform='translate(125.972 130.552) rotate(-34.622)' fill='%23b10024'/%3E%3Cpath id='Path_163' data-name='Path 163' d='M.005.214,115.922-.214l-.011,3.2L-.006,3.411Z' transform='translate(127.116 130.74) rotate(-6.972)' fill='%23b10024'/%3E%3Cpath id='Path_164' data-name='Path 164' d='M.587.013,3.773-.019,2.6,116.3l-3.186.031Z' transform='translate(126.568 134.579) rotate(-69.287)' fill='%23b10024'/%3E%3Cpath id='Path_165' data-name='Path 165' d='M.875.017,4.02-.03,2.255,117.814l-3.145.047Z' transform='matrix(0.748, -0.664, 0.664, 0.748, 125.51, 134.168)' fill='%23b10024'/%3E%3Cpath id='Path_166' data-name='Path 166' d='M.409.01,3.518-.013l-.83,119.221-3.109.022Z' transform='translate(125.43 133.013) rotate(-13.921)' fill='%23b10024'/%3E%3Cpath id='Path_167' data-name='Path 167' d='M.01.4,119.234-.417l-.022,3.108L-.012,3.513Z' transform='translate(97.858 248.066) rotate(-76.232)' fill='%23b10024'/%3E%3Cpath id='Path_168' data-name='Path 168' d='M.017.874,117.87-.889l-.047,3.145L-.03,4.019Z' transform='matrix(0.662, -0.749, 0.749, 0.662, 48.805, 220.409)' fill='%23b10024'/%3E%3Cpath id='Path_169' data-name='Path 169' d='M.013.59,116.34-.593l-.032,3.186L-.019,3.776Z' transform='matrix(0.934, -0.356, 0.356, 0.934, 18.281, 173.028)' fill='%23b10024'/%3E%3Cpath id='Path_170' data-name='Path 170' d='M.211.005l3.2-.011L2.986,115.9l-3.2.011Z' transform='matrix(0.12, -0.993, 0.993, 0.12, 12.1, 120.049)' fill='%23b10024'/%3E%3Cpath id='Path_171' data-name='Path 171' d='M.826.016,3.994-.028,2.333,116.981l-3.168.044Z' transform='translate(30.609 66.703) rotate(-55.393)' fill='%23b10024'/%3E%3Cpath id='Path_172' data-name='Path 172' d='M.723.015,3.846-.024,2.383,118.635l-3.124.039Z' transform='translate(71.439 27.872) rotate(-27.707)' fill='%23b10024'/%3E%3Cpath id='Path_128' data-name='Path 128' d='M133.2,265.988a114.833,114.833,0,0,1-46.017-9.576A117.131,117.131,0,0,1,67.1,245.177,119.866,119.866,0,0,1,49.6,230.3a122.345,122.345,0,0,1-25.334-38.729A123.984,123.984,0,0,1,17.38,168.7a126.714,126.714,0,0,1,0-49.108,123.192,123.192,0,0,1,17.79-43.572A121.936,121.936,0,0,1,49.6,57.987,119.875,119.875,0,0,1,67.1,43.11,117.187,117.187,0,0,1,87.179,31.876a115.187,115.187,0,0,1,92.032,0A117.228,117.228,0,0,1,199.294,43.11a119.918,119.918,0,0,1,17.494,14.877,122.28,122.28,0,0,1,25.334,38.729,123.965,123.965,0,0,1,6.889,22.874,126.715,126.715,0,0,1,0,49.108,123.2,123.2,0,0,1-17.789,43.571A121.991,121.991,0,0,1,216.788,230.3a119.909,119.909,0,0,1-17.494,14.877,117.173,117.173,0,0,1-20.082,11.235,114.833,114.833,0,0,1-46.016,9.576Zm0-239.69C70.149,26.3,18.857,79.163,18.857,144.143S70.149,261.989,133.2,261.989s114.338-52.865,114.338-117.846S196.242,26.3,133.2,26.3Z' transform='translate(-5.86 -11.605)' fill='%23b10024'/%3E%3Cpath id='Path_129' data-name='Path 129' d='M53.551,316.094H38.721l89.86-159.087,12.892,4.814Z' transform='translate(-8.213 -21.235)' fill='%23b10024'/%3E%3Cpath id='Path_130' data-name='Path 130' d='M225.806,315.912l-87.4-154.091,12.892-4.814,89.86,159.087Z' transform='translate(-18.095 -21.235)' fill='%23b10024'/%3E%3C/svg%3E%0A");
+                background-repeat: no-repeat;
+                background-position: 40vw bottom;
+    
+                p {
+                    padding: 40px 0;
+                    font-size: 18px;
+                }
+    
+                .shimmer {
+                    border: 2px solid #fff;
+                    width: 150px;
+                    margin: 0;
+                }
+            }
+    
+            .articles {
+                background: $dblue;
+                margin-bottom: 100px;
+
+                .more-article {
+                    margin: 25px 0;
+
+                    p:not(.read) {
+                        font-weight: 600;
+                    }
+
+                    &:hover {
+                        p {
+                            color: $red;
+                        }
+                    }
+
+                    img {
+                        height: 70px;
+                        min-width: 100px;
+                    }
+
+                    .flex {
+                        flex-direction: column;
+                        justify-content: space-between;
+                        padding-left: 10px;
+
+                        p {
+                            transition-duration: .3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* TABLET */
+
+@media #{$portrait-tablet} {
+    main.blog-post {
+        aside {
+            .sticky {
+                > div {
+                    padding: 60px 40px;
+                }
+                
+                .articles {
+                    .more-article {
+                        img {
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+    main.blog-post {
+        article {
+            h1 {
+                font-size: 30px;
+            }
+        }
+        aside {
+            .favourite {
+                > h3 {
+                    font-size: 20px;
+                    padding-left: 0;
+                    margin-bottom: 30px;
+                }
+    
+                > div:not(.img-container) {
+                    padding: 60px;
+                }
+            }
+
+            .sticky {
+                > div {
+                    padding: 60px;
+                }
+                
+                .articles {
+                    .more-article {
+                        img {
+                            height: 130px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* DESKTOP */
+
+@media #{$laptop}, #{$desktop} {
+    main.blog-post {
+        aside {
+            padding-top: 30px;
+
+            .sticky {
+                position: sticky;
+                top: $desktopNavHeight + 40px;
+
+                > div {
+                    padding: 50px 40px;
+                }
+
+                .event {
+                    background-position: 20vw bottom;
+                }
+
+                .articles {
+                    .more-article {
+                        img {
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

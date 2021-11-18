@@ -1,0 +1,51 @@
+<main class="blog-post article-page generic">
+    {{ hero }}
+        <header role="heading" style="background-image: url('{{ image }}');">
+                <div class="overlay"></div>
+
+                <h1 class="reveal-left">{{ title }}</h1>
+        </header>
+    {{ /hero }}
+
+    <section id="info" class="wide">
+        <article>
+            <div id="article">
+                {{ article }}
+                    {{ content }}
+
+                    <div class="flex">
+                        {{ images }}
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+                        {{ /images }}
+                    </div>
+                {{ /article }}
+            </div>
+        </article>
+
+        <aside>
+            {{ side_images }}
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-bottom" loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            {{ /side_images }}
+
+            <div class="sticky">
+                <div class="event reveal-bottom">
+                    {{ our_events }}
+                        <h3>{{ title }}</h3>
+                        <p>{{ info }}</p>
+                        <a href="{{ button_link }}" class="button"> 
+                            <button class="shimmer">{{ button_text }}</button> 
+                        </a>
+                    {{ /our_events }}
+                </div>
+            </div>
+        </aside>
+    </section>
+</main>

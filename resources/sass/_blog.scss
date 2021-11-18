@@ -99,6 +99,15 @@ main.blog-category {
         > .content, #filters {
             padding: 0 $tabletPaddingX;
         }
+
+        #filters {
+            @include flex(center);
+            margin-top: 60px;
+
+            h3 {
+                margin-right: 20px;
+            }
+        }
     }
 }
 
