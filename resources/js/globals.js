@@ -180,7 +180,7 @@ if (document.getElementById('has-posts')) {
           filterButtons[i].classList.remove('active');
         };
         filterButtons[i].classList.add('active');
-        filterSelection([filterButtons[i].id])
+        filterSelection([filterButtons[i].id]);
       })
     };
   };

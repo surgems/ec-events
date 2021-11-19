@@ -32,6 +32,10 @@ for (i = 0; i < acc.length; i++) {
         this.children[1].style.transform = 'rotate(0)';
     } else {
         panel.style.display = "flex";
-        this.children[1].style.transform = 'rotate(90deg)';
+        if (this.children[1].id === '180deg') {
+            this.children[1].style.transform = 'rotate(-180deg)';
+        } else {
+            this.children[1].style.transform = 'rotate(90deg)';
+        }
     }
 })};

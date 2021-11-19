@@ -1,58 +1,111 @@
-{{ collection:blog_posts as="posts" }}
-    <main id="has-posts" class="blog-category">
+{{ collection:faq as="faqs" }}
+    <main id="has-posts" class="faq blog-category blog-post article-page">
         <header role="heading">
             <h1 class="reveal-left">{{ title }}</h1>
         </header>
 
-        <div class="content">
-            {{ content }}
-        </div>
-
-        <div id="filters">
-            <h3>BLOG CATEGORIES:</h3>
-
-            <div class="flex">
-                <button id="post" class="shimmer filter-btn active">Show all</button>
-                {{ taxonomy from="blog_categories" }}
-                    <button id="{{ slug }}" class="shimmer filter-btn">{{ title }}</button>
-                {{ /taxonomy }}
-            </div>
-        </div>
-
-        <div class="posts-wrapper">
-            <div class="blog-posts-container posts-container" data-has-posts="9">
-                {{ posts }}
-                    <div class="blog-post post{{ blog_categories }} {{ slug }}{{ /blog_categories }}" onclick="window.location.href = '/blog/{{ slug }}'">
-                        <div class="img-container img-container-shimmer">
-                            <figure>
-                                <picture>
-                                    <source srcset="{{ glide:featured_img width='100px' format='webp' quality='100' }}" type="image/webp">
-                                
-                                    <img loading="lazy" src="{{ glide:featured_img width='100px' format='webp' quality='100' }}" alt="{{ featured_img:alt }}">
-                                </picture>
-                            </figure>
-                        </div>
-        
-                        <h3>{{ title }}</h3>
-        
-                        <div class="details">
-                            {{ blog_categories }}
-                                <p><em>{{ title }}</em></p>
-                            {{ /blog_categories }}
-                        </div>
-
-                        <div class="preview">
-                            {{ preview }}
-                        </div>
-        
-                        <div class="button"> 
-                            <a href="/blog/{{ slug }}" class="inner-btn animated-button">READ</a> 
-                        </div>
+        <section id="info" class="wide">
+            <article>
+                <div id="article">
+                    <div class="content">
+                        {{ content }}
                     </div>
-                {{ /posts }}
-            </div>
-        </div>
+                </div>
 
-        {{ partial:partials/pagination }}
+                <div id="filters">
+                    <h3>TOPICS:</h3>
+        
+                    <div class="flex">
+                        <button id="post" class="shimmer filter-btn active">Show all</button>
+                        {{ taxonomy from="faq_categories" }}
+                            <button id="{{ slug }}" class="shimmer filter-btn">{{ title }}</button>
+                        {{ /taxonomy }}
+                    </div>
+                </div>
+
+                <div class="posts-container">
+                    {{ faqs }}
+                        <div class="post accordion-container{{ faq_categories }} {{ slug }}{{ /faq_categories }}">
+                            <div class="accordion">
+                                <p>Q. {{ title }}</p>
+                                <svg id="180deg" xmlns="http://www.w3.org/2000/svg" width="24" height="14.83" viewBox="0 0 24 14.83">
+                                    <g id="ic_keyboard_arrow_right_48px" transform="translate(35.75 -17.17) rotate(90)">
+                                      <path id="Path_159" data-name="Path 159" d="M17.17,32.92l9.17-9.17-9.17-9.17L20,11.75l12,12-12,12Z" fill="#111"/>
+                                    </g>
+                                </svg>                                                                                                  
+                
+                                <div class="panel">
+                                    {{ answer }}
+
+                                    <picture>
+                                        <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post accordion-container{{ faq_categories }} {{ slug }}{{ /faq_categories }}">
+                            <div class="accordion">
+                                <p>Q. {{ title }}</p>
+                                <svg id="180deg" xmlns="http://www.w3.org/2000/svg" width="24" height="14.83" viewBox="0 0 24 14.83">
+                                    <g id="ic_keyboard_arrow_right_48px" transform="translate(35.75 -17.17) rotate(90)">
+                                      <path id="Path_159" data-name="Path 159" d="M17.17,32.92l9.17-9.17-9.17-9.17L20,11.75l12,12-12,12Z" fill="#111"/>
+                                    </g>
+                                </svg>                                                                                                  
+                
+                                <div class="panel">
+                                    {{ answer }}
+
+                                    <picture>
+                                        <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                                    
+                                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    {{ /faqs }}
+                </div>
+            </article>
+    
+            <aside>
+                <div class="favourite">
+                    <h3 class="reveal-right">Crowd Favourite</h3>
+    
+                    {{ header:featured_ride }}
+                        <div class="img-container">
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+                        </div>
+    
+                        <div>
+                            <h1 class="reveal-left">{{ button_text }}</h1>
+                            <h3 class="reveal-right subtitle">{{ subtitle }}</h3>
+    
+                            <div class="button"> 
+                                <a href="{{ button_link }}" class="inner-btn animated-button">MORE INFO</a> 
+                            </div>
+                        </div>
+                    {{ /header:featured_ride }}
+                </div>
+    
+                <div class="sticky">
+                    <div class="event reveal-bottom">
+                        {{ our_events }}
+                            <h3>{{ title }}</h3>
+                            <p>{{ info }}</p>
+                            <a href="{{ button_link }}" class="button"> 
+                                <button class="shimmer">{{ button_text }}</button> 
+                            </a>
+                        {{ /our_events }}
+                    </div>
+                </div>
+            </aside>
+        </section>
     </main>
-{{ /collection:blog_posts }}
+{{ /collection:faq }}

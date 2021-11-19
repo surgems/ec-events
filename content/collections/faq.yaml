@@ -1,11 +1,10 @@
-title: FAQs
-template: faq/show
+title: 'FAQ''s'
+template: default
 layout: layout
-mount: 6f44f35f-a50c-4465-b3cd-1384cb59f915
+mount: 4ab2788e-93c6-4cab-a478-a88203544d1d
 taxonomies:
   - faq_categories
 revisions: false
-route: '/faq/{slug}'
 sort_dir: desc
 date_behavior:
   past: public

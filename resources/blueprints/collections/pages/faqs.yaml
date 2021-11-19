@@ -1,5 +1,39 @@
-title: 'FAQ Archive'
+title: 'FAQ''s'
 sections:
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
   main:
     display: Main
     fields:
@@ -40,36 +74,9 @@ sections:
           type: bard
           icon: bard
           listable: hidden
-  sidebar:
-    display: Sidebar
+          instructions_position: above
+  our_events:
+    display: 'Our Events'
     fields:
       -
-        handle: slug
-        field:
-          type: slug
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
-  seo:
-    display: SEO
-    fields:
-      -
-        import: seo
+        import: our_events
