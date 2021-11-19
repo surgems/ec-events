@@ -153,5 +153,3 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
-      -
-        import: our_events

@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1636019052
+updated_at: 1637335167
 template: home
 noindex_page: false
 hero:
@@ -21,7 +21,7 @@ who:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar. Duis id ultrices nunc, a cursus sem. Vestibulum eu diam sit amet orci malesuada gravida. Sed pretium, velit a tincidunt imperdiet, tortor tortor tristique tellus, vitae ornare odio est at neque. Nulla quis ligula ac.'
+            text: "For over 150 years EC Events have been putting the thrill into all kinds of events and special occasions. A family-run business providing rides and attractions across the globe, we know just how to put on a show! We started out with a single carousel in 1865 and now offer thrilling rides, attractions and fairground favourites for any event you can think of. \_"
     type: who
     enabled: true
     button_text: 'MORE INFO'
@@ -40,7 +40,7 @@ what:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar.'
+                text: 'From rides for the kids to those old school rides that we all love, young and old! Hire fairground favourites for any special occasion.'
         type: services
         enabled: true
         image: carousel-svg.png
@@ -52,7 +52,7 @@ what:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar.'
+                text: 'Give your Christmas lights events, festivals and fun days that fun factor by hiring a funfair for all ages to enjoy.'
         type: services
         enabled: true
         image: banners-svg.png
@@ -64,7 +64,7 @@ what:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar.'
+                text: 'Satisfy everyone’s cravings with mouthwatering savoury and sweet treats. We’ve got something for everyone to keep everyone happy at your event.'
         type: services
         enabled: true
         image: food-svg.png
@@ -76,7 +76,7 @@ what:
             content:
               -
                 type: text
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar.'
+                text: 'From delivering and setting up rides, maintenance, food & drink to site security and health and safety, we’ll make sure your event runs smoothly. We’ll even organise first aid and police on-site if needed.'
         type: services
         enabled: true
         image: juggler-svg.png
@@ -241,7 +241,7 @@ img_card:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar. Duis id ultrices nunc, a cursus sem. Vestibulum eu diam sit amet orci malesuada gravida. Sed pretium, velit a tincidunt imperdiet, tortor tortor tristique tellus, vitae ornare odio est at neque. Nulla quis ligula ac.'
+            text: 'Make your town, city or personal event really stand out from the crowd and give visitors something to remember! Our epic sky wheel stands at 35 meters tall, sure to give you a great view. If you’ve got the space, we’ll make it happen no matter the event!'
     button_text: 'MORE INFO'
     button_link: /the-sky-wheel
     image: big-wheel.png

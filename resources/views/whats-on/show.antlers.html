@@ -67,15 +67,17 @@
 
         <aside>
             <div class="sticky">
-                <div class="event reveal-bottom">
-                    {{ our_events }}
-                        <h3>{{ title }}</h3>
-                        <p>{{ info }}</p>
-                        <a href="{{ button_link }}" class="button"> 
-                            <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
-                        </a>
-                    {{ /our_events }}
-                </div>
+                {{ if events:our_events }}
+                    <div class="event reveal-bottom">
+                        {{ events:our_events }}
+                            <h3>{{ title }}</h3>
+                            <p>{{ info }}</p>
+                            <a href="{{ button_link }}" class="button"> 
+                                <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
+                            </a>
+                        {{ /events:our_events }}
+                    </div>
+                {{ endif }}
     
                 <div class="articles reveal-bottom">
                     <h3>Other Events:</h3>

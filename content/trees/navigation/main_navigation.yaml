@@ -33,8 +33,8 @@ tree:
         url: /city-beaches
       -
         id: c8c930ff-a83c-4fb1-8bba-f7d813e76db6
-        title: 'CHRISTMAS MARKETS'
-        url: /christmas-markets
+        title: 'SEASONAL MARKETS'
+        url: /seasonal-markets
       -
         id: f0f41d80-bcb4-48c9-b16b-c424bf2554d9
         title: FESTIVALS
@@ -95,6 +95,14 @@ tree:
         id: fea44e0f-ca5d-4230-9178-38931341bdb5
         title: 'EVENT MANAGEMENT'
         url: /event-management
+      -
+        id: 69ed629d-bae4-4f0e-9edd-effc65d9a8b0
+        title: 'CORPORATE HIRE'
+        url: /corporate-hire
+      -
+        id: 3c9bbc8f-1d9a-4356-a6fa-17951c429278
+        title: FUNFAIRS
+        url: /funfairs
   -
     id: 8c73fe6f-24d5-419c-a913-c1852a1faa42
     title: 'WHATS ON?'

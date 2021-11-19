@@ -17,10 +17,6 @@ data:
               text: 'Oh no! We couldn''t find the page you''re currently looking for. Try again later...'
       type: article
       enabled: true
-  side_images:
-    -
-      type: side_images
-      enabled: true
   our_events:
     -
       title: 'Interested in putting on an unforgettable event?'

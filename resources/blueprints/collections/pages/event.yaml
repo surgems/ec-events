@@ -54,11 +54,6 @@ sections:
     fields:
       -
         import: article
-  event_services:
-    display: 'Event Services'
-    fields:
-      -
-        import: event_services
   gallery:
     display: Gallery
     fields:

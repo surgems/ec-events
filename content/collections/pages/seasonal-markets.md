@@ -3,7 +3,7 @@ id: b3e513e5-4d7e-4680-a296-8bebe60b1de3
 blueprint: event
 noindex_page: false
 template: event
-title: 'Christmas Markets'
+title: 'Seasonal Markets'
 hero:
   -
     image: who-we-are-hero.png
@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637061692
+updated_at: 1637336203
 article:
   -
     content:
@@ -28,14 +28,14 @@ article:
         content:
           -
             type: text
-            text: 'Bring the beach inland! Young or old, everyone loves a day out at the beach, so why not turn your city into an island paradise. We’ll bring the sand, deck chairs and all the seaside themed food and drinks we’ve all grown to love. We can also provide tiki bars for the grown ups, along with seaside themed entertainment to keep everyone happy!     '
+            text: "Seasonal markets and fairs have rocketed in popularity and have become a staple in our calendars all year round, no matter the season. Escape to another world when we transform your spaces into themed wonderlands.\_"
           -
             type: hard_break
           -
             type: hard_break
           -
             type: text
-            text: 'We’ll carry out a full scale clear up after the event, you might take some sand home with you in your shoes (we can’t help that!) but we’ll take the majority of it!'
+            text: "We have a great range of fairground rides, food and drink chalets and stalls and other installations to help you put on an impressive day and night for everyone visiting.\_"
     type: article
     enabled: true
 event_services:

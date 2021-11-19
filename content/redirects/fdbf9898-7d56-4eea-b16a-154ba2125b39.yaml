@@ -1,0 +1,6 @@
+id: fdbf9898-7d56-4eea-b16a-154ba2125b39
+enabled: true
+source: /christmas-markets
+destination: /seasonal-markets
+type: '301'
+match_type: exact

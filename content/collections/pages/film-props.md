@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637317571
+updated_at: 1637336546
 info:
   -
     content:
@@ -22,22 +22,14 @@ info:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non.'
+            text: 'From blockbuster films, to soaps and adverts, our rides and props can really take them to the next level!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet orci ut ipsum dignissim vehicula. Duis non mauris auctor, varius eros non, tincidunt arcu. Morbi rhoncus id libero quis pellentesque. Quisque mattis erat nec mi imperdiet scelerisque. Quisque volutpat ut metus at dignissim. Praesent maximus magna porta enim pretium rutrum. Praesent mollis finibus purus, id lacinia ipsum tempus eget. Curabitur sagittis tortor arcu. Curabitur lobortis lacinia est non efficitur. Nulla viverra non massa in elementum.'
-          -
-            type: hard_break
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Fusce dignissim, risus et suscipit faucibus, mi nulla accumsan felis, vitae luctus purus metus quis sapien. Suspendisse vestibulum varius nibh,'
+            text: "We’ll deliver rides and any funfair proper you may require to keep your production on schedule! The EC Events team will transport your chosen attractions and props to your shooting location as well as any set up that may be needed.\_"
     type: info
     enabled: true
-    image:
-      - who-we-are-image2.png
+    image: who-we-are-image2.png
 ---

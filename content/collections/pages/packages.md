@@ -5,5 +5,42 @@ noindex_page: false
 template: generic
 title: Packages
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637313699
+updated_at: 1637337192
+article:
+  -
+    content:
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: Overview
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Overwhelmed and getting a bit too excited to make a decision? Why not opt for one of our packages to help you choose the best rides and attractions for your event or special occasion.\_"
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'If you’d like some more advice, why not get in touch with us today.'
+    type: article
+    enabled: true
+side_images:
+  -
+    image: 'Generic Image.png'
+    type: side_images
+    enabled: true
+hero:
+  -
+    image: who-we-are-hero.png
+    title: Packages
+    type: hero
+    enabled: true
 ---

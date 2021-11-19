@@ -11,7 +11,9 @@
         <article>
             <div id="article">
                 {{ article }}
-                    {{ content }}
+                    <div class="content">
+                        {{ content }}
+                    </div>
 
                     <div class="flex">
                         {{ images }}
@@ -42,15 +44,15 @@
             {{ /side_images }}
 
             <div class="sticky">
-                {{ if our_events }}
+                {{ if events:our_events }}
                     <div class="event reveal-bottom">
-                        {{ our_events }}
+                        {{ events:our_events }}
                             <h3>{{ title }}</h3>
                             <p>{{ info }}</p>
                             <a href="{{ button_link }}" class="button"> 
                                 <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
                             </a>
-                        {{ /our_events }}
+                        {{ /events:our_events }}
                     </div>
                 {{ endif }}
             </div>

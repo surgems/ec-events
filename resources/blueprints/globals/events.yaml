@@ -1,0 +1,6 @@
+sections:
+  main:
+    display: 'Our Events'
+    fields:
+      -
+        import: our_events

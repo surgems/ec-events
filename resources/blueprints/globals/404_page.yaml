@@ -1,9 +1,6 @@
 sections:
   main:
     display: Main
-    fields: {  }
-  hero:
-    display: Hero
     fields:
       -
         import: hero

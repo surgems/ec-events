@@ -4,7 +4,7 @@ blueprint: rides_and_attractions_category
 title: 'Family Rides'
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1636105716
+updated_at: 1637336376
 template: rides-and-attractions/index
 hero:
   -
@@ -18,5 +18,12 @@ content:
     content:
       -
         type: text
-        text: 'Nullam convallis nisi auctor, efficitur quam quis, euismod mauris. Suspendisse sed pulvinar mauris. Pellentesque hendrerit felis tellus, ac hendrerit erat dapibus vitae. In pellentesque interdum justo, eget porta magna laoreet quis. Mauris est ligula, pulvinar ut luctus vel, egestas sit amet tellus.'
+        text: 'Rides for everyone to enjoy together. Our collection of family rides, including the classic Waltzers, are available to hire for any event or special occasion. If you’ve got the space, we’ll make it work!'
+      -
+        type: hard_break
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Our expert team will organise the transportation and delivery of the rides to your setting, along with the set up. We’ll also operate and ensure safety and fun throughout your event.'
 ---

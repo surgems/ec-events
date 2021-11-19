@@ -1,0 +1,19 @@
+title: Services
+data:
+  event_services:
+    -
+      service: 'Full Project Management'
+      type: event_services
+      enabled: true
+    -
+      service: 'Health & Safety Checks'
+      type: event_services
+      enabled: true
+    -
+      service: 'Rides & Entertainment'
+      type: event_services
+      enabled: true
+    -
+      service: 'Food & Drink Stalls'
+      type: event_services
+      enabled: true
