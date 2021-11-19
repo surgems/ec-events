@@ -1,7 +1,7 @@
 {{ collection:{{slug}} as="rides" }}
     <main id="has-posts" class="rides-category">
         {{ hero }}
-            <header role="heading" style="background-image: url('{{ image }}');">
+             <header style="background-image: url('{{ glide:image }}');">
                     <div class="overlay"></div>
 
                     <h1 class="reveal-left">{{ title }}</h1>
@@ -27,7 +27,7 @@
                     </label>
                 </div>
     
-                <button type="submit" class="shimmer">APPLY</button>
+                <button id="apply-filter" type="submit" class="shimmer">APPLY</button>
             </div>
         </form>
 

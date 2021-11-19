@@ -1,7 +1,7 @@
-<header role="header">
+<header>
     <nav id="nav">
         <div class="inner-nav">
-            <a href="/" class="logo">
+            <a name="EC-Events logo" href="/" class="logo">
                 <picture>
                     <source srcset="{{ glide:details:logo width='100px' format='webp' quality='100' }}" type="image/webp">
                 
@@ -81,7 +81,7 @@
             </div>
     
             <div class="mob-nav">
-                <a class="phone" href="tel:{{details:phone_number}}">
+                <a name="Click to call EC-Events" class="phone" href="tel:{{details:phone_number}}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="39.3" height="39.3" viewBox="0 0 39.3 39.3">
                         <g id="Group_155" data-name="Group 155" transform="translate(-237 -104.23)">
                             <g id="ic_local_phone_48px" transform="translate(237 104.23)">
@@ -102,7 +102,7 @@
             </div>
         </div>
     
-        <div id="mob-menu">
+        <ul id="mob-menu">
             {{ nav handle="main_navigation" }}
                 <div class="accordion-container">
                     <li class="mob-menu-accordion" {{ if !children }}onclick="window.location.href='{{url}}'"{{ endif }}>
@@ -124,13 +124,13 @@
             </div>
     
             <div class="socials">
-                <a href="{{ details:facebook_link }}">
+                <a name="Facebook logo and link" href="{{ details:facebook_link }}">
                     <svg id="Group_152" data-name="Group 152" xmlns="http://www.w3.org/2000/svg" width="41.356" height="41.356" viewBox="0 0 41.356 41.356">
                         <rect class="bg" id="Rectangle_197" data-name="Rectangle 197" width="41.356" height="41.356" rx="7.915" transform="translate(0 0)" fill="#eaeaea"/>
                         <path id="Path_135" data-name="Path 135" d="M291.722,247.8H288.17v12.66h-5.263V247.8h-2.5V243.33h2.5v-2.894c0-2.072.985-5.311,5.311-5.311l3.9.015v4.343h-2.831a1.071,1.071,0,0,0-1.115,1.219v2.629h4.01Z" transform="translate(-265.615 -226.934)" fill="#646464"/>
                     </svg>                      
                 </a>
-                <a href="{{ details:linkedin_link }}">
+                <a name="LinkedIn logo and link" href="{{ details:linkedin_link }}">
                     <svg id="Component_14_12" data-name="Component 14 – 12" xmlns="http://www.w3.org/2000/svg" width="39.801" height="39.801" viewBox="0 0 39.801 39.801">
                         <rect class="bg" id="Rectangle_172" data-name="Rectangle 172" width="39.801" height="39.801" rx="7.915" fill="#eaeaea"/>
                         <rect id="Rectangle_173" data-name="Rectangle 173" width="4.149" height="13.423" transform="translate(10.72 15.958)" fill="#646464"/>
@@ -138,7 +138,7 @@
                         <path id="Path_40" data-name="Path 40" d="M435.23,268.245h-4.176V260.6a2.6,2.6,0,0,0-5.016-1.11,3.114,3.114,0,0,0-.15,1.11v7.647h-4.17s.06-12.219,0-13.5h4.169l-.03,1.8a4.533,4.533,0,0,1,4.132-2.307c3,0,5.24,1.957,5.24,6.163Z" transform="translate(-404.251 -238.864)" fill="#646464"/>
                     </svg>                      
                 </a>
-                <a href="{{ details:twitter_link }}">
+                <a name="Twitter logo and link" href="{{ details:twitter_link }}">
                     <svg id="Group_99" data-name="Group 99" xmlns="http://www.w3.org/2000/svg" width="39.801" height="39.801" viewBox="0 0 39.801 39.801">
                         <g id="Component_15_12" data-name="Component 15 – 12">
                           <rect class="bg" id="Rectangle_174" data-name="Rectangle 174" width="39.801" height="39.801" rx="7.915" fill="#eaeaea"/>
@@ -149,6 +149,6 @@
             </div>
     
             <p class="copyright">{{ details:copyright_info }}</p>
-        </div>
+        </ul>
     </nav>
 </header>

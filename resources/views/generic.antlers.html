@@ -1,6 +1,6 @@
 <main class="blog-post article-page generic">
     {{ hero }}
-        <header role="heading" style="background-image: url('{{ image }}');">
+         <header style="background-image: url('{{ glide:image }}');">
                 <div class="overlay"></div>
 
                 <h1 class="reveal-left">{{ title }}</h1>
@@ -48,7 +48,7 @@
                             <h3>{{ title }}</h3>
                             <p>{{ info }}</p>
                             <a href="{{ button_link }}" class="button"> 
-                                <button class="shimmer">{{ button_text }}</button> 
+                                <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
                             </a>
                         {{ /our_events }}
                     </div>

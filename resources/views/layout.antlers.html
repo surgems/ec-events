@@ -2,12 +2,10 @@
 <html lang="{{ site:short_locale }}">
 
     <head>
+        <!-- SEO -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{ if details:favicon }}<link rel="icon" href="{{ glide:details:favicon }}">{{ endif }}
-
-        {{ if meta_title }}<title>{{ meta_title }}</title>{{ else }}<title>{{ title }} | {{ site:name }}</title>{{ endif }}
         <meta name="description" content="{{ meta_description }}" />
         <meta property="og:type" content="website" />
         {{ if meta_title }}<meta name="og:title" content="{{ meta_title }}" />{{ else }}<meta name="og:title" content="{{ title }} | {{ site:name }}" />{{ endif }}
@@ -19,22 +17,27 @@
         {{ if meta_title }}<meta name="twitter:title" content="{{ meta_title }}" />{{ else }}<meta name="twitter:title" content="{{ title }} | {{ site:name }}" />{{ endif }}
         <meta name="twitter:description" content="{{ meta_description }}" />
         {{ if featured_image }}<meta property="twitter:image" content="{{ current_url }}{{ featured_image }}">{{ else }}<meta property="twitter:image" content="{{ current_url }}{{ header:logo }}">{{ endif }}
-        {{ if noindex_page }}<meta name="robots" content="noindex, nofollow">{{ /if }}
+        {{ if slug === 'thank-you' }}<meta name="robots" content="noindex, nofollow">{{ endif }}
+        <link rel="canonical" href="{{ current_url }}" />
+        <link rel="alternate" media="only screen and (max-width: 640px)"  href="{{ current_url }}">
+        {{ schema ?? schema }}
+        {{ seo:schema_markup ?? seo:schema_markup }}
 
+        <!-- CAPTCHA -->
+        {{ captcha:head }}
+
+        <!-- FAVICON & TITLE -->
+        <link rel="icon" href="{{ glide:details:favicon }}">
+        <link rel="apple-touch-icon" href="{{ glide:details:favicon }}">
+        {{ if meta_title }}<title>{{ meta_title }}</title>{{ else }}<title>{{ title }} | {{ site:name }}</title>{{ endif }}
+
+        <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
         
+        <!-- STYLESHEETS & SCRIPTS -->
         <link rel="stylesheet" href="{{ mix src='css/app.css' }}">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-        {{ schema ?? schema }}
-
-        {{ seo:schema_markup ?? seo:schema_markup }}
-
-        {{ captcha:head }}
-
-        {{ map_script }}
 
         {{ scripts:header_scripts ?? scripts:header_scripts }}
     </head>
@@ -58,7 +61,8 @@
 
         {{ partial:footer }}
         
-        <script src="{{ mix src='/js/site.js' }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" inline></script>
+        <script src="{{ mix src='/js/site.js' }}" inline></script>
 
         {{ scripts:footer_scripts ?? scripts:footer_scripts }}
     </body>
