@@ -1,0 +1,6 @@
+id: 76d8823a-83f4-4828-9cc4-a40cce2796e5
+enabled: true
+source: /contact-us
+destination: /contact
+type: '301'
+match_type: exact

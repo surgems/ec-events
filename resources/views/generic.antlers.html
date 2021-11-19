@@ -23,6 +23,12 @@
                         {{ /images }}
                     </div>
                 {{ /article }}
+
+                {{ if slug == 'thank-you' }}
+                    <div class="button"> 
+                        <a href="/" class="inner-btn animated-button thank-you-btn">GO TO HOMEPAGE</a> 
+                    </div>
+                {{ endif }}
             </div>
         </article>
 
@@ -36,15 +42,17 @@
             {{ /side_images }}
 
             <div class="sticky">
-                <div class="event reveal-bottom">
-                    {{ our_events }}
-                        <h3>{{ title }}</h3>
-                        <p>{{ info }}</p>
-                        <a href="{{ button_link }}" class="button"> 
-                            <button class="shimmer">{{ button_text }}</button> 
-                        </a>
-                    {{ /our_events }}
-                </div>
+                {{ if our_events }}
+                    <div class="event reveal-bottom">
+                        {{ our_events }}
+                            <h3>{{ title }}</h3>
+                            <p>{{ info }}</p>
+                            <a href="{{ button_link }}" class="button"> 
+                                <button class="shimmer">{{ button_text }}</button> 
+                            </a>
+                        {{ /our_events }}
+                    </div>
+                {{ endif }}
             </div>
         </aside>
     </section>

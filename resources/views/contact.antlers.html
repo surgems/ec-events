@@ -1,0 +1,47 @@
+<main class="contact blog-category article-page">
+    <header role="heading">
+        <h1 class="reveal-left">{{ title }}</h1>
+    </header>
+
+    <section id="info" class="wide">
+        <article>
+            <div id="article">
+                {{ content }}
+            </div>
+
+            <div class="details reveal-left">
+                <a title="Call us!" href="tel:{{ details:phone_number }}" class="tel flex">
+                    <div class="svg-container flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="39.3" height="39.3" viewBox="0 0 39.3 39.3">
+                            <g id="Group_155" data-name="Group 155" transform="translate(-237 -104.23)">
+                              <g id="ic_local_phone_48px" transform="translate(237 104.23)">
+                                <path id="Path_154" data-name="Path 154" d="M13.915,23.019A32.881,32.881,0,0,0,28.3,37.4l4.8-4.814a2.19,2.19,0,0,1,2.216-.535,24.854,24.854,0,0,0,7.794,1.244A2.176,2.176,0,0,1,45.3,35.475v7.642A2.176,2.176,0,0,1,43.116,45.3,37.113,37.113,0,0,1,6,8.183,2.183,2.183,0,0,1,8.183,6h7.642a2.176,2.176,0,0,1,2.183,2.183,24.854,24.854,0,0,0,1.244,7.794,2.19,2.19,0,0,1-.535,2.216Z" transform="translate(-6 -6)" fill="#e50331"/>
+                              </g>
+                            </g>
+                        </svg> 
+                    </div>       
+
+                    <h3>{{ details:phone_number }}</h3>
+                </a>
+
+                <a title="Directions" class="address flex" href="https://www.google.com/maps/dir//High+St,+Northallerton+DL7+8DJ/@54.3417635,-1.4387194,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x487ebc9ca146ce2d:0xc3f3ff1256835617!2m2!1d-1.4365307!2d54.3417604" target="_blank">
+                    <div class="svg-container flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25.9" height="37" viewBox="0 0 25.9 37">
+                            <g id="ic_location_on_24px" transform="translate(-5 -2)">
+                              <path id="Path_186" data-name="Path 186" d="M17.95,2A12.941,12.941,0,0,0,5,14.95C5,24.663,17.95,39,17.95,39S30.9,24.663,30.9,14.95A12.941,12.941,0,0,0,17.95,2Zm0,17.575a4.625,4.625,0,1,1,4.625-4.625A4.627,4.627,0,0,1,17.95,19.575Z" fill="#e50331"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div>
+                        {{ address }} 
+                    </div>                     
+                </a>
+            </div>
+        </article>
+
+        <aside>
+            {{ partial:partials/enquiry-form }}
+        </aside>
+    </section>
+</main>
