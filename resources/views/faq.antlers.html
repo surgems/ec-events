@@ -1,0 +1,58 @@
+{{ collection:blog_posts as="posts" }}
+    <main id="has-posts" class="blog-category">
+        <header role="heading">
+            <h1 class="reveal-left">{{ title }}</h1>
+        </header>
+
+        <div class="content">
+            {{ content }}
+        </div>
+
+        <div id="filters">
+            <h3>BLOG CATEGORIES:</h3>
+
+            <div class="flex">
+                <button id="post" class="shimmer filter-btn active">Show all</button>
+                {{ taxonomy from="blog_categories" }}
+                    <button id="{{ slug }}" class="shimmer filter-btn">{{ title }}</button>
+                {{ /taxonomy }}
+            </div>
+        </div>
+
+        <div class="posts-wrapper">
+            <div class="blog-posts-container posts-container" data-has-posts="9">
+                {{ posts }}
+                    <div class="blog-post post{{ blog_categories }} {{ slug }}{{ /blog_categories }}" onclick="window.location.href = '/blog/{{ slug }}'">
+                        <div class="img-container img-container-shimmer">
+                            <figure>
+                                <picture>
+                                    <source srcset="{{ glide:featured_img width='100px' format='webp' quality='100' }}" type="image/webp">
+                                
+                                    <img loading="lazy" src="{{ glide:featured_img width='100px' format='webp' quality='100' }}" alt="{{ featured_img:alt }}">
+                                </picture>
+                            </figure>
+                        </div>
+        
+                        <h3>{{ title }}</h3>
+        
+                        <div class="details">
+                            {{ blog_categories }}
+                                <p><em>{{ title }}</em></p>
+                            {{ /blog_categories }}
+                        </div>
+
+                        <div class="preview">
+                            {{ preview }}
+                        </div>
+        
+                        <div class="button"> 
+                            <a href="/blog/{{ slug }}" class="inner-btn animated-button">READ</a> 
+                        </div>
+                    </div>
+                {{ /posts }}
+            </div>
+        </div>
+
+        {{ partial:partials/pagination }}
+    </main>
+{{ /collection:blog_posts }}

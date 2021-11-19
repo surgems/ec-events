@@ -1,0 +1,67 @@
+title: 'Film Props'
+sections:
+  seo:
+    display: SEO
+    fields:
+      -
+        import: seo
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: featured_img
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: 'Featured Image'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+  hero:
+    display: Hero
+    fields:
+      -
+        import: hero
+  article:
+    display: Article
+    fields:
+      -
+        import: article
+  prop_specifications:
+    display: 'Prop Specifications'
+    fields:
+      -
+        import: ride_specifications
+  gallery:
+    display: Gallery
+    fields:
+      -
+        import: gallery
+  additional_info:
+    display: 'Additional info'
+    fields:
+      -
+        import: additional_info

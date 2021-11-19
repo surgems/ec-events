@@ -1,0 +1,10 @@
+title: 'Film Props'
+template: film-props/show
+layout: layout
+mount: cfa69986-8783-4c9b-bfb1-32ac467cb9b2
+revisions: false
+route: '/film-props/{slug}'
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private

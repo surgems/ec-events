@@ -1,5 +1,5 @@
-{{ collection:{{slug}} as="rides" }}
-    <main id="has-posts" class="rides-category">
+{{ collection:film_props as="props" }}
+    <main id="has-posts" class="rides-category film-props">
         {{ hero }}
             <header role="heading" style="background-image: url('{{ image }}');">
                     <div class="overlay"></div>
@@ -8,34 +8,26 @@
             </header>
         {{ /hero }}
 
-        <div class="content">
-            {{ content }}
+        <div class="info flex">
+            {{ info }}
+                <div class="content">
+                    {{ content }}
+                </div>
+
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            {{ /info }}
         </div>
 
-        <form id="filters">
-            <h3>FILTER RIDES</h3>
-
-            <div>
-                <div class="flex">
-                    <label>Height:
-                        <select class="filter">
-                            <option value="post">Show All</option>
-                            {{ taxonomy from="ride_height" }}
-                                <option value="{{ slug }}">{{ title }}</option>
-                            {{ /taxonomy }}
-                        </select>
-                    </label>
-                </div>
-    
-                <button type="submit" class="shimmer">APPLY</button>
-            </div>
-        </form>
-
         <div class="posts-wrapper">
+            <h3>Available Props:</h3>
             <div class="posts-container" data-has-posts="100">
-                {{ rides }}
-                    <div class="post{{ ride_height }} {{ slug }}{{ /ride_height }}{{ ride_capacity }} {{ slug }}{{ /ride_capacity }}">
-                        <a href="{{ slug }}">
+                {{ props }}
+                    <div class="post">
+                        <a href="/film-props/{{ slug }}">
                             <div class="img-container-shimmer">
                                 <figure>
                                     <picture>
@@ -49,7 +41,7 @@
                             <h3 class="reveal-left">{{ title }} >></h3>
                         </a>
                     </div>
-                {{ /rides }}
+                {{ /props }}
             </div>
         </div>
 
@@ -57,4 +49,4 @@
 
         {{ partial:partials/partners }}
     </main>
-{{ /collection:{{slug}} }}
+{{ /collection:film_props }}
