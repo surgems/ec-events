@@ -1,0 +1,31 @@
+title: '404 Page'
+data:
+  hero:
+    -
+      image: who-we-are-hero.png
+      title: '404'
+      type: hero
+      enabled: true
+  article:
+    -
+      content:
+        -
+          type: paragraph
+          content:
+            -
+              type: text
+              text: 'Oh no! We couldn''t find the page you''re currently looking for. Try again later...'
+      type: article
+      enabled: true
+  side_images:
+    -
+      type: side_images
+      enabled: true
+  our_events:
+    -
+      title: 'Interested in putting on an unforgettable event?'
+      info: 'Check out what we can do and tell us your requirements!'
+      button_text: 'OUR EVENTS'
+      button_link: /whats-on
+      type: our_events
+      enabled: true

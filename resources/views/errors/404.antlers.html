@@ -1,4 +1,57 @@
-<main class="error">
-    <h1>Oh No! 404</h1>
-    <p>Sorry, but the page you're looking for is unavailable right now! Please try again later.</p>
+<main class="blog-post article-page generic">
+    {{ 404_page:hero }}
+         <header style="background-image: url('{{ glide:image }}');">
+                <div class="overlay"></div>
+
+                <h1 class="reveal-left">{{ title }}</h1>
+        </header>
+    {{ /404_page:hero }}
+
+    <section id="info" class="wide">
+        <article>
+            <div id="article">
+                {{ 404_page:article }}
+                    {{ content }}
+
+                    <div class="flex">
+                        {{ images }}
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+                        {{ /images }}
+                    </div>
+                {{ /404_page:article }}
+
+                <div class="button"> 
+                    <a href="/" class="inner-btn animated-button thank-you-btn">GO TO HOMEPAGE</a> 
+                </div>
+            </div>
+        </article>
+
+        <aside>
+            {{ 404_page:side_images }}
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-bottom" loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            {{ /404_page:side_images }}
+
+            <div class="sticky">
+                {{ if 404_page:our_events }}
+                    <div class="event reveal-bottom">
+                        {{ 404_page:our_events }}
+                            <h3>{{ title }}</h3>
+                            <p>{{ info }}</p>
+                            <a href="{{ button_link }}" class="button"> 
+                                <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
+                            </a>
+                        {{ /404_page:our_events }}
+                    </div>
+                {{ endif }}
+            </div>
+        </aside>
+    </section>
 </main>
