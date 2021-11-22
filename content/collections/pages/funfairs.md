@@ -33,6 +33,18 @@ article:
           -
             type: text
             text: 'to the next level!'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Why choose EC Events?'
     type: article
     enabled: true
 side_images:
@@ -41,5 +53,5 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637589359
+updated_at: 1637590724
 ---
