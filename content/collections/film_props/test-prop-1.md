@@ -4,11 +4,11 @@ blueprint: film_props
 title: PROP
 featured_img: attractions-placeholder.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637580603
+updated_at: 1637580667
 noindex_page: false
 hero:
   -
-    image: Film-props-header.png
+    image: Film-props-header-1637580661.png
     type: hero
     enabled: true
 article:
