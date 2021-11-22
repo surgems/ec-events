@@ -5,7 +5,7 @@ noindex_page: false
 template: event
 title: Festivals
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637577388
+updated_at: 1637577467
 hero:
   -
     image: music-festival-crowd.jpg
@@ -42,7 +42,7 @@ article:
             type: hard_break
           -
             type: text
-            text: 'We are ADIPS & HSE Accredited,'
+            text: 'We are ADIPS & HSE Accredited.'
     type: article
     enabled: true
 gallery:
