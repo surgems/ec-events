@@ -5,10 +5,10 @@ noindex_page: false
 template: event
 title: 'City Beaches'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336185
+updated_at: 1637576424
 hero:
   -
-    image: who-we-are-hero.png
+    image: city-beach-palm-tree-skies.jpg
     title: 'City Beaches'
     type: hero
     enabled: true
@@ -43,15 +43,13 @@ article:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: giant-beach-ball.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
     type: gallery
     enabled: true
 ---
