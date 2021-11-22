@@ -5,10 +5,10 @@ noindex_page: false
 template: event
 title: Festivals
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336268
+updated_at: 1637577388
 hero:
   -
-    image: who-we-are-hero.png
+    image: music-festival-crowd.jpg
     title: Festivals
     type: hero
     enabled: true
@@ -47,15 +47,16 @@ article:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: music-events-1637577382.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: beach-party-scene-1600px-1637577284.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: music-festival-crowd-original-1637577354.jpg
     type: gallery
     enabled: true
+featured_image: music-festival-crowd-original.jpg
 ---
