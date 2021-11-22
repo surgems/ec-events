@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637570789
+updated_at: 1637571126
 template: home
 noindex_page: false
 hero:
@@ -130,7 +130,7 @@ rides_and_attractions:
     enabled: true
 map:
   -
-    image: World-Map.png
+    image: EC-Events_World-Map.png
     title: 'Where we have been?'
     where:
       -
@@ -244,7 +244,7 @@ img_card:
             text: 'Make your town, city or personal event really stand out from the crowd and give visitors something to remember! Our epic sky wheel stands at 35 meters tall, sure to give you a great view. If you’ve got the space, we’ll make it happen no matter the event!'
     button_text: 'MORE INFO'
     button_link: /the-sky-wheel
-    image: big-wheel.png
+    image: sky-wheel.jpg
     type: the_sky_wheel
     enabled: true
 ---
