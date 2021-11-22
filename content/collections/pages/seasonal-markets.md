@@ -6,12 +6,12 @@ template: event
 title: 'Seasonal Markets'
 hero:
   -
-    image: seasonal-markets-landscape.jpg
-    title: 'Christmas Markets'
+    image: seasonal-markets-landscape-1637577038.jpg
+    title: 'Seasonal Markets'
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637576964
+updated_at: 1637577056
 article:
   -
     content:
@@ -91,4 +91,5 @@ additional_info:
             text: 'Text here.'
     type: additional_info
     enabled: true
+featured_image: christmas-market-scene-1637577030.jpg
 ---
