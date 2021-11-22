@@ -11,7 +11,7 @@ hero:
     enabled: true
     image: city-transformations-festival-garlands.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637575130
+updated_at: 1637575778
 article:
   -
     content:
@@ -51,11 +51,11 @@ gallery:
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: city-transformations.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: music-events.jpg
     type: gallery
     enabled: true
 ---
