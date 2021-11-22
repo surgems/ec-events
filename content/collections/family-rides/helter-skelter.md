@@ -2,9 +2,9 @@
 id: 36bad5d5-1e39-4d0b-8489-4e01f4052d20
 blueprint: family-rides
 title: 'Helter Skelter'
-featured_image: attractions-placeholder.png
+featured_image: helter-skelter-ride-1637579216.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637578993
+updated_at: 1637579220
 ride_height:
   - 100-meters
 ride_capacity:
