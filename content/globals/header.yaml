@@ -2,7 +2,7 @@ title: Header
 data:
   featured_ride:
     -
-      image: big-wheel.png
+      image: sky-wheel-1637571700.jpg
       button_text: 'The Sky Wheel'
       button_link: /the-sky-wheel
       type: featured_ride
