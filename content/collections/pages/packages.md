@@ -5,7 +5,7 @@ noindex_page: false
 template: generic
 title: Packages
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637581906
+updated_at: 1637582010
 article:
   -
     content:
@@ -30,15 +30,13 @@ article:
           -
             type: text
             text: 'If you’d like some more advice, why not get in touch with us today.'
-          -
-            type: hard_break
-      -
-        type: paragraph
       -
         type: heading
         attrs:
           level: 3
         content:
+          -
+            type: hard_break
           -
             type: text
             text: 'Package 1'
