@@ -3,12 +3,12 @@ id: e786b224-0a05-4586-94cf-4e302ea320ca
 blueprint: family-rides
 title: Carousel
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637579017
+updated_at: 1637579550
 ride_slug: carousel
 ride_height:
   - 200-meters
 noindex_page: false
-featured_img: attractions-placeholder.png
+featured_img: carousel-ride-1600px-1637575127.jpg
 hero:
   -
     image: Rides-header-background-1637579005.png
@@ -43,15 +43,13 @@ article:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: carousel-ride-1600px.jpg
     type: gallery
     enabled: true
   -
-    image: who-we-are-image1.png
     type: gallery
     enabled: true
   -
-    image: who-we-are-image2.png
     type: gallery
     enabled: true
 additional_info:
@@ -111,6 +109,7 @@ ride_specifications:
     spec: 'Hourly Capacity:'
     type: ride_specifications
     enabled: true
+featured_image: carousel-ride-1600px-1637579492.jpg
 content:
   -
     type: heading
