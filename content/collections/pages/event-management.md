@@ -5,7 +5,7 @@ noindex_page: false
 template: generic
 title: 'Event Management'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637582509
+updated_at: 1637582543
 hero:
   -
     image: event-management.jpg
@@ -21,6 +21,10 @@ article:
           -
             type: text
             text: 'Let the team here at EC Events take away the stress of managing your event. We’ll handle everything, from delivering and setting up rides, maintenance, food & drink, site security, health and safety. Our team can even organise first aid support and police on-site if needed.'
+          -
+            type: hard_break
+          -
+            type: hard_break
       -
         type: heading
         attrs:
