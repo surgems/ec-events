@@ -6,12 +6,12 @@ template: generic
 title: 'Health & Safety'
 hero:
   -
-    image: who-we-are-hero.png
+    image: ride-maintenance-health-and-safety.jpg
     title: 'Health & Safety'
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637250758
+updated_at: 1637574794
 article:
   -
     content:
@@ -75,7 +75,7 @@ our_events:
     enabled: true
 side_images:
   -
-    image: 'Generic Image.png'
+    image: fun-fair-ride-seats-portrait.jpg
     type: side_images
     enabled: true
 ---
