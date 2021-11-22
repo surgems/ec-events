@@ -5,7 +5,7 @@ noindex_page: false
 title: 'Corporate Hire'
 hero:
   -
-    image: who-we-are-hero.png
+    image: corporate-hire.jpg
     title: 'Corporate Hire'
     type: hero
     enabled: true
@@ -29,10 +29,10 @@ article:
     enabled: true
 side_images:
   -
-    image: 'Generic Image.png'
+    image: balloons.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637337485
+updated_at: 1637588942
 template: generic
 ---
