@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637338690
+updated_at: 1637570789
 template: home
 noindex_page: false
 hero:
@@ -26,8 +26,8 @@ who:
     enabled: true
     button_text: 'MORE INFO'
     button_link: 'entry::d5cf8bc4-8346-4fa5-870d-4605b84b7b12'
-    landscape_image: who-we-are-image1.png
-    portrait_image: who-we-are-image2.png
+    landscape_image: festival-crowd-summer-evening-1600px.jpg
+    portrait_image: skyswing-ride-portrait.jpg
 what:
   -
     title: 'What we do?'
