@@ -5,7 +5,7 @@ noindex_page: false
 template: who-we-are
 title: 'Who we are?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637335349
+updated_at: 1637573044
 who:
   -
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non.'
@@ -16,8 +16,8 @@ who:
           -
             type: text
             text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar. Duis id ultrices nunc, a cursus sem. Vestibulum eu diam sit amet orci malesuada gravida. Sed pretium, velit a tincidunt imperdiet, tortor tortor tristique tellus, vitae ornare odio est at neque. Nulla quis ligula ac.'
-    landscape_image: who-we-are-image1.png
-    portrait_image: who-we-are-image2.png
+    landscape_image: festival-crowd-summer-evening-1600px.jpg
+    portrait_image: skyswing-ride-portrait.jpg
     type: who
     enabled: true
 hero:
@@ -25,7 +25,7 @@ hero:
     title: 'Who we are?'
     type: hero
     enabled: true
-    image: who-we-are-hero.png
+    image: night-time-swings-ride.jpg
 our_history:
   -
     title: 'Our History'
@@ -126,7 +126,7 @@ img_card:
                   -
                     type: text
                     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    image: who-we-are-image1.png
+    image: carousel-ride-1600px.jpg
 the_team:
   -
     title: 'The Team'
@@ -137,13 +137,13 @@ the_team:
         type: members
         enabled: true
       -
-        name: 'Elliot Crow'
-        role: 'Managing Director'
+        name: 'Tiffany Crow'
+        role: 'Creative Director'
         type: members
         enabled: true
       -
-        name: 'Elliot Crow'
-        role: 'Managing Director'
+        name: 'Joseph Layton'
+        role: 'Rides & Site Manager'
         type: members
         enabled: true
     type: the_team
