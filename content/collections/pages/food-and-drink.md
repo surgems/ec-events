@@ -11,7 +11,7 @@ hero:
     image: street-food-stalls-landscape.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637577891
+updated_at: 1637577930
 article:
   -
     content:
