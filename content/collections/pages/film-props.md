@@ -6,12 +6,12 @@ template: film-props/index
 title: 'Film Props'
 hero:
   -
-    image: who-we-are-hero.png
+    image: film-props-set-management.jpg
     title: 'Film Props'
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336546
+updated_at: 1637580173
 info:
   -
     content:
@@ -31,5 +31,6 @@ info:
             text: "We’ll deliver rides and any funfair proper you may require to keep your production on schedule! The EC Events team will transport your chosen attractions and props to your shooting location as well as any set up that may be needed.\_"
     type: info
     enabled: true
-    image: who-we-are-image2.png
+    image: film-reel.jpg
+featured_image: AdobeStock_198470983.jpg
 ---
