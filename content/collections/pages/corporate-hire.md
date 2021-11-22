@@ -17,7 +17,7 @@ article:
         content:
           -
             type: text
-            text: 'No matter your corporate event, the EC team has everything you need to to keep everyone interested. From rides and attractions to food, drink and even entertainers, we’ll make sure your day isn’t just another forgotten event.'
+            text: 'No matter your corporate event, the EC team has everything you need to keep everyone interested. From rides and attractions to food, drink and even entertainers, we’ll make sure your day isn’t just another forgotten event.'
           -
             type: hard_break
           -
@@ -25,6 +25,32 @@ article:
           -
             type: text
             text: 'From factory fun days to team building events, browse our range of rides and attractions for hire.'
+      -
+        type: paragraph
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Safety First'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Why Choose EC Events?'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Nationwide Service'
     type: article
     enabled: true
 side_images:
@@ -33,6 +59,6 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637588942
+updated_at: 1637589088
 template: generic
 ---
