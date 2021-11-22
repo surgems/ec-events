@@ -6,12 +6,12 @@ template: event
 title: 'Seasonal Markets'
 hero:
   -
-    image: who-we-are-hero.png
+    image: seasonal-markets-landscape.jpg
     title: 'Christmas Markets'
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336203
+updated_at: 1637576964
 article:
   -
     content:
@@ -57,15 +57,15 @@ event_services:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: christmas-market-scene.jpg
     type: gallery
     enabled: true
   -
-    image: big-wheel.png
+    image: christmas-market-stalls.jpg
     type: gallery
     enabled: true
   -
-    image: who-we-are-image1.png
+    image: christmas-market-close-up-of-couple.jpg
     type: gallery
     enabled: true
 additional_info:
