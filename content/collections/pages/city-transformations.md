@@ -9,9 +9,9 @@ hero:
     title: 'City Transformations'
     type: hero
     enabled: true
-    image: who-we-are-hero.png
+    image: city-transformations-festival-garlands.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336165
+updated_at: 1637575130
 article:
   -
     content:
@@ -47,7 +47,7 @@ event_services:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: carousel-ride-1600px-1637575127.jpg
     type: gallery
     enabled: true
   -
