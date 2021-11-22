@@ -4,11 +4,50 @@ blueprint: family-rides
 title: 'Helter Skelter'
 featured_image: attractions-placeholder.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1636970109
+updated_at: 1637578651
 ride_height:
   - 100-meters
 ride_capacity:
   - '100'
 noindex_page: false
 featured_img: attractions-placeholder.png
+article:
+  -
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nullam convallis nisi auctor, efficitur quam quis, euismod mauris. Suspendisse sed pulvinar mauris. Pellentesque hendrerit felis tellus, ac hendrerit erat dapibus vitae. In pellentesque interdum justo, eget porta magna laoreet quis. Mauris est ligula, pulvinar ut luctus vel, egestas sit amet tellus.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Quisque quis nisi sit amet metus venenatis feugiat. Vestibulum in varius nunc. Mauris pharetra lacinia vulputate. Cras mollis leo eget consequat finibus. Sed aliquet enim sit amet efficitur condimentum. Ut varius interdum ex, ut.'
+    type: article
+    enabled: true
+ride_specifications:
+  -
+    spec: 'Height:'
+    type: ride_specifications
+    enabled: true
+  -
+    spec: 'Diameter:'
+    type: ride_specifications
+    enabled: true
+  -
+    spec: 'Capacity:'
+    type: ride_specifications
+    enabled: true
+  -
+    spec: 'Hourly Capacity:'
+    type: ride_specifications
+    enabled: true
+gallery:
+  -
+    image: helter-skelter-ride.jpg
+    type: gallery
+    enabled: true
 ---
