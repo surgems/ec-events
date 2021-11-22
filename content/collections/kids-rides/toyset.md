@@ -50,7 +50,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637594715
+updated_at: 1637594810
 featured_image: toyset.png
-featured_img: toyset-1637594710.png
+featured_img: toy-set.jpg
 ---
