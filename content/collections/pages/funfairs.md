@@ -6,7 +6,7 @@ template: generic
 title: Funfairs
 hero:
   -
-    image: who-we-are-hero.png
+    image: fun-fair-hire.jpg
     title: Funfairs
     type: hero
     enabled: true
@@ -37,9 +37,9 @@ article:
     enabled: true
 side_images:
   -
-    image: 'Generic Image.png'
+    image: fun-fair-ride-seats-1637589355.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637337701
+updated_at: 1637589359
 ---
