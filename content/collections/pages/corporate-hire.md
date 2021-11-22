@@ -27,6 +27,9 @@ article:
             text: 'From factory fun days to team building events, browse our range of rides and attractions for hire.'
       -
         type: paragraph
+        content:
+          -
+            type: hard_break
       -
         type: heading
         attrs:
@@ -59,6 +62,6 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637589137
+updated_at: 1637589177
 template: generic
 ---
