@@ -5,10 +5,10 @@ noindex_page: false
 template: generic
 title: 'Event Management'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637582297
+updated_at: 1637582509
 hero:
   -
-    image: who-we-are-hero.png
+    image: event-management.jpg
     title: 'Event Management'
     type: hero
     enabled: true
