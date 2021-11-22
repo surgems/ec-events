@@ -8,10 +8,10 @@ hero:
   -
     type: hero
     enabled: true
-    image: who-we-are-hero.png
+    image: street-food-stalls-landscape.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336332
+updated_at: 1637577891
 article:
   -
     content:
@@ -40,15 +40,20 @@ article:
     enabled: true
 gallery:
   -
-    image: attractions-placeholder.png
+    image: dirty-fries-street-food.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: burgers-street-food.jpg
     type: gallery
     enabled: true
   -
-    image: attractions-placeholder.png
+    image: street-food-stalls-1637577868.jpg
     type: gallery
     enabled: true
+  -
+    image: city-transformations-1637577880.jpg
+    type: gallery
+    enabled: true
+featured_image: street-food-stalls.jpg
 ---
