@@ -4,7 +4,7 @@ blueprint: rides_and_attractions_category
 title: 'Family Rides'
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637578201
+updated_at: 1637591469
 template: rides-and-attractions/index
 hero:
   -
@@ -12,6 +12,7 @@ hero:
     image: young-children-enjoying-fun-fair-rides.jpg
     type: hero
     enabled: true
+featured_image: family-rides.jpg
 content:
   -
     type: paragraph
