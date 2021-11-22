@@ -5,7 +5,13 @@ title: 'Thrill Rides'
 template: rides-and-attractions/index
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637336473
+updated_at: 1637595169
+hero:
+  -
+    title: 'Thrill Rides'
+    image: thrill-rides-header.jpg
+    type: hero
+    enabled: true
 content:
   -
     type: paragraph
