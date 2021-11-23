@@ -50,14 +50,14 @@ data:
           enabled: true
       accreditations:
         -
-          accreditation: ADIPS.png
+          accreditation: ADIPS-Inspection-body.png
           type: accreditations
           enabled: true
         -
-          accreditation: HSE-logo.png
+          accreditation: HSE-logo-jpg.jpg
           type: accreditations
           enabled: true
         -
-          accreditation: Showmans-Guild-Colour.png
+          accreditation: showmans-guild-logo.png
           type: accreditations
           enabled: true
