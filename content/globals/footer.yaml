@@ -50,11 +50,11 @@ data:
           enabled: true
       accreditations:
         -
-          accreditation: ADIPS-Inspection-body.png
+          accreditation: HSE-logo-jpg-1637680604.jpg
           type: accreditations
           enabled: true
         -
-          accreditation: HSE-logo-jpg.jpg
+          accreditation: HSE-logo-jpg-1637680635.jpg
           type: accreditations
           enabled: true
         -
