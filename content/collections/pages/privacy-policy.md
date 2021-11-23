@@ -6,10 +6,10 @@ template: generic
 title: 'Privacy Policy'
 hero:
   -
-    image: who-we-are-hero.png
+    image: Terms-Header-Images.png
     title: 'Privacy Policy'
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637324642
+updated_at: 1637678364
 ---
