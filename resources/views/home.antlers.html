@@ -5,13 +5,18 @@
                 <h1 class="reveal-left">{{ title }}</h1>
             </div>
 
-            <div class="video">
-                <iframe title="Ec Events Slideshow" width="560" height="315" src="https://www.youtube.com/embed/{{ video }}?playsinline=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video" {{ if !video}}style="background-image: url('{{ image }}');{{ endif }}">
+                {{ if video }}
+                    <video id="vid" src="{{ video }}" playsinline muted autoplay loop>
+                        <source src="{{ video }}" type="video/mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                {{ endif }}
             </div>
         {{ /hero }}
     </header>
 
-    {{ partial:partials/who }}
+    <!-- {{ partial:partials/who }} -->
 
     <section id="what">
         {{ what }}
@@ -54,7 +59,7 @@
                                     <picture>
                                         <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
                                     
-                                        <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
                                     </picture>
                                 </figure>
                             </div>

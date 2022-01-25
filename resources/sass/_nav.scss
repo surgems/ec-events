@@ -18,6 +18,14 @@ header {
             width: 100vw;
             box-shadow: 0 0px 5px 5px rgba(0, 0, 0, .25);
             background-color: #fff;
+
+            .logo {
+                height: 65px;
+
+                img {
+                    height: 65px;
+                }
+            }
     
             .burger {
                 #nav-icon3 {

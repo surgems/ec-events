@@ -1,6 +1,6 @@
 <main class="article-page">
     {{ hero }}
-         <header style="background-image: url('{{ glide:image }}');">
+         <header {{ if !image }}class="no-img"{{ endif }} style="background-image: url('{{ glide:image }}');">
                 <div class="overlay"></div>
 
                 <h1 class="reveal-left">{{ title }}</h1>

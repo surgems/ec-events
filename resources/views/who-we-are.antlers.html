@@ -28,7 +28,7 @@
 
             <div class="members">
                 {{ members }}
-                    <div class="member">
+                    <div class="member reveal-bottom">
                         {{ if image }}
                             <picture>
                                 <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
@@ -41,8 +41,8 @@
                             </svg>                  
                         {{ endif }}
 
-                        <p class="reveal-left"><strong>{{ name }}</strong></p>
-                        <p class="reveal-right"><em>{{ role }}</em></p>
+                        <p><strong>{{ name }}</strong></p>
+                        <p><em>{{ role }}</em></p>
                     </div>
                 {{ /members }}
             </div>

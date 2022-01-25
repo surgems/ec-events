@@ -309,17 +309,17 @@ $grey: #D3D3D3;
 
         /* SOCIALS */
 
-        .socials {
-            @include flex(center);
+        // .socials {
+        //     @include flex(center);
 
-            a {
-                &:focus {
-                    .bg {
-                        fill: #100C08;
-                    }
-                }
-            }
-        }
+        //     a {
+        //         &:focus {
+        //             .bg {
+        //                 fill: #100C08;
+        //             }
+        //         }
+        //     }
+        // }
 
         /* OWL CAROUSEL */
 

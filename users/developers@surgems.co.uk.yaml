@@ -8,3 +8,8 @@ preferences:
       columns:
         - datestamp
         - email
+  collections:
+    testimonials:
+      columns:
+        - title
+        - slug

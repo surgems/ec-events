@@ -40,12 +40,12 @@ if (document.getElementById('has-posts')) {
     arr1 = element.className.split(" ");
     arr2 = name.split(" ");
     for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-    }
+      while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+      };
+    };
     element.className = arr1.join(" ");
-  }
+  };
 
   function AddClass(element, name) {
     const classlist = element.className.split(" ");

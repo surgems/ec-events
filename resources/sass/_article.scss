@@ -1,4 +1,10 @@
 main.article-page {
+    header {
+        &.no-img {
+            background: $dblue
+        }
+    }
+
     section#info {
         @include flex(0, space-between, 0, column);
         padding: 0 $smallMobPaddingX;
@@ -166,6 +172,12 @@ main.article-page {
 
 @media #{$laptop}, #{$desktop} {
     main.article-page {
+        header {
+            &.no-img {
+                height: 25vh;
+            }
+        }
+
         section#info {
             flex-direction: row;
             justify-content: space-between;

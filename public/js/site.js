@@ -213,8 +213,11 @@ if (document.getElementById('has-posts')) {
         while (arr1.indexOf(arr2[i]) > -1) {
           arr1.splice(arr1.indexOf(arr2[i]), 1);
         }
+
+        ;
       }
 
+      ;
       element.className = arr1.join(" ");
     };
 
@@ -304,6 +307,7 @@ if (document.getElementById('has-posts')) {
     var postContainer = document.getElementsByClassName('posts-container')[0];
     var allEntries = document.getElementsByClassName('post');
     var filteredEntries;
+    ;
 
     var removePosts = function removePosts() {
       for (var i = allEntries.length - 1; i >= 0; i--) {

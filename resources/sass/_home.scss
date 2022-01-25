@@ -16,9 +16,16 @@ main.home {
                 height: 37.5vh;
             }
 
-            iframe {
-                width: 100%;
+            &.video {
+                background-size: cover;
+                background-position: center;
+                overflow: hidden;
                 height: 45vh;
+
+                video {
+                    width: auto;
+                    height: 45vh;
+                }
             }
         }
 
@@ -250,10 +257,11 @@ main.home {
             flex-direction: row;
 
             > div {
-                height: 77.5vh !important;
+                height: 77.5vh;
 
                 &.red {
                     width: 30%;
+                    height: 77.5vh;
 
                     h1 {
                         width: 40%;
@@ -264,8 +272,11 @@ main.home {
 
                 &.video {
                     width: 70%;
+                    height: 77.5vh;
+                    overflow: hidden;
 
-                    iframe {
+                    video {
+                        width: auto;
                         height: 77.5vh;
                     }
                 }
@@ -339,10 +350,11 @@ main.home {
         /* HEADER */
     
         header {
+
             > div {
                 &.red {
                     width: 21.5vw;
-                    height: 85vh !important;
+                    height: 85vh;
 
                     h1 {
                         top: 20vh;
@@ -353,10 +365,12 @@ main.home {
                 }
 
                 &.video {
-                    width: 70%;
+                    width: 78.5vw;
+                    height: 85vh;
+                    overflow: hidden;
 
-                    iframe {
-                        width: 78vw;
+                    video {
+                        width: auto;
                         height: 85vh;
                     }
                 }

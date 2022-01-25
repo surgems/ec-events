@@ -4,11 +4,10 @@ blueprint: film_props
 title: PROP
 featured_img: Film-Prop---Placeholder.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637679552
+updated_at: 1643104153
 noindex_page: false
 hero:
   -
-    image: Plain-Generic-Header-Images.png
     type: hero
     enabled: true
     title: 'Film Prop'

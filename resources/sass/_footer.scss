@@ -108,9 +108,16 @@ footer {
             }
     
             .flex {
-                justify-content: space-between;
-                flex-wrap: wrap;
+                @include flex(center, space-between, wrap, row);
                 margin: 45px 0;
+
+                picture {
+                    width: 25%;
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
 
