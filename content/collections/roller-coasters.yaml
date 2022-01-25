@@ -1,7 +1,7 @@
-title: Dodgems
+title: 'Roller Coasters'
 template: rides-and-attractions/show
 layout: layout
-mount: 08ad1020-1a14-4fe4-9fbe-08c638f9f751
+mount: 921a5957-480f-41f9-9f00-e9befc56c9b6
 taxonomies:
   - ride_capacity
   - ride_height
