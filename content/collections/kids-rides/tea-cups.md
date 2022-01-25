@@ -11,7 +11,6 @@ title: 'Tea Cups'
 featured_img: kids-rides-teacups-1637594336.jpg
 hero:
   -
-    image: Rides-header-background-1637594349.png
     title: 'Tea Cups'
     type: hero
     enabled: true
@@ -57,5 +56,5 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637594513
+updated_at: 1643105264
 ---
