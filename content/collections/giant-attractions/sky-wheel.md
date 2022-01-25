@@ -11,7 +11,6 @@ title: 'Sky Wheel'
 featured_img: sky-wheel.jpg
 hero:
   -
-    image: Plain-Generic-Header-Images.png
     title: 'Sky Wheel'
     type: hero
     enabled: true
@@ -71,5 +70,5 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637679516
+updated_at: 1643105419
 ---
