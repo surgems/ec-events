@@ -39,12 +39,16 @@ section#who {
 
         picture {
             &:nth-child(1) img {
+                width: 60vw;
+                height: 150px;
                 position: absolute;
                 top: 20%;
                 z-index: -1;
             }
 
             &:nth-child(2) img {
+                width: 42.5vw;
+                height: 240px;
                 float: right;
             }
         }
@@ -70,9 +74,24 @@ section#who {
         }
 
         .bottom {
-            margin-left: 50%;
-            transform: translateX(-50%);
-            width: 400px;
+            width: 80%;
+            margin-left: 10%;
+
+            picture {
+                &:nth-child(1) img {
+                    width: 50vw;
+                    height: 22.5vh;
+                    position: absolute;
+                    top: 20%;
+                    z-index: -1;
+                }
+    
+                &:nth-child(2) img {
+                    width: 37.5vw;
+                    height: 40vh;
+                    float: right;
+                }
+            }
         }
     }
 
@@ -97,6 +116,22 @@ section#who {
             min-width: 375px;
             height: fit-content;
             margin-top: 20px;
+
+            picture {
+                &:nth-child(1) img {
+                    width: 70%;
+                    height: 22.5vh;
+                    position: absolute;
+                    top: 20%;
+                    z-index: -1;
+                }
+    
+                &:nth-child(2) img {
+                    width: 50%;
+                    height: 40vh;
+                    float: right;
+                }
+            }
         }
     }
 
@@ -130,11 +165,17 @@ section#who {
 
             picture {
                 &:nth-child(1) img {
-                    width: 65%;
+                    width: 30vw;
+                    height: 35vh;
+                    position: absolute;
+                    top: 20%;
+                    z-index: -1;
                 }
-
+    
                 &:nth-child(2) img {
                     width: 50%;
+                    height: 60vh;
+                    float: right;
                 }
             }
         }
