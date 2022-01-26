@@ -48,6 +48,9 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: tagada-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595949
+updated_at: 1643224702
+featured_image: tagada-featured.jpg
+featured_img: tagada-featured.jpg
 ---
