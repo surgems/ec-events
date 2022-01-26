@@ -39,6 +39,8 @@ article:
             type: text
             text: 'Safety First'
       -
+        type: paragraph
+      -
         type: heading
         attrs:
           level: 3
@@ -47,6 +49,57 @@ article:
             type: text
             text: 'Why Choose EC Events?'
       -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'We love facing new challenges. When faced with a hurdle, we jump.'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'We constantly push ourselves, focusing on solutions and striving every day to make an impact. '
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'As a family business, we have strong moral compasses and hold ourselves to a high level of ethics. '
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'We always put the customer first, working to your specs, communicating transparently and acting with integrity.'
+      -
         type: heading
         attrs:
           level: 3
@@ -54,6 +107,12 @@ article:
           -
             type: text
             text: 'Nationwide Service'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Doesn''t matter where you are, we have all the measures in place to get to you.'
     type: article
     enabled: true
 side_images:
@@ -62,6 +121,6 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637589177
+updated_at: 1643233997
 template: generic
 ---
