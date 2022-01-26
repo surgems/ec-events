@@ -2,10 +2,10 @@
 id: 62c7077a-c0b8-425f-8647-a6059c2bb8f1
 blueprint: family-rides
 noindex_page: false
-title: 'Fun House'
+title: 'Jungle Madness'
 hero:
   -
-    title: 'Fun House'
+    title: 'Jungle Madness'
     type: hero
     enabled: true
 article:
@@ -48,6 +48,9 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: jungle-madness-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596626
+updated_at: 1643205605
+featured_image: jungle-madness-featured.jpg
+featured_img: jungle-madness-featured-1643205567.jpg
 ---
