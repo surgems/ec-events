@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: balloon-race-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637657645
+updated_at: 1643209423
+featured_image: balloon-race-featured.jpg
+meta_title: 'Balloon Race Kids Ride'
+featured_img: balloon-race-featured.jpg
 ---
