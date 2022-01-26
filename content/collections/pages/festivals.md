@@ -5,7 +5,7 @@ noindex_page: false
 template: event
 title: Festivals
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637577467
+updated_at: 1643234566
 hero:
   -
     image: music-festival-crowd.jpg
@@ -47,15 +47,19 @@ article:
     enabled: true
 gallery:
   -
+    image: tomorrowland-festival-1643234548.jpg
+    type: gallery
+    enabled: true
+  -
+    image: beer-cider-festival.jpg
+    type: gallery
+    enabled: true
+  -
     image: music-events-1637577382.jpg
     type: gallery
     enabled: true
   -
-    image: beach-party-scene-1600px-1637577284.jpg
-    type: gallery
-    enabled: true
-  -
-    image: music-festival-crowd-original-1637577354.jpg
+    image: festival-fireworks.jpg
     type: gallery
     enabled: true
 featured_image: music-festival-crowd-original.jpg
