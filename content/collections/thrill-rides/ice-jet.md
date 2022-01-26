@@ -2,7 +2,7 @@
 id: cef41df8-3bf6-44db-a0bc-4bcd1b615631
 blueprint: thrill-rides
 noindex_page: false
-title: Matterhorn
+title: 'Ice Jet'
 hero:
   -
     title: Matterhorn
@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: ice-jet-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595999
+updated_at: 1643225358
+featured_image: ice-jet-featured.jpg
+meta_title: 'Ice Jet Thrill Ride'
+featured_img: ice-jet-featured.jpg
 ---
