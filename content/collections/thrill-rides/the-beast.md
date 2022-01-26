@@ -48,12 +48,14 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: the-beast-gallery.jpg
   -
     type: gallery
     enabled: true
-  -
-    type: gallery
-    enabled: true
+    image: the-beast-gallery-1.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595339
+updated_at: 1643224640
+featured_image: the-beast-featured.jpg
+meta_title: 'The Beast Thrill Ride'
+featured_img: the-beast-featured.jpg
 ---
