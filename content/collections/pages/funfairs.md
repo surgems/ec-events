@@ -65,11 +65,6 @@ article:
                     marks:
                       -
                         type: bold
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
           -
             type: list_item
             content:
@@ -87,11 +82,6 @@ article:
                     marks:
                       -
                         type: bold
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
           -
             type: list_item
             content:
@@ -104,11 +94,6 @@ article:
                       -
                         type: bold
                     text: 'As a family business, we have strong moral compasses and hold ourselves to a high level of ethics. '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
                   -
                     type: hard_break
                     marks:
@@ -134,5 +119,5 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643233794
+updated_at: 1643233829
 ---
