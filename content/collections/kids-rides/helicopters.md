@@ -48,9 +48,9 @@ gallery:
   -
     type: gallery
     enabled: true
-    image: helicopters-gallery-1643210156.jpg
+    image: helicopters-gallery-1643210183.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643210159
+updated_at: 1643210187
 featured_image: helicopters-featured-1.jpg
 meta_title: 'Kids Helicopter Ride'
 featured_img: helicopters-featured-1.jpg
