@@ -52,6 +52,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: traditional-ferris-wheel-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596218
+updated_at: 1643226984
+featured_image: traditional-ferris-wheel-featured.jpg
+meta_title: 'Traditional Ferris Wheel'
+featured_img: traditional-ferris-wheel-featured.jpg
 ---
