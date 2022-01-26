@@ -55,6 +55,10 @@ gallery:
     image: teacups.png
     type: gallery
     enabled: true
+  -
+    image: tea-cups-gallery.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643105264
+updated_at: 1643209578
 ---
