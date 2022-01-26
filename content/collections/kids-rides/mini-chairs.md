@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: mini-chairs-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637657923
+updated_at: 1643209835
+featured_image: mini-chairs-featured.jpg
+meta_title: 'Mini Swing Chair Ride'
+featured_img: mini-chairs-featured.jpg
 ---
