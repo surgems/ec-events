@@ -11,7 +11,7 @@ hero:
     image: street-food-stalls-landscape.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637577930
+updated_at: 1643228896
 article:
   -
     content:
@@ -40,19 +40,39 @@ article:
     enabled: true
 gallery:
   -
-    image: dirty-fries-street-food.jpg
+    image: churros-street-food.jpg
     type: gallery
     enabled: true
   -
-    image: burgers-street-food.jpg
+    image: burgers-and-chips-street-food.jpg
     type: gallery
     enabled: true
   -
-    image: street-food-stalls-1637577868.jpg
+    image: churros-street-food2.jpg
     type: gallery
     enabled: true
   -
-    image: city-transformations-1637577880.jpg
+    image: hot-roasts-street-food.jpg
+    type: gallery
+    enabled: true
+  -
+    image: cotton-candy-street-food.jpg
+    type: gallery
+    enabled: true
+  -
+    image: food-stalls.jpg
+    type: gallery
+    enabled: true
+  -
+    image: spicy-noodles-street-food.jpg
+    type: gallery
+    enabled: true
+  -
+    image: sweet-street-food.jpg
+    type: gallery
+    enabled: true
+  -
+    image: german-food-market.jpg
     type: gallery
     enabled: true
 featured_image: street-food-stalls.jpg
