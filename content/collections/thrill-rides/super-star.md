@@ -52,12 +52,10 @@ gallery:
   -
     type: gallery
     enabled: true
-  -
-    type: gallery
-    enabled: true
-  -
-    type: gallery
-    enabled: true
+    image: super-star---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595537
+updated_at: 1643224818
+featured_image: super-star---featured.jpg
+meta_title: 'Super Star Thrill Ride'
+featured_img: super-star---featured.jpg
 ---
