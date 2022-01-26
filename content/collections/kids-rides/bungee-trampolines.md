@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: mni-trampolines-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637658007
+updated_at: 1643209482
+featured_image: mni-trampolines-featured.jpg
+meta_title: 'Mini Trampolines'
+featured_img: mni-trampolines-featured.jpg
 ---
