@@ -56,10 +56,6 @@ tree:
         title: 'KIDS RIDES'
         url: /kids-rides
       -
-        id: 19934e55-bb55-4c6e-8d50-7cb6b0a2e048
-        title: DODGEMS
-        url: /dodgems
-      -
         id: be082deb-b88c-4af6-b354-62da268a83d4
         title: 'ROLLER COASTERS'
         url: /roller-coasters
@@ -75,10 +71,6 @@ tree:
         id: 1bea1298-fa70-48a3-8af0-7eb7607de7d7
         title: 'GIANT ATTRACTIONS'
         url: /giant-attractions
-      -
-        id: 411fbf9e-7cb5-4dbb-8efe-3d87e5f70c85
-        title: 'WINTER ATTRACTIONS'
-        url: /winter-attractions
   -
     id: 5c3cf9d3-7e90-4d9d-81c3-5489cc081a8d
     title: SERVICES
