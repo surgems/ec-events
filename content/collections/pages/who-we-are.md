@@ -5,17 +5,17 @@ noindex_page: false
 template: who-we-are
 title: 'Who we are?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637573044
+updated_at: 1643234980
 who:
   -
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non.'
+    title: 'What are you waiting for? Let''s put on a show!'
     content:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis odio sed ante scelerisque pulvinar. Duis id ultrices nunc, a cursus sem. Vestibulum eu diam sit amet orci malesuada gravida. Sed pretium, velit a tincidunt imperdiet, tortor tortor tristique tellus, vitae ornare odio est at neque. Nulla quis ligula ac.'
+            text: 'We offer a one-stop-shop for events, facilitating full management services, repairs and providing our own rides, cutting out any middlemen and saving you work.'
     landscape_image: festival-crowd-summer-evening-1600px.jpg
     portrait_image: skyswing-ride-portrait.jpg
     type: who
