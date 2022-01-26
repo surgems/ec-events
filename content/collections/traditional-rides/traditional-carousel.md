@@ -52,6 +52,14 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: traditional-carousel-gallery.jpg
+  -
+    image: carousel-ride-1600px.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596128
+updated_at: 1643226720
+featured_image: traditional-carousel-featured.jpg
+meta_title: 'Traditional Carousel Ride'
+featured_img: traditional-carousel-featured.jpg
 ---
