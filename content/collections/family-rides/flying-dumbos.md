@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: flying-dumbos-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596768
+updated_at: 1643199487
+featured_image: flying-dumbos-featured.jpg
+meta_title: 'Flying Dumbos Fun Fair Ride'
+featured_img: flying-dumbos-featured.jpg
 ---
