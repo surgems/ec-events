@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643233404
+updated_at: 1643233472
 template: home
 noindex_page: false
 hero:
@@ -119,7 +119,7 @@ rides_and_attractions:
         image: dodgems-1637592695.jpg
         title: 'Dodgems >>'
         type: ride
-        enabled: true
+        enabled: false
       -
         ride_link: /thrill-rides
         image: thrill-rides-top-buzz-1637592710.jpg
@@ -149,7 +149,7 @@ rides_and_attractions:
         image: winter-attractions-1637592892.jpg
         title: 'WINTER ATTRACTIONS >>'
         type: ride
-        enabled: true
+        enabled: false
     type: rides_and_attractions
     enabled: true
 map:
