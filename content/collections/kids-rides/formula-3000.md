@@ -51,7 +51,8 @@ gallery:
     enabled: true
     image: formula-3000-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643210325
+updated_at: 1643210355
 featured_image: formula-3000-feature.jpg
 meta_title: 'Kids Formula 3000 Ride'
+featured_img: formula-3000-feature.jpg
 ---
