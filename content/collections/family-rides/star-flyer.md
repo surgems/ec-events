@@ -48,6 +48,9 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: star-flyer-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596808
+updated_at: 1643205752
+featured_image: star-flyer-featured.jpg
+featured_img: star-flyer-featured.jpg
 ---
