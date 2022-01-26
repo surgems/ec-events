@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: super-bowl-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595845
+updated_at: 1643224873
+featured_image: super-bowl-featured.jpg
+meta_title: 'Super Bowl Thrill Ride'
+featured_img: super-bowl-featured.jpg
 ---
