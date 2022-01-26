@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: seas-storm---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596849
+updated_at: 1643205132
+featured_image: seas-storm---featured.jpg
+meta_title: 'Sea Storm Fun Fair Ride'
+featured_img: seas-storm---featured.jpg
 ---
