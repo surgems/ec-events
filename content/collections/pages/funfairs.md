@@ -49,9 +49,9 @@ article:
     enabled: true
 side_images:
   -
-    image: fun-fair-ride-seats-1637589355.jpg
+    image: funfairs-1600px.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637590724
+updated_at: 1643233586
 ---
