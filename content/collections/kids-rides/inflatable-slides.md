@@ -48,6 +48,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: inflatable-slides-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637658279
+updated_at: 1643209894
+featured_image: inflatable-slides-featured.jpg
+meta_title: 'Kids Inflatable Slides'
+featured_img: inflatable-slides-featured.jpg
 ---
