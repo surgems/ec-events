@@ -52,6 +52,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: top-scan-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595789
+updated_at: 1643224482
+featured_image: top-scan-featured.jpg
+meta_title: 'Top Scan Thrill Ride'
+featured_img: top-scan-featured.jpg
 ---
