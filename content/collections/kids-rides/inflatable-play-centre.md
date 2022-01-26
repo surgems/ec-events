@@ -48,6 +48,13 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: inflatable-play-centre-gallery-1.jpg
+  -
+    image: inflatable-play-centre-gallery.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637658356
+updated_at: 1643210030
+featured_image: inflatable-play-centre-featured.jpg
+featured_img: inflatable-play-centre-featured.jpg
 ---
