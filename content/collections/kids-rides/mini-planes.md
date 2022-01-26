@@ -48,6 +48,14 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: mini-planes-gallery-1.jpg
+  -
+    image: mini-planes-gallery.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596973
+updated_at: 1643209721
+featured_image: mini-planes-featured.jpg
+meta_title: 'Mini Planes Ride'
+featured_img: mini-planes-featured.jpg
 ---
