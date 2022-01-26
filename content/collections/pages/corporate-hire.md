@@ -117,10 +117,10 @@ article:
     enabled: true
 side_images:
   -
-    image: balloons.jpg
+    image: sky-wheel-gallery4-1643234232.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643233997
+updated_at: 1643234241
 template: generic
 ---
