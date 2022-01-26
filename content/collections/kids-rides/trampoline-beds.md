@@ -1,5 +1,6 @@
 ---
 id: 8bc5b51e-86d6-43c8-b3b9-5408df920f11
+published: false
 blueprint: kids-rides
 noindex_page: false
 title: 'Trampoline Beds'
