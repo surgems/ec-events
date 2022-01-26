@@ -46,8 +46,15 @@ ride_specifications:
     enabled: true
 gallery:
   -
+    image: beach-party-gallery-1643225143.jpg
     type: gallery
     enabled: true
+  -
+    type: gallery
+    enabled: true
+    image: beach-party-gallery-2.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595902
+updated_at: 1643225151
+featured_image: beach-party-featured-1643225102.jpg
+featured_img: beach-party-featured-1643225102.jpg
 ---
