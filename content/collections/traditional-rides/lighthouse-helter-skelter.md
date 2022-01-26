@@ -52,6 +52,14 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: lighthouse-helter-skelter---gallery2.jpg
+  -
+    image: lighthouse-helter-skelter---gallery.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596269
+updated_at: 1643226893
+featured_image: lighthouse-helter-skelter---Featured-Image.jpg
+meta_title: 'Lighthouse Helter Skelter Fun'
+featured_img: lighthouse-helter-skelter---Featured-Image.jpg
 ---
