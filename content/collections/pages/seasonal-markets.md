@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637577056
+updated_at: 1643229093
 article:
   -
     content:
@@ -56,6 +56,14 @@ event_services:
     type: event_services
     enabled: true
 gallery:
+  -
+    image: Ride-Gallery-Image-size.jpg
+    type: gallery
+    enabled: true
+  -
+    image: hot-drinks-seasonal-markets.jpg
+    type: gallery
+    enabled: true
   -
     image: christmas-market-scene.jpg
     type: gallery
