@@ -48,6 +48,42 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: giant-star-flyer-gallery1.jpg
+  -
+    image: giant-star-flyer-gallery.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery2.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery3.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery4.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery5.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery6.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery7.jpg
+    type: gallery
+    enabled: true
+  -
+    image: giant-star-flyer-gallery8.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596894
+updated_at: 1643229924
+featured_image: giant-star-flyer-featured.jpg
+meta_title: 'Giant Star Flyer'
+featured_img: giant-star-flyer-featured.jpg
 ---
