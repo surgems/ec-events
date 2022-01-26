@@ -8,6 +8,7 @@ hero:
     title: 'Formula 3000'
     type: hero
     enabled: true
+    image: formula-3000-feature.jpg
 article:
   -
     content:
@@ -48,6 +49,8 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: formula-3000-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637657436
+updated_at: 1643210250
+featured_image: formula-3000-feature.jpg
 ---
