@@ -1,5 +1,6 @@
 ---
 id: ca10b5e9-6f39-410a-aa9a-7ae23bc2d58f
+published: false
 blueprint: traditional-rides
 noindex_page: false
 ride_height:
