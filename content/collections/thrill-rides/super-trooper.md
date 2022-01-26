@@ -52,6 +52,9 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: super-trooper---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596050
+updated_at: 1643224751
+featured_image: super-trooper---featured.jpg
+featured_img: super-trooper---featured.jpg
 ---
