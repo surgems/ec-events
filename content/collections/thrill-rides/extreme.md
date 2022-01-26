@@ -52,12 +52,10 @@ gallery:
   -
     type: gallery
     enabled: true
-  -
-    type: gallery
-    enabled: true
-  -
-    type: gallery
-    enabled: true
+    image: extreme-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637595709
+updated_at: 1643225235
+featured_image: extreme-featured.jpg
+meta_title: 'Extreme Thrill Ride'
+featured_img: extreme-featured.jpg
 ---
