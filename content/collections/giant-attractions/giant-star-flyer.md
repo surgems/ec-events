@@ -47,7 +47,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 24 Max'
+    spec: 'Capacity: 40 Max'
     type: ride_specifications
     enabled: true
   -
@@ -92,10 +92,15 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643294493
+updated_at: 1643294660
 featured_image: giant-star-flyer-featured.jpg
 meta_title: 'Giant Star Flyer'
 featured_img: giant-star-flyer-featured.jpg
 ride_capacity:
-  - '24'
+  - '40'
+additional_info:
+  -
+    title: 'Important Imformation'
+    type: additional_info
+    enabled: true
 ---
