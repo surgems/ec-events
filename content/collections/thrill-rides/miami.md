@@ -24,7 +24,14 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'The Miami is an absolute classic, you can''t have a funfair without it. The passengers all sit in a row and when it is full the row of seats take off in a clockwise or anti-clockwise direction at increasing speed. This is a popular ride for friends, family and all thrill-seekers alike.'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults & Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -54,7 +61,19 @@ gallery:
     enabled: true
     image: beach-party-gallery-2.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643225151
+updated_at: 1643284716
 featured_image: beach-party-featured-1643225102.jpg
 featured_img: beach-party-featured-1643225102.jpg
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
 ---
