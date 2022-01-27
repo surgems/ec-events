@@ -25,6 +25,15 @@ article:
           -
             type: text
             text: 'Step right up, this is one that is sure to get thrill seekers queuing up up all day. The Beast is an exhilarating funfair ride with 24 inward-facing seats. That is swung up to 8ft into the sky and spins around 360 degrees, providing passengers with lovely views and the feeling of weightlessness.'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults & Teenagers.'
     type: article
     enabled: true
 ride_specifications:
@@ -54,7 +63,7 @@ gallery:
     enabled: true
     image: the-beast-gallery-1.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643281163
+updated_at: 1643286084
 featured_image: the-beast-featured.jpg
 meta_title: 'The Beast Thrill Ride'
 featured_img: the-beast-featured.jpg
