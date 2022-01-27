@@ -28,7 +28,14 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'This ride is a must-have for all big events with plenty of people. The bravest of riders will only dare to have a go as this ride takes off into the air at speed. It is a real classic that never fails to disappoint, with the height the seats reach it can be spotted from a long way off.'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -54,8 +61,20 @@ gallery:
     enabled: true
     image: super-star---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643224818
+updated_at: 1643283097
 featured_image: super-star---featured.jpg
 meta_title: 'Super Star Thrill Ride'
 featured_img: super-star---featured.jpg
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
 ---
