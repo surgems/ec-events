@@ -24,7 +24,17 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Taking swing rides to new heights, are you ready? Like other chair swing rides, you are seated in your swing and spun around like a carousel would. While you appreciate the lovely views of the funfair as you rise above it while your legs dangle freely.'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -37,7 +47,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 24 Max'
     type: ride_specifications
     enabled: true
   -
@@ -82,8 +92,10 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643229924
+updated_at: 1643294493
 featured_image: giant-star-flyer-featured.jpg
 meta_title: 'Giant Star Flyer'
 featured_img: giant-star-flyer-featured.jpg
+ride_capacity:
+  - '24'
 ---
