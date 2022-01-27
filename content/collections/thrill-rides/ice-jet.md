@@ -25,6 +25,8 @@ article:
           -
             type: text
             text: 'This funfair must have is similar to your classic Waltzer style ride, but rather than spinning around, the carriages are fixed in place and spin around over the hills. This is a fantastic ride for everyone to enjoy a bit of adrenaline, to be left rattled by the speeds it reaches.'
+          -
+            type: hard_break
       -
         type: paragraph
       -
@@ -62,7 +64,7 @@ gallery:
     enabled: true
     image: ice-jet-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643285595
+updated_at: 1643285614
 featured_image: ice-jet-featured.jpg
 meta_title: 'Ice Jet Thrill Ride'
 featured_img: ice-jet-featured.jpg
