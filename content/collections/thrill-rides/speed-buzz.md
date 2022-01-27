@@ -34,7 +34,7 @@ article:
             text: 'Speed Buzz'
           -
             type: text
-            text: "\_is a\_Booster\_built by Dutch manufacturer\_KMG. Can hold up to 8 people at once, two gondolas each with two rows of two riders facing back-to-back."
+            text: "\_is a\_Booster\_built by Dutch manufacturer\_KMG. Can hold up to 8 people at once, two gondolas each with two rows of two riders facing back-to-back. Passengers climb into the gondola's which then spins up to the top of the ride while the next passengers climb on board. When the ride is full and ready to go it spins around like a pendulum, while you enjoy dizzying views and adrenaline. Only the bravest riders will dare try this one out."
           -
             type: hard_break
     type: article
@@ -74,7 +74,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643277545
+updated_at: 1643280412
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
@@ -88,6 +88,17 @@ additional_info:
           -
             type: text
             text: 'The ride appeared at Ocen Beach Pleasure Park in South Shields during the 2021 season.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This ride exerts a lot of force. So it is not suitable for people with back or neck problems, heart conditions, pregnant people or anyone who has recently undergone surgery.'
     type: additional_info
     enabled: true
 ---
