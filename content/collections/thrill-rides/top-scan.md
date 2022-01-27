@@ -4,6 +4,7 @@ blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
   - '100'
+  - '30'
 ride_height:
   - 100-meters
 title: 'Top Scan'
@@ -28,7 +29,17 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'A popular crowd favourite but not for the faint-hearted as it towers above your other funfair rides. Get strapped in and the ride will take you up into the air and spin you around. Have fun in the skies, you''ll be left rattled when you''re finished.'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -41,7 +52,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 30 Max'
     type: ride_specifications
     enabled: true
   -
@@ -54,7 +65,7 @@ gallery:
     enabled: true
     image: top-scan-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643224482
+updated_at: 1643286452
 featured_image: top-scan-featured.jpg
 meta_title: 'Top Scan Thrill Ride'
 featured_img: top-scan-featured.jpg
