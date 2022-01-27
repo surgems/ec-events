@@ -37,6 +37,17 @@ article:
             text: "\_is a\_Booster\_built by Dutch manufacturer\_KMG. Can hold up to 8 people at once, two gondolas each with two rows of two riders facing back-to-back. Passengers climb into the gondola's which then spins up to the top of the ride while the next passengers climb on board. When the ride is full and ready to go it spins around like a pendulum, while you enjoy dizzying views and adrenaline. Only the bravest riders will dare try this one out."
           -
             type: hard_break
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Suitable for Adults & Teenagers.'
+          -
+            type: hard_break
     type: article
     enabled: true
 ride_specifications:
@@ -74,7 +85,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643280412
+updated_at: 1643285932
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
