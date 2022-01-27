@@ -29,6 +29,10 @@ article:
         type: paragraph
         content:
           -
+            type: hard_break
+          -
+            type: hard_break
+          -
             type: text
             text: 'Suitable for Adults and Teenagers.'
     type: article
@@ -56,7 +60,7 @@ gallery:
     enabled: true
     image: tagada-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643282337
+updated_at: 1643286050
 featured_image: tagada-featured.jpg
 featured_img: tagada-featured.jpg
 additional_info:
