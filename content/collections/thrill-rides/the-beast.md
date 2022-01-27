@@ -24,20 +24,20 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Step right up, this is one that is sure to get thrill seekers queuing up up all day. The Beast is an exhilarating funfair ride with 24 inward-facing seats. That is swung up to 8ft into the sky and spins around 360 degrees, providing passengers with lovely views and the feeling of weightlessness.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 80 feet'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Area: 53 x 44 feet'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 24 max'
     type: ride_specifications
     enabled: true
   -
@@ -54,8 +54,26 @@ gallery:
     enabled: true
     image: the-beast-gallery-1.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643224647
+updated_at: 1643281163
 featured_image: the-beast-featured.jpg
 meta_title: 'The Beast Thrill Ride'
 featured_img: the-beast-featured.jpg
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding The Beast. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Minimum rider height: 140cm'
+    type: additional_info
+    enabled: true
 ---
