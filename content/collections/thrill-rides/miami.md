@@ -30,6 +30,10 @@ article:
           -
             type: hard_break
           -
+            type: hard_break
+          -
+            type: hard_break
+          -
             type: text
             text: 'Suitable for Adults & Children.'
     type: article
@@ -61,7 +65,7 @@ gallery:
     enabled: true
     image: beach-party-gallery-2.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643284716
+updated_at: 1643285859
 featured_image: beach-party-featured-1643225102.jpg
 featured_img: beach-party-featured-1643225102.jpg
 additional_info:
