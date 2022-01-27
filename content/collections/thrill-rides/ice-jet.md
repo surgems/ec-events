@@ -24,7 +24,13 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'This funfair must have is similar to your classic Waltzer style ride, but rather than spinning around, the carriages are fixed in place and spin around over the hills. This is a fantastic ride for everyone to enjoy a bit of adrenaline, to be left rattled by the speeds it reaches.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Suitable for Adults & Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -54,8 +60,20 @@ gallery:
     enabled: true
     image: ice-jet-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643232818
+updated_at: 1643285144
 featured_image: ice-jet-featured.jpg
 meta_title: 'Ice Jet Thrill Ride'
 featured_img: ice-jet-featured.jpg
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
 ---
