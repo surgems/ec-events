@@ -3,9 +3,9 @@ id: 5086998b-1359-4413-a000-4b4f84f76878
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '100'
+  - '8'
 ride_height:
-  - 100-meters
+  - 120-feet
 title: 'Speed Buzz'
 hero:
   -
@@ -28,24 +28,30 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            marks:
+              -
+                type: bold
+            text: 'Speed Buzz'
+          -
+            type: text
+            text: "\_is a\_Booster\_built by Dutch manufacturer\_KMG. Can hold up to 8 people at once, two gondolas each with two rows of two riders facing back-to-back."
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 118.1 feet'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Area: 52.2 x 19.4 feet'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 8 Max'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Hourly Capacity:'
+    spec: 'Status: Operating since November 2014'
     type: ride_specifications
     enabled: true
 gallery:
@@ -66,7 +72,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643225423
+updated_at: 1643277199
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
