@@ -4,7 +4,7 @@ blueprint: giant-attractions
 featured_image: sky-wheel-featured.jpg
 noindex_page: false
 ride_height:
-  - 100-meters
+  - 35-meters
 ride_capacity:
   - '100'
 title: 'Sky Wheel'
@@ -33,19 +33,22 @@ article:
         content:
           -
             type: text
-            text: 'Nullam convallis nisi auctor, efficitur quam quis, euismod mauris. Suspendisse sed pulvinar mauris. Pellentesque hendrerit felis tellus, ac hendrerit erat dapibus vitae. In pellentesque interdum justo, eget porta magna laoreet quis. Mauris est ligula, pulvinar ut luctus vel, egestas sit amet tellus.'
+            text: 'Our Sky Wheel is a fantastic addition to your next event, whether that be a funfair, festival or seasonal market. Put a smile on everyone''s face with fantastic views of the events below them, this ride is iconic and is an absolute must-have.'
+      -
+        type: paragraph
+        content:
           -
             type: hard_break
           -
             type: hard_break
           -
             type: text
-            text: 'Quisque quis nisi sit amet metus venenatis feugiat. Vestibulum in varius nunc. Mauris pharetra lacinia vulputate. Cras mollis leo eget consequat finibus. Sed aliquet enim sit amet efficitur condimentum. Ut varius interdum ex, ut.'
+            text: 'Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 35 meters'
     type: ride_specifications
     enabled: true
   -
@@ -53,7 +56,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 4 per carriage'
     type: ride_specifications
     enabled: true
   -
@@ -90,5 +93,10 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643230553
+updated_at: 1643290978
+additional_info:
+  -
+    title: 'Important Information'
+    type: additional_info
+    enabled: true
 ---
