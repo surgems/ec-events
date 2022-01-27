@@ -27,7 +27,19 @@ article:
         content:
           -
             type: text
-            text: 'Content to follow...'
+            marks:
+              -
+                type: bold
+            text: 'Beach Party'
+          -
+            type: text
+            text: "\_is a\_Miami\_built by UK manufacturer\_Eagle (G.E.T.) Fabrications.\_All passengers sit in a row, and when the ride is ready to go the row of seats spins around clockwise and anti-clockwise fashion increasing in speed. It's a fantastic ride to sit with a group of friends or family."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults & Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -53,5 +65,5 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643199512
+updated_at: 1643278168
 ---
