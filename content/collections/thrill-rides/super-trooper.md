@@ -4,6 +4,7 @@ blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
   - '100'
+  - '36'
 ride_height:
   - 100-meters
 title: 'Super Trooper'
@@ -28,7 +29,13 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'The Super Trooper is a fun high-octane ride for you and your friends to enjoy. Riders sit in individual seats and when it''s ready to go the ride spins round and round, while the seats fly out to the side. Passengers will get great views of the funfair around them while their legs dangle freely.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Suitable for Adults and Teenagers.'
     type: article
     enabled: true
 ride_specifications:
@@ -37,11 +44,11 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 50 feet'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 36'
     type: ride_specifications
     enabled: true
   -
@@ -54,7 +61,7 @@ gallery:
     enabled: true
     image: super-trooper---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643224751
+updated_at: 1643282794
 featured_image: super-trooper---featured.jpg
 featured_img: super-trooper---featured.jpg
 ---
