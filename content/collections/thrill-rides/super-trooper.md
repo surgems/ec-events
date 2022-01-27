@@ -34,6 +34,10 @@ article:
         type: paragraph
         content:
           -
+            type: hard_break
+          -
+            type: hard_break
+          -
             type: text
             text: 'Suitable for Adults and Teenagers.'
     type: article
@@ -61,7 +65,7 @@ gallery:
     enabled: true
     image: super-trooper---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643282794
+updated_at: 1643286025
 featured_image: super-trooper---featured.jpg
 featured_img: super-trooper---featured.jpg
 ---
