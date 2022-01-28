@@ -2913,6 +2913,15 @@ main.article-page section#info article .gallery .gallery-container {
   flex-wrap: wrap;
   flex-direction: none;
 }
+main.article-page section#info article .video-gallery h3 {
+  color: #F71541;
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+main.article-page section#info article .video-gallery .owl-carousel video {
+  width: 100%;
+  height: auto;
+}
 main.article-page section#info article .additional {
   padding: 0 18px;
 }

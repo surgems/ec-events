@@ -49,6 +49,24 @@
                 </div>
             {{ endif }}
 
+            {{ if video_gallery }}
+                <div class="video-gallery">
+                    <h3 class="reveal-left">Videos</h3>
+
+                    <div class="carousel-container">
+                        <div class="owl-carousel" data-has-margin="50" data-slides-mobile="1" data-slides-portrait-tablet="1" 
+                        data-slides-landscape-tablet="1" data-slides-laptop="1" data-slides-desktop="1">
+                            {{ video_gallery }}
+                                <video src="{{ video }}" playsinline controls>
+                                    <source src="{{ video }}" type="video/mp4">
+                                    Your browser does not support the HTML5 Video element.
+                                </video>
+                            {{ /video_gallery }}
+                        </div>
+                    </div>
+                </div>
+            {{ endif }}
+
             {{ if additional_info }}
                 <div class="additional">
                     <h3 class="reveal-left">Additional Information</h3>
