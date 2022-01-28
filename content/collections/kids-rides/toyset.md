@@ -1,5 +1,6 @@
 ---
 id: aef9941d-cf3f-4224-bdcc-0b4b1a2869cc
+published: false
 blueprint: kids-rides
 noindex_page: false
 ride_capacity:
