@@ -1,15 +1,15 @@
-title: Gallery
+title: 'Video Gallery'
 fields:
   -
-    handle: gallery
+    handle: video_gallery
     field:
       collapse: false
       sets:
-        gallery:
-          display: Gallery
+        video:
+          display: Video
           fields:
             -
-              handle: image
+              handle: video
               field:
                 mode: list
                 container: assets
@@ -17,14 +17,13 @@ fields:
                 allow_uploads: true
                 show_filename: true
                 max_files: 1
-                display: Image
+                display: Video
                 type: assets
                 icon: assets
                 listable: hidden
                 instructions_position: above
-      display: Gallery
+      display: 'Video Gallery'
       type: replicator
       icon: replicator
       listable: hidden
       instructions_position: above
-      max_sets: 5

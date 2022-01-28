@@ -61,6 +61,21 @@ main.article-page {
                 }
             }
 
+            .video-gallery {
+                h3 {
+                    color: $red;
+                    padding-left: $smallMobPaddingX;
+                    margin-bottom: 20px;
+                }
+
+                .owl-carousel {
+                    video {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+
             .additional {
                 padding: 0 $smallMobPaddingX;
             }

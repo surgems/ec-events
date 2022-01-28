@@ -2058,7 +2058,12 @@ header #nav #mob-menu .copyright {
 }
 
 /* DESKTOP */
-@media only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1025px) and (max-width: 1369px) {
+  header #nav .inner-nav {
+    height: 130px;
+  }
+}
+@media only screen and (min-width: 1370px), only screen and (min-width: 1600px) {
   header #nav .inner-nav {
     height: 130px;
     padding: 20px 72px;
@@ -2907,6 +2912,15 @@ main.article-page section#info article .gallery .gallery-container {
   justify-content: 0;
   flex-wrap: wrap;
   flex-direction: none;
+}
+main.article-page section#info article .video-gallery h3 {
+  color: #F71541;
+  padding-left: 18px;
+  margin-bottom: 20px;
+}
+main.article-page section#info article .video-gallery .owl-carousel video {
+  width: 100%;
+  height: auto;
 }
 main.article-page section#info article .additional {
   padding: 0 18px;
