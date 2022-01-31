@@ -49,6 +49,10 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: trampoline-beds-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637658072
+updated_at: 1643638425
+featured_image: trampoline-beds-featured.jpg
+meta_title: 'Trampoline Beds'
+featured_img: trampoline-beds-featured.jpg
 ---
