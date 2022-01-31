@@ -33,7 +33,9 @@ article:
         content:
           -
             type: text
-            text: 'Our Sky Wheel is a fantastic addition to your next event, whether that be a funfair, festival or seasonal market. Put a smile on everyone''s face with fantastic views of the events below them, this ride is iconic and is an absolute must-have.'
+            text: 'The Giant Sky Wheels are a stunning asset to any location making a huge impression towering over the scenery or creating an amazing backdrop with eye-catching light shows. Attracting crowds of all ages, They offer fantastic views of the surrounding areas for the whole family from the youngest to the oldest, It’s suitable for everyone! it is also equipped with a gondola for disabled access. They can be themed to suit any occasion or event.'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -93,7 +95,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643290978
+updated_at: 1643639035
 additional_info:
   -
     title: 'Important Information'
