@@ -11,7 +11,7 @@ hero:
     image: street-food-stalls-landscape.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643228896
+updated_at: 1643639618
 article:
   -
     content:
@@ -35,7 +35,102 @@ article:
             type: hard_break
           -
             type: text
-            text: 'From sweets and candy floss to hotdogs and burgers, we’ve got catering for all tastes.'
+            text: 'We can cater for all tastes:'
+      -
+        type: paragraph
+      -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Churros
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'German Sausage Swing Grill'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sweets & Candy Floss'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Doughnuts
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gourmet Burger'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Loaded Fries'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Roast Pork Carvery'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Tiki Slush Hut'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Chinese Noodles'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Multi-purpose
     type: article
     enabled: true
 gallery:
