@@ -56,10 +56,6 @@ tree:
         title: 'KIDS RIDES'
         url: /kids-rides
       -
-        id: be082deb-b88c-4af6-b354-62da268a83d4
-        title: 'ROLLER COASTERS'
-        url: /roller-coasters
-      -
         id: 01d9c94c-26c4-4815-964e-b55958d4eced
         title: 'THRILL RIDES'
         url: /thrill-rides
