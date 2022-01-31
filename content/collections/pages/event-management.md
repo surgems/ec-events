@@ -3,9 +3,9 @@ id: ffeee7e3-9ac5-48e1-b397-f0907e00b63a
 blueprint: generic_page
 noindex_page: false
 template: generic
-title: 'Event Management'
+title: 'Full Project Management'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637582567
+updated_at: 1643639835
 hero:
   -
     image: event-management.jpg
@@ -20,7 +20,7 @@ article:
         content:
           -
             type: text
-            text: 'Let the team here at EC Events take away the stress of managing your event. We’ll handle everything, from delivering and setting up rides, maintenance, food & drink, site security, health and safety. Our team can even organise first aid support and police on-site if needed.'
+            text: "We can provide full project management starting at the planning stage with layout, site plan, health and safety aspect etc on organising logistics, on-site direction and ensuring the event runs smoothly right through to dismantling and leaving the site at the end-stage.\_"
           -
             type: hard_break
           -
