@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Taking swing rides to new heights, are you ready? Like other chair swing rides, you are seated in your swing and spun around like a carousel would. While you appreciate the lovely views of the funfair as you rise above it while your legs dangle freely.'
+            text: 'Taking swing rides to new heights, are you ready? The giant STARFLYER stands at a staggering 55M coupled with a light-up tower and swinging chairs to make a fantastic landmark attraction. Providing fantastic views with a relatively small footprint we can guarantee you won’t be disappointed.'
       -
         type: paragraph
         content:
@@ -39,7 +39,7 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 55 meters'
     type: ride_specifications
     enabled: true
   -
@@ -92,7 +92,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643294660
+updated_at: 1643639116
 featured_image: giant-star-flyer-featured.jpg
 meta_title: 'Giant Star Flyer'
 featured_img: giant-star-flyer-featured.jpg
@@ -103,4 +103,6 @@ additional_info:
     title: 'Important Imformation'
     type: additional_info
     enabled: true
+ride_height:
+  - '55'
 ---
