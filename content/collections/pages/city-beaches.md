@@ -5,7 +5,7 @@ noindex_page: false
 template: event
 title: 'City Beaches'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643367435
+updated_at: 1643639350
 hero:
   -
     image: city-beach-palm-tree-skies.jpg
@@ -45,12 +45,12 @@ gallery:
   -
     type: gallery
     enabled: true
-    image: beach-party-scene-1600px.jpg
+    image: city-beach-gallery.jpg
   -
     type: gallery
     enabled: true
-    image: city-beach-gallery.jpg
-featured_image: beach-party-scene.jpg
+    image: beach-party-scene-1600px.jpg
+featured_image: city-beach-gallery.jpg
 video_gallery:
   -
     video: f8cb37bf-4d65-4946-8996-be162abe9932.mp4
