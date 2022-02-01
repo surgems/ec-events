@@ -1794,6 +1794,10 @@ main.home section#map h3:nth-child(10) {
     /* RIDES */
     /* MAP */
   }
+  main.home header {
+    justify-content: space-between;
+    background-color: #F71541;
+  }
   main.home header > div.red {
     width: 21.5vw;
     height: 90vh;
@@ -1805,7 +1809,9 @@ main.home section#map h3:nth-child(10) {
     font-size: 100px;
   }
   main.home header > div.video {
-    width: 78.5vw;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     height: 90vh;
     overflow: hidden;
   }

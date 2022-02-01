@@ -350,7 +350,9 @@ main.home {
         /* HEADER */
     
         header {
-
+            justify-content: space-between;
+            background-color: $red;
+            
             > div {
                 &.red {
                     width: 21.5vw;
@@ -365,7 +367,7 @@ main.home {
                 }
 
                 &.video {
-                    width: 78.5vw;
+                    width: fit-content;
                     height: 90vh;
                     overflow: hidden;
 
