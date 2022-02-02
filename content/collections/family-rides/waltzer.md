@@ -54,8 +54,9 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: Waltzers---Gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800885
+updated_at: 1643803098
 ride_capacity:
   - 40-50
   - 50-60
@@ -74,4 +75,6 @@ additional_info:
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
     type: additional_info
     enabled: true
+featured_image: Waltzers---featured.jpg
+featured_img: Waltzers---featured.jpg
 ---
