@@ -24,24 +24,28 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Let''s twist again! This family favourite gets everyone smiling and always draws in the thrill-seekers.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 15ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 27'
     type: ride_specifications
     enabled: true
 gallery:
@@ -54,7 +58,11 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643206067
+updated_at: 1643792861
 featured_image: sizzler-featured.jpg
 featured_img: sizzler-featured-1643205961.jpg
+ride_capacity:
+  - 10-20
+ride_height:
+  - 10-50-ft
 ---
