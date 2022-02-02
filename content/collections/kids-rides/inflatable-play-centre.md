@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Bounce, run, climb and slide this giant bouncy play centre has it all.'
       -
         type: paragraph
       -
@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795415
+updated_at: 1643799120
 featured_image: inflatable-play-centre-featured.jpg
 featured_img: inflatable-play-centre-featured.jpg
 ride_capacity:
