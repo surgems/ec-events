@@ -3,10 +3,9 @@ id: e8f5bd29-fe2e-406d-91f8-e86175fd4460
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '100'
-  - '36'
+  - 30-40
 ride_height:
-  - 100-meters
+  - 50-100ft
 title: 'Super Trooper'
 hero:
   -
@@ -39,24 +38,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults and Teenagers.'
+            text: '*Suitable for Adults and Teenagers.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 60ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 50 feet'
+    spec: 'Diameter: 50ft'
     type: ride_specifications
     enabled: true
   -
     spec: 'Capacity: 36'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
     type: ride_specifications
     enabled: true
 gallery:
@@ -65,7 +60,7 @@ gallery:
     enabled: true
     image: super-trooper---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643286025
+updated_at: 1643797459
 featured_image: super-trooper---featured.jpg
 featured_img: super-trooper---featured.jpg
 ---
