@@ -4,9 +4,9 @@ blueprint: giant-attractions
 featured_image: sky-wheel-featured.jpg
 noindex_page: false
 ride_height:
-  - 35-meters
+  - 100-150ft
 ride_capacity:
-  - '100'
+  - '80'
 title: 'Sky Wheel'
 featured_img: sky-wheel-featured.jpg
 hero:
@@ -45,7 +45,7 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults and Children.'
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -95,7 +95,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643639035
+updated_at: 1643793513
 additional_info:
   -
     title: 'Important Information'
