@@ -81,7 +81,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643797099
+updated_at: 1643800457
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
@@ -94,7 +94,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The ride appeared at Ocen Beach Pleasure Park in South Shields during the 2021 season.'
+            text: 'The ride appeared at Ocean Beach Pleasure Park in South Shields during the 2021 season.'
     type: additional_info
     enabled: true
   -
