@@ -47,7 +47,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 50ft'
+    spec: 'Diameter/ Area: 50ft'
     type: ride_specifications
     enabled: true
   -
@@ -60,7 +60,7 @@ gallery:
     enabled: true
     image: extreme-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796707
+updated_at: 1643796982
 featured_image: extreme-featured.jpg
 meta_title: 'Extreme Thrill Ride'
 featured_img: extreme-featured.jpg
