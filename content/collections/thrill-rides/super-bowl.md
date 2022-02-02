@@ -34,7 +34,7 @@ article:
             type: hard_break
           -
             type: text
-            text: '*Suitable for Adults & Children.'
+            text: '*Suitable for Adults & Teenagers.'
     type: article
     enabled: true
 ride_specifications:
@@ -56,7 +56,7 @@ gallery:
     enabled: true
     image: super-bowl-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643797194
+updated_at: 1643801566
 featured_image: super-bowl-featured.jpg
 meta_title: 'Super Bowl Thrill Ride'
 featured_img: super-bowl-featured.jpg
