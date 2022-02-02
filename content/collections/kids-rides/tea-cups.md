@@ -30,7 +30,7 @@ article:
         content:
           -
             type: text
-            text: 'Insert text here.'
+            text: 'Spin round and around in your very own giant Teacup.'
       -
         type: paragraph
       -
@@ -64,6 +64,6 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796052
+updated_at: 1643799341
 meta_title: 'Tea Cups Funfair Ride'
 ---
