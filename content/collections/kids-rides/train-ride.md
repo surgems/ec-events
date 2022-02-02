@@ -25,23 +25,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 10ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 20ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 10'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,8 +54,12 @@ gallery:
     enabled: true
     image: mini-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643209550
+updated_at: 1643796516
 featured_image: mini-train-featured.jpg
 meta_title: 'Miniature Train Ride'
 featured_img: mini-train-featured.jpg
+ride_capacity:
+  - 0-10
+ride_height:
+  - 10-50-ft
 ---
