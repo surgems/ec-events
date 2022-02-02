@@ -24,24 +24,27 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Fly your very own elephant through the air, this ride is always a hit with the kids and adults alike!'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 44ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 32'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,8 +53,12 @@ gallery:
     enabled: true
     image: flying-dumbos-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643199487
+updated_at: 1643791538
 featured_image: flying-dumbos-featured.jpg
 meta_title: 'Flying Dumbos Fun Fair Ride'
 featured_img: flying-dumbos-featured.jpg
+ride_capacity:
+  - 30-40
+ride_height:
+  - 10-50-ft
 ---
