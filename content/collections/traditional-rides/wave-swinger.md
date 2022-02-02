@@ -4,9 +4,9 @@ published: false
 blueprint: traditional-rides
 noindex_page: false
 ride_height:
-  - 100-meters
+  - 10-50-ft
 ride_capacity:
-  - '100'
+  - 10-20
 title: 'Wave Swinger'
 hero:
   -
@@ -34,19 +34,15 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 25ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 44ft'
     type: ride_specifications
     enabled: true
   -
     spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
     type: ride_specifications
     enabled: true
 gallery:
@@ -54,5 +50,5 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637596173
+updated_at: 1643797916
 ---
