@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Skid into action on this one as your car drifts around the track.'
       -
         type: paragraph
       -
@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795901
+updated_at: 1643799311
 featured_image: 'race''o''rama-featured.jpg'
 meta_title: 'Race''o''rama Fun Fair Ride'
 featured_img: 'race''o''rama-featured.jpg'
