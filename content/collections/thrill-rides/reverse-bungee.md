@@ -39,7 +39,7 @@ article:
             type: hard_break
           -
             type: text
-            text: '*Suitable for Adults & Children.'
+            text: '*Suitable for Adults & Teenagers.'
     type: article
     enabled: true
 ride_specifications:
@@ -61,7 +61,7 @@ gallery:
     enabled: true
     image: reverse-bungee-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796967
+updated_at: 1643801523
 featured_image: reverse-bungee-featured.jpg
 meta_title: 'Reverse Bungee Thrill Ride'
 featured_img: reverse-bungee-featured.jpg
