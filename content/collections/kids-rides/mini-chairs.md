@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Hold your arms out and dangle your legs as you swing out on the mini chairs.'
       -
         type: paragraph
       -
@@ -41,7 +41,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 22ft'
+    spec: 'Diameter/ Area: 22ft'
     type: ride_specifications
     enabled: true
   -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-chairs-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795584
+updated_at: 1643799210
 featured_image: mini-chairs-featured.jpg
 meta_title: 'Mini Swing Chair Ride'
 featured_img: mini-chairs-featured.jpg
