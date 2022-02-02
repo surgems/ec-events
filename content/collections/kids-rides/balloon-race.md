@@ -25,23 +25,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 25ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 24ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 16'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,10 +54,12 @@ gallery:
     enabled: true
     image: balloon-race-gallery(1).jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643638710
+updated_at: 1643794730
 featured_image: balloon-race-featured(1).jpg
 meta_title: 'Balloon Race Kids Ride'
 featured_img: balloon-race-featured(1).jpg
 ride_capacity:
-  - '2'
+  - 10-20
+ride_height:
+  - 10-50-ft
 ---
