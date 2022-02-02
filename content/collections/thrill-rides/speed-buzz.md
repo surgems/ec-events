@@ -3,9 +3,9 @@ id: 5086998b-1359-4413-a000-4b4f84f76878
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '8'
+  - 0-10
 ride_height:
-  - 120-feet
+  - 100-150ft
 title: 'Speed Buzz'
 hero:
   -
@@ -45,26 +45,22 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults & Teenagers.'
+            text: '*Suitable for Adults & Teenagers.'
           -
             type: hard_break
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height: 118.1 feet'
+    spec: 'Height: 125ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Area: 52.2 x 19.4 feet'
+    spec: 'Area: 55 x 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 8 Max'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Status: Operating since November 2014'
+    spec: 'Capacity: 8'
     type: ride_specifications
     enabled: true
 gallery:
@@ -85,7 +81,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643285932
+updated_at: 1643797099
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
