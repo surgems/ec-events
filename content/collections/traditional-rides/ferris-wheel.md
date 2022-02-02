@@ -3,9 +3,9 @@ id: 7b26d49d-64ad-4181-9786-ab1d17c9f330
 blueprint: traditional-rides
 noindex_page: false
 ride_height:
-  - 100-meters
+  - 10-50-ft
 ride_capacity:
-  - '100'
+  - 20-30
 title: 'Ferris Wheel'
 hero:
   -
@@ -33,19 +33,15 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 35ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area:  50 x 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 28'
     type: ride_specifications
     enabled: true
 gallery:
@@ -54,7 +50,7 @@ gallery:
     enabled: true
     image: traditional-ferris-wheel-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643226984
+updated_at: 1643798347
 featured_image: traditional-ferris-wheel-featured.jpg
 meta_title: 'Traditional Ferris Wheel'
 featured_img: traditional-ferris-wheel-featured.jpg
