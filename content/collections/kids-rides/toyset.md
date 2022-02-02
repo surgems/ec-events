@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Which toy will you choose to ride? Will you drive the bus or saddle up on a horse there''s so much choice on this one.'
       -
         type: paragraph
       -
@@ -53,7 +53,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796184
+updated_at: 1643799400
 featured_image: toyset.png
 featured_img: toy-set.jpg
 gallery:
@@ -61,4 +61,5 @@ gallery:
     image: toyset.png
     type: gallery
     enabled: true
+meta_title: 'Toyset Ride'
 ---
