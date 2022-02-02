@@ -44,7 +44,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 50 x 18ft'
+    spec: 'Diameter Area: 50 x 18ft'
     type: ride_specifications
     enabled: true
   -
@@ -61,7 +61,7 @@ gallery:
     enabled: true
     image: beach-party-gallery-2.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796875
+updated_at: 1643797012
 featured_image: beach-party-featured-1643225102.jpg
 featured_img: beach-party-featured-1643225102.jpg
 additional_info:
