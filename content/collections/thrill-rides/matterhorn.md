@@ -43,7 +43,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 50ft'
+    spec: 'Diameter/ Area: 50ft'
     type: ride_specifications
     enabled: true
   -
@@ -60,7 +60,7 @@ gallery:
     enabled: true
     image: ice-jet-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796804
+updated_at: 1643796997
 featured_image: ice-jet-featured.jpg
 meta_title: Matterhorn
 featured_img: ice-jet-featured.jpg
