@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Take to the skies and pilot your own helicopter! Enjoy the views as you raise up and go around.'
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: helicopters-gallery-1643210183.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795243
+updated_at: 1643799057
 featured_image: helicopters-featured-1.jpg
 meta_title: 'Kids Helicopter Ride'
 featured_img: helicopters-featured-1.jpg
