@@ -53,7 +53,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643799400
+updated_at: 1643800619
 featured_image: toyset.png
 featured_img: toy-set.jpg
 gallery:
@@ -62,4 +62,16 @@ gallery:
     type: gallery
     enabled: true
 meta_title: 'Toyset Ride'
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
 ---
