@@ -3,9 +3,10 @@ id: 91247dad-ae67-4598-ac99-90f907dc6bf6
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '100'
+  - 30-40
+  - 40-50
 ride_height:
-  - 100-meters
+  - 10-50-ft
 title: 'Super Star'
 hero:
   -
@@ -39,24 +40,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults and Children.'
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 40ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 40'
     type: ride_specifications
     enabled: true
 gallery:
@@ -65,7 +62,7 @@ gallery:
     enabled: true
     image: super-star---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643285971
+updated_at: 1643797272
 featured_image: super-star---featured.jpg
 meta_title: 'Super Star Thrill Ride'
 featured_img: super-star---featured.jpg
