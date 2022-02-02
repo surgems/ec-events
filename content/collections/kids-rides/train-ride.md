@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'All aboard for the train ride sit back and relax as you go round and round the track.'
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643796516
+updated_at: 1643799426
 featured_image: mini-train-featured.jpg
 meta_title: 'Miniature Train Ride'
 featured_img: mini-train-featured.jpg
