@@ -24,24 +24,28 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'See the fair from air taking you to dizzying new heights!'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 120ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 35ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 20'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,7 +54,12 @@ gallery:
     enabled: true
     image: star-flyer-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643205752
+updated_at: 1643793092
 featured_image: star-flyer-featured.jpg
 featured_img: star-flyer-featured.jpg
+ride_capacity:
+  - 10-20
+  - 20-30
+ride_height:
+  - 100-150ft
 ---
