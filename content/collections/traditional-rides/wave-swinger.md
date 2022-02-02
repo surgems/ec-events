@@ -31,6 +31,14 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -50,6 +58,21 @@ gallery:
   -
     type: gallery
     enabled: true
+    image: traditional-rides-swing-chairs-gallery2.jpg
+  -
+    image: traditional-rides-swing-chairs-gallery3.jpg
+    type: gallery
+    enabled: true
+  -
+    image: traditional-rides-swing-chairs-gallery4.jpg
+    type: gallery
+    enabled: true
+  -
+    image: traditional-rides-swing-chairs-gallery.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643798219
+updated_at: 1643800131
+featured_image: traditional-rides-swing-chairs-featued.jpg
+featured_img: traditional-rides-swing-chairs-featued.jpg
 ---
