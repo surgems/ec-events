@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Jump to your heart''s content on six trampoline beds all safely enclosed.'
       -
         type: paragraph
       -
@@ -45,7 +45,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: 6'
     type: ride_specifications
     enabled: true
 gallery:
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: trampoline-beds-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643794913
+updated_at: 1643798920
 featured_image: trampoline-beds-featured.jpg
 meta_title: 'Trampoline Beds'
 featured_img: trampoline-beds-featured.jpg
