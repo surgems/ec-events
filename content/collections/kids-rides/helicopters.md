@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: helicopters-gallery-1643210183.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643799057
+updated_at: 1643800768
 featured_image: helicopters-featured-1.jpg
 meta_title: 'Kids Helicopter Ride'
 featured_img: helicopters-featured-1.jpg
@@ -62,4 +62,16 @@ ride_capacity:
   - 10-20
 ride_height:
   - 10-50-ft
+additional_info:
+  -
+    title: 'Important Information'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
 ---
