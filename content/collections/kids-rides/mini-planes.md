@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Jet through the air on your very own plane.'
       -
         type: paragraph
       -
@@ -41,7 +41,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter: 22ft'
+    spec: 'Diameter/ Area: 22ft'
     type: ride_specifications
     enabled: true
   -
@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795781
+updated_at: 1643799274
 featured_image: mini-planes-featured.jpg
 meta_title: 'Mini Planes Ride'
 featured_img: mini-planes-featured.jpg
