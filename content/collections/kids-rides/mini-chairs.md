@@ -25,23 +25,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 12ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 22ft'
     type: ride_specifications
     enabled: true
   -
     spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,8 +54,12 @@ gallery:
     enabled: true
     image: mini-chairs-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643209835
+updated_at: 1643795584
 featured_image: mini-chairs-featured.jpg
 meta_title: 'Mini Swing Chair Ride'
 featured_img: mini-chairs-featured.jpg
+ride_capacity:
+  - 10-20
+ride_height:
+  - 10-50-ft
 ---
