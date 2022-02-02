@@ -3,9 +3,9 @@ id: e966454c-b92c-4e90-bf0a-6ecdde4c1c5e
 blueprint: traditional-rides
 noindex_page: false
 ride_height:
-  - 100-meters
+  - 10-50-ft
 ride_capacity:
-  - '100'
+  - 0-10
 title: 'Swing Boats'
 hero:
   -
@@ -29,23 +29,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 15ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area:'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 8 ( 2 people per boat)'
     type: ride_specifications
     enabled: true
 gallery:
@@ -58,7 +62,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643226814
+updated_at: 1643798746
 featured_image: traditional-rides-swingboats-1643226742.jpg
 meta_title: 'Traditional Swing Boat Ride'
 featured_img: traditional-rides-swingboats.jpg
