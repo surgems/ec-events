@@ -2,11 +2,6 @@
 id: 38c2a35e-c4e5-4895-9d79-4f462a0527be
 blueprint: thrill-rides
 noindex_page: false
-ride_capacity:
-  - '100'
-  - '30'
-ride_height:
-  - 100-meters
 title: 'Top Scan'
 hero:
   -
@@ -39,7 +34,7 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults and Children.'
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
@@ -65,7 +60,7 @@ gallery:
     enabled: true
     image: top-scan-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643286452
+updated_at: 1643797812
 featured_image: top-scan-featured.jpg
 meta_title: 'Top Scan Thrill Ride'
 featured_img: top-scan-featured.jpg
