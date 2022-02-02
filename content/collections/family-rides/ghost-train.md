@@ -24,24 +24,29 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Take a ride on the dark side Full of ghosts, ghouls and all things creepy it''s a scream!'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 50 x 20ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 20'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,7 +55,12 @@ gallery:
     enabled: true
     image: ghost-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643205049
+updated_at: 1643791811
 featured_image: ghost-train-featured.jpg
 featured_img: ghost-train-featured-1643205029.jpg
+ride_capacity:
+  - 10-20
+  - 20-30
+ride_height:
+  - 10-50-ft
 ---
