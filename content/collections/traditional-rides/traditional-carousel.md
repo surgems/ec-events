@@ -3,9 +3,9 @@ id: 2d702d7f-61fa-481c-8c99-f9c9dd9c2ce2
 blueprint: traditional-rides
 noindex_page: false
 ride_height:
-  - 100-meters
+  - 10-50-ft
 ride_capacity:
-  - '100'
+  - 10-20
 title: 'Traditional Carousel'
 hero:
   -
@@ -29,23 +29,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 25ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 44ft'
     type: ride_specifications
     enabled: true
   -
     spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
     type: ride_specifications
     enabled: true
 gallery:
@@ -58,7 +62,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643226720
+updated_at: 1643798039
 featured_image: traditional-carousel-featured.jpg
 meta_title: 'Traditional Carousel Ride'
 featured_img: traditional-carousel-featured.jpg
