@@ -33,24 +33,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults & Teenagers.'
+            text: '*Suitable for Adults & Teenagers.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height: 80 feet'
+    spec: 'Height: 80ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Area: 53 x 44 feet'
+    spec: 'Area: 52 x 33ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 24 max'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 24'
     type: ride_specifications
     enabled: true
 gallery:
@@ -63,7 +59,7 @@ gallery:
     enabled: true
     image: the-beast-gallery-1.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643286084
+updated_at: 1643797721
 featured_image: the-beast-featured.jpg
 meta_title: 'The Beast Thrill Ride'
 featured_img: the-beast-featured.jpg
@@ -85,4 +81,8 @@ additional_info:
             text: 'Minimum rider height: 140cm'
     type: additional_info
     enabled: true
+ride_capacity:
+  - 20-30
+ride_height:
+  - 50-100ft
 ---
