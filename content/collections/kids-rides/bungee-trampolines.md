@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Jump as high as you can, perform somersaults up in the air with the knowledge you are safely strapped in.'
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mni-trampolines-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795020
+updated_at: 1643798866
 featured_image: mni-trampolines-featured.jpg
 meta_title: 'Mini Trampolines'
 featured_img: mni-trampolines-featured.jpg
