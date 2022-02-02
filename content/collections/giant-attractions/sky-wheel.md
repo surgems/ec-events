@@ -50,19 +50,15 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height: 35 meters'
+    spec: 'Height: 114ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 65 x 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 4 per carriage'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 26 Gondolas (4 per gondola)'
     type: ride_specifications
     enabled: true
 gallery:
@@ -95,7 +91,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643793513
+updated_at: 1643793662
 additional_info:
   -
     title: 'Important Information'
