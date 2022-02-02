@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Go up and down and around on the mini Miami.'
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-miami-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643795668
+updated_at: 1643799240
 featured_image: mini-miami-featured.jpg
 meta_title: 'Mini Miami Fun Fair Ride'
 featured_img: mini-miami-featured.jpg
