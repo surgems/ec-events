@@ -3,9 +3,9 @@ id: d75a9fd3-da77-4cef-8bb5-e6ba4c182a8f
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '100'
+  - 20-30
 ride_height:
-  - 100-meters
+  - 10-50-ft
 title: Extreme
 hero:
   -
@@ -38,24 +38,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults & Teenagers.'
+            text: '*Suitable for Adults & Teenagers.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 24'
     type: ride_specifications
     enabled: true
 gallery:
@@ -64,7 +60,7 @@ gallery:
     enabled: true
     image: extreme-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643296640
+updated_at: 1643796707
 featured_image: extreme-featured.jpg
 meta_title: 'Extreme Thrill Ride'
 featured_img: extreme-featured.jpg
