@@ -24,7 +24,13 @@ article:
         content:
           -
             type: text
-            text: 'This ain''t your usual rodeo! Get ready to take one of the crazy mechanical bulls, they will shake and buck like they''re trying to knock you off. Hold on tight, so expect a couple of minutes of adrenaline-pumping, white-knuckle fun.'
+            text: 'Have you got what it takes to ride the crazy bulls? you''re in for a rough ride hold tight!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This isn''t your usual rodeo! These crazy mechanical bulls will shake and buck like they''re trying to knock you off. Hold on tight, so expect a couple of minutes of adrenaline-pumping, white-knuckle fun.'
       -
         type: paragraph
         content:
@@ -35,19 +41,15 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 20ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Area: 48 x 22 feet'
+    spec: 'Diameter/ Area: 48 x 18ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 20 max'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 16'
     type: ride_specifications
     enabled: true
 gallery:
@@ -56,10 +58,12 @@ gallery:
     enabled: true
     image: crazy-bulls-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643279452
+updated_at: 1643791204
 featured_image: crazy-bulls-featured.jpg
 meta_title: 'Crazy Bulls Fun Fair Ride'
 featured_img: crazy-bulls-featured.jpg
 ride_capacity:
-  - '20'
+  - 10-20
+ride_height:
+  - 10-50-ft
 ---
