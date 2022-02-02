@@ -25,23 +25,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 20ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 4'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,8 +54,12 @@ gallery:
     enabled: true
     image: mni-trampolines-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643209482
+updated_at: 1643795020
 featured_image: mni-trampolines-featured.jpg
 meta_title: 'Mini Trampolines'
 featured_img: mni-trampolines-featured.jpg
+ride_capacity:
+  - 0-10
+ride_height:
+  - 10-50-ft
 ---
