@@ -24,24 +24,29 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Welcome to the house of fun! Navigate your way through the twists and turns, up and down the crazy stairs through the spinning tunnels and much more!'
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: hard_break
+          -
+            type: text
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 35ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 60 x 20ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 50'
     type: ride_specifications
     enabled: true
 gallery:
@@ -66,8 +71,13 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643232942
+updated_at: 1643791691
 featured_image: jungle-madness-featured.jpg
 featured_img: jungle-madness-featured-1643205567.jpg
 meta_title: 'Fun House'
+ride_capacity:
+  - 40-50
+  - 50-60
+ride_height:
+  - 10-50-ft
 ---
