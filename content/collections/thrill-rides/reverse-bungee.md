@@ -3,10 +3,9 @@ id: ac65c4c7-ca83-4efa-bdfe-fe3431b8e77c
 blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
-  - '100'
-  - '2'
+  - 0-10
 ride_height:
-  - 100-meters
+  - 100-150ft
 title: 'Reverse Bungee'
 hero:
   -
@@ -40,24 +39,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults & Children.'
+            text: '*Suitable for Adults & Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 120ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 65 x 30ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 2 Max'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 2'
     type: ride_specifications
     enabled: true
 gallery:
@@ -66,7 +61,7 @@ gallery:
     enabled: true
     image: reverse-bungee-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643285875
+updated_at: 1643796967
 featured_image: reverse-bungee-featured.jpg
 meta_title: 'Reverse Bungee Thrill Ride'
 featured_img: reverse-bungee-featured.jpg
