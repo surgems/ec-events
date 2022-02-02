@@ -24,24 +24,20 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'This one is called crazy for a reason it will bounce you up and down and spin you around at high speeds!'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 25ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 48ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 42'
     type: ride_specifications
     enabled: true
 gallery:
@@ -50,8 +46,12 @@ gallery:
     enabled: true
     image: crazy-frog-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643199054
+updated_at: 1643790858
 featured_image: crazy-frog-feature.jpg
 meta_title: 'Crazy Frog Ride'
 featured_img: crazy-frog-feature-1643199023.jpg
+ride_capacity:
+  - 40-50
+ride_height:
+  - 10-50-ft
 ---
