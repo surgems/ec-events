@@ -34,24 +34,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults & Children.'
+            text: '*Suitable for Adults & Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 25ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 40'
     type: ride_specifications
     enabled: true
 gallery:
@@ -64,7 +60,7 @@ gallery:
     enabled: true
     image: ice-jet-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643630986
+updated_at: 1643796804
 featured_image: ice-jet-featured.jpg
 meta_title: Matterhorn
 featured_img: ice-jet-featured.jpg
@@ -80,4 +76,9 @@ additional_info:
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
     type: additional_info
     enabled: true
+ride_capacity:
+  - 30-40
+  - 40-50
+ride_height:
+  - 10-50-ft
 ---
