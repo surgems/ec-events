@@ -4,9 +4,8 @@ blueprint: thrill-rides
 noindex_page: false
 ride_capacity:
   - 30-40
-  - 40-50
 ride_height:
-  - 10-50-ft
+  - 50-100ft
 title: 'Super Star'
 hero:
   -
@@ -45,15 +44,15 @@ article:
     enabled: true
 ride_specifications:
   -
-    spec: 'Height: 40ft'
+    spec: 'Height: 60ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter/ Area: 50ft'
+    spec: 'Diameter/ Area: 48ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 40'
+    spec: 'Capacity: 36'
     type: ride_specifications
     enabled: true
 gallery:
@@ -62,7 +61,7 @@ gallery:
     enabled: true
     image: super-star---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643797272
+updated_at: 1643797338
 featured_image: super-star---featured.jpg
 meta_title: 'Super Star Thrill Ride'
 featured_img: super-star---featured.jpg
