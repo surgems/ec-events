@@ -34,24 +34,20 @@ article:
             type: hard_break
           -
             type: text
-            text: 'Suitable for Adults and Children.'
+            text: '*Suitable for Adults and Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height: 55 meters'
+    spec: 'Height: 180ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter/ Area: 50ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity: 40 Max'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 40'
     type: ride_specifications
     enabled: true
 gallery:
@@ -92,17 +88,18 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643639116
+updated_at: 1643793790
 featured_image: giant-star-flyer-featured.jpg
 meta_title: 'Giant Star Flyer'
 featured_img: giant-star-flyer-featured.jpg
 ride_capacity:
-  - '40'
+  - 30-40
+  - 40-50
 additional_info:
   -
     title: 'Important Imformation'
     type: additional_info
     enabled: true
 ride_height:
-  - '55'
+  - 150-200ft
 ---
