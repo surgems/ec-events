@@ -25,23 +25,27 @@ article:
           -
             type: text
             text: 'Text to follow.'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '*Suitable for Children.'
     type: article
     enabled: true
 ride_specifications:
   -
-    spec: 'Height:'
+    spec: 'Height: 15ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Diameter:'
+    spec: 'Diameter: 22ft'
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
-    type: ride_specifications
-    enabled: true
-  -
-    spec: 'Hourly Capacity:'
+    spec: 'Capacity: 7'
     type: ride_specifications
     enabled: true
 gallery:
@@ -54,8 +58,12 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643209721
+updated_at: 1643795781
 featured_image: mini-planes-featured.jpg
 meta_title: 'Mini Planes Ride'
 featured_img: mini-planes-featured.jpg
+ride_capacity:
+  - 0-10
+ride_height:
+  - 10-50-ft
 ---
