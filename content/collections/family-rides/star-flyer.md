@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: star-flyer-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882757
+updated_at: 1643884607
 featured_image: star-flyer-featured.jpg
 featured_img: star-flyer-featured.jpg
 ride_capacity:
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1.2m tall to ride.'
+            text: 'The passenger must be 1.2m tall or above to ride.'
     type: additional_info
     enabled: true
 ---
