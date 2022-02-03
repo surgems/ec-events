@@ -24,7 +24,15 @@ article:
         content:
           -
             type: text
-            text: 'This ride definitely isn''t for the faint-hearted. The Superbowl funfair ride spins around while it gradually rises up to a vertical position. Riders will be left rattled and exhilarated all at the same time. '
+            text: 'This ride definitely isn''t for the faint-hearted! The Superbowl funfair ride spins around while it gradually rises up to a vertical position. Riders will be left rattled and exhilarated all at the same time. '
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Can you take the thrill?'
       -
         type: paragraph
         content:
@@ -56,7 +64,7 @@ gallery:
     enabled: true
     image: super-bowl-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884244
+updated_at: 1643896028
 featured_image: super-bowl-featured.jpg
 meta_title: 'Super Bowl Thrill Ride'
 featured_img: super-bowl-featured.jpg
