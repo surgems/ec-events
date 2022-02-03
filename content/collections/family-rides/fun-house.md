@@ -51,13 +51,13 @@ ride_specifications:
     enabled: true
 gallery:
   -
-    image: funhouse-gallery.jpg
-    type: gallery
-    enabled: true
-  -
     type: gallery
     enabled: true
     image: jungle-madness-gallery.jpg
+  -
+    image: funhouse-gallery.jpg
+    type: gallery
+    enabled: true
   -
     image: funhouse-gallery1.jpg
     type: gallery
@@ -71,7 +71,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643887603
+updated_at: 1643891003
 featured_image: jungle-madness-featured.jpg
 featured_img: jungle-madness-featured-1643205567.jpg
 meta_title: 'Fun House'
