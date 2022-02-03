@@ -30,7 +30,7 @@ article:
         content:
           -
             type: text
-            text: 'Hold tight riders this is a fast one! taking you to the limit forwards and backwards!'
+            text: 'Hold tight riders this is a fast one! Take a spin on the Super Bob as you lose your senses, pushing you to the limit forwards and backwards! Go solo, or with the moral support of a partner in the carriages, you''ll need someone to hold on to, trust us! '
       -
         type: paragraph
       -
@@ -55,7 +55,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884547
+updated_at: 1643888633
 additional_info:
   -
     title: 'Important Information'
