@@ -53,7 +53,7 @@ gallery:
     enabled: true
     image: flying-dumbos-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643881863
+updated_at: 1643884479
 featured_image: flying-dumbos-featured.jpg
 meta_title: 'Flying Dumbos Fun Fair Ride'
 featured_img: flying-dumbos-featured.jpg
@@ -81,7 +81,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The rider must be above 1.2m tall to ride solo, if under this measurement they must be accompanied by an adult.'
+            text: 'The passenger must be 1.2m tall or above to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 ---
