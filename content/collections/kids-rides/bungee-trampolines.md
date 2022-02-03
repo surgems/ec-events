@@ -24,7 +24,13 @@ article:
         content:
           -
             type: text
-            text: 'Jump as high as you can, perform somersaults up in the air with the knowledge you are safely strapped in.'
+            text: 'A firm favourite with the kids! Jump as high as you can, perform tricks and somersaults up in the air with the knowledge you are safely strapped in. There''ll no doubt be a queue forming at this one, as children watch in awe as others fly through the sky. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'With the safety of a trampoline below, kids can bounce as high as they can, with safety in mind. '
       -
         type: paragraph
       -
@@ -54,7 +60,7 @@ gallery:
     enabled: true
     image: mni-trampolines-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883120
+updated_at: 1643890408
 featured_image: mni-trampolines-featured.jpg
 meta_title: 'Mini Trampolines'
 featured_img: mni-trampolines-featured.jpg
