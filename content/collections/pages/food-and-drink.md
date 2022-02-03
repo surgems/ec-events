@@ -8,10 +8,10 @@ hero:
   -
     type: hero
     enabled: true
-    image: street-food-stalls-landscape.jpg
+    image: german-food-market-1643891430.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643639618
+updated_at: 1643891462
 article:
   -
     content:
@@ -170,5 +170,5 @@ gallery:
     image: german-food-market.jpg
     type: gallery
     enabled: true
-featured_image: street-food-stalls.jpg
+featured_image: german-food-market-1643891430.jpg
 ---
