@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'An old-time favourite going back to medieval times, and a seaside staple, swing boats are a great relaxing ride. Passengers can switch it up by determining their own speed and height by creating momentum.    '
+            text: 'An old-time favourite going back to medieval times, and a seaside staple, swing boats are a great relaxing ride if you want them to be! Passengers can switch it up by determining their own speed and height by creating momentum.    '
       -
         type: paragraph
         content:
@@ -68,7 +68,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643897899
+updated_at: 1643897969
 featured_image: traditional-rides-swingboats-1643226742.jpg
 meta_title: 'Traditional Swing Boat Ride'
 featured_img: traditional-rides-swingboats.jpg
