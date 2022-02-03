@@ -53,7 +53,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883542
+updated_at: 1643885247
 featured_image: toyset.png
 featured_img: toy-set.jpg
 gallery:
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1m tall to ride solo, if under this measurement they must be accompanied by an adult.'
+            text: 'The passenger must be 1m tall or above to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 ---
