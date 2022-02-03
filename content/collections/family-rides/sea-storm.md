@@ -32,7 +32,7 @@ article:
             type: hard_break
           -
             type: text
-            text: ' '
+            text: ' Sing along to songs of the seas, shanties and rhymes if you can catch your breath. This ride will give you the full experience of sailor of the seven seas.'
       -
         type: paragraph
       -
@@ -62,7 +62,7 @@ gallery:
     enabled: true
     image: seas-storm---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643888884
+updated_at: 1643888939
 featured_image: seas-storm---featured.jpg
 meta_title: 'Sea Storm Fun Fair Ride'
 featured_img: seas-storm---featured.jpg
