@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'See the fair from air taking you to dizzying new heights!'
+            text: 'A stand-alone swing that helps you see the fair from the air taking you to dizzying new heights! Still a thrilling ride, but a definite experience for all of the family! Young and old alike will be amazed by the views. Buckle in, sit next to your family or friends in the seats and get ride for the ride of tour life. '
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: star-flyer-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884607
+updated_at: 1643889389
 featured_image: star-flyer-featured.jpg
 featured_img: star-flyer-featured.jpg
 ride_capacity:
