@@ -24,7 +24,15 @@ article:
         content:
           -
             type: text
-            text: 'Let''s twist again! This family favourite gets everyone smiling and always draws in the thrill-seekers.'
+            text: 'Let''s twist again! This family favourite gets everyone smiling and always draws in the thrill-seekers. Full of twists and turns, carriages are spun in all directions, never knowing what''s coming next! '
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: ' '
       -
         type: paragraph
       -
@@ -58,7 +66,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884587
+updated_at: 1643889121
 featured_image: sizzler-featured.jpg
 featured_img: sizzler-featured-1643205961.jpg
 ride_capacity:
