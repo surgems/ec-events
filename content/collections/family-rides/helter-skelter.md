@@ -4,7 +4,7 @@ blueprint: family-rides
 title: 'Helter Skelter'
 featured_image: helter-skelter-ride-1637579216.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882212
+updated_at: 1643888097
 ride_height:
   - 10-50-ft
 ride_capacity:
@@ -19,7 +19,7 @@ article:
         content:
           -
             type: text
-            text: 'A classic family favourite grab your mat, climb the stairs and round and round you go!'
+            text: 'This ride stands tall, a lighthouse with a spellbinding spiral slide around the outside, it''s one for the thrill-seekers. A classic family favourite grab your mat, climb the stairs and round and round you go!'
           -
             type: hard_break
           -
