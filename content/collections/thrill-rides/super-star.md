@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'This ride is a must-have for all big events with plenty of people. The bravest of riders will only dare to have a go as this ride takes off into the air at speed. It is a real classic that never fails to disappoint, with the height the seats reach it can be spotted from a long way off.'
+            text: 'This ride is a must-have for all big events with large numbers. The bravest of riders will only dare to hop on, as this ride takes off into the air at the speed of light. It is a real classic that never fails to disappoint! With the seats reaching vast heights, it can be spotted from miles away.'
           -
             type: hard_break
           -
@@ -61,7 +61,7 @@ gallery:
     enabled: true
     image: super-star---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884275
+updated_at: 1643896141
 featured_image: super-star---featured.jpg
 meta_title: 'Super Star Thrill Ride'
 featured_img: super-star---featured.jpg
