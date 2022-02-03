@@ -24,7 +24,15 @@ article:
         content:
           -
             type: text
-            text: 'Is it a funfair if the Waltzers are not there? Just scream if you want to go faster and spin till you drop, so hold on tight.'
+            text: 'Is it a funfair if the Waltzers aren''t there? Just scream if you want to go faster and spin till you drop, so hold on tight. A firm fair favourite, everyone loves the Waltzers. Sit back and tuck in your head as the operators spin you round and round. '
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'We''d suggest giving it a minute before jumping off, you''ll definitely be seeing stars! '
           -
             type: hard_break
           -
@@ -55,7 +63,7 @@ gallery:
     enabled: true
     image: Waltzers---Gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884629
+updated_at: 1643889489
 ride_capacity:
   - 40-50
   - 50-60
