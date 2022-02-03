@@ -29,6 +29,8 @@ article:
         type: paragraph
         content:
           -
+            type: hard_break
+          -
             type: text
             text: 'This isn''t your usual rodeo! These crazy mechanical bulls will shake and buck like they''re trying to knock you off. Hold on tight, so expect a couple of minutes of adrenaline-pumping, white-knuckle fun.'
       -
@@ -60,7 +62,7 @@ gallery:
     enabled: true
     image: crazy-bulls-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643886281
+updated_at: 1643886311
 featured_image: crazy-bulls-featured.jpg
 meta_title: 'Crazy Bulls Fun Fair Ride'
 featured_img: crazy-bulls-featured.jpg
