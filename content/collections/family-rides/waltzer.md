@@ -55,7 +55,7 @@ gallery:
     enabled: true
     image: Waltzers---Gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882783
+updated_at: 1643884629
 ride_capacity:
   - 40-50
   - 50-60
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1.2m tall to ride solo, if under this measurement they must be accompanied by an adult.'
+            text: 'The passenger must be 1.2m tall or above to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 featured_image: Waltzers---featured.jpg
