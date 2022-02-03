@@ -81,7 +81,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800457
+updated_at: 1643884216
 featured_image: speed-featured.jpg
 meta_title: 'Speed Buzz Thrill Ride'
 featured_img: speed-featured.jpg
@@ -106,6 +106,17 @@ additional_info:
           -
             type: text
             text: 'This ride exerts a lot of force. So it is not suitable for people with back or neck problems, heart conditions, pregnant people or anyone who has recently undergone surgery.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The passenger must be 1.4m tall or above to ride.'
     type: additional_info
     enabled: true
 ---
