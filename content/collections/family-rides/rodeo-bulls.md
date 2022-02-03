@@ -58,7 +58,7 @@ gallery:
     enabled: true
     image: crazy-bulls-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884400
+updated_at: 1643886257
 featured_image: crazy-bulls-featured.jpg
 meta_title: 'Crazy Bulls Fun Fair Ride'
 featured_img: crazy-bulls-featured.jpg
