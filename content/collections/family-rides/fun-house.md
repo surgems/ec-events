@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Welcome to the house of fun! Navigate your way through the twists and turns, up and down the crazy stairs through the spinning tunnels and much more!'
+            text: 'Welcome to the house of fun! Navigate your way through the twists and turns, up and down the crazy stairs, through the spinning tunnels and much more! Packed to the brim with unexpected thrills and activities, this attraction is a fairground favourite.'
           -
             type: hard_break
           -
@@ -71,7 +71,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882107
+updated_at: 1643887603
 featured_image: jungle-madness-featured.jpg
 featured_img: jungle-madness-featured-1643205567.jpg
 meta_title: 'Fun House'
