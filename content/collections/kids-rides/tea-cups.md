@@ -36,6 +36,9 @@ article:
         content:
           -
             type: hard_break
+          -
+            type: text
+            text: 'This ride will be everyone''s cup of tea!'
       -
         type: paragraph
       -
@@ -69,7 +72,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643894817
+updated_at: 1643894844
 meta_title: 'Tea Cups Funfair Ride'
 additional_info:
   -
