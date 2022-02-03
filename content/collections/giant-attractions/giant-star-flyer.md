@@ -88,7 +88,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643793790
+updated_at: 1643882964
 featured_image: giant-star-flyer-featured.jpg
 meta_title: 'Giant Star Flyer'
 featured_img: giant-star-flyer-featured.jpg
@@ -98,6 +98,24 @@ ride_capacity:
 additional_info:
   -
     title: 'Important Imformation'
+    type: additional_info
+    enabled: true
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The passenger must be above 1.2m tall to ride.'
     type: additional_info
     enabled: true
 ride_height:
