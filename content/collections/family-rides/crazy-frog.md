@@ -63,7 +63,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643890919
+updated_at: 1643890931
 featured_image: crazy-frog-feature.jpg
 meta_title: 'Crazy Frog Ride'
 featured_img: crazy-frog-feature-1643199023.jpg
