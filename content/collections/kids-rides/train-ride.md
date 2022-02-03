@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'All aboard for the train ride sit back and relax as you go round and round the track.'
+            text: 'All aboard for the train ride! Sit back and relax as you go round and round the track. This ride is gentle so is perfect for attracting younger children to your event. '
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885266
+updated_at: 1643895225
 featured_image: mini-train-featured.jpg
 meta_title: 'Miniature Train Ride'
 featured_img: mini-train-featured.jpg
