@@ -33,6 +33,9 @@ article:
         type: paragraph
         content:
           -
+            type: text
+            text: 'Adults and children alike will love this ride. Couples can have a romantic trip, hand in hand with gorgeous views, whilst children enjoy the sheer height and amazement of this classic ride.'
+          -
             type: hard_break
           -
             type: text
@@ -58,7 +61,7 @@ gallery:
     enabled: true
     image: traditional-ferris-wheel-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643897219
+updated_at: 1643897327
 featured_image: traditional-ferris-wheel-featured.jpg
 meta_title: 'Traditional Ferris Wheel'
 featured_img: traditional-ferris-wheel-featured.jpg
