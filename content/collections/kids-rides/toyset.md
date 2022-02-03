@@ -53,12 +53,16 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885247
+updated_at: 1643891215
 featured_image: toyset.png
 featured_img: toy-set.jpg
 gallery:
   -
     image: toyset.png
+    type: gallery
+    enabled: true
+  -
+    image: toy-set(1).jpg
     type: gallery
     enabled: true
 meta_title: 'Toyset Ride'
