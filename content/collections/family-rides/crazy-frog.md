@@ -25,6 +25,11 @@ article:
           -
             type: text
             text: 'This one is called crazy for a reason! Also known as the jumping frogs, this classic funfair ride will give both adults and children thrills from start to finish. Different rhythms will bounce you up and down and spin you around at high speeds!'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
     type: article
     enabled: true
 ride_specifications:
@@ -46,7 +51,7 @@ gallery:
     enabled: true
     image: crazy-frog-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882125
+updated_at: 1643882415
 featured_image: crazy-frog-feature.jpg
 meta_title: 'Crazy Frog Ride'
 featured_img: crazy-frog-feature-1643199023.jpg
