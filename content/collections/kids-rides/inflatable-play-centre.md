@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Bounce, run, climb and slide this giant bouncy play centre has it all.'
+            text: 'Bounce, run, climb and slide through this giant bouncy play centre that has it all. This inflatable play centre is perfect for kids to keep themselves busy and make friends whilst tumbling through the exciting areas.  '
       -
         type: paragraph
       -
@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883276
+updated_at: 1643891717
 featured_image: inflatable-play-centre-featured.jpg
 featured_img: inflatable-play-centre-featured.jpg
 ride_capacity:
