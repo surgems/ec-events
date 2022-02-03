@@ -24,7 +24,15 @@ article:
         content:
           -
             type: text
-            text: 'Ride the waves on the sea storm!'
+            text: 'Jump aboard and ride the waves of the Sea Storm. The seas aren''t calm with this one! Your boat will be rocked, spun and swayed as if you''re riding the high tides in a storm.'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: ' '
       -
         type: paragraph
       -
@@ -54,7 +62,7 @@ gallery:
     enabled: true
     image: seas-storm---gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884569
+updated_at: 1643888884
 featured_image: seas-storm---featured.jpg
 meta_title: 'Sea Storm Fun Fair Ride'
 featured_img: seas-storm---featured.jpg
