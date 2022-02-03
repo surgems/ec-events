@@ -27,14 +27,6 @@ article:
             text: 'Perfect for car and Disney fans! Children will recognise characters from the hit Pixar film and be desperate to jump on this ride! Skid into action as your car drifts around the track, waving to passers-by as you go. '
       -
         type: paragraph
-        content:
-          -
-            type: hard_break
-          -
-            type: text
-            text: ' '
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -66,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643894317
+updated_at: 1643894433
 featured_image: 'race''o''rama-featured.jpg'
 meta_title: 'Race''o''rama Fun Fair Ride'
 featured_img: 'race''o''rama-featured.jpg'
