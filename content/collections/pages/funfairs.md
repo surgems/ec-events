@@ -113,11 +113,17 @@ article:
                     text: 'We always put the customer first, working to your specs, communicating transparently and acting with integrity.'
     type: article
     enabled: true
+    images:
+      -
+        image: play-to-win(1).jpg
+        type: images
+        enabled: true
 side_images:
   -
     image: funfairs-1600px.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643233829
+updated_at: 1643891525
+featured_image: play-to-win.jpg
 ---
