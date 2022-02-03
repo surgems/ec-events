@@ -61,7 +61,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643881517
+updated_at: 1643881758
 ride_capacity:
   - 10-20
 ride_height:
@@ -86,7 +86,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The rider must be above 1.2meters tall.'
+            text: 'The rider must be above 1.2m tall.'
     type: additional_info
     enabled: true
 ---
