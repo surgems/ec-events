@@ -30,6 +30,11 @@ article:
         content:
           -
             type: hard_break
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
     type: article
     enabled: true
 ride_specifications:
@@ -51,7 +56,7 @@ gallery:
     enabled: true
     image: crazy-frog-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882805
+updated_at: 1643882831
 featured_image: crazy-frog-feature.jpg
 meta_title: 'Crazy Frog Ride'
 featured_img: crazy-frog-feature-1643199023.jpg
