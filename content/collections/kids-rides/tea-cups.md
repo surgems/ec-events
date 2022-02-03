@@ -30,7 +30,12 @@ article:
         content:
           -
             type: text
-            text: 'Spin round and around in your very own giant Teacup.'
+            text: 'Teacups are a fairground favourite! Spin around and around in your very own giant teacup, watching the world go by. Kids and adults alike can jump in the seats together, swirling and twirling around the rotating base. '
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
       -
         type: paragraph
       -
@@ -64,7 +69,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885232
+updated_at: 1643894817
 meta_title: 'Tea Cups Funfair Ride'
 additional_info:
   -
