@@ -28,7 +28,15 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'The classic Ferris wheel holds a place in everyone''s hearts. With their stunning, ornate decoration this ride will really draw in the crowds. '
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: '  '
     type: article
     enabled: true
 ride_specifications:
@@ -50,7 +58,7 @@ gallery:
     enabled: true
     image: traditional-ferris-wheel-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800304
+updated_at: 1643897219
 featured_image: traditional-ferris-wheel-featured.jpg
 meta_title: 'Traditional Ferris Wheel'
 featured_img: traditional-ferris-wheel-featured.jpg
