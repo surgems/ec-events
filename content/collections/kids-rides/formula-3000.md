@@ -25,7 +25,12 @@ article:
         content:
           -
             type: text
-            text: 'The race is on, choose your favourite and drive your own truck around the track!'
+            text: 'Bring the Grand Prix to the fair. The race is on, choose your favourite and drive your own truck around the track! Jump into a realistically painted vehicle and race around the track. This ride also offers great photo opportunities, with your little ones behind the wheel!'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
       -
         type: paragraph
       -
@@ -55,7 +60,7 @@ gallery:
     enabled: true
     image: formula-3000-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885064
+updated_at: 1643890846
 featured_image: formula-3000-feature.jpg
 meta_title: 'Kids Formula 3000 Ride'
 featured_img: formula-3000-feature.jpg
