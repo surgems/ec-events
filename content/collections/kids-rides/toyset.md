@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'Which toy will you choose to ride? Will you drive the bus or saddle up on a horse there''s so much choice on this one.'
+            text: 'Adults and children alike will never get bored of this ride! Which toy will you choose to ride? Will you drive the bus or saddle up on a horse there''s so much choice on this one. Float around the carousel waving to your friends and family as you go by.'
       -
         type: paragraph
       -
@@ -53,7 +53,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891215
+updated_at: 1643895029
 featured_image: toyset.png
 featured_img: toy-set.jpg
 gallery:
