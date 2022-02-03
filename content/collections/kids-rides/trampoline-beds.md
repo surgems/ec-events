@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Jump to your heart''s content on six trampoline beds all safely enclosed.'
+            text: 'Jump til'' your heart''s content! These trampoline beds allow six children to bounce and play all safely enclosed. Parents can gather around and keep an eye on their children through the safety netting and give words of encouragement to get the bouncing high into the sky. '
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: trampoline-beds-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883150
+updated_at: 1643890659
 featured_image: trampoline-beds-featured.jpg
 meta_title: 'Trampoline Beds'
 featured_img: trampoline-beds-featured.jpg
