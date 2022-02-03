@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'The Miami is an absolute classic, you can''t have a funfair without it. The passengers all sit in a row and when it is full the row of seats take off in a clockwise or anti-clockwise direction at increasing speed. This is a popular ride for friends, family and all thrill-seekers alike.'
+            text: 'The Miami is an absolute classic! There''s no way you can have a funfair without it! Passengers all sit together in a row before taking off in a clockwise or anti-clockwise direction at increasing speed. This is a popular ride for friends, family and all thrill-seekers alike.'
           -
             type: hard_break
           -
@@ -61,7 +61,7 @@ gallery:
     enabled: true
     image: beach-party-gallery-2.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884079
+updated_at: 1643895587
 featured_image: beach-party-featured-1643225102.jpg
 featured_img: beach-party-featured-1643225102.jpg
 additional_info:
