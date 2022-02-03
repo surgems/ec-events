@@ -55,7 +55,7 @@ gallery:
     enabled: true
     image: Waltzers---Gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643803098
+updated_at: 1643882783
 ride_capacity:
   - 40-50
   - 50-60
@@ -72,6 +72,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The passenger must be above 1.2m tall to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 featured_image: Waltzers---featured.jpg
