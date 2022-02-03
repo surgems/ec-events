@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Go up and down and around on the mini Miami.'
+            text: 'Why should the grown-ups have all of the fun? The mini Miami is a child-friendly version of its bigger brother. Kids can now enjoy the Miami and go up, down and around. It may not be as fast and hair raising as the original, but it''ll be great entertainment for the children.'
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-miami-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885178
+updated_at: 1643893362
 featured_image: mini-miami-featured.jpg
 meta_title: 'Mini Miami Fun Fair Ride'
 featured_img: mini-miami-featured.jpg
