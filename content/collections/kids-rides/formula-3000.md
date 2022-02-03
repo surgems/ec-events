@@ -55,7 +55,7 @@ gallery:
     enabled: true
     image: formula-3000-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800785
+updated_at: 1643883226
 featured_image: formula-3000-feature.jpg
 meta_title: 'Kids Formula 3000 Ride'
 featured_img: formula-3000-feature.jpg
@@ -73,6 +73,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The passenger must be above 1m tall to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 ---
