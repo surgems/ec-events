@@ -58,7 +58,7 @@ gallery:
     enabled: true
     image: crazy-bulls-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643801394
+updated_at: 1643881587
 featured_image: crazy-bulls-featured.jpg
 meta_title: 'Crazy Bulls Fun Fair Ride'
 featured_img: crazy-bulls-featured.jpg
@@ -76,6 +76,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The rider must be above 1.2meters tall.'
     type: additional_info
     enabled: true
 ---
