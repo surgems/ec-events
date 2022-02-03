@@ -59,8 +59,8 @@ gallery:
     enabled: true
     image: ghost-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643887807
-featured_image: ghost-train-featured.jpg
+updated_at: 1643891063
+featured_image: ghost-train-ride.jpg
 featured_img: ghost-train-featured-1643205029.jpg
 ride_capacity:
   - 10-20
