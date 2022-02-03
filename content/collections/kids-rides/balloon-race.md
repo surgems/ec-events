@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Take a flight in a hot air balloon as this ride takes you up high up into the sky! Fly and soar through the air as if you really were in a hot air balloon. This is a gentle, leisurely take on an up high experience, perfect for children and their parents alike. '
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: balloon-race-gallery(1).jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885040
+updated_at: 1643889904
 featured_image: balloon-race-featured(1).jpg
 meta_title: 'Balloon Race Kids Ride'
 featured_img: balloon-race-featured(1).jpg
