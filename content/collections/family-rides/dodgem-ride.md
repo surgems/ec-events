@@ -27,7 +27,15 @@ article:
         content:
           -
             type: text
-            text: 'Everyone''s favourite! Get behind the wheel and Dodge those cars and remember one way around the track, please!'
+            text: 'Everyone''s favourite! Get behind the wheel, dodge those cars and remember one way around the track, please!'
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Perfect for any event, dodgems are a classic at the fair and guarantee fun and laughs for everyone! '
     type: article
     enabled: true
 ride_specifications:
@@ -53,7 +61,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884460
+updated_at: 1643886436
 ride_capacity:
   - 30-40
 ride_height:
