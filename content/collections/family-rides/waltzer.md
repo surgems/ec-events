@@ -63,7 +63,7 @@ gallery:
     enabled: true
     image: Waltzers---Gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643889489
+updated_at: 1643889675
 ride_capacity:
   - 40-50
   - 50-60
