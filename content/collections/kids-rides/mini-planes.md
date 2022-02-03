@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Jet through the air on your very own plane.'
+            text: 'Get ready for take-off and jet through the air on your very own plane. Become a pilot and navigate your plane through the skies of the fair. Each plane is decorated with bright colours and cartoons, seen for miles as they swoop and soar up and down. '
       -
         type: paragraph
       -
@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643885200
+updated_at: 1643894036
 featured_image: mini-planes-featured.jpg
 meta_title: 'Mini Planes Ride'
 featured_img: mini-planes-featured.jpg
