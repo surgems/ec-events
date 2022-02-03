@@ -46,7 +46,7 @@ gallery:
     enabled: true
     image: crazy-frog-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643881570
+updated_at: 1643881726
 featured_image: crazy-frog-feature.jpg
 meta_title: 'Crazy Frog Ride'
 featured_img: crazy-frog-feature-1643199023.jpg
@@ -64,6 +64,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'The rider must be above 1.2m tall.'
     type: additional_info
     enabled: true
 ---
