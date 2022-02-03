@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'One of the most recognisable rides around, this slingshot style thrill always draws in a crowd. This intense ride allows two riders to climb into a secured harness inside a giant ball attached to bungee ropes. When the riders are ready to go, the ball shoots into the air spinning in any direction towards the sky before plummeting back down before springing back up again.'
+            text: 'One of the most recognisable rides around, this slingshot style thrill ride always draws in a crowd. This intense ride allows two riders to climb into a secured harness inside a giant ball attached to bungee ropes. When riders are ready to go, the ball shoots into the air spinning in any direction towards the sky, before plummeting back down before springing back up again!'
           -
             type: hard_break
           -
@@ -61,7 +61,7 @@ gallery:
     enabled: true
     image: reverse-bungee-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884161
+updated_at: 1643895669
 featured_image: reverse-bungee-featured.jpg
 meta_title: 'Reverse Bungee Thrill Ride'
 featured_img: reverse-bungee-featured.jpg
