@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883563
+updated_at: 1643885266
 featured_image: mini-train-featured.jpg
 meta_title: 'Miniature Train Ride'
 featured_img: mini-train-featured.jpg
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1m tall to ride solo, if under this measurement they must be accompanied by an adult.'
+            text: 'The passenger must be 1m tall or above to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 ---
