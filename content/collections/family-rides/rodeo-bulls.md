@@ -58,7 +58,7 @@ gallery:
     enabled: true
     image: crazy-bulls-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643881693
+updated_at: 1643882818
 featured_image: crazy-bulls-featured.jpg
 meta_title: 'Crazy Bulls Fun Fair Ride'
 featured_img: crazy-bulls-featured.jpg
@@ -86,7 +86,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The rider must be above 1.2m tall.'
+            text: 'The passenger must be above 1.2m tall to ride.'
     type: additional_info
     enabled: true
 ---
