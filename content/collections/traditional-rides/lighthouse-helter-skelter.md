@@ -29,7 +29,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'A stunning, iconic landmark for any event or funfair. The classic lighthouse helter-skelter combines thrilling speed with spectacular views on the way down if you can keep up! Twisting and turning around a beautifully decorated structure, will leave everyone wanting to go again! '
       -
         type: paragraph
       -
@@ -63,7 +63,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800286
+updated_at: 1643897472
 featured_image: lighthouse-helter-skelter---Featured-Image.jpg
 meta_title: 'Lighthouse Helter Skelter Fun'
 featured_img: lighthouse-helter-skelter---Featured-Image.jpg
