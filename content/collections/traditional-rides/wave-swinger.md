@@ -29,7 +29,7 @@ article:
         content:
           -
             type: text
-            text: 'Text to follow.'
+            text: 'Free hanging seats are suspended from a carousel in the sky, spinning passengers around higher and higher. Adults and children alike can enjoy this ride, with their feet and legs dangling down. Feel like you''re flying with this thrilling ride.'
       -
         type: paragraph
       -
@@ -71,7 +71,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643800214
+updated_at: 1643896833
 featured_image: traditional-rides-swing-chairs-featued.jpg
 featured_img: traditional-rides-swing-chairs-featued.jpg
 additional_info:
