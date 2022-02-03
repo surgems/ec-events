@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'This ride is definitely a crowd favourite. Riders aren''t strapped in on this one, all riders stand against the wall while the ride spins and bounces up and down. Your ride operator will be in control at all times to ensure the ride is fun and safe at all times, for all thrill-seekers.'
+            text: 'This ride is definitely a crowd favourite. Riders aren''t strapped in for this one, making it quite a unique experience! All riders stand against the wall whilest the ride spins and bounces up and down. Your ride operator will be in control at all times to ensure the ride is fun and safe at all times, for all thrill-seekers.'
       -
         type: paragraph
         content:
@@ -56,7 +56,7 @@ gallery:
     enabled: true
     image: tagada-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884331
+updated_at: 1643896458
 featured_image: tagada-featured.jpg
 featured_img: tagada-featured.jpg
 additional_info:
