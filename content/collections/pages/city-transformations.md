@@ -9,9 +9,9 @@ hero:
     title: 'City Transformations'
     type: hero
     enabled: true
-    image: city-transformations-festival-garlands.jpg
+    image: alpine-village-transformation.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891311
+updated_at: 1643891403
 article:
   -
     content:
@@ -55,11 +55,12 @@ gallery:
     type: gallery
     enabled: true
   -
-    image: city-transformations.jpg
+    image: alpine-village-transformation-1643891381.jpg
     type: gallery
     enabled: true
   -
-    image: music-events.jpg
+    image: alpine-village-transformation(1).jpg
     type: gallery
     enabled: true
+featured_image: alpine-village-transformation.jpg
 ---
