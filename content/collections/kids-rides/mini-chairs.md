@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-chairs-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883402
+updated_at: 1643885131
 featured_image: mini-chairs-featured.jpg
 meta_title: 'Mini Swing Chair Ride'
 featured_img: mini-chairs-featured.jpg
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1m tall to ride.'
+            text: 'The passenger must be 1m tall or above to ride.'
     type: additional_info
     enabled: true
 ---
