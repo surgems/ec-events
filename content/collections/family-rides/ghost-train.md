@@ -55,11 +55,15 @@ ride_specifications:
     enabled: true
 gallery:
   -
+    image: ghost-train-ride.jpg
+    type: gallery
+    enabled: true
+  -
     type: gallery
     enabled: true
     image: ghost-train-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891084
+updated_at: 1643891106
 featured_image: ghost-train-ride.jpg
 featured_img: ghost-train-ride.jpg
 ride_capacity:
