@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882730
+updated_at: 1643884587
 featured_image: sizzler-featured.jpg
 featured_img: sizzler-featured-1643205961.jpg
 ride_capacity:
@@ -85,7 +85,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1.2m tall to ride.'
+            text: 'The passenger must be 1.2m tall or above to ride.'
     type: additional_info
     enabled: true
 ---
