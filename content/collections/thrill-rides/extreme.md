@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: 'This ride is called Extreme for a reason. Riders sit in one of the chairs secured by harnesses and are then shot through the air, spinning in all directions. You won''t have much time to appreciate the views as this ride takes you around, getting your heart rate racing.'
+            text: 'This ride is called Extreme for a reason! Riders sit in one of the chairs secured by harnesses and are then shot through the air, spinning in all directions. You won''t have much time to appreciate the views as this ride takes you around, getting your heart rate racing.'
       -
         type: paragraph
         content:
@@ -60,7 +60,7 @@ gallery:
     enabled: true
     image: extreme-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884030
+updated_at: 1643895310
 featured_image: extreme-featured.jpg
 meta_title: 'Extreme Thrill Ride'
 featured_img: extreme-featured.jpg
