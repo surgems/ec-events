@@ -33,7 +33,7 @@ article:
             text: 'Beach Party'
           -
             type: text
-            text: "\_is a\_Miami\_built by UK manufacturer\_Eagle (G.E.T.) Fabrications.\_The Miami is an absolute classic, you can't have a funfair without it. The passengers all sit in a row and when it is full the row of seats take off in a clockwise or anti-clockwise direction at increasing speed. This is a popular ride for friends, family and all thrill-seekers alike."
+            text: "\_is a\_Miami\_built by UK manufacturer\_Eagle (G.E.T.) Fabrications.\_The Miami is an absolute classic, you can't have a funfair without it. Passengers all sit in a row and when full the row of seats take off in a clockwise or anti-clockwise direction at increasing speed. With a beach party backdrop, this ride is perfect for those summer funfairs in the sun! This is a popular ride for friends, family and all thrill-seekers alike."
       -
         type: paragraph
         content:
@@ -61,7 +61,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643882861
+updated_at: 1643885299
 ride_capacity:
   - 10-20
 ride_height:
