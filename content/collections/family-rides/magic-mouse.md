@@ -55,8 +55,12 @@ gallery:
     image: mad-mouse-gallery.jpg
     type: gallery
     enabled: true
+  -
+    image: wild-mouse-xxl.jpg
+    type: gallery
+    enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643888284
+updated_at: 1643891238
 ride_capacity:
   - 30-40
 ride_height:
