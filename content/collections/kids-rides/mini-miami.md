@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-miami-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883431
+updated_at: 1643885178
 featured_image: mini-miami-featured.jpg
 meta_title: 'Mini Miami Fun Fair Ride'
 featured_img: mini-miami-featured.jpg
@@ -82,7 +82,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1m tall to ride.'
+            text: 'The passenger must be 1m tall or above to ride.'
     type: additional_info
     enabled: true
 ---
