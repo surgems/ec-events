@@ -24,7 +24,13 @@ article:
         content:
           -
             type: text
-            text: 'Fly your very own elephant through the air, this ride is always a hit with the kids and adults alike!'
+            text: 'Fly your very own elephant through the air, this ride is always a hit with the kids and adults alike! Get comfortable on Dumbo''s back and let him take you on a ride full of magic. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Colourful and mesmerising, this ride will have the kids begging you to put the Disney classic on the TV as soon as you get home!'
           -
             type: hard_break
           -
@@ -53,7 +59,7 @@ gallery:
     enabled: true
     image: flying-dumbos-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643884479
+updated_at: 1643887254
 featured_image: flying-dumbos-featured.jpg
 meta_title: 'Flying Dumbos Fun Fair Ride'
 featured_img: flying-dumbos-featured.jpg
