@@ -71,7 +71,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643801312
+updated_at: 1643882107
 featured_image: jungle-madness-featured.jpg
 featured_img: jungle-madness-featured-1643205567.jpg
 meta_title: 'Fun House'
@@ -90,6 +90,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'This attraction isn''t suitable for under 3''s.'
     type: additional_info
     enabled: true
 ---
