@@ -58,7 +58,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643883493
+updated_at: 1643885216
 featured_image: 'race''o''rama-featured.jpg'
 meta_title: 'Race''o''rama Fun Fair Ride'
 featured_img: 'race''o''rama-featured.jpg'
@@ -87,7 +87,7 @@ additional_info:
         content:
           -
             type: text
-            text: 'The passenger must be above 1m tall to ride solo, if under this measurement they must be accompanied by an adult.'
+            text: 'The passenger must be 1m tall or above to ride solo, if under this measurement they must be accompanied by an adult.'
     type: additional_info
     enabled: true
 ---
