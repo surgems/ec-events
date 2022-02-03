@@ -29,12 +29,13 @@ article:
         type: paragraph
         content:
           -
+            type: text
+            text: 'The aim of the game? Try and keep your insides, inside!'
+          -
             type: hard_break
           -
             type: text
             text: ' '
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -66,7 +67,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643889121
+updated_at: 1643889154
 featured_image: sizzler-featured.jpg
 featured_img: sizzler-featured-1643205961.jpg
 ride_capacity:
