@@ -59,7 +59,7 @@ gallery:
     enabled: true
     image: the-beast-gallery-1.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643797721
+updated_at: 1643884363
 featured_image: the-beast-featured.jpg
 meta_title: 'The Beast Thrill Ride'
 featured_img: the-beast-featured.jpg
@@ -73,12 +73,17 @@ additional_info:
           -
             type: text
             text: 'Not suitable for people with heart or back conditions or of a nervous disposition should avoid riding The Beast. Other medical conditions that may preclude riding include pregnancy, recent surgery, broken bones, or neck problems.'
+    type: additional_info
+    enabled: true
+  -
+    title: 'Minimum Height Requirement'
+    content:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Minimum rider height: 140cm'
+            text: 'The passenger must be 1.2m tall or above to ride.'
     type: additional_info
     enabled: true
 ride_capacity:
