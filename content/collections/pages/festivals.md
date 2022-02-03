@@ -5,7 +5,7 @@ noindex_page: false
 template: event
 title: Festivals
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643234566
+updated_at: 1643891178
 hero:
   -
     image: music-festival-crowd.jpg
@@ -55,11 +55,15 @@ gallery:
     type: gallery
     enabled: true
   -
-    image: music-events-1637577382.jpg
+    image: festival(1).jpg
     type: gallery
     enabled: true
   -
     image: festival-fireworks.jpg
+    type: gallery
+    enabled: true
+  -
+    image: festival(2).jpg
     type: gallery
     enabled: true
 featured_image: music-festival-crowd-original.jpg
