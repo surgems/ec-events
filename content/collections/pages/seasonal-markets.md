@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643229093
+updated_at: 1643991718
 article:
   -
     content:
@@ -28,14 +28,14 @@ article:
         content:
           -
             type: text
-            text: "Seasonal markets and fairs have rocketed in popularity and have become a staple in our calendars all year round, no matter the season. Escape to another world when we transform your spaces into themed wonderlands.\_"
+            text: "Seasonal markets have rocketed in popularity and have become a staple in our calendars all Winter long Escape to another world when we transform your spaces into themed wonderlands.\_"
           -
             type: hard_break
           -
             type: hard_break
           -
             type: text
-            text: "We have a great range of fairground rides, food and drink chalets and stalls and other installations to help you put on an impressive day and night for everyone visiting.\_"
+            text: "We have a great range of fairground rides, food and drink chalets and vendors and other installations to help you put on an impressive day and night for everyone visiting.\_"
     type: article
     enabled: true
 event_services:
