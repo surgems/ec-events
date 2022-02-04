@@ -24,7 +24,7 @@ article:
         content:
           -
             type: text
-            text: 'Hold your arms out and dangle your legs as you swing backwards and forwards on the mini chairs. This ride takes playground swings to the next level! Beautifully painted swings travel around a carousel and gently rock the passenger. This ride is perfect for children who aren''t looking for a thrill!  '
+            text: 'Hold your arms out and dangle your legs as you swing out on the mini chairs. Beautifully painted swings travel around a carousel and gently rock the passenger. This ride is perfect for children who aren''t looking for a thrill!  '
       -
         type: paragraph
       -
@@ -54,7 +54,7 @@ gallery:
     enabled: true
     image: mini-chairs-gallery.jpg
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643892469
+updated_at: 1643992578
 featured_image: mini-chairs-featured.jpg
 meta_title: 'Mini Swing Chair Ride'
 featured_img: mini-chairs-featured.jpg
