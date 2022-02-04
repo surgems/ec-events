@@ -11,7 +11,7 @@ hero:
     image: german-food-market-1643891430.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891462
+updated_at: 1643991636
 article:
   -
     content:
@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: "No event is complete without food and drink, they really can make or break an experience. At EC Events, we can offer classic fairground food stalls, in all shapes and sizes to cater for various numbers of people.\_"
+            text: "No event is complete without food and drink, they really can make or break an experience. At EC Events, we can offer street food, continental and gourmet food vendors from across the globe. \_"
           -
             type: hard_break
           -
@@ -131,6 +131,12 @@ article:
                   -
                     type: text
                     text: Multi-purpose
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'and much, much more, please contact us to discuss your requirements.'
     type: article
     enabled: true
 gallery:
