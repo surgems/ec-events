@@ -76,10 +76,6 @@ tree:
         title: 'FILM PROPS'
         url: /film-props
       -
-        id: 08bc8923-c349-4f6b-9cf3-e67c0ba2345b
-        title: PACKAGES
-        url: /packages
-      -
         id: fea44e0f-ca5d-4230-9178-38931341bdb5
         title: 'EVENT MANAGEMENT'
         url: /event-management
