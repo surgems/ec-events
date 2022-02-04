@@ -5,7 +5,7 @@ title: 'Traditional Rides'
 template: rides-and-attractions/index
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643227542
+updated_at: 1643989023
 featured_image: traditional-fun-fair-rides.jpg
 hero:
   -
@@ -26,5 +26,5 @@ content:
         type: hard_break
       -
         type: text
-        text: 'Give your event the traditional feel with rides like the Carousel, which was EC Events first ride, way back in 1901.'
+        text: 'Give your event the traditional feel with rides like the Carousel, which was EC Events first ride, way back in 1865.'
 ---
