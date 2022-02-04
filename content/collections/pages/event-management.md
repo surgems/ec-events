@@ -5,7 +5,7 @@ noindex_page: false
 template: generic
 title: 'Full Project Management'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643639835
+updated_at: 1643992056
 hero:
   -
     image: event-management.jpg
@@ -20,7 +20,7 @@ article:
         content:
           -
             type: text
-            text: "We can provide full project management starting at the planning stage with layout, site plan, health and safety aspect etc on organising logistics, on-site direction and ensuring the event runs smoothly right through to dismantling and leaving the site at the end-stage.\_"
+            text: "We can provide full project management services, starting at the planning stage with layout and site plans. We can also help with health and safety aspects including organising logistics, on-site direction and ensuring the event runs smoothly right through to dismantling and leaving the site at the end-stage.\_"
           -
             type: hard_break
           -
