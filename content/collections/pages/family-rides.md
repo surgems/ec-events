@@ -4,7 +4,7 @@ blueprint: rides_and_attractions_category
 title: 'Family Rides'
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637591469
+updated_at: 1643988334
 template: rides-and-attractions/index
 hero:
   -
@@ -26,5 +26,5 @@ content:
         type: hard_break
       -
         type: text
-        text: 'Our expert team will organise the transportation and delivery of the rides to your setting, along with the set up. We’ll also operate and ensure safety and fun throughout your event.'
+        text: 'Our expert team will organise the transportation and delivery of the rides to your setting, along with the set-up. We’ll also operate and ensure safety and fun throughout your event.'
 ---
