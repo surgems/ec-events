@@ -27,7 +27,7 @@ article:
         content:
           -
             type: text
-            text: 'Not like any old house, full of magic and mystery, this ride will leave you spellbound. This is one crazy rollercoaster that will have you spinning out of control! A huge hit with the whole family, step this way and let the magic take you over, leaving you mesmerised.'
+            text: 'This is one crazy rollercoaster that will have you spinning out of control! A huge hit with the whole family!'
           -
             type: hard_break
           -
@@ -60,7 +60,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643992126
+updated_at: 1643992273
 ride_capacity:
   - 30-40
 ride_height:
