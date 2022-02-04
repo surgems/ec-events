@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643989590
+updated_at: 1643990321
 template: home
 noindex_page: false
 hero:
@@ -21,7 +21,7 @@ who:
         content:
           -
             type: text
-            text: "For over 150 years EC Events have been putting the thrill into all kinds of events and special occasions. A family-run business providing rides and attractions across the globe, we know just how to put on a show! We started out with a single carousel in 1865 and now offer thrilling rides, attractions and fairground favourites for any event you can think of. \_"
+            text: "For over 150 years EC Events have been putting the thrill into all kinds of events and special occasions. A family-run business providing rides and attractions across the globe, we know just how to put on a show! We started out with a single carousel in 1865 and now offer thrilling rides, giant wheels, stand alone attractions and fairground favourites for any event you can think of. \_"
     type: who
     enabled: true
     button_text: 'MORE INFO'
