@@ -5,7 +5,7 @@ noindex_page: false
 template: who-we-are
 title: 'Who are we?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643989494
+updated_at: 1643990994
 who:
   -
     title: 'What are you waiting for? Let''s put on a show!'
@@ -15,7 +15,7 @@ who:
         content:
           -
             type: text
-            text: 'We offer a one-stop-shop for events, facilitating full management services, repairs and providing our own rides, cutting out any middlemen and saving you work.'
+            text: 'We offer a one-stop shop for events, facilitating full event management services. We provide our own rides and giant attractions,  cutting out any middlemen, saving you time and money.'
     landscape_image: old-vehicles-1600px.jpg
     portrait_image: ec-events-sky-wheel.jpg
     type: who
