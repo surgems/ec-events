@@ -11,7 +11,7 @@ hero:
     image: german-food-market-1643891430.jpg
     title: 'Food & Drink'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643991636
+updated_at: 1643991788
 article:
   -
     content:
@@ -28,7 +28,7 @@ article:
         content:
           -
             type: text
-            text: "No event is complete without food and drink, they really can make or break an experience. At EC Events, we can offer street food, continental and gourmet food vendors from across the globe. \_"
+            text: "No event is complete without food and drink, they really can make or break an experience. At EC Events, we can offer street food, continental and gourmet food vendors from across the globe. We have a great range of food, drink and craft chalets and even an undercover real ice skating rink. \_"
           -
             type: hard_break
           -
