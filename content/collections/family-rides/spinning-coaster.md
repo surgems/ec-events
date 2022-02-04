@@ -2,13 +2,13 @@
 id: d680077b-def8-4b6b-bb6c-c5143d66d959
 blueprint: family-rides
 featured_image: mad-mouse-gallery-1643636494.jpg
-meta_title: 'Magic Mouse'
+meta_title: 'Spinning Coaster'
 noindex_page: false
-title: 'Magic Mouse'
+title: 'Spinning Coaster'
 featured_img: mad-mouse-gallery-1643636510.jpg
 hero:
   -
-    title: 'Magic Mouse'
+    title: 'Spinning Coaster'
     type: hero
     enabled: true
 article:
@@ -60,7 +60,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891238
+updated_at: 1643992126
 ride_capacity:
   - 30-40
 ride_height:
