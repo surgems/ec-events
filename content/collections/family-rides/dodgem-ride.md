@@ -27,7 +27,7 @@ article:
         content:
           -
             type: text
-            text: 'Everyone''s favourite! Get behind the wheel, dodge those cars and remember one way around the track, please! Dodgems give the family a chance to enjoy some dangerous driving, in a safe way! Ram your friends and family, or try and dodge their attacks, there''s no room for scardey cats here.'
+            text: 'Everyone''s favourite! Get behind the wheel, dodge those cars and remember one way around the track, please! Dodgems give the family a chance to enjoy some dangerous driving, in a safe way! Ram your friends and family, or try and dodge their attacks, there''s no room for scaredey cats here.'
       -
         type: paragraph
         content:
@@ -61,7 +61,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643886837
+updated_at: 1643989291
 ride_capacity:
   - 30-40
 ride_height:
