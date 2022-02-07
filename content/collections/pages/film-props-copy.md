@@ -32,7 +32,7 @@ article:
     enabled: true
     images:
       -
-        image: funhouse-gallery.jpg
+        image: funfairs-1600px.jpg
         type: images
         enabled: true
 side_images:
@@ -41,5 +41,5 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644236262
+updated_at: 1644236304
 ---
