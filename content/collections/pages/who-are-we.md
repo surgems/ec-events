@@ -5,7 +5,7 @@ noindex_page: false
 template: who-we-are
 title: 'Who are we?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643990994
+updated_at: 1644231260
 who:
   -
     title: 'What are you waiting for? Let''s put on a show!'
@@ -98,7 +98,7 @@ img_card:
                 content:
                   -
                     type: text
-                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                    text: 'We love facing new challenges. When faced with a hurdle, we jump.'
           -
             type: list_item
             content:
@@ -107,7 +107,7 @@ img_card:
                 content:
                   -
                     type: text
-                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                    text: 'We constantly push ourselves, focusing on solutions and striving every day to make an impact.'
           -
             type: list_item
             content:
@@ -116,7 +116,7 @@ img_card:
                 content:
                   -
                     type: text
-                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                    text: 'As a family business, we have strong moral compasses and hold ourselves to a high level of ethics.'
           -
             type: list_item
             content:
@@ -125,7 +125,7 @@ img_card:
                 content:
                   -
                     type: text
-                    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+                    text: 'We always put the customer first, working to your specs, communicating transparently and acting with integrity.'
     image: carousel-ride-1600px.jpg
 the_team:
   -
