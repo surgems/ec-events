@@ -9,9 +9,9 @@ hero:
     title: 'City Transformations'
     type: hero
     enabled: true
-    image: alpine-village-transformation.jpg
+    image: city-transformation-apline-village.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891403
+updated_at: 1644244216
 article:
   -
     content:
