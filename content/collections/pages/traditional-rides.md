@@ -5,12 +5,12 @@ title: 'Traditional Rides'
 template: rides-and-attractions/index
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643991491
-featured_image: traditional-fun-fair-rides.jpg
+updated_at: 1644243067
+featured_image: night-time-swings-ride-1644243038.jpg
 hero:
   -
     title: 'Traditional Rides'
-    image: traditional-fun-fair-rides.jpg
+    image: night-time-swings-ride.jpg
     type: hero
     enabled: true
 content:
