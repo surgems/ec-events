@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643991718
+updated_at: 1644244688
 article:
   -
     content:
@@ -35,7 +35,7 @@ article:
             type: hard_break
           -
             type: text
-            text: "We have a great range of fairground rides, food and drink chalets and vendors and other installations to help you put on an impressive day and night for everyone visiting.\_"
+            text: "We have a great range of fairground rides, food and drink chalets and vendors and other installations to help you put on an impressive day and night for everyone visiting.\_Themed bars to suit any event and an undercover ice rink is also available."
     type: article
     enabled: true
 event_services:
