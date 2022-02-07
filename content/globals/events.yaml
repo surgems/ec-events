@@ -3,7 +3,7 @@ data:
   our_events:
     -
       title: 'Interested in putting on an unforgettable event?'
-      info: 'Check out what we can do and tell us your requirements!'
+      info: 'Check out what we can do and where our attractions are appearing this year!'
       button_text: 'OUR EVENTS'
       button_link: /whats-on
       type: our_events
