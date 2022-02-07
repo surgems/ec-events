@@ -1,24 +1,8 @@
 tree:
   -
-    id: 044192b6-98e8-4ff7-8315-0dbf2b57cfd8
-    title: ABOUT
-    children:
-      -
-        id: e5f8a1ca-303a-4e49-8a0a-83e40d76d076
-        title: 'WHO WE ARE?'
-        url: /who-we-are
-      -
-        id: 999a9b0b-e59b-46e3-b1ff-d9945a031531
-        title: BLOG
-        url: /blog
-      -
-        id: 88670ee8-9477-42ad-815e-15ff0a01a0e8
-        title: 'FAQ''S'
-        url: /faq
-      -
-        id: 565fb75a-4ded-43fe-92b8-134edb78ccd8
-        title: 'HEALTH AND SAFETY'
-        url: /health-and-safety
+    id: a526008c-b855-481c-ac30-6973867ece0d
+    title: 'SKY WHEEL'
+    url: /sky-wheel
   -
     id: 97d560cd-a9c9-4842-9be5-6b7adb0068a3
     title: 'OUR EVENTS'
@@ -67,6 +51,26 @@ tree:
         id: 1bea1298-fa70-48a3-8af0-7eb7607de7d7
         title: 'GIANT ATTRACTIONS'
         url: /giant-attractions
+  -
+    id: 044192b6-98e8-4ff7-8315-0dbf2b57cfd8
+    title: ABOUT
+    children:
+      -
+        id: e5f8a1ca-303a-4e49-8a0a-83e40d76d076
+        title: 'WHO WE ARE?'
+        url: /who-we-are
+      -
+        id: 999a9b0b-e59b-46e3-b1ff-d9945a031531
+        title: BLOG
+        url: /blog
+      -
+        id: 88670ee8-9477-42ad-815e-15ff0a01a0e8
+        title: 'FAQ''S'
+        url: /faq
+      -
+        id: 565fb75a-4ded-43fe-92b8-134edb78ccd8
+        title: 'HEALTH AND SAFETY'
+        url: /health-and-safety
   -
     id: 5c3cf9d3-7e90-4d9d-81c3-5489cc081a8d
     title: SERVICES
