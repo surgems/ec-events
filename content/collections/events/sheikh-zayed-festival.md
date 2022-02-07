@@ -2,11 +2,11 @@
 id: 851fde95-59e4-498b-bcd6-4b146c05e183
 blueprint: events
 noindex_page: false
-venue: 'Liverpool, United Kingdom'
-title: 'Event Title'
+venue: 'Al Wathba, Abu Dhabi'
+title: 'Sheikh Zayed Festival'
 featured_img: attractions-placeholder.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637255325
+updated_at: 1644231789
 event_categories:
   - festival
 article:
@@ -54,11 +54,12 @@ our_events:
     button_link: /whats-on
     type: our_events
     enabled: true
-post_date: '2005-11-18'
+post_date: '2021-11-18'
 cta:
   -
     text: 'Plan your trip now!'
     button_text: 'VISIT SITE'
     type: cta
     enabled: true
+    button_link: 'https://zayedfestival.ae/'
 ---
