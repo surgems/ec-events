@@ -6,7 +6,7 @@ venue: 'Al Wathba, Abu Dhabi'
 title: 'Sheikh Zayed Festival'
 featured_img: sheikh-zayed-festival.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644232318
+updated_at: 1644233370
 event_categories:
   - festival
 article:
@@ -49,9 +49,9 @@ article:
 our_events:
   -
     title: 'Interested in putting on an unforgettable event?'
-    info: 'Check out what we can do and tell us your requirements!'
-    button_text: 'OUR EVENTS'
-    button_link: /whats-on
+    info: 'Check out our Giant Sky Wheel, which you could have!'
+    button_text: 'SKY WHEEL'
+    button_link: /sky-wheel
     type: our_events
     enabled: true
 post_date: '2021-11-18'
