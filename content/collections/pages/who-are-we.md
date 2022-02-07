@@ -5,7 +5,7 @@ noindex_page: false
 template: who-we-are
 title: 'Who are we?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644231260
+updated_at: 1644246236
 who:
   -
     title: 'What are you waiting for? Let''s put on a show!'
@@ -136,16 +136,19 @@ the_team:
         role: 'Managing Director'
         type: members
         enabled: true
+        image: Elliot-Crow---Team.jpg
       -
         name: 'Tiffany Crow'
         role: 'Creative Director'
         type: members
         enabled: true
+        image: Tiffany-Crow---Team.jpg
       -
         name: 'Joseph Layton'
         role: 'Rides & Site Manager'
         type: members
         enabled: true
+        image: Joseph-Layton---Team.jpg
     type: the_team
     enabled: true
 ---
