@@ -6,7 +6,7 @@ template: generic
 title: Funfairs
 hero:
   -
-    image: fun-fair-hire.jpg
+    image: ec-events-packages.jpg
     title: Funfairs
     type: hero
     enabled: true
@@ -123,6 +123,6 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643891583
+updated_at: 1644236663
 featured_image: play-to-win.jpg
 ---
