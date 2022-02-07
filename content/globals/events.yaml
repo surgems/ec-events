@@ -4,7 +4,7 @@ data:
     -
       title: 'Interested in putting on an unforgettable event?'
       info: 'Check out what we can do and where our attractions are appearing this year!'
-      button_text: 'OUR EVENTS'
+      button_text: 'WHAT''S ON?'
       button_link: /whats-on
       type: our_events
       enabled: true
