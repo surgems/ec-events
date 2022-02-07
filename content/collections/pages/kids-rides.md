@@ -5,11 +5,11 @@ title: 'Kids Rides'
 template: rides-and-attractions/index
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1637594261
+updated_at: 1644242667
 hero:
   -
     title: 'Kids Rides'
-    image: teacups.jpg
+    image: Cropped-AdobeStock_106136780.jpg
     type: hero
     enabled: true
 content:
