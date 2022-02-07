@@ -5,7 +5,7 @@ title: 'Kids Rides'
 template: rides-and-attractions/index
 noindex_page: false
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644242667
+updated_at: 1644242978
 hero:
   -
     title: 'Kids Rides'
