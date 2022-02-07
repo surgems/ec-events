@@ -2,7 +2,7 @@
 id: cfa69986-8783-4c9b-bfb1-32ac467cb9b2
 blueprint: film_props
 noindex_page: false
-template: generic
+template: film-props/index
 title: 'Film Props'
 hero:
   -
@@ -11,7 +11,7 @@ hero:
     type: hero
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644235984
+updated_at: 1644236081
 info:
   -
     content:
