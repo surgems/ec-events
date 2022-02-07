@@ -8,9 +8,9 @@ answer:
     content:
       -
         type: text
-        text: 'Yes with many years experience at all different events just provide us with a few details about your event and we can recommend which rides will work best.'
+        text: 'Yes with many years of experience at all different events just provide us with a few details about your event and we can recommend which rides will work best.'
 faq_categories:
   - rides
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644246921
+updated_at: 1644246950
 ---
