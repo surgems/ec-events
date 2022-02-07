@@ -30,11 +30,16 @@ article:
             text: "We’ll deliver rides and any funfair props you may require to keep your production on schedule! The EC Events team will transport your chosen attractions and props to your shooting location as well as any set-up that may be needed.\_"
     type: article
     enabled: true
+    images:
+      -
+        image: funhouse-gallery.jpg
+        type: images
+        enabled: true
 side_images:
   -
     image: film-reel.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644236181
+updated_at: 1644236262
 ---
