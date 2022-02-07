@@ -50,7 +50,7 @@ ride_specifications:
     type: ride_specifications
     enabled: true
   -
-    spec: 'Capacity:'
+    spec: 'Capacity: Varies'
     type: ride_specifications
     enabled: true
 gallery:
@@ -71,7 +71,7 @@ gallery:
     type: gallery
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1643896833
+updated_at: 1644245244
 featured_image: traditional-rides-swing-chairs-featued.jpg
 featured_img: traditional-rides-swing-chairs-featued.jpg
 additional_info:
