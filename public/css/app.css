@@ -2198,7 +2198,7 @@ header #nav #mob-menu .copyright {
   header #nav .inner-nav .desktop-nav .bottom li .rides .right {
     display: flex;
     align-items: 0;
-    justify-content: 0;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: none;
     width: 65%;

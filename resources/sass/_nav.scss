@@ -374,7 +374,7 @@ header {
                                 }
 
                                 .right {
-                                    @include flex(0, 0, wrap);
+                                    @include flex(0, flex-start, wrap);
                                     width: 65%;
 
                                     li {
