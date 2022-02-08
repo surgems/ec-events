@@ -432,3 +432,205 @@ header {
         }
     }
 }
+
+@media only screen and (min-width: 1370px) and (max-width: 1650px) {
+    header {
+        $desktopNavPaddingX: 25px;
+        $desktopNavPaddingY: 20px;
+
+        #nav {
+            .inner-nav {
+                height: $desktopNavHeight;
+                padding: $desktopNavPaddingY $desktopNavPaddingX;
+                padding-bottom: 0;
+
+                .logo {
+                    height: 80%;
+                    margin-bottom: $desktopNavPaddingY;
+
+                    img {
+                        height: 100%;
+                    }
+                }
+
+                .mob-nav {
+                    display: none;
+                }
+
+                .desktop-nav {
+                    @include flex(0, center, 0, column);
+                    height: 100%;
+                    width: 100%;
+            
+                    div:not(.button) {
+                        @include flex(center, flex-end);
+                        height: 50%;
+                    }
+
+                    a, p {
+                        @include mont(600);
+                    }
+            
+                    .top {
+                        padding-top: math.div($desktopNavPaddingY, 10);
+
+                        .socials {
+                            a {
+                                &:nth-child(2) {
+                                    margin: 0 10px;
+                                }
+                            }
+                        }
+
+                        p {
+                            margin-left: 30px;
+                        }
+            
+                        .button {
+                            margin-left: 20px;
+
+                            .animated-button.inner-btn:after {
+                                background: #fff;
+                            }
+
+                            .animated-button.inner-btn {
+                                border: 2px solid $red;
+                                background: $red;
+                    
+                                &:hover {
+                                    &:link, :visited {
+                                        color: $red;
+                                    }
+                    
+                                }
+                    
+                                &:link, :visited {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+            
+                    .bottom {
+                        align-items: flex-end !important;
+                        flex-wrap: wrap;
+            
+                        li {
+                            margin: 0 20px;
+                            cursor: pointer;
+                            list-style: none;
+                            text-transform: uppercase;
+            
+                            a {
+                                @include flex();
+                                font-size: 15px;
+                                padding-bottom: $desktopNavPaddingY + math.div($desktopNavPaddingY, 10);
+                            }
+
+                            // .dropdown {
+                            //     transform: translateY(0) !important;
+                            // }
+
+                            .rides {
+                                @include flex(0, space-between);
+
+                                .left {
+                                    @include flex(center, 0, 0, column);
+                                    width: 35%;
+
+                                    .img-container {
+                                        width: 320px;
+                                        border: 5px solid #fff;
+
+                                        img {
+                                            width: 100%;
+                                        }
+                                    }
+
+                                    .button {
+                                        margin-top: 40px;
+
+                                        .animated-button.inner-btn {
+                                            border: 2px solid $red;
+                                            background: $red;
+                                            width: 320px;
+                                
+                                            &:hover {
+                                                border: 2px solid #fff;
+                                
+                                                &:link, :visited {
+                                                    color: #fff;
+                                                }
+                                
+                                            }
+
+                                            &::after {
+                                                background: $dblue;
+                                            }
+                                
+                                            &:link, :visited {
+                                                color: #fff;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .right {
+                                    @include flex(0, flex-start, wrap);
+                                    width: 65%;
+
+                                    li {
+                                        width: 50%;
+                                        height: 80px;
+                                    }
+                                }
+                            }
+            
+                            &:hover {
+                                .dropdown {
+                                    transform: translateY(0) !important;
+                                    transition-delay: .1s;
+                                }
+                            }
+                        }
+            
+                        .dropdown {
+                            @include flex(0, 0, wrap);
+                            background: $dblue;
+                            position: absolute;
+                            top: $desktopNavHeight;
+                            left: 0;
+                            width: 100%;
+                            padding: 3.5% $bigDesktopPaddingX; 
+                            z-index: -1;
+                            transition-duration: .75s;
+                            transform: translateY(-150%);
+                            cursor: default;
+                            box-shadow: 0 0px 5px 5px rgba(0, 0, 0, .25);
+
+                            li {
+                                @include flex(center, center);
+                                width: 33.3%;
+                                height: 60px;
+                                margin: 0;
+                                padding: 0;
+                                cursor: default;
+                            }
+                    
+                            a {
+                                @include flex(center, center);
+                                padding: 0;
+                                height: 60px;
+                                color: #fff;
+                            }
+                        }
+                    
+                        .dropped {
+                            transform: translateY(0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
