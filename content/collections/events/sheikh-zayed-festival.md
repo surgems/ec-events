@@ -6,7 +6,7 @@ venue: 'Al Wathba, Abu Dhabi'
 title: 'Sheikh Zayed Festival'
 featured_img: sheikh-zayed-festival.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644314380
+updated_at: 1644314967
 event_categories:
   - festival
 article:
@@ -62,4 +62,7 @@ cta:
     type: cta
     enabled: true
     button_link: 'https://zayedfestival.ae/'
+event_date:
+  start: '2021-11-18'
+  end: '2021-11-20'
 ---

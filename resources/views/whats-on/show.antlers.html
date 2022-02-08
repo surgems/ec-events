@@ -10,7 +10,11 @@
                         <p class="reveal-right category"><em>{{ title }}</em></p>
                     {{ /event_categories }}
                     <div class="details">
-                        <p class="reveal-right"><span>When:</span> {{ post_date }}</p>
+                        {{ if event_date:end != event_date:start }}
+                            <p class="reveal-right"><span>When:</span>{{ event_date:start }} - {{ event_date:end }}</p>
+                        {{ else }}
+                            <p class="reveal-right"><span>When:</span>{{ event_date:start }}</p>
+                        {{ endif }}
                         <p class="reveal-right date"><span>Where:</span> {{ venue }}</p>
                     </div>
                 </div>

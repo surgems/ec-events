@@ -36,7 +36,11 @@
                         <h3>{{ title }}</h3>
         
                         <div class="details">
-                            <p><span>When:</span> {{ post_date }}</p>
+                            {{ if event_date:end != event_date:start }}
+                                <p><span>When:</span>{{ event_date:start }} - {{ event_date:end }}</p>
+                            {{ else }}
+                                <p><span>When:</span>{{ event_date:start }}</p>
+                            {{ endif }}
                             <p><span>Where:</span> {{ venue }}</p>
                         </div>
         
