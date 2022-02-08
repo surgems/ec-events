@@ -70,6 +70,14 @@ main.who-we-are {
                         font-weight: 300;
                     }
                 }
+
+                .content {
+                    margin-top: 15px;
+
+                    p, a {
+                        @include sans(400, 14px);
+                    }
+                }
             }
         }
     }

@@ -5,7 +5,7 @@ noindex_page: false
 template: who-we-are
 title: 'Who are we?'
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644313150
+updated_at: 1644329880
 who:
   -
     title: 'What are you waiting for? Let''s put on a show!'
@@ -137,18 +137,81 @@ the_team:
         type: members
         enabled: true
         image: Elliot-Crow---Team.jpg
+        bio:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Elliot joined the family business in 2007, operating & maintaining rides before moving on to organise events both in the U.K. and internationally.'
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: "Learning on the job from a young age has given him a wealth of knowledge and experience of the rides’ operations and mechanics , logistics, event planning and health & safety procedures.\_"
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: 'Due to the pandemic, Elliot has adapted the business seamlessly to restrictions, working closely with local authorities to produce a number of successful Covid safe events.'
       -
         name: 'Tiffany Crow'
         role: 'Creative Director'
         type: members
         enabled: true
         image: Tiffany-Crow---Team.jpg
+        bio:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Tiffany is also from a long line of show-person heritage - she is the 6th generation to carry on the family business.\_"
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: "She joined her family business in 2000 helping run the catering stalls, amusement arcades & game stalls before branching out into event catering.\_"
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: 'Tiffany joined the Crow family business in 2017, where she began operating the rides & helping to organise events.'
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: 'She has gone on to full event planning, on-site liaison, administration & health & safety assessment.'
       -
         name: 'Joseph Layton'
         role: 'Rides & Site Manager'
         type: members
         enabled: true
         image: Joseph-Layton---Team.jpg
+        bio:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Joseph has been working for the family business for 24 years. He has experience operating and maintaining every ride owned by the company.\_"
+              -
+                type: hard_break
+              -
+                type: hard_break
+              -
+                type: text
+                text: 'He has travelled all over the world, managing a variety of rides. Most recently, he managed an attraction in Saudi Arabia and has an abundance of experience and knowledge of the events industry.'
     type: the_team
     enabled: true
 ---

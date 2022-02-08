@@ -198,9 +198,11 @@
 }
 * ::-moz-selection {
   background-color: #F71541;
+  color: #fff;
 }
 * ::selection {
   background-color: #F71541;
+  color: #fff;
 }
 * body {
   padding-top: 86px;
@@ -2597,6 +2599,14 @@ main.who-we-are section#team .members .member p {
 main.who-we-are section#team .members .member p em {
   color: #898989;
   font-weight: 300;
+}
+main.who-we-are section#team .members .member .content {
+  margin-top: 15px;
+}
+main.who-we-are section#team .members .member .content p, main.who-we-are section#team .members .member .content a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 /* LANDSCAPE MOBILE */
