@@ -43,6 +43,16 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: vendors
+        field:
+          input_type: text
+          antlers: false
+          display: Vendors
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
         handle: message
         field:
           antlers: false

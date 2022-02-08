@@ -8,6 +8,11 @@ preferences:
       columns:
         - datestamp
         - email
+    enquiry:
+      columns:
+        - name
+        - email
+        - datestamp
   collections:
     testimonials:
       columns:

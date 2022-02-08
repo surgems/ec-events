@@ -18,17 +18,31 @@
             <input type="text" name="phone">
         </label>
 
-        <label id="rides-container">
-            <p>Which Rides & Attractions are you interested in?</p>
-            <select name="rides" class="ride-select">
-                {{ taxonomy from="rides" }}
-                    <option value="{{ slug }}">{{ title }}</option>
-                {{ /taxonomy }}
-            </select>
-        </label>
+        {{ if slug == "food-and-drink" }}    
+            <label id="vendors-container">
+                <p>Which Vendors are you interested in?</p>
+                <select name="vendors" class="vendor-select">
+                    {{ taxonomy from="vendors" }}
+                        <option value="{{ slug }}">{{ title }}</option>
+                    {{ /taxonomy }}
+                </select>
+            </label>
 
-        <input id="main-ride-select" name="rides" type="text" hidden>
-        <p id="add-ride">+ Add another Ride</p>
+            <input id="main-vendor-select" name="vendors" type="text" hidden>
+            <p id="add-vendor" style="margin: 5px 0 30px; cursor: pointer;">+ Add another Vendor</p>
+        {{ else }}
+            <label id="rides-container">
+                <p>Which Rides & Attractions are you interested in?</p>
+                <select name="rides" class="ride-select">
+                    {{ taxonomy from="rides" }}
+                        <option value="{{ slug }}">{{ title }}</option>
+                    {{ /taxonomy }}
+                </select>
+            </label>
+
+            <input id="main-ride-select" name="rides" type="text" hidden>
+            <p id="add-ride">+ Add another Ride</p>
+        {{ endif }}
 
         <label>
             <p>Message*</p>
@@ -51,6 +65,20 @@
                     $("#rides-container").append(`
                         <select name="rides" class="ride-select">
                             {{ taxonomy from="rides" }}
+                                <option value="{{ slug }}">{{ title }}</option>
+                            {{ /taxonomy }}
+                        </select>
+                    `);
+                });
+            };
+
+            const addVendor = document.getElementById('add-vendor');
+        
+            if (addVendor) {
+                addVendor.addEventListener('click', () => {
+                    $("#vendors-container").append(`
+                        <select name="vendors" class="vendor-select">
+                            {{ taxonomy from="vendors" }}
                                 <option value="{{ slug }}">{{ title }}</option>
                             {{ /taxonomy }}
                         </select>

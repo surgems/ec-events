@@ -213,15 +213,31 @@ if (mainGalleryImg) {
 const enquiryForm = document.getElementById('enquiry-form');
 const rideSelects = document.getElementsByClassName('ride-select');
 const rideSelect = document.getElementById('main-ride-select');
+const vendorSelects = document.getElementsByClassName('vendor-select');
+const vendorSelect = document.getElementById('main-vendor-select');
 
 if (enquiryForm) {
   enquiryForm.addEventListener('submit', (e) => {
     e.preventDefault();
-    let rides = [];
-    for (let i=0; i < rideSelects.length; i++) {
-      rides.push(rideSelects[i].value);
+
+    if (vendorSelects) {
+      let vendors = [];
+
+      for (let i=0; i < vendorSelects.length; i++) {
+        vendors.push(vendorSelects[i].value);
+      }
+
+      vendorSelect.value = vendors.toString();
+    } else {
+      let rides = [];
+
+      for (let i=0; i < rideSelects.length; i++) {
+        rides.push(rideSelects[i].value);
+      }
+
+      rideSelect.value = rides.toString();
     }
-    rideSelect.value = rides.toString();
+
     enquiryForm.submit();
   });
 }

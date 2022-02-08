@@ -51,6 +51,16 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        handle: instagram_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Instagram Link'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
         handle: linkedin_link
         field:
           input_type: text

@@ -429,17 +429,31 @@ if (mainGalleryImg) {
 var enquiryForm = document.getElementById('enquiry-form');
 var rideSelects = document.getElementsByClassName('ride-select');
 var rideSelect = document.getElementById('main-ride-select');
+var vendorSelects = document.getElementsByClassName('vendor-select');
+var vendorSelect = document.getElementById('main-vendor-select');
 
 if (enquiryForm) {
   enquiryForm.addEventListener('submit', function (e) {
     e.preventDefault();
-    var rides = [];
 
-    for (var _i5 = 0; _i5 < rideSelects.length; _i5++) {
-      rides.push(rideSelects[_i5].value);
+    if (vendorSelects) {
+      var vendors = [];
+
+      for (var _i5 = 0; _i5 < vendorSelects.length; _i5++) {
+        vendors.push(vendorSelects[_i5].value);
+      }
+
+      vendorSelect.value = vendors.toString();
+    } else {
+      var rides = [];
+
+      for (var _i6 = 0; _i6 < rideSelects.length; _i6++) {
+        rides.push(rideSelects[_i6].value);
+      }
+
+      rideSelect.value = rides.toString();
     }
 
-    rideSelect.value = rides.toString();
     enquiryForm.submit();
   });
 }
