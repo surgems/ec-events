@@ -6,7 +6,7 @@ venue: 'Al Wathba, Abu Dhabi'
 title: 'Sheikh Zayed Festival'
 featured_img: sheikh-zayed-festival.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644233370
+updated_at: 1644314380
 event_categories:
   - festival
 article:
