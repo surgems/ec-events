@@ -356,7 +356,7 @@ main.home {
             > div {
                 &.red {
                     width: 21.5vw;
-                    height: 90vh;
+                    height: 70vh;
 
                     h1 {
                         top: 20vh;
@@ -368,12 +368,12 @@ main.home {
 
                 &.video {
                     width: fit-content;
-                    height: 90vh;
+                    height: 70vh;
                     overflow: hidden;
 
                     video {
                         width: auto;
-                        height: 90vh;
+                        height: 70vh;
                     }
                 }
             }

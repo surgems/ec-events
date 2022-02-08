@@ -1800,7 +1800,7 @@ main.home section#map h3:nth-child(10) {
   }
   main.home header > div.red {
     width: 21.5vw;
-    height: 90vh;
+    height: 70vh;
   }
   main.home header > div.red h1 {
     top: 20vh;
@@ -1812,12 +1812,12 @@ main.home section#map h3:nth-child(10) {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    height: 90vh;
+    height: 70vh;
     overflow: hidden;
   }
   main.home header > div.video video {
     width: auto;
-    height: 90vh;
+    height: 70vh;
   }
   main.home section#what {
     padding: 80px 140px;
