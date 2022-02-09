@@ -11,32 +11,35 @@ sections:
           validate:
             - required
       -
-        handle: telephone
+        handle: content
         field:
-          input_type: text
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
           antlers: false
-          display: Telephone
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-      -
-        handle: email_address
-        field:
-          input_type: text
-          antlers: false
-          display: 'Email Address'
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-      -
-        handle: address
-        field:
-          antlers: false
-          display: Address
-          type: textarea
-          icon: textarea
+          display: Content
+          type: bard
+          icon: bard
           listable: hidden
           instructions_position: above
   sidebar:
@@ -46,7 +49,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required

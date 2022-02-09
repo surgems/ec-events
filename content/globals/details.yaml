@@ -6,3 +6,29 @@ data:
   facebook_link: 'https://www.facebook.com/EC-Events-107439294984293/'
   instagram_link: 'https://www.instagram.com/ecevents1/'
   phone_number: '0333 224 1304'
+  address:
+    -
+      type: heading
+      attrs:
+        level: 3
+      content:
+        -
+          type: text
+          text: '2 Farfield High Street,'
+        -
+          type: hard_break
+        -
+          type: text
+          text: 'Northallerton,'
+        -
+          type: hard_break
+        -
+          type: text
+          text: 'North Yorkshire,'
+        -
+          type: hard_break
+        -
+          type: hard_break
+        -
+          type: text
+          text: 'DL7 8DJ'
