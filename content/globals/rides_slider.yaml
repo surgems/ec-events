@@ -1,0 +1,56 @@
+title: 'Rides Slider'
+data:
+  rides_slide:
+    -
+      title: 'Rides & Attractions'
+      type: rides_slide
+      enabled: true
+      rides:
+        -
+          ride_link: 'entry::2f4f33ef-9b9e-45a2-a1e9-25f1afd3294d'
+          image: family-rides.jpg
+          title: 'FAMILY RIDES >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: 'entry::3b4b5068-4019-4797-97f7-5ab55599fde2'
+          image: kids-rides-teacups.jpg
+          title: 'KIDS RIDES >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: 'entry::cee3fe02-757d-47d8-a2de-42b286511328'
+          image: dodgems-1637592695.jpg
+          title: 'DODGEMS >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: 'entry::091c81e4-b90d-4e44-aebb-71793869d197'
+          image: the-beast-featured.jpg
+          title: 'THRILL RIDES >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: 'entry::a68773a1-f6c1-45fe-87a6-149c70625eaf'
+          image: giant-attractions-1637592771.jpg
+          title: 'GIANT ATTRACTIONS >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: /roller-coasters
+          image: Rollercoasters-magic-mouse-1637592879.jpg
+          title: 'ROLLER COASTERS >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: 'entry::9bf24a75-a363-474b-bfc9-adc6cdad0d90'
+          image: traditional-rides-swingboats.jpg
+          title: 'TRADITIONAL RIDES >>'
+          type: ride
+          enabled: true
+        -
+          ride_link: /winter-attractions
+          image: winter-attractions-1637592892.jpg
+          title: 'WINTER ATTRACTIONS >>'
+          type: ride
+          enabled: true

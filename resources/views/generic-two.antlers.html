@@ -1,0 +1,65 @@
+<main class="blog-post article-page generic">
+    {{ hero }}
+         <header style="background-image: url('{{ glide:image }}');">
+                <div class="overlay"></div>
+
+                <h1 class="reveal-left">{{ title }}</h1>
+        </header>
+    {{ /hero }}
+
+    <section id="info" class="wide">
+        <article>
+            <div id="article">
+                {{ article }}
+                    <div class="content">
+                        {{ content }}
+                    </div>
+
+                    <div class="flex">
+                        {{ images }}
+                            <picture>
+                                <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                            
+                                <img loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                            </picture>
+                        {{ /images }}
+                    </div>
+                {{ /article }}
+
+                {{ if slug == 'thank-you' }}
+                    <div class="button"> 
+                        <a href="/" class="inner-btn animated-button thank-you-btn">GO TO HOMEPAGE</a> 
+                    </div>
+                {{ endif }}
+            </div>
+        </article>
+
+        <aside>
+            {{ side_images }}
+                <picture>
+                    <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
+                
+                    <img class="reveal-bottom" loading="lazy" src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
+                </picture>
+            {{ /side_images }}
+
+            <div class="sticky">
+                {{ if events:our_events }}
+                    <div class="event reveal-bottom">
+                        {{ events:our_events }}
+                            <h3>{{ title }}</h3>
+                            <p>{{ info }}</p>
+                            <a href="{{ button_link }}" class="button"> 
+                                <button id="link-to-events-page" class="shimmer">{{ button_text }}</button> 
+                            </a>
+                        {{ /events:our_events }}
+                    </div>
+                {{ endif }}
+            </div>
+        </aside>
+    </section>
+
+    {{ partial:partials/rides-slider }}
+
+    {{ partial:partials/partners }}
+</main>

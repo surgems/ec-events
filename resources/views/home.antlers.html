@@ -46,57 +46,7 @@
 
     {{ partial:partials/img-card }}
 
-    <section id="rides">
-        {{ rides_and_attractions }}
-            <h2 class="reveal-left">{{ title }}</h2>
-            <div class="carousel-container">
-                <div class="owl-carousel" data-has-margin="0" data-slides-mobile="1" data-slides-portrait-tablet="1" 
-                                        data-slides-landscape-tablet="2" data-slides-laptop="5" data-slides-desktop="4">
-                    {{ rides }}
-                        <a href="{{ ride_link }}">
-                            <div class="img-container-shimmer">
-                                <figure>
-                                    <picture>
-                                        <source srcset="{{ glide:image width='100px' format='webp' quality='100' }}" type="image/webp">
-                                    
-                                        <img src="{{ glide:image width='100px' format='webp' quality='100' }}" alt="{{ image:alt }}">
-                                    </picture>
-                                </figure>
-                            </div>
-
-                            <h3>{{ title }}</h3>
-                        </a>
-                    {{ /rides }}
-                </div>
-
-                <div class="owl-custom-nav">
-                    <div class="owl-nav-custom prev">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="100" viewBox="0 0 44 100">
-                            <g id="Group_24" data-name="Group 24" transform="translate(-70 -3216)">
-                            <g id="Rectangle_36" data-name="Rectangle 36" transform="translate(70 3216)" fill="#f1f1f1" stroke="#bebebe" stroke-width="2">
-                                <rect width="44" height="100" stroke="none"/>
-                                <rect x="1" y="1" width="42" height="98" fill="none"/>
-                            </g>
-                            <path id="Path_126" data-name="Path 126" d="M720.632,755.3l8.6,8.667,8.6,8.667h-34.4l8.6-8.667Z" transform="translate(-673.631 3986.632) rotate(-90)" fill="#b3b3b3"/>
-                            </g>
-                        </svg>                                                  
-                    </div>
-            
-                    <div class="owl-nav-custom next">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="100" viewBox="0 0 44 100">
-                            <g id="Group_158" data-name="Group 158" transform="translate(114 3316) rotate(180)">
-                            <g id="Rectangle_36" data-name="Rectangle 36" transform="translate(70 3216)" fill="#f1f1f1" stroke="#bebebe" stroke-width="2">
-                                <rect width="44" height="100" stroke="none"/>
-                                <rect x="1" y="1" width="42" height="98" fill="none"/>
-                            </g>
-                            <path id="Path_126" data-name="Path 126" d="M720.632,755.3l8.6,8.667,8.6,8.667h-34.4l8.6-8.667Z" transform="translate(-673.631 3986.632) rotate(-90)" fill="#b3b3b3"/>
-                            </g>
-                        </svg>                                                  
-                    </div>
-                </div>
-            </div>
-        {{ /rides_and_attractions }}
-    </section>
+    {{ partial:partials/rides-slider }}
 
     <section id="map">
         {{ map }}

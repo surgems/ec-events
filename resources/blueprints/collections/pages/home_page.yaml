@@ -7,7 +7,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -403,78 +402,6 @@ sections:
           icon: replicator
           listable: hidden
           instructions_position: above
-  rides_and_attractions:
-    display: 'Rides and Attractions'
-    fields:
-      -
-        handle: rides_and_attractions
-        field:
-          collapse: false
-          sets:
-            rides_and_attractions:
-              display: 'Rides and Attractions'
-              fields:
-                -
-                  handle: title
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Title
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                -
-                  handle: rides
-                  field:
-                    collapse: false
-                    sets:
-                      ride:
-                        display: Ride
-                        fields:
-                          -
-                            handle: ride_link
-                            field:
-                              display: 'Ride Link'
-                              type: link
-                              icon: link
-                              listable: hidden
-                              instructions_position: above
-                          -
-                            handle: image
-                            field:
-                              mode: list
-                              container: assets
-                              restrict: false
-                              allow_uploads: true
-                              show_filename: true
-                              max_files: 1
-                              display: Image
-                              type: assets
-                              icon: assets
-                              listable: hidden
-                              instructions_position: above
-                          -
-                            handle: title
-                            field:
-                              input_type: text
-                              antlers: false
-                              display: Title
-                              type: text
-                              icon: text
-                              listable: hidden
-                              instructions_position: above
-                    display: Rides
-                    type: replicator
-                    icon: replicator
-                    listable: hidden
-                    instructions_position: above
-          display: 'Rides and Attractions'
-          type: replicator
-          icon: replicator
-          listable: hidden
-          instructions_position: above
-          max_sets: 1
   where_we_have_been:
     display: 'Where we have been?'
     fields:

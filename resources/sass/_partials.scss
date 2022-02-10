@@ -292,6 +292,169 @@ section#img-card {
     }
 }
 
+/* RIDES */
+
+section#rides {
+    padding: 40px 0;
+
+    h2 {
+        text-align: center;
+        color: $red;
+    }
+
+    .carousel-container {
+        position: relative;
+        margin-top: 30px;
+
+        .owl-carousel {
+            .owl-item {
+                padding: 0 17.5vw;
+
+                h3 {
+                    transition-duration: .5s;
+                }
+
+                &:hover {
+                    h3 {
+                        color: $red;
+                    }
+
+                    figure::before {
+                        -webkit-animation: shine .75s;
+                        animation: shine .75s;
+                    }
+
+                    img {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+        }
+
+        .owl-custom-nav {
+            .owl-nav-custom {
+                width: fit-content;
+                position: absolute;
+                margin-top: -50%;
+                z-index: 1;
+
+                &:nth-child(1) {
+                    left: 2.5%;
+                }
+
+                &:nth-child(2) {
+                    right: 2.5%;
+                }
+            }
+        }
+    }
+
+    @media #{$landscape-mobile} {
+        padding: 40px 15vw !important;
+
+        .carousel-container {
+            .owl-custom-nav {
+                .owl-nav-custom {
+                    margin-top: -60% !important;
+    
+                    &:nth-child(1) {
+                        left: -15% !important;
+                    }
+    
+                    &:nth-child(2) {
+                        right: -15% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$portrait-tablet} {
+        .carousel-container {
+            .owl-custom-nav {
+                .owl-nav-custom {
+                    margin-top: -40%;
+    
+                    &:nth-child(1) {
+                        left: 5%;
+                    }
+    
+                    &:nth-child(2) {
+                        right: 5%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$landscape-tablet}, #{$laptop}, #{$desktop} {
+        padding: 40px $tabletPaddingX;
+
+        h2 {
+            text-align: left;
+        }
+
+        .carousel-container {
+
+            .owl-carousel {
+                .owl-item {
+                    padding: 0 2.5vw;
+                }
+            }
+
+            .owl-custom-nav {
+                .owl-nav-custom {
+                    margin-top: -30%;
+                    z-index: 1;
+    
+                    &:nth-child(1) {
+                        left: -7.5%;
+                    }
+    
+                    &:nth-child(2) {
+                        right: -7.5%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$laptop}, #{$desktop} {
+        padding: 80px $bigDesktopPaddingX;
+
+        h2 {
+            font-size: 42px;
+            margin-bottom: 50px;
+            margin-left: 30px;
+        }
+
+        .carousel-container {
+
+            .owl-carousel {
+                .owl-item {
+                    padding: 0 10px;
+                }
+            }
+
+            .owl-custom-nav {
+                .owl-nav-custom {
+                    margin-top: -16.5%;
+                    z-index: 1;
+                    cursor: pointer;
+    
+                    &:nth-child(1) {
+                        left: -4%;
+                    }
+    
+                    &:nth-child(2) {
+                        right: -4%;
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* PARTNERS */
 
 section#partners {
