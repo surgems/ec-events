@@ -13,7 +13,8 @@ main.home {
 
             &.red {
                 background: $red;
-                height: 37.5vh;
+                min-height: 37.5vh;
+                padding: 30px $smallMobPaddingX;
             }
 
             &.video {
@@ -30,11 +31,24 @@ main.home {
         }
 
         h1 {
-            @include mont(900, 70px);
-            position: absolute;
-            top: 30px;
-            padding-left: $smallMobPaddingX;
+            @include mont(900, 30px);
             color: #fff;
+        }
+
+        .content {
+            margin: 20px 0;
+
+            p, a {
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+
+        button {
+            border: 1px solid #fff;
+            width: auto;
+            margin: 0;
+            padding: 10px 15px;
         }
     }
 
@@ -110,9 +124,8 @@ main.home {
                     height: 20vh;
                 }
 
-                h1 {
-                    width: 20%;
-                    padding-left: 5%;
+                &.red {
+                    padding: 5%;
                 }
             }
         }
@@ -156,12 +169,6 @@ main.home {
                 &.red {
                     width: 30%;
                     height: 77.5vh;
-
-                    h1 {
-                        width: 40%;
-                        top: 15px;
-                        padding-left: 5%;
-                    }
                 }
 
                 &.video {
@@ -215,19 +222,25 @@ main.home {
             
             > div {
                 &.red {
-                    width: 21.5vw;
+                    width: 30vw;
                     height: 70vh;
+                    padding: 70px 50px;
 
                     h1 {
-                        top: 20vh;
-                        padding-left: $bigDesktopPaddingX;
-                        width: 400px;
-                        font-size: 100px;
+                        font-size: 50px;
+                    }
+
+                    .content {
+                        margin: 30px 0 70px;
+
+                        p, a {
+                            font-size: 22px;
+                        }
                     }
                 }
 
                 &.video {
-                    width: fit-content;
+                    width: auto;
                     height: 70vh;
                     overflow: hidden;
 

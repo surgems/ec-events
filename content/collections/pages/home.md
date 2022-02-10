@@ -3,7 +3,7 @@ id: 81d10f28-6713-47ca-aaea-49941e30f417
 blueprint: home_page
 title: Home
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644245749
+updated_at: 1644487274
 template: home
 noindex_page: false
 hero:
@@ -11,6 +11,16 @@ hero:
     type: hero
     enabled: true
     video: EC-Events---Stokesley-Fair_Compressed.mp4
+    title: 'Event specialists you can trust!'
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'With over 150 years experience in the industry there''s no one better equipped than us! Contact us today to discuss your requirements.'
+    button_link: 'entry::d2e409fd-7452-4904-8370-880de964ad43'
+    button_text: 'CONTACT US'
 who:
   -
     title: 'Who Are We?'

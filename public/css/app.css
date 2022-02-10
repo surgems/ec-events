@@ -1649,7 +1649,8 @@ main.home header > div:nth-child(1) {
 }
 main.home header > div.red {
   background: #F71541;
-  height: 37.5vh;
+  min-height: 37.5vh;
+  padding: 30px 18px;
 }
 main.home header > div.video {
   background-size: cover;
@@ -1664,11 +1665,21 @@ main.home header > div.video video {
 main.home header h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 70px;
-  position: absolute;
-  top: 30px;
-  padding-left: 18px;
+  font-size: 30px;
   color: #fff;
+}
+main.home header .content {
+  margin: 20px 0;
+}
+main.home header .content p, main.home header .content a {
+  font-weight: 600;
+  color: #fff;
+}
+main.home header button {
+  border: 1px solid #fff;
+  width: auto;
+  margin: 0;
+  padding: 10px 15px;
 }
 main.home section#what {
   padding: 40px 36px;
@@ -1737,9 +1748,8 @@ main.home section#map h3:nth-child(10) {
   main.home header > div:nth-child(1) {
     height: 20vh;
   }
-  main.home header > div h1 {
-    width: 20%;
-    padding-left: 5%;
+  main.home header > div.red {
+    padding: 5%;
   }
   main.home section#what {
     padding: 40px 10vw;
@@ -1776,11 +1786,6 @@ main.home section#map h3:nth-child(10) {
   main.home header > div.red {
     width: 30%;
     height: 77.5vh;
-  }
-  main.home header > div.red h1 {
-    width: 40%;
-    top: 15px;
-    padding-left: 5%;
   }
   main.home header > div.video {
     width: 70%;
@@ -1823,19 +1828,21 @@ main.home section#map h3:nth-child(10) {
     background-color: #F71541;
   }
   main.home header > div.red {
-    width: 21.5vw;
+    width: 30vw;
     height: 70vh;
+    padding: 70px 50px;
   }
   main.home header > div.red h1 {
-    top: 20vh;
-    padding-left: 140px;
-    width: 400px;
-    font-size: 100px;
+    font-size: 50px;
+  }
+  main.home header > div.red .content {
+    margin: 30px 0 70px;
+  }
+  main.home header > div.red .content p, main.home header > div.red .content a {
+    font-size: 22px;
   }
   main.home header > div.video {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: auto;
     height: 70vh;
     overflow: hidden;
   }

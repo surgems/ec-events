@@ -3,6 +3,16 @@
         {{ hero }}
             <div class="red">
                 <h1 class="reveal-left">{{ title }}</h1>
+
+                <div class="content">
+                    {{ content }}
+                </div>
+
+                {{ if button_link }}
+                    <a href="{{ button_link }}">
+                        <button class="shimmer">{{ button_text }}</button>
+                    </a>
+                {{ endif }}
             </div>
 
             <div class="video" {{ if !video}}style="background-image: url('{{ image }}');{{ endif }}">
