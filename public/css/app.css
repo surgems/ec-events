@@ -1826,24 +1826,26 @@ main.home section#map h3:nth-child(10) {
   main.home header {
     justify-content: space-between;
     background-color: #F71541;
+    overflow: hidden;
   }
   main.home header > div.red {
-    width: 30vw;
     height: 70vh;
     padding: 70px 50px;
     z-index: 1;
     overflow: visible;
   }
-  main.home header > div.red h1 {
-    font-size: 50px;
+  main.home header > div.red h1, main.home header > div.red .content {
     min-width: 450px;
+    width: 100%;
+  }
+  main.home header > div.red h1 {
+    font-size: 45px;
   }
   main.home header > div.red .content {
-    margin: 30px 0 70px;
-    min-width: 450px;
+    margin: 30px 0 50px;
   }
   main.home header > div.red .content p, main.home header > div.red .content a {
-    font-size: 22px;
+    font-size: 20px;
   }
   main.home header > div.video {
     width: auto;
