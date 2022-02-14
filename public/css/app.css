@@ -1831,12 +1831,16 @@ main.home section#map h3:nth-child(10) {
     width: 30vw;
     height: 70vh;
     padding: 70px 50px;
+    z-index: 1;
+    overflow: visible;
   }
   main.home header > div.red h1 {
     font-size: 50px;
+    min-width: 450px;
   }
   main.home header > div.red .content {
     margin: 30px 0 70px;
+    min-width: 450px;
   }
   main.home header > div.red .content p, main.home header > div.red .content a {
     font-size: 22px;
@@ -1848,7 +1852,7 @@ main.home section#map h3:nth-child(10) {
   }
   main.home header > div.video video {
     width: auto;
-    height: 70vh;
+    height: 100%;
   }
   main.home section#what {
     padding: 80px 140px;
