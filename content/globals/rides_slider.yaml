@@ -37,20 +37,8 @@ data:
           type: ride
           enabled: true
         -
-          ride_link: /roller-coasters
-          image: Rollercoasters-magic-mouse-1637592879.jpg
-          title: 'ROLLER COASTERS >>'
-          type: ride
-          enabled: true
-        -
           ride_link: 'entry::9bf24a75-a363-474b-bfc9-adc6cdad0d90'
           image: traditional-rides-swingboats.jpg
           title: 'TRADITIONAL RIDES >>'
-          type: ride
-          enabled: true
-        -
-          ride_link: /winter-attractions
-          image: winter-attractions-1637592892.jpg
-          title: 'WINTER ATTRACTIONS >>'
           type: ride
           enabled: true
