@@ -2,7 +2,7 @@
 id: c447fceb-3a4b-4f71-b300-98fe7fab7789
 blueprint: generic_page
 noindex_page: false
-template: generic
+template: generic-two
 title: Funfairs
 hero:
   -
@@ -123,6 +123,6 @@ side_images:
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644236663
+updated_at: 1644931284
 featured_image: play-to-win.jpg
 ---
