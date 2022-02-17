@@ -24,22 +24,17 @@ article:
           -
             type: text
             text: 'First arriving in Newcastle in 1882. The Hoppings has become a North East must! New thrilling rides and attractions have been added throughout the years to make this event one to look out for!'
+          -
+            type: hard_break
       -
         type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: hard_break
-          -
-            type: hard_break
-          -
-            type: hard_break
       -
         type: heading
         attrs:
           level: 3
         content:
+          -
+            type: hard_break
           -
             type: text
             text: 'Additional Info'
@@ -67,7 +62,7 @@ our_events:
     type: our_events
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1645112210
+updated_at: 1645113013
 event_date:
   start: '2022-07-17'
   end: '2022-07-18'
