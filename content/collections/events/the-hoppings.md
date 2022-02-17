@@ -60,8 +60,10 @@ our_events:
     type: our_events
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644314872
+updated_at: 1645108880
 event_date:
   start: '2022-07-17'
   end: '2022-07-18'
+featured_image: The-Hoppings-Newcastle.jpg
+featured_img: The-Hoppings-Newcastle.jpg
 ---
