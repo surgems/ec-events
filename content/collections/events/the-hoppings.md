@@ -23,7 +23,14 @@ article:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet orci ut ipsum dignissim vehicula. Duis non mauris auctor, varius eros non, tincidunt arcu. Morbi rhoncus id libero quis pellentesque. Quisque mattis erat nec mi imperdiet scelerisque. Quisque volutpat ut metus at dignissim. Praesent maximus magna porta enim pretium rutrum. Praesent mollis finibus purus, id lacinia ipsum tempus eget. Curabitur sagittis tortor arcu. Curabitur lobortis lacinia est non efficitur. Nulla viverra non massa in elementum.'
+            text: 'First arriving in Newcastle in 1882. The Hoppings has become a North East must! New thrilling rides and attractions have been added throughout the years to make this event one to look out for!'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: hard_break
           -
             type: hard_break
           -
@@ -60,7 +67,7 @@ our_events:
     type: our_events
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1645108880
+updated_at: 1645112210
 event_date:
   start: '2022-07-17'
   end: '2022-07-18'
