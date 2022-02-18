@@ -45,15 +45,11 @@ article:
             text: 'Are you interested? Then please get in touch with us today!'
     type: article
     enabled: true
-    images:
-      -
-        type: images
-        enabled: true
 side_images:
   -
     image: film-reel.jpg
     type: side_images
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644241776
+updated_at: 1645193231
 ---
