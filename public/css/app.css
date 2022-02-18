@@ -3695,6 +3695,9 @@ main.faq aside .sticky .event .shimmer {
   main.faq article .posts-container .accordion-container .accordion img {
     margin-top: 40px !important;
   }
+  main.faq article .posts-container .accordion-container .accordion svg {
+    top: 0;
+  }
 }
 /* DESKTOP */
 @media only screen and (min-width: 1025px) and (max-width: 1600px), only screen and (min-width: 1600px) {
