@@ -6,7 +6,7 @@ venue: 'Al Wathba, Abu Dhabi'
 title: 'Sheikh Zayed Festival'
 featured_img: sheikh-zayed-festival.png
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1644314967
+updated_at: 1645459952
 event_categories:
   - festival
 article:
@@ -25,7 +25,7 @@ article:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet orci ut ipsum dignissim vehicula. Duis non mauris auctor, varius eros non, tincidunt arcu. Morbi rhoncus id libero quis pellentesque. Quisque mattis erat nec mi imperdiet scelerisque. Quisque volutpat ut metus at dignissim. Praesent maximus magna porta enim pretium rutrum. Praesent mollis finibus purus, id lacinia ipsum tempus eget. Curabitur sagittis tortor arcu. Curabitur lobortis lacinia est non efficitur. Nulla viverra non massa in elementum.'
+            text: 'The Sheikh Zayed Festival gives you the best opportunity to witness the culture and heritage of the UAE. Amazing rides, attractions and events are paired with the amazing hospitality of Dubai to give attendees a memorable visit. Throughout the days there are competitions, fancy dress and other opportunities to win prizes and get involved.'
           -
             type: hard_break
           -
@@ -43,7 +43,7 @@ article:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet orci ut ipsum dignissim vehicula. Duis non mauris auctor, varius eros non, tincidunt arcu. Morbi rhoncus id libero quis pellentesque. Quisque mattis erat nec mi imperdiet scelerisque. Quisque volutpat ut metus at dignissim. Praesent maximus magna porta enim pretium rutrum. Praesent mollis finibus purus, id lacinia ipsum tempus eget. Curabitur sagittis tortor arcu. Curabitur lobortis lacinia est non efficitur. Nulla viverra non massa in elementum.'
+            text: 'Named after the late Sheikh Zayed bin Sultan Al Nahyan, this festival is in memory of his role in preserving the heritage of the UAE. '
     type: article
     enabled: true
 our_events:
