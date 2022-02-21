@@ -25,7 +25,7 @@ article:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id volutpat orci. Donec ac pretium magna. Nam hendrerit, augue et.'
+            text: 'Award-winning Creamfields has become a staple in the calendar of UK festivals. Usually a sold-out festival, this is one to get involved with! Fill your August bank holiday weekend with great music, attractions, food and even wilder rides.  '
       -
         type: paragraph
         content:
@@ -40,7 +40,7 @@ article:
         content:
           -
             type: text
-            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id volutpat orci. Donec ac pretium magna. Nam hendrerit, augue et.'
+            text: 'EC Events do not take responsibility for your belongings whilst using our rides.'
     type: article
     enabled: true
 cta:
@@ -58,7 +58,7 @@ our_events:
     type: our_events
     enabled: true
 updated_by: 169f1327-7085-4e9a-9104-f6e806ab1254
-updated_at: 1645108931
+updated_at: 1645460177
 event_date:
   start: '2022-08-25'
   end: '2022-08-28'
