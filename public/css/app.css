@@ -3648,7 +3648,7 @@ main.faq article .posts-container .accordion-container .accordion.active > p {
   background-color: #D3D3D3;
 }
 main.faq article .posts-container .accordion-container .accordion svg {
-  top: 12.5px;
+  top: -5px;
   transition-duration: 0.5s;
 }
 main.faq article .posts-container .accordion-container .accordion > p {
