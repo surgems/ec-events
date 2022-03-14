@@ -17,7 +17,8 @@ preferences:
     testimonials:
       columns:
         - title
-        - slug
+        - testimonial
+        - client_name
     faq:
       columns:
         - title

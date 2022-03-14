@@ -10,7 +10,7 @@ sections:
           required: true
           validate:
             - required
-          display: 'Client Name'
+          display: Title
           instructions_position: above
           listable: hidden
           input_type: text
@@ -48,14 +48,13 @@ sections:
           icon: bard
           listable: hidden
           instructions_position: above
-  sidebar:
-    display: Sidebar
-    fields:
       -
-        handle: slug
+        handle: client_name
         field:
-          type: slug
-          required: true
-          localizable: true
-          validate:
-            - required
+          input_type: text
+          antlers: false
+          display: 'Client Name'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above

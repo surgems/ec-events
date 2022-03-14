@@ -1,6 +1,8 @@
 title: Testimonials
+template: default
 layout: layout
 revisions: false
+slugs: false
 sort_dir: desc
 date_behavior:
   past: public
